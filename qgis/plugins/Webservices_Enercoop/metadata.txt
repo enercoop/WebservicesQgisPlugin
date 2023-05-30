@@ -1,0 +1,16 @@
+[general]
+name=Webservices Enercoop
+description=Plugin pour QGIS 3 fournissant un accès simple aux flux de géographiques WMS et WFS de EnercoopCo et d'autres ressources géographiques utiles à Enercoop.
+version=2.01
+qgisMinimumVersion=3.00
+qgisMaximumVersion=3.99
+author=Enercoop, Lucas Jumeau-Mousset
+email=lucas.jumeau-mousset@enercoop.org
+icon=images/Webservices_Enercoop.png
+experimental=False
+deprecated=False
+about=Plugin for QGIS 3 providing simple access to WMS and WFS geographic flows from Webservices Enercoop and other useful geographic resources for Enercoop.
+tracker=
+repository=
+homepage=
+tags=Webservices_Enercoop, Enercoop
