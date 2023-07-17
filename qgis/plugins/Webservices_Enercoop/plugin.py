@@ -18,12 +18,13 @@ from Webservices_Enercoop.nodes.tree_node_factory import download_tree_config_fi
 
 def transparency_slider(layers):
     for layer in QgsProject.instance().mapLayers().values():
-        if layer.customProperty("embeddedWidgets/count") != 1 or layer.customProperty("embeddedWidgets/0/id") != 'transparency':
-            layer.setCustomProperty("embeddedWidgets/count", 1)
-            layer.setCustomProperty("embeddedWidgets/0/id", "transparency")
-        else:
-            pass
-        qgis.utils.iface.layerTreeView().refreshLayerSymbology(layer.id())
+        if layer.type() == QgsMapLayer.VectorLayer and layer.isSpatial():  # Vérification de la couche vectorielle avec géométrie
+            if layer.customProperty("embeddedWidgets/count") != 1 or layer.customProperty("embeddedWidgets/0/id") != 'transparency':
+                layer.setCustomProperty("embeddedWidgets/count", 1)
+                layer.setCustomProperty("embeddedWidgets/0/id", "transparency")
+            
+            qgis.utils.iface.layerTreeView().refreshLayerSymbology(layer.id())
+
 QgsProject.instance().layersAdded.connect(transparency_slider)
 
 class SimpleAccessPlugin:
