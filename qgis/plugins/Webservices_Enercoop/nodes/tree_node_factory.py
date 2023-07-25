@@ -22,6 +22,7 @@ from .nodes import (
     WmsLayerUrbaTreeNode,
     WmsLayerOrthoTreeNode,
     WmsLayerPlanTreeNode,
+    WmsEnrTreeNode,
     VectorTilesTreeNode
 )
 from .nodes import (
@@ -160,6 +161,19 @@ class TreeNodeFactory:
             
             elif node_type == PluginGlobals.instance().NODE_TYPE_WMS_ORTHO_LAYER:
                 node = WmsLayerOrthoTreeNode(
+                    node_title,
+                    node_type,
+                    node_description,
+                    node_status,
+                    node_metadata_url,
+                    node_ident,
+                    node_params,
+                    node_bounding_boxes,
+                    parent_node,
+                )
+
+            elif node_type == PluginGlobals.instance().NODE_TYPE_WMS_ENR_LAYER:
+                node = WmsEnrTreeNode(
                     node_title,
                     node_type,
                     node_description,
