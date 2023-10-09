@@ -1,7 +1,7 @@
 [general]
 name=Webservices Enercoop
 description=Plugin pour QGIS 3 fournissant un accès simple aux flux de géographiques WMS et WFS de EnercoopCo et d'autres ressources géographiques utiles à Enercoop.
-version=2.01
+version=0.0.1
 qgisMinimumVersion=3.00
 qgisMaximumVersion=3.99
 author=Enercoop, Lucas Jumeau-Mousset

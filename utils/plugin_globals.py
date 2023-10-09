@@ -15,7 +15,7 @@ class PluginGlobals:
     # Plugin infos
     PLUGIN_TAG = u"Webservices Enercoop"
     # PLUGIN_TAG = u"indigeo"
-    PLUGIN_VERSION = u"2.01"
+    PLUGIN_VERSION = u"0.0.1"
     PLUGIN_SOURCE_REPOSITORY = u""
 
     # Tree nodes types
@@ -39,7 +39,7 @@ class PluginGlobals:
 
     # Images dir
     IMAGES_DIR_NAME = "images"
-    LOGO_FILE_NAME = "Webservices_Enercoop.png"
+    LOGO_FILE_NAME = ""
 
     ICON_WARN_FILE_NAME = "Icon_Simple_Warn.png"
     ICON_WMS_LAYER_FILE_NAME = "mIconWms.svg"
