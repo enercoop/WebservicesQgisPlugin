@@ -2,7 +2,7 @@
 
 from qgis.PyQt.QtWidgets import QAction, QMenu
 from qgis.PyQt.QtCore import Qt
-from qgis.core import QgsProject
+from qgis.core import QgsProject, QgsMapLayer
 from qgis.utils import *
 from qgis import *
 
@@ -18,7 +18,7 @@ from Webservices_Enercoop.nodes.tree_node_factory import download_tree_config_fi
 
 def transparency_slider(layers):
     for layer in QgsProject.instance().mapLayers().values():
-        if layer.type() == QgsMapLayer.VectorLayer and layer.isSpatial():  # Vérification de la couche vectorielle avec géométrie
+        if layer.type() == QgsMapLayer.RasterLayer and layer.isSpatial():  # Vérification de la couche rasterielle avec géométrie
             if layer.customProperty("embeddedWidgets/count") != 1 or layer.customProperty("embeddedWidgets/0/id") != 'transparency':
                 layer.setCustomProperty("embeddedWidgets/count", 1)
                 layer.setCustomProperty("embeddedWidgets/0/id", "transparency")
