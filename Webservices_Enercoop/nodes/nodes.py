@@ -195,6 +195,7 @@ class WmsLayerTreeNode(FavoritesTreeNode):
             qgis_layer_details["provider"],
         )
 
+
 class WmsLayerUrbaTreeNode(FavoritesTreeNode):
     """
     Tree node for a Urba WMS layer
@@ -267,6 +268,7 @@ class WmsLayerUrbaTreeNode(FavoritesTreeNode):
             qgis_layer_details["title"],
             qgis_layer_details["provider"],
         )
+
 
 class WmsLayerPlanTreeNode(FavoritesTreeNode):
     """
@@ -343,6 +345,7 @@ class WmsLayerPlanTreeNode(FavoritesTreeNode):
             qgis_layer_details["provider"],
         )
 
+
 class WmsLayerOrthoTreeNode(FavoritesTreeNode):
     """
     Tree node for a WMS layer
@@ -417,6 +420,7 @@ class WmsLayerOrthoTreeNode(FavoritesTreeNode):
             qgis_layer_details["title"],
             qgis_layer_details["provider"],
         )
+
 
 class WmsEnrTreeNode(FavoritesTreeNode):
     """
@@ -493,6 +497,7 @@ class WmsEnrTreeNode(FavoritesTreeNode):
             qgis_layer_details["provider"],
         )
 
+
 class VectorTilesTreeNode(FavoritesTreeNode):
     """
     VectorTilesTreeNode
@@ -555,8 +560,9 @@ class VectorTilesTreeNode(FavoritesTreeNode):
         qgis_layer_details = self.get_qgis_layer_details()
         PluginGlobals.instance().iface.addVectorTileLayer(
             qgis_layer_details["uri"],
-            qgis_layer_details["title"],               
-        )
+            qgis_layer_details["title"],
+            )
+
 
 class WmsStyleLayerTreeNode(FavoritesTreeNode):
     """

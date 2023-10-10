@@ -145,7 +145,7 @@ class TreeNodeFactory:
                     node_bounding_boxes,
                     parent_node,
                 )
-            
+
             elif node_type == PluginGlobals.instance().NODE_TYPE_WMS_URBA_LAYER:
                 node = WmsLayerUrbaTreeNode(
                     node_title,
@@ -158,7 +158,7 @@ class TreeNodeFactory:
                     node_bounding_boxes,
                     parent_node,
                 )
-            
+
             elif node_type == PluginGlobals.instance().NODE_TYPE_WMS_ORTHO_LAYER:
                 node = WmsLayerOrthoTreeNode(
                     node_title,
@@ -184,7 +184,7 @@ class TreeNodeFactory:
                     node_bounding_boxes,
                     parent_node,
                 )
-            
+
             elif node_type == PluginGlobals.instance().NODE_TYPE_VECTOR_TILES_LAYER:
                 node = VectorTilesTreeNode(
                     node_title,
@@ -197,7 +197,7 @@ class TreeNodeFactory:
                     node_bounding_boxes,
                     parent_node,
                 )
-            
+
             elif node_type == PluginGlobals.instance().NODE_TYPE_WMS_PLAN_LAYER:
                 node = WmsLayerPlanTreeNode(
                     node_title,
@@ -210,7 +210,6 @@ class TreeNodeFactory:
                     node_bounding_boxes,
                     parent_node,
                 )
-
 
             elif node_type == PluginGlobals.instance().NODE_TYPE_WMS_LAYER_STYLE:
                 node = WmsStyleLayerTreeNode(

@@ -9,12 +9,12 @@ from qgis.PyQt.QtCore import QSettings
 class PluginGlobals:
     """ """
 
+    # Plugin properties
     iface = None
     plugin_path = None
 
     # Plugin infos
     PLUGIN_TAG = u"Webservices Enercoop"
-    # PLUGIN_TAG = u"indigeo"
     PLUGIN_VERSION = u"0.0.1"
     PLUGIN_SOURCE_REPOSITORY = u""
 
@@ -32,12 +32,11 @@ class PluginGlobals:
     NODE_TYPE_WFS_FEATURE_TYPE = "wfs_feature_type"
     NODE_TYPE_WFS_FEATURE_TYPE_FILTER = "wfs_feature_type_filter"
     NODE_TYPE_GDAL_WMS_CONFIG_FILE = "gdal_wms_config_file"
-    
 
     # Node status values
     NODE_STATUS_WARN = "warn"
 
-    # Images dir
+    # Image directories and filenames
     IMAGES_DIR_NAME = "images"
     LOGO_FILE_NAME = ""
 
