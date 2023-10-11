@@ -1,0 +1,22 @@
+{
+    "title": "Foncier",
+    "ident": "",
+    "description": "Couches relatives au foncier (IGN)",
+    "type": "folder",
+    "children": [
+      {
+        "title": "PCI - Plan Cadastral Informatisé Vecteur",
+        "ident": "PCI",
+        "description": "Le plan cadastral est un assemblage d’environ 600 000 feuilles ou planches représentant chacune une section ou une partie d’une section cadastrale.",
+        "metadata_url": "https://geoservices.ign.fr/parcellaire-express-pci",
+        "type": "wms_ortho_layer",
+        "params": {
+          "url": "https://wxs.ign.fr/parcellaire/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+          "format": "image/png",
+          "name": "CADASTRALPARCELS.PARCELLAIRE_EXPRESS",
+          "style": "PCI%20vecteur",
+          "srs": "EPSG:3857"
+        }
+      }
+        ]
+    }

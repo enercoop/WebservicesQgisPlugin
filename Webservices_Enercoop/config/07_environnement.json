@@ -1,0 +1,340 @@
+{
+    "title": "Environnement",
+    "ident": "",
+    "description": "Zonages environnementaux diffusés pas l'Inventaire National du Patrimoine Naturel (INPN) et de la Direction Régionale de l'Environnement, de l'Aménagement et du Logement d'Occitanie (DREAL).",
+    "type": "folder",
+    "children": [
+      {
+        "title": "Arrêtés de Protection de Biotope (APB)",
+        "ident": "Arrêtés_de_Protection_de_Biotope_(APB)",
+        "description": "Actes administratifs préféctoraux pris en vue de préserver les habitats des espèces protégées, l’équilibre biologique ou la fonctionnalité des milieux.",
+        "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/cdc54288-665e-48d1-9cdf-ef563e100798",
+        "type": "wms_layer",
+        "params": {
+          "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+          "format": "image/png",
+          "name": "Arretes_de_protection_de_biotope",
+          "style": "default",
+          "srs": "EPSG:2154"
+        }
+      },
+      {
+        "title": "Arrêtés de Protection d’Habitats Naturels (APHN)",
+        "ident": "Arrêtés_de_Protection_d’Habitats_Naturels_(APHN)",
+        "description": "Arrêtés visant à préserver des habitats naturels présentant un intérêt particulier à titre scientifique, de rôle essentiel dans l’écosystème ou de la préservation du patrimoine naturel.",
+        "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/ec3e4da1-da04-4e63-924c-1dfa69bc2989",
+        "type": "wms_layer",
+        "params": {
+          "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+          "format": "image/png",
+          "name": "Arretes_de_protection_d_habitats_naturels",
+          "style": "default",
+          "srs": "EPSG:2154"
+        }
+      },
+      {
+        "title": "Arrêtés de Protection de Géotope (APG)",
+        "ident": "Arrêtés_de_Protection_de_Géotope_(APG)",
+        "description": "Outil de protection réglementaire des sites figurant sur la liste départementale des sites d’intérêt géologique",
+        "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/3666668b-9553-4942-9462-2699b42d89f7",
+        "type": "wms_layer",
+        "params": {
+          "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+          "format": "default",
+          "name": "Arretes_de_protection_de_geotope",
+          "srs": "EPSG:2154"
+        }
+      },
+      {
+        "title": "Biens du patrimoine mondial de l'UNESCO",
+        "ident": "Biens_du_patrimoine_mondial_de_l'UNESCO",
+        "description": "Biens inscrits sur la liste du patrimoine mondial de l'UNESCO du fait de leur valeur patrimoniale exceptionnelle.",
+        "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/ea950812-5a72-4540-bf3f-868efc5bbcc3",
+        "type": "wms_layer",
+        "params": {
+          "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+          "format": "image/png",
+          "name": "Bien_du_patrimoine_mondial_de_l_UNESCO",
+          "style": "default",
+          "srs": "EPSG:2154"
+        }
+      },
+      {
+        "title": "Géoparcs mondiaux UNESCO",
+        "ident": "Géoparcs_mondiaux_UNESCO",
+        "description": "Territoires labellisés par l’UNESCO où l’élément géologique patrimonial est le support pour des projets de protection, de développements du territoire et d’éducation.",
+        "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/d5b93447-0802-4799-b64f-bf6d0aadbb87",
+        "type": "wms_layer",
+        "params": {
+          "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+          "format": "default",
+          "name": "Geoparcs",
+          "srs": "EPSG:2154"
+        }
+      },
+      {
+        "title": "Inventaire du Patrimoine géologique National (INPG)",
+        "ident": "Inventaire_du_Patrimoine_géologique_National_(INPG)",
+        "description": "Programme recensant les sites géologiques d’intérêt patrimonial sur la plateforme InvenTerre",
+        "metadata_url": "https://inventerre.mnhn.fr/accueil",
+        "type": "wms_layer",
+        "params": {
+          "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+          "format": "default",
+          "name": "INPG",
+          "srs": "EPSG:2154"
+        }
+      },
+      {
+        "title": "Parcs Nationaux (PN)",
+        "ident": "Parcs_Nationaux_(PN)",
+        "description": "Vaste espace protégé dont le patrimoine naturel, culturel et paysager est exceptionnel. Classiquement composé de 2 zones : le cœur de parc et une aire d'adhésion.",
+        "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/53286c20-c2b0-4c6f-b877-7afeafbe39dc",
+        "type": "wms_layer",
+        "params": {
+          "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+          "format": "image/png",
+          "name": "Parcs_nationaux",
+          "style": "default",
+          "srs": "EPSG:2154"
+        }
+      },
+      {
+        "title": "Parcs Naturels Régionaux (PNR)",
+        "ident": "Parcs_Naturels_Régionaux_(PNR)",
+        "description": "Outils de valorisation de vastes espaces de fort intérêt culturel et naturel.",
+        "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/951d23fd-bf2f-4a23-88b5-2ca8622e1cd1",
+        "type": "wms_layer",
+        "params": {
+          "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+          "format": "image/png",
+          "name": "Parcs_naturels_regionaux",
+          "style": "default",
+          "srs": "EPSG:2154"
+        }
+      },
+      {
+        "title": "Réserves Biologiques (RBiol)",
+        "ident": "Réserves_Biologiques_(RBiol)",
+        "description": "Espace protégé en milieu forestier ou en milieu associé à la forêt (landes, mares, tourbières, dunes).",
+        "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/71a5f31d-3ef5-4c45-bd31-39141154e277",
+        "type": "wms_layer",
+        "params": {
+          "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+          "format": "image/png",
+          "name": "Reserves_biologiques",
+          "style": "default",
+          "srs": "EPSG:2154"
+        }
+      },
+      {
+        "title": "Réserves de Biosphère (RBios)",
+        "ident": "Réserves_de_Biosphère_(RBios)",
+        "description": "Réserves naturelles reconnues par le Programme sur l’Homme et la Biosphère créé par l’UNESCO.",
+        "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/016307b9-5d14-4f61-873f-a41691d13a7b",
+        "type": "wms_layer",
+        "params": {
+          "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+          "format": "image/png",
+          "name": "Reserves_de_la_biosphere",
+          "style": "default",
+          "srs": "EPSG:2154"
+        }
+      },
+      {
+        "title": "Réserves Intégrales de Parcs Nationaux (RIPN)",
+        "ident": "Réserves_Intégrales_de_Parcs_Nationaux_(RIPN)",
+        "description": "Créées au sein d'un coeur de PN afin d'assurer, dans un but scientifique, une protection plus grande de certains éléments de la faune et de la flore.",
+        "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/5ca16eed-0bc0-4e56-94b4-219fc400b68c",
+        "type": "wms_layer",
+        "params": {
+          "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+          "format": "image/png",
+          "name": "Reserves_Integrales_de_Parcs_Nationaux",
+          "style": "default",
+          "srs": "EPSG:2154"
+        }
+      },
+      {
+        "title": "Réserves Naturelles Nationales (RNN)",
+        "ident": "Réserves_Naturelles_Nationales_(RNN)",
+        "description": "Aires protégeant à long terme des espaces, espèces ou objets géologiques.",
+        "metadata_url": "",
+        "type": "wms_layer",
+        "params": {
+          "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+          "format": "image/png",
+          "name": "Reserves_Naturelles_Nationales",
+          "style": "default",
+          "srs": "EPSG:2154"
+        }
+      },
+      {
+        "title": "Réserves Naturelles Régionales (RNR)",
+        "ident": "Réserves_Naturelles_Régionales_(RNR)",
+        "description": "Identiques aux RNN dans leur gestion, mais créées par les Régions.",
+        "metadata_url": "https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique",
+        "type": "wms_layer",
+        "params": {
+          "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+          "format": "image/png",
+          "name": "Reserves_naturelles_regionales",
+          "style": "default",
+          "srs": "EPSG:2154"
+        }
+      },
+      {
+        "title": "Réserves Nationales de Chasse et de Faune Sauvage (RNCFS)",
+        "ident": "Réserves_Nationales_de_Chasse_et_de_Faune_Sauvage_(RNCFS)",
+        "description": "Réserves gérées par l'Office Français de la Biodiversité (OFB) ou un autre établissement public visant à la protection d’espèces de faune sauvage menacées.",
+        "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/f305b23f-7439-4cd6-9403-3f18563a7a6e",
+        "type": "wms_layer",
+        "params": {
+          "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+          "format": "image/png",
+          "name": "Reserves_nationales_de_chasse_et_faune_sauvage",
+          "style": "default",
+          "srs": "EPSG:2154"
+        }
+      },
+      {
+        "title": "Conservatoires d'Espaces Naturels - Sites Acquis (CEN-SA)",
+        "ident": "Conservatoires_d'Espaces Naturels_Sites_Acquis_(CEN-SA)",
+        "description": "Sites acquis et/ou « assimilés » (bail emphytéotique et contrat de plus de 18 ans) dont les CEN ont pleinement la maîtrise foncière.",
+        "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/e724c2e1-af95-4c2a-8ce9-7154f2e06673",
+        "type": "wms_layer",
+        "params": {
+          "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+          "format": "image/png",
+          "name": "Terrains_acquis_des_Conservatoires_des_espaces_naturels",
+          "style": "default",
+          "srs": "EPSG:2154"
+        }
+      },
+      {
+        "title": "Conservatoires d'Espaces Naturels - Sites Gérés (CEN-SG)",
+        "ident": "Conservatoires_d'Espaces_Naturels_Site_Gérés_(CEN-SG)",
+        "description": "Sites gérés (location, gestion de moins de 18 ans, convention de gestion) par les CEN.",
+        "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/e724c2e1-af95-4c2a-8ce9-7154f2e06673",
+        "type": "wms_layer",
+        "params": {
+          "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+          "format": "image/png",
+          "name": "CEN_MU",
+          "style": "default",
+          "srs": "EPSG:2154"
+        }
+      },
+      {
+        "title": "Conservatoire du Littoral (CDL) - Terrains acquis",
+        "ident": "Conservatoire_du_Littoral_(CDL)_Terrains_acquis",
+        "description": "Terrains acquis par le Conservatoire du Littoral pour la sauvegarde des espaces côtiers et lacustres.",
+        "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/5a24eed8-f8c9-4554-98d8-9d7fb364efb6",
+        "type": "wms_layer",
+        "params": {
+          "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+          "format": "image/png",
+          "name": "Terrains_du_Conservatoire_du_Littoral",
+          "style": "default",
+          "srs": "EPSG:2154"
+        }
+      },
+      {
+        "title": "Conservatoire du Littoral (CDL) - Périmètres autorisés",
+        "ident": "Conservatoire_du_Littoral_(CDL)_Périmètres autorisés",
+        "description": "Zones à préserver définies par le Conservatoire et susceptibles d’être acquises par celui-ci.",
+        "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
+        "type": "wms_layer",
+        "params": {
+          "url": "https://wxs.ign.fr/environnement/geoportail/r/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
+          "format": "image/png",
+          "name": "PROTECTEDAREAS.MNHN.CDL.PERIMETER",
+          "srs": "EPSG:2154"
+        }
+      },
+      {
+        "title": "Zones humides protégées par la Convention de Ramsar",
+        "ident": "Zones_humides_protégées_par_la_Convention_de_Ramsar",
+        "description": "Zones humides d'importance internationale inscrite sur la liste établie par la Convention de Ramsar",
+        "metadata_url": "https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique",
+        "type": "wms_layer",
+        "params": {
+          "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+          "format": "image/png",
+          "name": "Sites_Ramsar",
+          "style": "default",
+          "srs": "EPSG:2154"
+        }
+      },
+      {
+        "title": "ZNIEFF1",
+        "ident": "ZNIEFF1",
+        "description": "Zones Naturelles d’Intérêt Ecologique, Faunistique et Floristique de type 1, définies par la présence d’espèces ou de milieux rares, remarquables ou caractéristiques.",
+        "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/f30dd410-9c72-47f5-a384-96603ddc703e",
+        "type": "wms_layer",
+        "params": {
+          "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+          "format": "image/png",
+          "name": "Znieff1",
+          "style": "default",
+          "srs": "EPSG:2154"
+        }
+      },
+      {
+        "title": "ZNIEFF2",
+        "ident": "ZNIEFF2",
+        "description": "Zones Naturelles d’Intérêt Ecologique, Faunistique et Floristique de type 2 : grands ensembles naturels ou peu modifiés offrant des potentialités biologiques importantes. Moins remarquables que les ZNIEFF1.",
+        "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/50bc6286-83f6-4494-9fb6-3d82a43cafa8",
+        "type": "wms_layer",
+        "params": {
+          "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+          "format": "image/png",
+          "name": "Znieff2",
+          "style": "default",
+          "srs": "EPSG:2154"
+        }
+      },
+      {
+        "title": "Zones Importantes pour la Conservation des Oiseaux (ZICO)",
+        "ident": "Zones_Importantes_pour_la_Conservation_des_Oiseaux_(ZICO)",
+        "description": "Les ZICO ont servi de base pour établir les Zones de Protection Spéciale (ZPS) Natura2000  ",
+        "metadata_url": "https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique/inv/zico",
+        "type": "wms_layer",
+        "params": {
+          "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+          "format": "image/png",
+          "name": "ZICO",
+          "style": "default",
+          "srs": "EPSG:2154"
+        }
+      },
+      {
+        "title": "Natura 2000 - Zones de Protection Spéciale (ZPS) - Directive Oiseaux",
+        "ident": "Natura_2000_Zones_de_Protection_Spéciale_(ZPS)_Directive Oiseaux",
+        "description": "Zones visant la conservation des espèces d'oiseaux sauvages figurant à l'annexe I de la Directive europénne Oiseaux.",
+        "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/c334eb2e-634e-479a-b867-8bf352e5827f",
+        "type": "wms_layer",
+        "params": {
+          "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+          "format": "image/png",
+          "name": "Zones_de_protection_speciale",
+          "style": "default",
+          "srs": "EPSG:2154"
+        }
+      },
+      {
+        "title": "Natura 2000 - Zones Spéciales de Conservation (ZSC/SIC) - Directive Habitats",
+        "ident": "Natura_2000_Zones_Spéciales_de_Conservation_(ZSC/SIC)_Directive_Habitats",
+        "description": "Désignées dans le droit français comme ZSC, ces zones sont des Sites d'Importance Communautaire (SIC) au sens de l'UE et de la Directive 'Habitats, Faune, Flore'.",
+        "metadata_url": "https://www.nord.gouv.fr/Actions-de-l-Etat/Environnement/Nature-et-biodiversite/Natura-2000/Natura-2000-ZPS-ZSC-SIC-DOCOB",
+        "type": "wms_layer",
+        "params": {
+          "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+          "format": "image/png",
+          "name": "Sites_d_importance_communautaire",
+          "style": "default",
+          "srs": "EPSG:2154"
+        }
+      }
+    ]
+  }

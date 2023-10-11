@@ -1,0 +1,51 @@
+{
+    "title": "Altimétrie (IGN)",
+    "ident": "",
+    "description": "Données MNT, MNS, pente, altitude, estompage, trait de côte, masque de source",
+    "metadata_url": "https://geoservices.ign.fr/services-web-experts-altimetrie",
+    "type": "folder",
+    "children": [
+      {
+        "title": "Altitude - Carte du relief",
+        "ident": "Altitude_Carte du relief",
+        "description": "Représentation de l’altitude sous forme de teintes hypsométriques (fausses couleurs). ",
+        "metadata_url": "https://www.geoportail.gouv.fr/donnees/carte-du-relief",
+        "type": "wms_ortho_layer",
+        "params": {
+          "url": "https://wxs.ign.fr/altimetrie/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+          "format": "image/jpeg",
+          "name": "ELEVATION.SLOPES",
+          "style": "normal",
+          "srs": "EPSG:3857"
+        }
+      },
+      {
+        "title": "Carte des pentes",
+        "ident": "Carte_des_pentes",
+        "description": "Représentation des classes de pentes supérieures à 30°, 35°, 40°, et 45° obtenues par traitement du MNT RGE ALTI au pas de 1m.",
+        "metadata_url": "https://www.geoportail.gouv.fr/donnees/carte-des-pentes",
+        "type": "wms_ortho_layer",
+        "params": {
+          "url": "https://wxs.ign.fr/altimetrie/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+          "format": "image/png",
+          "name": "GEOGRAPHICALGRIDSYSTEMS.SLOPES.MOUNTAIN",
+          "style": "normal",
+          "srs": "EPSG:3857"
+        }
+      },
+      {
+        "title": "Courbes de niveau",
+        "ident": "Courbes_de_niveau",
+        "description": "Modèle numérique de terrain sous forme de courbes de même altitude, appelées aussi « isoplèthes d’altitude »",
+        "metadata_url": "https://geoservices.ign.fr/documentation/donnees/alti/courbes-de-niveau",
+        "type": "wms_ortho_layer",
+        "params": {
+          "url": "https://wxs.ign.fr/altimetrie/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+          "format": "image/png",
+          "name": "ELEVATION.CONTOUR.LINE",
+          "style": "normal",
+          "srs": "EPSG:3857"
+        }
+      }
+    ]
+  }

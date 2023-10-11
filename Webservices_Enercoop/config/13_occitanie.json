@@ -1,0 +1,324 @@
+{
+    "title": "Occitanie",
+    "ident": "",
+    "description": "Zonages environnementaux diffusés par la Direction Régionale de l'Environnement, de l'Aménagement et du Logement d'Occitanie (DREAL).",
+    "type": "folder",
+    "children": [
+      {
+            "title": "PNA",
+            "ident": "",
+            "description": "",
+            "type": "folder",
+            "children": [
+              {
+                "title": "PNA Aigle de Bonelli - Domaines vitaux",
+                "ident": "PNA_Aigle_de_Bonelli_Domaines_vitaux",
+                "description": "L'aigle de Bonelli est une espèce protégée au niveau national et comme telle, en vertu de l'arrêté du 29 octobre 2009 fixant la liste des oiseaux protégés sur l’ensemble du territoire et les modalités de leur protection (article 3)",
+                "metadata_url": "https://catalogue.picto-occitanie.fr/geonetwork/srv/fre/catalog.search#/metadata/5d6e6a05-094a-43f7-a881-b70a60a6df60",
+                "type": "wms_layer",
+                "params": {
+                  "url": "https://datacarto.picto-occitanie.fr/wms",
+                  "format": "image/png",
+                  "name": "r_pnaaigledebonelli_dv_s_000",
+                  "style": "",
+                  "srs": "EPSG:2154"
+                }
+              },
+              {
+                "title": "PNA Aigle de Bonelli - Zones d’erratisme",
+                "ident": "PNA_Aigle_de_Bonelli_Zones-d’erratisme",
+                "description": "L'aigle de Bonelli est une espèce protégée au niveau national et comme telle, en vertu de l'arrêté du 29 octobre 2009 fixant la liste des oiseaux protégés sur l’ensemble du territoire et les modalités de leur protection (article 3)",
+                "metadata_url": "https://catalogue.picto-occitanie.fr/geonetwork/srv/fre/catalog.search#/metadata/8b070f45-92e3-4840-a11d-fd7816f3072c",
+                "type": "wms_layer",
+                "params": {
+                  "url": "https://datacarto.picto-occitanie.fr/wms",
+                  "format": "image/png",
+                  "name": "r_pnaaigledebonelli_er_s_000",
+                  "style": "",
+                  "srs": "EPSG:2154"
+                }
+              },
+              {
+                "title": "PNA Butoir Etoilé",
+                "ident": "PNA_Butoir_Etoilé",
+                "description": "Le Butor étoilé est une espèce d'oiseaux échassiers de la famille des ardéidés. Considéré d'après les recensements effectués comme une espèce très menacée, sa population est en déclin rapide en Europe et aurait chuté de 35 à 45 % en France en 30 ans.",
+                "metadata_url": "https://www.ecologie.gouv.fr/sites/default/files/PNA_Butor-etoile_2008-2012.pdf",
+                "type": "wms_layer",
+                "params": {
+                  "url": "https://datacarto.picto-occitanie.fr/wms",
+                  "format": "image/png",
+                  "name": "r_pnabutoiretoile_s_r76",
+                  "style": "",
+                  "srs": "EPSG:2154"
+                }
+              },
+              {
+                "title": "PNA Chiroptère",
+                "ident": "PNA_Chiroptère",
+                "description": "Les Chiroptères, appelés couramment chauves-souris ou chauvesouris",
+                "metadata_url": "https://www.ecologie.gouv.fr/sites/default/files/PNA_Chiropteres_2016-2025.pdf",
+                "type": "wms_layer",
+                "params": {
+                  "url": "https://datacarto.picto-occitanie.fr/wms",
+                  "format": "image/png",
+                  "name": "r_pnachiroptere_s_r76",
+                  "style": "",
+                  "srs": "EPSG:2154"
+                }
+              },
+              {
+                "title": "PNA Desman des Pyrénées - Zone de présence en Occitanie",
+                "ident": "PNA_Desman_des_Pyrénées",
+                "description": "Le Desman des Pyrénées, également appelé Rat-trompette, est une espèce de petits mammifères de la famille des Talpidés, endémique de la chaîne des Pyrénées et des zones montagneuses du nord-ouest de la péninsule Ibérique.",
+                "metadata_url": "https://www.consultations-publiques.developpement-durable.gouv.fr/IMG/pdf/pna_desman.pdf",
+                "type": "wms_layer",
+                "params": {
+                  "url": "https://datacarto.picto-occitanie.fr/wms",
+                  "format": "image/png",
+                  "name": "r_pna_desmandespyrennes_s_r76ext",
+                  "style": "",
+                  "srs": "EPSG:2154"
+                }
+              },
+              {
+                "title": "PNA Emyde lépreuse",
+                "ident": "PNA_Emyde_lépreuse",
+                "description": "Mauremys leprosa, l'Émyde lépreuse, est une espèce de tortues dulçaquicoles de la famille des Geoemydidae. Cette espèce est classifiée 'Vulnérable' à l'échelle européenne par l'Union Internationale pour la Conservation de la Nature.",
+                "metadata_url": "https://www.ecologie.gouv.fr/sites/default/files/PNA_Emyde-lepreuse_2012-2016.pdf",
+                "type": "wms_layer",
+                "params": {
+                  "url": "https://datacarto.picto-occitanie.fr/wms",
+                  "format": "image/png",
+                  "name": "r_pnaemydelepreuse_s_r76",
+                  "style": "",
+                  "srs": "EPSG:2154"
+                }
+              },
+              {
+                "title": "PNA Faucon Crecerellette DV",
+                "ident": "PNA_Faucon_Crecerellette_DV ",
+                "description": "Le Faucon crécerellette est une petite espèce de rapaces très semblable au Faucon crécerelle mais plus svelte. Il peut être désigné sous le nom vernaculaire de Crécerine.",
+                "metadata_url": "https://www.ecologie.gouv.fr/sites/default/files/PNA%20Faucon%20Crecerellette_2021-2030.pdf",
+                "type": "wms_layer",
+                "params": {
+                  "url": "https://datacarto.picto-occitanie.fr/wms",
+                  "format": "image/png",
+                  "name": "r_pnafauconcrecerellettedv_s_r76ext",
+                  "style": "",
+                  "srs": "EPSG:2154"
+                }
+              },
+              {
+                "title": "PNA Grand tétras - Zone de présence globale (zone 1)",
+                "ident": "PNA_Grand_tétras",
+                "description": "Les Chiroptères, appelés couramment chauves-souris ou chauvesouris",
+                "metadata_url": "https://www.bourgogne-franche-comte.developpement-durable.gouv.fr/plan-national-d-actions-en-faveur-du-grand-tetras-a7661.html",
+                "type": "wms_layer",
+                "params": {
+                  "url": "https://datacarto.picto-occitanie.fr/wms",
+                  "format": "image/png",
+                  "name": "r_pnagrandtetras_zonedepresence_s_r76ext",
+                  "style": "",
+                  "srs": "EPSG:2154"
+                }
+              },
+              {
+                "title": "PNA Gypaète",
+                "ident": "PNA_Gypaète",
+                "description": "Le Gypaète barbu (Gypaetus barbatus) est un grand rapace nécrophage qui présente une envergure imposante. ",
+                "metadata_url": "https://www.ecologie.gouv.fr/sites/default/files/PNA_Gypaete-barbu_2010-2020.pdf",
+                "type": "wms_layer",
+                "params": {
+                  "url": "https://datacarto.picto-occitanie.fr/wms",
+                  "format": "image/png",
+                  "name": "r_pnagypaete_s_r76ext",
+                  "style": "",
+                  "srs": "EPSG:2154"
+                }
+              },
+              {
+                "title": "PNA Lézard des Pyrénées - Zones de présences dans les Pyrénées",
+                "ident": "PNA_Lézard_des_Pyrénées",
+                "description": "Le Lézard des Pyrénées, ou Lézard de Bonnal, est une espèce de sauriens de la famille des Lacertidae",
+                "metadata_url": "https://www.ecologie.gouv.fr/sites/default/files/PNA_Lezards-des-Pyrenees_2013-2017_.pdf",
+                "type": "wms_layer",
+                "params": {
+                  "url": "https://datacarto.picto-occitanie.fr/wms",
+                  "format": "image/png",
+                  "name": "r_pnalezardpyreneeszonedepresence_s_r76",
+                  "style": "",
+                  "srs": "EPSG:2154"
+                }
+              },
+              {
+                "title": "PNA Lézard Ocellé",
+                "ident": "PNA_Lézard_Ocellé",
+                "description": "Le Lézard ocellé est une espèce de sauriens de la famille des Lacertidae. C'est le plus grand lézard d'Europe et l'un des plus grands d'Espagne, avec le lézard géant de Gran Canaria",
+                "metadata_url": "https://www.ecologie.gouv.fr/sites/default/files/PNA%20L%C3%A9zard%20Ocell%C3%A9_BAT.pdf",
+                "type": "wms_layer",
+                "params": {
+                  "url": "https://datacarto.picto-occitanie.fr/wms",
+                  "format": "image/png",
+                  "name": "r_pnalezardocelle_s_r76",
+                  "style": "",
+                  "srs": "EPSG:2154"
+                }
+              },
+              {
+                "title": "PNA Maculinéa",
+                "ident": "PNA_Maculinéa",
+                "description": "Phengaris est un genre paléarctique de lépidoptères de la famille des Lycaenidae et de la sous-famille des Polyommatinae. Il inclut actuellement les espèces précédemment placées dans le genre Maculinea. Ces papillons sont connus pour leur cycle de vie complexe, où la chenille doit effectuer une partie de son développement à l'intérieur d'une fourmilière. ",
+                "metadata_url": "https://papillons.pnaopie.fr/wp-content/uploads/2021/06/PNA-maculinea.pdf",
+                "type": "wms_layer",
+                "params": {
+                  "url": "https://datacarto.picto-occitanie.fr/wms",
+                  "format": "image/png",
+                  "name": "r_pnamaculinea_s_r76",
+                  "style": "",
+                  "srs": "EPSG:2154"
+                }
+              },
+              {
+                "title": "PNA Milan Royal - Domaines Vitaux en Occitanie",
+                "ident": "PNA_Milan_Royal",
+                "description": "Le Milan royal est une espèce de rapaces peuplant l'écozone paléarctique occidentale. En ancien français et encore au XVIᵉ siècle, il est appelé escoufle.",
+                "metadata_url": "https://www.ecologie.gouv.fr/sites/default/files/PNA-Milan-Royal-2018-2027.pdf",
+                "type": "wms_layer",
+                "params": {
+                  "url": "https://datacarto.picto-occitanie.fr/wms",
+                  "format": "image/png",
+                  "name": "r_pnamilanroyaldv_s_r76ext",
+                  "style": "",
+                  "srs": "EPSG:2154"
+                }
+              },
+              {
+                "title": "PNA Outarde Hivernage",
+                "ident": "PNA_Outarde_Hivernage",
+                "description": "Échassier au corps lourd et à fortes pattes, à long cou et à bec court.",
+                "metadata_url": "https://www.ecologie.gouv.fr/sites/default/files/PNA_outarde_canepetiere.pdf",
+                "type": "wms_layer",
+                "params": {
+                  "url": "https://datacarto.picto-occitanie.fr/wms",
+                  "format": "image/png",
+                  "name": "r_pnaoutardehi_s_r76",
+                  "style": "",
+                  "srs": "EPSG:2154"
+                }
+              },
+              {
+                "title": "PNA Pie grèche à poitrine rose",
+                "ident": "PNA_Pie_grèche_à_poitrine_rose",
+                "description": "La Pie-grièche à poitrine rose est une espèce de passereaux aux mœurs alimentaires carnassières, appartenant à la famille des Laniidae. Cette pie-grièche est considérée en France, au début des années 2010, comme en danger critique.",
+                "metadata_url": "https://www.consultations-publiques.developpement-durable.gouv.fr/IMG/pdf/PNA_Lanius_2014-2018.pdf",
+                "type": "wms_layer",
+                "params": {
+                  "url": "https://datacarto.picto-occitanie.fr/wms",
+                  "format": "image/png",
+                  "name": "r_pnapiegrecheapoitrinerose_s_r76",
+                  "style": "",
+                  "srs": "EPSG:2154"
+                }
+              },
+              {
+                "title": "PNA Pie-Grièche Grise",
+                "ident": "PNA_Pie-Grièche_Grise",
+                "description": "La Pie-grièche grise est une espèce d'oiseaux de la famille des Laniidae. Elle niche en Europe méridionale et en Afrique du Nord. La forme migratrice est quelquefois visible en Europe occidentale. ",
+                "metadata_url": "https://www.consultations-publiques.developpement-durable.gouv.fr/IMG/pdf/PNA_Lanius_2014-2018.pdf",
+                "type": "wms_layer",
+                "params": {
+                  "url": "https://datacarto.picto-occitanie.fr/wms",
+                  "format": "image/png",
+                  "name": "r_pnapiegriechegrise_s_r76",
+                  "style": "",
+                  "srs": "EPSG:2154"
+                }
+              },
+              {
+                "title": "PNA Pie-Grièche Méridionale",
+                "ident": "PNA_Pie-Grièche_Méridionale",
+                "description": "La Pie-grièche méridionale (Lanius meridionalis) est une espèce d'oiseaux de la famille des Laniidae. Elle niche en Europe méridionale et en Afrique du Nord. La forme migratrice est quelquefois visible en Europe occidentale. ",
+                "metadata_url": "https://www.consultations-publiques.developpement-durable.gouv.fr/IMG/pdf/PNA_Lanius_2014-2018.pdf",
+                "type": "wms_layer",
+                "params": {
+                  "url": "https://datacarto.picto-occitanie.fr/wms",
+                  "format": "image/png",
+                  "name": "r_pnapiegriechemeridionale_s_r76",
+                  "style": "",
+                  "srs": "EPSG:2154"
+                }
+              },
+              {
+                "title": "PNA Pie-Grièche à Tête Rousse",
+                "ident": "PNA_Pie-Grièche_à_Tête_Rousse",
+                "description": "Les Laniidés sont des passereaux de taille petite à moyenne, au corps allongé, à ailes arrondies et à queue longue.",
+                "metadata_url": "https://www.consultations-publiques.developpement-durable.gouv.fr/IMG/pdf/PNA_Lanius_2014-2018.pdf",
+                "type": "wms_layer",
+                "params": {
+                  "url": "https://datacarto.picto-occitanie.fr/wms",
+                  "format": "image/png",
+                  "name": "r_pnapiegriecheteterousse_s_r76",
+                  "style": "",
+                  "srs": "EPSG:2154"
+                }
+              },
+              {
+                "title": "PNA Placette d'alimentation nécrophage",
+                "ident": "PNA_Placette_d'alimentation_nécrophage",
+                "description": "Mise en place de placettes de dépôt de cadavres de bétail, naturellement mort en exploitation, en vue de l'équarrissage naturel par ces rapaces nécrophages en zone de montagne. ",
+                "metadata_url": "https://www.ecologie.gouv.fr/sites/default/files/PNA_Vautour_fauve_2017-2026.pdf",
+                "type": "wms_layer",
+                "params": {
+                  "url": "https://datacarto.picto-occitanie.fr/wms",
+                  "format": "image/png",
+                  "name": "r_pnaplacettealimentationnecrophage_s_r76ext",
+                  "style": "",
+                  "srs": "EPSG:2154"
+                }
+              },
+              {
+                "title": "PNA Sonneur à ventre jaune – Zone de présence du sonneur à ventre jaune",
+                "ident": "PNA_Sonneur_à_ventre_jaune",
+                "description": "Bombina variegata est une espèce d'amphibiens de la famille des Bombinatoridae. Il est appelé en français Sonneur à ventre jaune ou Crapaud sonneur à ventre jaune ou Sonneur à pieds épais.",
+                "metadata_url": "https://www.ecologie.gouv.fr/sites/default/files/PNA_Sonneur-a-ventre-jaune_2011-2015.pdf",
+                "type": "wms_layer",
+                "params": {
+                  "url": "https://datacarto.picto-occitanie.fr/wms",
+                  "format": "image/png",
+                  "name": "r_pnasonneuraventrejaune_s_r76",
+                  "style": "",
+                  "srs": "EPSG:2154"
+                }
+              },
+              {
+                "title": "PNA Vautour Fauve - Domaines Vitaux ",
+                "ident": "PNA_Vautour_Fauve",
+                "description": "Le Vautour fauve, ou anciennement le griffon, est une espèce d'oiseaux charognard de la famille des Accipitridae",
+                "metadata_url": "https://www.ecologie.gouv.fr/sites/default/files/PNA_Vautour_fauve_2017-2026.pdf",
+                "type": "wms_layer",
+                "params": {
+                  "url": "https://datacarto.picto-occitanie.fr/wms",
+                  "format": "image/png",
+                  "name": "r_pnavautourfauvedv_s_r76ext",
+                  "style": "",
+                  "srs": "EPSG:2154"
+                }
+              },
+              {
+                "title": "PNA Vautour Percnoptère - Domaines Vitaux",
+                "ident": "PNA_Vautour_Percnoptère",
+                "description": "Le Vautour percnoptère, aussi appelé Percnoptère d'Égypte, est une espèce de rapaces de l'Ancien Monde.",
+                "metadata_url": "https://www.ecologie.gouv.fr/sites/default/files/PNA_Vautour-percnoptere_2015-2024.pdf",
+                "type": "wms_layer",
+                "params": {
+                  "url": "https://datacarto.picto-occitanie.fr/wms",
+                  "format": "image/png",
+                  "name": "r_pnapercnoptere_s_r76ext",
+                  "style": "",
+                  "srs": "EPSG:2154"
+                }
+              }
+            ]
+        }
+      ]
+    }

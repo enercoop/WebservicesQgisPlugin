@@ -1,0 +1,127 @@
+{
+    "title": "Géorisques",
+    "ident": "",
+    "description": "Couches diffusées sur le portail Géorisques par le Bureau des Recherches Géologiques et Minières (BRGM) et le Ministère de la Transition Ecologique.",
+    "type": "folder",
+    "children": [
+      {
+        "title": " BASIAS - Base des Anciens Sites Industriels et Activités de Service)",
+        "ident": "Base_des_Anciens_Sites_Industriels_et_Activités_de_Service_(BASIAS)",
+        "description": "La BASIAS recense les sites industriels, abandonnés ou en activité, susceptibles d'engendrer une pollution de l'environnement.",
+        "metadata_url": "https://www.georisques.gouv.fr/articles-risques/pollutions-sols-sis-anciens-sites-industriels/basias",
+        "type": "wms_layer",
+        "params": {
+          "url": "https://www.georisques.gouv.fr/services",
+          "format": "image/png",
+          "name": "BASIAS_LOCALISE",
+          "style": "default",
+          "srs": "EPSG:2154"
+        }
+      },
+      {
+        "title": "Sites et Sols Pollués ou potentiellement pollués (SSP, ex-BASOL)",
+        "ident": "Sites_et_Sols_Pollués_ou_potentiellement_pollués_(SSP_ex-BASOL)",
+        "description": "Sites et sols pollués (ou potentiellement pollués) appelant une action des pouvoirs publics, à titre préventif ou curatif.",
+        "metadata_url": "https://www.georisques.gouv.fr/articles-risques/pollutions-sols-sis-anciens-sites-industriels/basol",
+        "type": "wms_urba_layer",
+        "params": {
+          "url": "https://www.georisques.gouv.fr/services",
+          "format": "image/png",
+          "name": "SSP_INSTRUCTION",
+          "srs": "EPSG:2154"
+        }
+      },
+      {
+        "title": "Plan de Prévention des Risques d'inondation (PPRi)",
+        "ident": "Plan_de_Prévention_des_Risques_d'inondation_(PPRi)",
+        "description": "",
+        "metadata_url": "https://www.georisques.gouv.fr/plans-de-prevention-des-risques-naturels",
+        "type": "wms_layer",
+        "params": {
+          "url": "https://www.georisques.gouv.fr/services",
+          "format": "image/png",
+          "name": "PPRN_ZONE_INOND_FXX",
+          "style": "default",
+          "srs": "EPSG:2154"
+        }
+      },
+      {
+        "title": "Surface inondable - Aléa submersion rare ou millénial",
+        "ident": "Surface_inondable_Aléa_submersion_rare_ou_millénial",
+        "description": "Les inondations et les submersions marines sont les risques naturels qui concernent le plus grand nombre de personnes en France. Phénomène saisonnier qui trouve sa source dans des précipitations soutenues et durables, l’inondation peut aussi venir de la mer ou des eaux souterraines. Ce risque naturel peut être fortement accentué par les activités humaines et les aménagements.",
+        "metadata_url": "https://www.georisques.gouv.fr/donnees/bases-de-donnees/zonages-inondation-rapportage-2020",
+        "type": "wms_urba_layer",
+        "params": {
+          "url": "https://www.georisques.gouv.fr/services",
+          "format": "image/png",
+          "name": "ALEA_SYNT_03_04FAI_FXX",
+          "srs": "EPSG:2154"
+        }
+      },
+      {
+        "title": "Surface inondable - Aléa submersion moyen ou centennal",
+        "ident": "Surface_inondable_Aléa_submersion_moyen_ou_centennal",
+        "description": "Les inondations et les submersions marines sont les risques naturels qui concernent le plus grand nombre de personnes en France. Phénomène saisonnier qui trouve sa source dans des précipitations soutenues et durables, l’inondation peut aussi venir de la mer ou des eaux souterraines. Ce risque naturel peut être fortement accentué par les activités humaines et les aménagements.",
+        "metadata_url": "https://www.georisques.gouv.fr/donnees/bases-de-donnees/zonages-inondation-rapportage-2020",
+        "type": "wms_urba_layer",
+        "params": {
+          "url": "https://www.georisques.gouv.fr/services",
+          "format": "image/png",
+          "name": "ALEA_SYNT_03_02MOY_FXX",
+          "srs": "EPSG:2154"
+        }
+      },
+      {
+        "title": "Surface inondable - Aléa débordement de cours d'eau fréquent ou décennal",
+        "ident": "Surface_inondable_Aléa_débordement_de_cours_d'eau_fréquent_ou_décennal",
+        "description": "Les inondations et les submersions marines sont les risques naturels qui concernent le plus grand nombre de personnes en France. Phénomène saisonnier qui trouve sa source dans des précipitations soutenues et durables, l’inondation peut aussi venir de la mer ou des eaux souterraines. Ce risque naturel peut être fortement accentué par les activités humaines et les aménagements.",
+        "metadata_url": "https://www.georisques.gouv.fr/donnees/bases-de-donnees/zonages-inondation-rapportage-2020",
+        "type": "wms_urba_layer",
+        "params": {
+          "url": "https://www.georisques.gouv.fr/services",
+          "format": "image/png",
+          "name": "ALEA_SYNT_01_01FOR_FXX",
+          "srs": "EPSG:2154"
+        }
+      },
+      {
+        "title": "Canalisations de transport de matières dangereuses : Produits chimiques",
+        "ident": "Canalisations_de_transport_de_matières_dangereuses",
+        "description": "Il s’agit d’une canalisation qui achemine des produits chimiques vers des réseaux de distribution, d’autres ouvrages de transport, des entreprises industrielles ou commerciales, des sites de stockage ou de chargement. Cette dénomination ne s’applique pas au réseau de distribution de gaz en ville, mais aux conduites de transport longue distance, qui sont plus grosses (entre 8 et 120 cm de diamètre) et fonctionnent à des pressions plus importantes (jusqu’à 94 bars).",
+        "metadata_url": "https://www.georisques.gouv.fr/cartes-interactives#/",
+        "type": "wms_urba_layer",
+        "params": {
+          "url": "https://www.georisques.gouv.fr/services",
+          "format": "image/png",
+          "name": "C_PRODUITS_CHIM",
+          "srs": "EPSG:2154"
+        }
+      },
+      {
+        "title": "Canalisations de transport de matières dangereuses : Gaz",
+        "ident": "Canalisations_de_transport_de_matières_dangereuses",
+        "description": "Il s’agit d’une canalisation qui achemine du gaz vers des réseaux de distribution, d’autres ouvrages de transport, des entreprises industrielles ou commerciales, des sites de stockage ou de chargement. Cette dénomination ne s’applique pas au réseau de distribution de gaz en ville, mais aux conduites de transport longue distance, qui sont plus grosses (entre 8 et 120 cm de diamètre) et fonctionnent à des pressions plus importantes (jusqu’à 94 bars).",
+        "metadata_url": "https://www.georisques.gouv.fr/cartes-interactives#/",
+        "type": "wms_urba_layer",
+        "params": {
+          "url": "https://www.georisques.gouv.fr/services",
+          "format": "image/png",
+          "name": "C_GAZ",
+          "srs": "EPSG:2154"
+        }
+      },
+      {
+        "title": "Canalisations de transport de matières dangereuses : Hydrocarbure",
+        "ident": "Canalisations_de_transport_de_matières_dangereuses",
+        "description": "Il s’agit d’une canalisation qui achemine des hydrocarbures vers des réseaux de distribution, d’autres ouvrages de transport, des entreprises industrielles ou commerciales, des sites de stockage ou de chargement. Cette dénomination ne s’applique pas au réseau de distribution de gaz en ville, mais aux conduites de transport longue distance, qui sont plus grosses (entre 8 et 120 cm de diamètre) et fonctionnent à des pressions plus importantes (jusqu’à 94 bars).",
+        "metadata_url": "https://www.georisques.gouv.fr/cartes-interactives#/",
+        "type": "wms_urba_layer",
+        "params": {
+          "url": "https://www.georisques.gouv.fr/services",
+          "format": "image/png",
+          "name": "C_HYDROCARBURES",
+          "srs": "EPSG:2154"
+        }
+      }
+    ]
+  }
