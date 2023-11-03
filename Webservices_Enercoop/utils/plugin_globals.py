@@ -51,7 +51,7 @@ class PluginGlobals:
     CONFIG_DIR_NAME = "config"
     CONFIG_FILE_NAMES = ["config.json"]
     CONFIG_FILE_URLS = [
-        "https://public.geo.enercoop.org/plugins/Webservices_Enercoop/config.json"
+        "https://raw.githubusercontent.com/LucasJumMou/config/main/config.json"
     ]
 
     # Hide resources with status = warn
