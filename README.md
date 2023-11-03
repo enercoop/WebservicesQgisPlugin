@@ -8,19 +8,24 @@ Ce projet est un fork du plugin [GeoGrandEst](https://github.com/geograndest/qgi
 
 ### Pour les développeurs
 
-Le répertoire des extensions QGIS 3 est localisé dans `$HOME/.local/share/QGIS/QGIS3/profiles/default/python/plugins/`. Afin de développer et tester rapidement les modifications, on clone le dépôt, puis l'on crée dans le répertoire d'extensions un lien symbolique vers celui-ci :
+Le répertoire des extensions externes de QGIS 3 est localisé dans :
+
+- Linux : `$HOME/.local/share/QGIS/QGIS3/profiles/default/python/plugins`
+- Windows : `C:\Users\USER\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins`
+- Mac OS : `Library/Application Support/QGIS/QGIS3/profiles/default/python/plugins`
+
+Afin de développer et tester rapidement les modifications, on clone ce dépôt, puis l'on crée dans le répertoire d'extensions un lien symbolique vers celui-ci :
 
 ```bash
 cd $HOME/.local/share/QGIS/QGIS3/profiles/default/python/plugins/
-ln -s monchemin/WebservicesQgisPlugin
+ln -s <chemin_vers_le_depot>/WebservicesQgisPlugin
 ```
 
 Puis, dans QGIS, activez l'extension (`Extensions > Installer/Gérer les extensions > Installées` - cocher "Webservices Enercoop"), et affichez le panneau latéral (`Extensions > Webservices Enercoop > Afficher le panneau latéral`).
 
 ### Pour les salariés
 
-L'installation et l'utilisation du plugin est documentée dans la [doc interne](https://si.enercoop.org/eprod:qgis_plugin_webservices).
-A ce jour, c'est un `.zip` que l'utilisateur télécharge sur [public.geo.enercoop.org](https://public.geo.enercoop.org/plugins/). A l'avenir, nous mettrons en place notre propre dépôt d'extension QGIS interne.
+L'installation et l'utilisation du plugin est documentée dans la [doc interne](https://si.enercoop.org/eprod:qgis_plugin_webservices). Il est nécessaire d'ajouter au préalable le dépôt de plugins interne à la liste des dépôts d'extensions QGIS, étape documentée [ici](https://si.enercoop.org/eprod:qgis_ajout_depot_interne).
 
 ## Séparation entre code `.py` du plugin et la liste de webservices `config.json`
 
