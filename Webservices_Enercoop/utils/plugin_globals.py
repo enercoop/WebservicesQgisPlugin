@@ -22,10 +22,10 @@ class PluginGlobals:
     NODE_TYPE_FOLDER = "folder"
     NODE_TYPE_WS = "web_service"
     NODE_TYPE_WMS_LAYER = "wms_layer"
-    NODE_TYPE_WMS_URBA_LAYER = "wms_urba_layer"
-    NODE_TYPE_WMS_ORTHO_LAYER = "wms_ortho_layer"
+    NODE_TYPE_WMS_URBA_SANDRE_LAYER = "wms_urba_sandre_layer"
+    NODE_TYPE_WMS_IGN_LAYER = "wms_ign_layer"
     NODE_TYPE_WMS_ENR_LAYER = "wms_enr_layer"
-    NODE_TYPE_WMS_PLAN_LAYER = "wms_plan_layer"
+    NODE_TYPE_WMS_IGN_CLE_LAYER = "wms_ign_cle_layer"
     NODE_TYPE_VECTOR_TILES_LAYER = "vector_layer"
     NODE_TYPE_WMTS_LAYER = "wmts_layer"
     NODE_TYPE_WMS_LAYER_STYLE = "wms_layer_style"
@@ -51,7 +51,7 @@ class PluginGlobals:
     CONFIG_DIR_NAME = "config"
     CONFIG_FILE_NAMES = ["config.json"]
     CONFIG_FILE_URLS = [
-        "https://raw.githubusercontent.com/LucasJumMou/config/main/config.json"
+        "https://public.geo.enercoop.org/plugins/Webservices_Enercoop/config.json"
     ]
 
     # Hide resources with status = warn

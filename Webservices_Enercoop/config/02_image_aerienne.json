@@ -10,7 +10,7 @@
         "ident": "BD_ORTHO_50cm",
         "description": "Mosaïque d’orthoimages produites tous les 3-4 ans.",
         "metadata_url": "https://geoservices.ign.fr/bdortho",
-        "type": "wms_ortho_layer",
+        "type": "wms_ign_layer",
         "params": {
           "url": "https://wxs.ign.fr/ortho/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
@@ -24,7 +24,7 @@
         "ident": "BD_ORTHO_20cm",
         "description": "Mosaïque d’orthoimages produites tous les 3-4 ans.",
         "metadata_url": "",
-        "type": "wms_ortho_layer",
+        "type": "wms_ign_layer",
         "params": {
           "url": "https://wxs.ign.fr/ortho/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
@@ -38,7 +38,7 @@
         "ident": "ORTHO_infra-rouge_couleur_(IRC)",
         "description": "",
         "metadata_url": "",
-        "type": "wms_ortho_layer",
+        "type": "wms_ign_layer",
         "params": {
           "url": "https://wxs.ign.fr/ortho/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
@@ -52,7 +52,7 @@
         "ident": "Ortho_Express_2022",
         "description": "Mosaïque d’orthoimages résultant d’un traitement massivement automatisé pour minimiser les délais de production.",
         "metadata_url": "https://www.geoportail.gouv.fr/donnees/ortho-express-2022",
-        "type": "wms_ortho_layer",
+        "type": "wms_ign_layer",
         "params": {
           "url": "https://wxs.ign.fr/ortho/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",

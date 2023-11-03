@@ -10,7 +10,7 @@
         "ident": "Photographies_aériennes_2020",
         "description": "",
         "metadata_url": "",
-        "type": "wms_ortho_layer",
+        "type": "wms_ign_layer",
         "params": {
           "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
@@ -24,7 +24,7 @@
         "ident": "Photographies_aériennes_2019",
         "description": "",
         "metadata_url": "",
-        "type": "wms_ortho_layer",
+        "type": "wms_ign_layer",
         "params": {
           "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
@@ -38,7 +38,7 @@
         "ident": "Photographies_aériennes_2018",
         "description": "",
         "metadata_url": "",
-        "type": "wms_ortho_layer",
+        "type": "wms_ign_layer",
         "params": {
           "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
@@ -52,7 +52,7 @@
         "ident": "Photographies_aériennes_2017",
         "description": "",
         "metadata_url": "",
-        "type": "wms_ortho_layer",
+        "type": "wms_ign_layer",
         "params": {
           "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
@@ -66,7 +66,7 @@
         "ident": "Photographies_aériennes_2016",
         "description": "",
         "metadata_url": "",
-        "type": "wms_ortho_layer",
+        "type": "wms_ign_layer",
         "params": {
           "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
@@ -80,7 +80,7 @@
         "ident": "Photographies_aériennes_2015",
         "description": "",
         "metadata_url": "",
-        "type": "wms_ortho_layer",
+        "type": "wms_ign_layer",
         "params": {
           "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
@@ -94,7 +94,7 @@
         "ident": "Photographies_aériennes_2014",
         "description": "",
         "metadata_url": "",
-        "type": "wms_ortho_layer",
+        "type": "wms_ign_layer",
         "params": {
           "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
@@ -108,7 +108,7 @@
         "ident": "Photographies_aériennes_2013",
         "description": "",
         "metadata_url": "",
-        "type": "wms_ortho_layer",
+        "type": "wms_ign_layer",
         "params": {
           "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
@@ -122,7 +122,7 @@
         "ident": "Photographies_aériennes_2012",
         "description": "",
         "metadata_url": "",
-        "type": "wms_ortho_layer",
+        "type": "wms_ign_layer",
         "params": {
           "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
@@ -136,7 +136,7 @@
         "ident": "Photographies_aériennes_2011",
         "description": "",
         "metadata_url": "",
-        "type": "wms_ortho_layer",
+        "type": "wms_ign_layer",
         "params": {
           "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
@@ -150,7 +150,7 @@
         "ident": "Photographies_aériennes_2010",
         "description": "",
         "metadata_url": "",
-        "type": "wms_ortho_layer",
+        "type": "wms_ign_layer",
         "params": {
           "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
@@ -164,7 +164,7 @@
         "ident": "Photographies_aériennes_2009",
         "description": "",
         "metadata_url": "",
-        "type": "wms_ortho_layer",
+        "type": "wms_ign_layer",
         "params": {
           "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
@@ -178,7 +178,7 @@
         "ident": "Photographies_aériennes_2008",
         "description": "",
         "metadata_url": "",
-        "type": "wms_ortho_layer",
+        "type": "wms_ign_layer",
         "params": {
           "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
@@ -192,7 +192,7 @@
         "ident": "Photographies_aériennes_2007",
         "description": "",
         "metadata_url": "",
-        "type": "wms_ortho_layer",
+        "type": "wms_ign_layer",
         "params": {
           "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
@@ -206,7 +206,7 @@
         "ident": "Photographies_aériennes_2006",
         "description": "",
         "metadata_url": "",
-        "type": "wms_ortho_layer",
+        "type": "wms_ign_layer",
         "params": {
           "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
@@ -220,7 +220,7 @@
         "ident": "Photographies_aériennes_2005",
         "description": "",
         "metadata_url": "",
-        "type": "wms_ortho_layer",
+        "type": "wms_ign_layer",
         "params": {
           "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
@@ -234,7 +234,7 @@
         "ident": "Photographies_aériennes_2004",
         "description": "",
         "metadata_url": "",
-        "type": "wms_ortho_layer",
+        "type": "wms_ign_layer",
         "params": {
           "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
@@ -248,7 +248,7 @@
         "ident": "Photographies_aériennes_2003",
         "description": "",
         "metadata_url": "",
-        "type": "wms_ortho_layer",
+        "type": "wms_ign_layer",
         "params": {
           "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
@@ -262,7 +262,7 @@
         "ident": "Photographies_aériennes_2002",
         "description": "",
         "metadata_url": "",
-        "type": "wms_ortho_layer",
+        "type": "wms_ign_layer",
         "params": {
           "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
@@ -276,7 +276,7 @@
         "ident": "Photographies_aériennes_2001",
         "description": "",
         "metadata_url": "",
-        "type": "wms_ortho_layer",
+        "type": "wms_ign_layer",
         "params": {
           "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
@@ -290,7 +290,7 @@
         "ident": "Photographies_aériennes_2000",
         "description": "",
         "metadata_url": "",
-        "type": "wms_ortho_layer",
+        "type": "wms_ign_layer",
         "params": {
           "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
@@ -304,7 +304,7 @@
         "ident": "Photographies_aériennes_2011-2015",
         "description": "",
         "metadata_url": "",
-        "type": "wms_ortho_layer",
+        "type": "wms_ign_layer",
         "params": {
           "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
@@ -318,7 +318,7 @@
         "ident": "Photographies_aériennes_2006-2010",
         "description": "",
         "metadata_url": "",
-        "type": "wms_ortho_layer",
+        "type": "wms_ign_layer",
         "params": {
           "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
@@ -332,7 +332,7 @@
         "ident": "Photographies_aériennes_2000-2005",
         "description": "",
         "metadata_url": "",
-        "type": "wms_ortho_layer",
+        "type": "wms_ign_layer",
         "params": {
           "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
@@ -346,7 +346,7 @@
         "ident": "Photographies_aériennes_1950-1965",
         "description": "",
         "metadata_url": "",
-        "type": "wms_ortho_layer",
+        "type": "wms_ign_layer",
         "params": {
           "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",

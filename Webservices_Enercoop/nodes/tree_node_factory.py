@@ -19,9 +19,9 @@ from .nodes import (
     WmsStyleLayerTreeNode,
     WmtsLayerTreeNode,
     WfsFeatureTypeTreeNode,
-    WmsLayerUrbaTreeNode,
-    WmsLayerOrthoTreeNode,
-    WmsLayerPlanTreeNode,
+    WmsLayerUrbaSandreTreeNode,
+    WmsLayerIgnTreeNode,
+    WmsLayerIgnCleTreeNode,
     WmsEnrTreeNode,
     VectorTilesTreeNode
 )
@@ -146,8 +146,8 @@ class TreeNodeFactory:
                     parent_node,
                 )
 
-            elif node_type == PluginGlobals.instance().NODE_TYPE_WMS_URBA_LAYER:
-                node = WmsLayerUrbaTreeNode(
+            elif node_type == PluginGlobals.instance().NODE_TYPE_WMS_URBA_SANDRE_LAYER:
+                node = WmsLayerUrbaSandreTreeNode(
                     node_title,
                     node_type,
                     node_description,
@@ -159,8 +159,8 @@ class TreeNodeFactory:
                     parent_node,
                 )
 
-            elif node_type == PluginGlobals.instance().NODE_TYPE_WMS_ORTHO_LAYER:
-                node = WmsLayerOrthoTreeNode(
+            elif node_type == PluginGlobals.instance().NODE_TYPE_WMS_IGN_LAYER:
+                node = WmsLayerIgnTreeNode(
                     node_title,
                     node_type,
                     node_description,
@@ -198,8 +198,8 @@ class TreeNodeFactory:
                     parent_node,
                 )
 
-            elif node_type == PluginGlobals.instance().NODE_TYPE_WMS_PLAN_LAYER:
-                node = WmsLayerPlanTreeNode(
+            elif node_type == PluginGlobals.instance().NODE_TYPE_WMS_IGN_CLE_LAYER:
+                node = WmsLayerIgnCleTreeNode(
                     node_title,
                     node_type,
                     node_description,

@@ -9,7 +9,7 @@
         "ident": "Monuments_historiques",
         "description": " Un monument historique est un immeuble (bâti ou non bâti : parc, jardin, grotte…) ou un objet mobilier (meuble ou immeuble par destination) recevant un statut juridique particulier destiné à le protéger pour son intérêt historique, artistique, architectural mais aussi technique ou scientifique afin qu’il soit conservé, restauré et mis en valeur.",
         "metadata_url": "https://www.geoportail-urbanisme.gouv.fr/services/",
-        "type": "wms_urba_layer",
+        "type": "wms_urba_sandre_layer",
         "params": {
           "url": "https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v",
           "format": "image/png",
@@ -22,7 +22,7 @@
         "ident": "Monuments naturels et sites",
         "description": " Un site inscrit est un espace naturel ou bâti de caractère artistique, historique, scientifique, légendaire ou pittoresque qui nécessite d’être conservé.",
         "metadata_url": "https://www.culture.gouv.fr/Regions/Drac-Centre-Val-de-Loire/Nos-secteurs-d-activite/Espaces-proteges/Les-sites-inscrits-et-classes",
-        "type": "wms_urba_layer",
+        "type": "wms_urba_sandre_layer",
         "params": {
           "url": "https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v",
           "format": "image/png",
@@ -35,7 +35,7 @@
         "ident": "Emprise_des_documents_d'urbanisme_(petite échelle)",
         "description": "Emprise des documents d'urbanisme (petite échelle)",
         "metadata_url": "https://www.geoportail-urbanisme.gouv.fr/services/",
-        "type": "wms_urba_layer",
+        "type": "wms_urba_sandre_layer",
         "params": {
           "url": "https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v",
           "format": "image/png",
@@ -48,7 +48,7 @@
         "ident": "PLU_Documents_d'urbanisme",
         "description": "PLU, POS, CC : Le plan local d'urbanisme (PLU) -anciennement plan d'occupation des sols (POS)- fixe les règles générales et les servitudes d'utilisation du sol sur la totalité du territoire communal. ",
         "metadata_url": "https://www.geoportail-urbanisme.gouv.fr/services/",
-        "type": "wms_urba_layer",
+        "type": "wms_urba_sandre_layer",
         "params": {
           "url": "https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v",
           "format": "image/png",
@@ -61,7 +61,7 @@
         "ident": "SCOT_Schéma_de_Cohérence_Territoriale",
         "description": "Le schéma de cohérence territoriale (SCoT) est un document d'urbanisme qui, à l'échelle d'un territoire de projet ou bassin de vie (périmètre intercommunal ou au-delà), détermine l'organisation spatiale et les grandes orientations de développement d'un territoire.",
         "metadata_url": "https://www.geoportail-urbanisme.gouv.fr/services/",
-        "type": "wms_urba_layer",
+        "type": "wms_urba_sandre_layer",
         "params": {
           "url": "https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v",
           "format": "image/png",
@@ -88,7 +88,7 @@
         "ident": "Prescriptions",
         "description": "",
         "metadata_url": "https://www.service-public.fr/particuliers/vosdroits/F642",
-        "type": "wms_urba_layer",
+        "type": "wms_urba_sandre_layer",
         "params": {
           "url": "https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v",
           "format": "image/png",
@@ -101,7 +101,7 @@
         "ident": "Transport_de_gaz_hydrocarbures_et_produits_chimiques",
         "description": "Le transport d'énergie électrique est le mouvement massif d'énergie électrique d'un site de production, tel qu'une centrale électrique, à un poste électrique.",
         "metadata_url": "https://www.service-public.fr/particuliers/vosdroits/F642",
-        "type": "wms_urba_layer",
+        "type": "wms_urba_sandre_layer",
         "params": {
           "url": "https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v",
           "format": "image/png",
@@ -114,7 +114,7 @@
         "ident": "Prescriptions_des_PSMV",
         "description": "Le PSMV est un document de planification prévu pour assurer la sauvegarde et la mise en valeur des sites patrimoniaux remarquables (et, avant eux, des secteurs sauvegardés).",
         "metadata_url": "https://www.service-public.fr/particuliers/vosdroits/F642",
-        "type": "wms_urba_layer",
+        "type": "wms_urba_sandre_layer",
         "params": {
           "url": "https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v",
           "format": "image/png",
@@ -127,7 +127,7 @@
         "ident": "Aéroports",
         "description": "",
         "metadata_url": "",
-        "type": "wms_ortho_layer",
+        "type": "wms_ign_layer",
         "params": {
           "url": "https://wxs.ign.fr/topographie/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/png",

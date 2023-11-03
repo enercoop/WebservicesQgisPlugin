@@ -10,7 +10,7 @@
         "ident": "Plan_IGN",
         "description": "Fond cartographique proposé par l’IGN.",
         "metadata_url": "https://www.geoportail.gouv.fr/actualites/plan-ign-la-nouvelle-reference-cartographique",
-        "type": "wms_plan_layer",
+        "type": "wms_ign_cle_layer",
         "params": {
           "url": "https://wxs.ign.fr/lambert93/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
           "format": "image/png",
@@ -37,7 +37,7 @@
         "ident": "ADMINEXPRESS_COG",
         "description": "Délimitations administratives française qui varient en fonction du zoom sur la carte : Contient les Régions, Départements, EPCI, Métropoles, Communes.",
         "metadata_url": "https://geoservices.ign.fr/adminexpress",
-        "type": "wms_ortho_layer",
+        "type": "wms_ign_layer",
         "params": {
           "url": "https://wxs.ign.fr/administratif/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/png",

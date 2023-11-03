@@ -1,5 +1,5 @@
 {
-  "title": "Webservices_Enercoop - version du 11 octobre 2023",
+  "title": "Webservices_Enercoop - version du 12 octobre 2023",
   "ident": "316522f0-d2ef-4422-b935-e333815b4f7e",
   "description": "",
   "type": "folder",
@@ -16,7 +16,7 @@
           "ident": "Plan_IGN",
           "description": "Fond cartographique proposé par l’IGN.",
           "metadata_url": "https://www.geoportail.gouv.fr/actualites/plan-ign-la-nouvelle-reference-cartographique",
-          "type": "wms_plan_layer",
+          "type": "wms_ign_cle_layer",
           "params": {
             "url": "https://wxs.ign.fr/lambert93/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
             "format": "image/png",
@@ -43,7 +43,7 @@
           "ident": "ADMINEXPRESS_COG",
           "description": "Délimitations administratives française qui varient en fonction du zoom sur la carte : Contient les Régions, Départements, EPCI, Métropoles, Communes.",
           "metadata_url": "https://geoservices.ign.fr/adminexpress",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/administratif/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/png",
@@ -66,7 +66,7 @@
           "ident": "BD_ORTHO_50cm",
           "description": "Mosaïque d’orthoimages produites tous les 3-4 ans.",
           "metadata_url": "https://geoservices.ign.fr/bdortho",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/ortho/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
@@ -80,7 +80,7 @@
           "ident": "BD_ORTHO_20cm",
           "description": "Mosaïque d’orthoimages produites tous les 3-4 ans.",
           "metadata_url": "",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/ortho/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
@@ -94,7 +94,7 @@
           "ident": "ORTHO_infra-rouge_couleur_(IRC)",
           "description": "",
           "metadata_url": "",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/ortho/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
@@ -108,7 +108,7 @@
           "ident": "Ortho_Express_2022",
           "description": "Mosaïque d’orthoimages résultant d’un traitement massivement automatisé pour minimiser les délais de production.",
           "metadata_url": "https://www.geoportail.gouv.fr/donnees/ortho-express-2022",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/ortho/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
@@ -131,7 +131,7 @@
           "ident": "Photographies_aériennes_2020",
           "description": "",
           "metadata_url": "",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
@@ -145,7 +145,7 @@
           "ident": "Photographies_aériennes_2019",
           "description": "",
           "metadata_url": "",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
@@ -159,7 +159,7 @@
           "ident": "Photographies_aériennes_2018",
           "description": "",
           "metadata_url": "",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
@@ -173,7 +173,7 @@
           "ident": "Photographies_aériennes_2017",
           "description": "",
           "metadata_url": "",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
@@ -187,7 +187,7 @@
           "ident": "Photographies_aériennes_2016",
           "description": "",
           "metadata_url": "",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
@@ -201,7 +201,7 @@
           "ident": "Photographies_aériennes_2015",
           "description": "",
           "metadata_url": "",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
@@ -215,7 +215,7 @@
           "ident": "Photographies_aériennes_2014",
           "description": "",
           "metadata_url": "",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
@@ -229,7 +229,7 @@
           "ident": "Photographies_aériennes_2013",
           "description": "",
           "metadata_url": "",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
@@ -243,7 +243,7 @@
           "ident": "Photographies_aériennes_2012",
           "description": "",
           "metadata_url": "",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
@@ -257,7 +257,7 @@
           "ident": "Photographies_aériennes_2011",
           "description": "",
           "metadata_url": "",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
@@ -271,7 +271,7 @@
           "ident": "Photographies_aériennes_2010",
           "description": "",
           "metadata_url": "",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
@@ -285,7 +285,7 @@
           "ident": "Photographies_aériennes_2009",
           "description": "",
           "metadata_url": "",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
@@ -299,7 +299,7 @@
           "ident": "Photographies_aériennes_2008",
           "description": "",
           "metadata_url": "",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
@@ -313,7 +313,7 @@
           "ident": "Photographies_aériennes_2007",
           "description": "",
           "metadata_url": "",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
@@ -327,7 +327,7 @@
           "ident": "Photographies_aériennes_2006",
           "description": "",
           "metadata_url": "",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
@@ -341,7 +341,7 @@
           "ident": "Photographies_aériennes_2005",
           "description": "",
           "metadata_url": "",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
@@ -355,7 +355,7 @@
           "ident": "Photographies_aériennes_2004",
           "description": "",
           "metadata_url": "",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
@@ -369,7 +369,7 @@
           "ident": "Photographies_aériennes_2003",
           "description": "",
           "metadata_url": "",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
@@ -383,7 +383,7 @@
           "ident": "Photographies_aériennes_2002",
           "description": "",
           "metadata_url": "",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
@@ -397,7 +397,7 @@
           "ident": "Photographies_aériennes_2001",
           "description": "",
           "metadata_url": "",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
@@ -411,7 +411,7 @@
           "ident": "Photographies_aériennes_2000",
           "description": "",
           "metadata_url": "",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
@@ -425,7 +425,7 @@
           "ident": "Photographies_aériennes_2011-2015",
           "description": "",
           "metadata_url": "",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
@@ -439,7 +439,7 @@
           "ident": "Photographies_aériennes_2006-2010",
           "description": "",
           "metadata_url": "",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
@@ -453,7 +453,7 @@
           "ident": "Photographies_aériennes_2000-2005",
           "description": "",
           "metadata_url": "",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
@@ -467,7 +467,7 @@
           "ident": "Photographies_aériennes_1950-1965",
           "description": "",
           "metadata_url": "",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
@@ -490,7 +490,7 @@
           "ident": "Registre_Parcellaire_Graphique_(RPG)_Dernière édition",
           "description": "BDD géographique servant de référence à l'instruction des aides de la politique agricole commune (PAC).",
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
             "format": "image/png",
@@ -504,7 +504,7 @@
           "ident": "Bandes_tampons_des_cours_d'eau_BCAE_4",
           "description": "Cours d’eau concernés par les règles des Bonnes Conditions Agricoles et Environnementales (BCAE) de la PAC et devant rester bordés d'une bande enherbée.",
           "metadata_url": "https://www.geoportail.gouv.fr/donnees/cours-eau-bcae-2021",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
             "format": "image/png",
@@ -518,7 +518,7 @@
           "ident": "Prairies_sensibles_BCAE 9",
           "description": "Prairies permanentes désignées comme écologiquement sensibles au titre des règles des bonnes conditions agricoles et environnementales (BCAE)",
           "metadata_url": "https://www.geoportail.gouv.fr/donnees/prairies-sensibles-bcae",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
             "format": "image/png",
@@ -532,7 +532,7 @@
           "ident": "Parcelles_AOC_viticoles",
           "description": "Délimitations parcellaires AOC viticoles diffusées par l'INAO.",
           "metadata_url": "https://www.geoportail.gouv.fr/donnees/inao-aoc-viticoles-parcellaire",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/parcellaire/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
             "format": "image/png",
@@ -546,7 +546,7 @@
           "ident": "Registre_Parcellaire_Graphique_2021",
           "description": "BDD géographique servant de référence à l'instruction des aides de la politique agricole commune (PAC).",
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
             "format": "image/png",
@@ -560,7 +560,7 @@
           "ident": "Registre_Parcellaire_Graphique_2020",
           "description": "BDD géographique servant de référence à l'instruction des aides de la politique agricole commune (PAC).",
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
             "format": "image/png",
@@ -574,7 +574,7 @@
           "ident": "Registre_Parcellaire_Graphique_2019",
           "description": "BDD géographique servant de référence à l'instruction des aides de la politique agricole commune (PAC).",
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
             "format": "image/png",
@@ -588,7 +588,7 @@
           "ident": "Registre_Parcellaire_Graphique_2018",
           "description": "BDD géographique servant de référence à l'instruction des aides de la politique agricole commune (PAC).",
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
             "format": "image/png",
@@ -602,7 +602,7 @@
           "ident": "Registre_Parcellaire_Graphique_2017",
           "description": "BDD géographique servant de référence à l'instruction des aides de la politique agricole commune (PAC).",
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
             "format": "image/png",
@@ -616,7 +616,7 @@
           "ident": "Registre_Parcellaire_Graphique_2016",
           "description": "BDD géographique servant de référence à l'instruction des aides de la politique agricole commune (PAC).",
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
             "format": "image/png",
@@ -630,7 +630,7 @@
           "ident": "Registre_Parcellaire_Graphique_2015",
           "description": "BDD géographique servant de référence à l'instruction des aides de la politique agricole commune (PAC).",
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
             "format": "image/png",
@@ -644,7 +644,7 @@
           "ident": "Registre_Parcellaire_Graphique_2014",
           "description": "BDD géographique servant de référence à l'instruction des aides de la politique agricole commune (PAC).",
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
             "format": "image/png",
@@ -658,7 +658,7 @@
           "ident": "Registre_Parcellaire_Graphique_2013",
           "description": "BDD géographique servant de référence à l'instruction des aides de la politique agricole commune (PAC).",
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
             "format": "image/png",
@@ -672,7 +672,7 @@
           "ident": "Registre_Parcellaire_Graphique_2012",
           "description": "BDD géographique servant de référence à l'instruction des aides de la politique agricole commune (PAC).",
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
             "format": "image/png",
@@ -686,7 +686,7 @@
           "ident": "Registre_Parcellaire_Graphique_2011",
           "description": "BDD géographique servant de référence à l'instruction des aides de la politique agricole commune (PAC).",
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
             "format": "image/png",
@@ -700,7 +700,7 @@
           "ident": "Registre_Parcellaire_Graphique_2010",
           "description": "BDD géographique servant de référence à l'instruction des aides de la politique agricole commune (PAC).",
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
             "format": "image/png",
@@ -714,7 +714,7 @@
           "ident": "Registre_Parcellaire_Graphique_2009",
           "description": "BDD géographique servant de référence à l'instruction des aides de la politique agricole commune (PAC).",
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
             "format": "image/png",
@@ -728,7 +728,7 @@
           "ident": "Registre_Parcellaire_Graphique_2008",
           "description": "BDD géographique servant de référence à l'instruction des aides de la politique agricole commune (PAC).",
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
             "format": "image/png",
@@ -742,7 +742,7 @@
           "ident": "Registre_Parcellaire_Graphique_2007",
           "description": "BDD géographique servant de référence à l'instruction des aides de la politique agricole commune (PAC).",
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
             "format": "image/png",
@@ -765,7 +765,7 @@
           "ident": "OCS_GE_Couverture du sol",
           "description": "L'OCcupation du Sol à Grande Echelle (OCS GE) est une base de données vectorielle produite par l'IGN pour la description de l’occupation du sol. Elle s’appuie sur un modèle ouvert séparant la couverture du sol et l’usage du sol.",
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/ocs-ge",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/ocsge/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
             "format": "image/png",
@@ -779,7 +779,7 @@
           "ident": "OCS_GE_Usage du sol",
           "description": "L'OCcupation du Sol à Grande Echelle (OCS GE) est une base de données vectorielle produite par l'IGN pour la description de l’occupation du sol. Elle s’appuie sur un modèle ouvert séparant la couverture du sol et l’usage du sol.",
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/ocs-ge",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/ocsge/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
             "format": "image/png",
@@ -815,7 +815,7 @@
           "ident": "Altitude_Carte du relief",
           "description": "Représentation de l’altitude sous forme de teintes hypsométriques (fausses couleurs). ",
           "metadata_url": "https://www.geoportail.gouv.fr/donnees/carte-du-relief",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/altimetrie/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
@@ -829,7 +829,7 @@
           "ident": "Carte_des_pentes",
           "description": "Représentation des classes de pentes supérieures à 30°, 35°, 40°, et 45° obtenues par traitement du MNT RGE ALTI au pas de 1m.",
           "metadata_url": "https://www.geoportail.gouv.fr/donnees/carte-des-pentes",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/altimetrie/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/png",
@@ -843,7 +843,7 @@
           "ident": "Courbes_de_niveau",
           "description": "Modèle numérique de terrain sous forme de courbes de même altitude, appelées aussi « isoplèthes d’altitude »",
           "metadata_url": "https://geoservices.ign.fr/documentation/donnees/alti/courbes-de-niveau",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/altimetrie/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/png",
@@ -1219,7 +1219,7 @@
           "ident": "Sites_et_Sols_Pollués_ou_potentiellement_pollués_(SSP_ex-BASOL)",
           "description": "Sites et sols pollués (ou potentiellement pollués) appelant une action des pouvoirs publics, à titre préventif ou curatif.",
           "metadata_url": "https://www.georisques.gouv.fr/articles-risques/pollutions-sols-sis-anciens-sites-industriels/basol",
-          "type": "wms_urba_layer",
+          "type": "wms_urba_sandre_layer",
           "params": {
             "url": "https://www.georisques.gouv.fr/services",
             "format": "image/png",
@@ -1246,7 +1246,7 @@
           "ident": "Surface_inondable_Aléa_submersion_rare_ou_millénial",
           "description": "Les inondations et les submersions marines sont les risques naturels qui concernent le plus grand nombre de personnes en France. Phénomène saisonnier qui trouve sa source dans des précipitations soutenues et durables, l’inondation peut aussi venir de la mer ou des eaux souterraines. Ce risque naturel peut être fortement accentué par les activités humaines et les aménagements.",
           "metadata_url": "https://www.georisques.gouv.fr/donnees/bases-de-donnees/zonages-inondation-rapportage-2020",
-          "type": "wms_urba_layer",
+          "type": "wms_urba_sandre_layer",
           "params": {
             "url": "https://www.georisques.gouv.fr/services",
             "format": "image/png",
@@ -1259,7 +1259,7 @@
           "ident": "Surface_inondable_Aléa_submersion_moyen_ou_centennal",
           "description": "Les inondations et les submersions marines sont les risques naturels qui concernent le plus grand nombre de personnes en France. Phénomène saisonnier qui trouve sa source dans des précipitations soutenues et durables, l’inondation peut aussi venir de la mer ou des eaux souterraines. Ce risque naturel peut être fortement accentué par les activités humaines et les aménagements.",
           "metadata_url": "https://www.georisques.gouv.fr/donnees/bases-de-donnees/zonages-inondation-rapportage-2020",
-          "type": "wms_urba_layer",
+          "type": "wms_urba_sandre_layer",
           "params": {
             "url": "https://www.georisques.gouv.fr/services",
             "format": "image/png",
@@ -1272,7 +1272,7 @@
           "ident": "Surface_inondable_Aléa_débordement_de_cours_d'eau_fréquent_ou_décennal",
           "description": "Les inondations et les submersions marines sont les risques naturels qui concernent le plus grand nombre de personnes en France. Phénomène saisonnier qui trouve sa source dans des précipitations soutenues et durables, l’inondation peut aussi venir de la mer ou des eaux souterraines. Ce risque naturel peut être fortement accentué par les activités humaines et les aménagements.",
           "metadata_url": "https://www.georisques.gouv.fr/donnees/bases-de-donnees/zonages-inondation-rapportage-2020",
-          "type": "wms_urba_layer",
+          "type": "wms_urba_sandre_layer",
           "params": {
             "url": "https://www.georisques.gouv.fr/services",
             "format": "image/png",
@@ -1285,7 +1285,7 @@
           "ident": "Canalisations_de_transport_de_matières_dangereuses",
           "description": "Il s’agit d’une canalisation qui achemine des produits chimiques vers des réseaux de distribution, d’autres ouvrages de transport, des entreprises industrielles ou commerciales, des sites de stockage ou de chargement. Cette dénomination ne s’applique pas au réseau de distribution de gaz en ville, mais aux conduites de transport longue distance, qui sont plus grosses (entre 8 et 120 cm de diamètre) et fonctionnent à des pressions plus importantes (jusqu’à 94 bars).",
           "metadata_url": "https://www.georisques.gouv.fr/cartes-interactives#/",
-          "type": "wms_urba_layer",
+          "type": "wms_urba_sandre_layer",
           "params": {
             "url": "https://www.georisques.gouv.fr/services",
             "format": "image/png",
@@ -1298,7 +1298,7 @@
           "ident": "Canalisations_de_transport_de_matières_dangereuses",
           "description": "Il s’agit d’une canalisation qui achemine du gaz vers des réseaux de distribution, d’autres ouvrages de transport, des entreprises industrielles ou commerciales, des sites de stockage ou de chargement. Cette dénomination ne s’applique pas au réseau de distribution de gaz en ville, mais aux conduites de transport longue distance, qui sont plus grosses (entre 8 et 120 cm de diamètre) et fonctionnent à des pressions plus importantes (jusqu’à 94 bars).",
           "metadata_url": "https://www.georisques.gouv.fr/cartes-interactives#/",
-          "type": "wms_urba_layer",
+          "type": "wms_urba_sandre_layer",
           "params": {
             "url": "https://www.georisques.gouv.fr/services",
             "format": "image/png",
@@ -1311,7 +1311,7 @@
           "ident": "Canalisations_de_transport_de_matières_dangereuses",
           "description": "Il s’agit d’une canalisation qui achemine des hydrocarbures vers des réseaux de distribution, d’autres ouvrages de transport, des entreprises industrielles ou commerciales, des sites de stockage ou de chargement. Cette dénomination ne s’applique pas au réseau de distribution de gaz en ville, mais aux conduites de transport longue distance, qui sont plus grosses (entre 8 et 120 cm de diamètre) et fonctionnent à des pressions plus importantes (jusqu’à 94 bars).",
           "metadata_url": "https://www.georisques.gouv.fr/cartes-interactives#/",
-          "type": "wms_urba_layer",
+          "type": "wms_urba_sandre_layer",
           "params": {
             "url": "https://www.georisques.gouv.fr/services",
             "format": "image/png",
@@ -1332,7 +1332,7 @@
           "ident": "PCI",
           "description": "Le plan cadastral est un assemblage d’environ 600 000 feuilles ou planches représentant chacune une section ou une partie d’une section cadastrale.",
           "metadata_url": "https://geoservices.ign.fr/parcellaire-express-pci",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/parcellaire/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
             "format": "image/png",
@@ -1354,7 +1354,7 @@
           "ident": "Monuments_historiques",
           "description": " Un monument historique est un immeuble (bâti ou non bâti : parc, jardin, grotte…) ou un objet mobilier (meuble ou immeuble par destination) recevant un statut juridique particulier destiné à le protéger pour son intérêt historique, artistique, architectural mais aussi technique ou scientifique afin qu’il soit conservé, restauré et mis en valeur.",
           "metadata_url": "https://www.geoportail-urbanisme.gouv.fr/services/",
-          "type": "wms_urba_layer",
+          "type": "wms_urba_sandre_layer",
           "params": {
             "url": "https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v",
             "format": "image/png",
@@ -1367,7 +1367,7 @@
           "ident": "Monuments naturels et sites",
           "description": " Un site inscrit est un espace naturel ou bâti de caractère artistique, historique, scientifique, légendaire ou pittoresque qui nécessite d’être conservé.",
           "metadata_url": "https://www.culture.gouv.fr/Regions/Drac-Centre-Val-de-Loire/Nos-secteurs-d-activite/Espaces-proteges/Les-sites-inscrits-et-classes",
-          "type": "wms_urba_layer",
+          "type": "wms_urba_sandre_layer",
           "params": {
             "url": "https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v",
             "format": "image/png",
@@ -1380,7 +1380,7 @@
           "ident": "Emprise_des_documents_d'urbanisme_(petite échelle)",
           "description": "Emprise des documents d'urbanisme (petite échelle)",
           "metadata_url": "https://www.geoportail-urbanisme.gouv.fr/services/",
-          "type": "wms_urba_layer",
+          "type": "wms_urba_sandre_layer",
           "params": {
             "url": "https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v",
             "format": "image/png",
@@ -1393,7 +1393,7 @@
           "ident": "PLU_Documents_d'urbanisme",
           "description": "PLU, POS, CC : Le plan local d'urbanisme (PLU) -anciennement plan d'occupation des sols (POS)- fixe les règles générales et les servitudes d'utilisation du sol sur la totalité du territoire communal. ",
           "metadata_url": "https://www.geoportail-urbanisme.gouv.fr/services/",
-          "type": "wms_urba_layer",
+          "type": "wms_urba_sandre_layer",
           "params": {
             "url": "https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v",
             "format": "image/png",
@@ -1406,7 +1406,7 @@
           "ident": "SCOT_Schéma_de_Cohérence_Territoriale",
           "description": "Le schéma de cohérence territoriale (SCoT) est un document d'urbanisme qui, à l'échelle d'un territoire de projet ou bassin de vie (périmètre intercommunal ou au-delà), détermine l'organisation spatiale et les grandes orientations de développement d'un territoire.",
           "metadata_url": "https://www.geoportail-urbanisme.gouv.fr/services/",
-          "type": "wms_urba_layer",
+          "type": "wms_urba_sandre_layer",
           "params": {
             "url": "https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v",
             "format": "image/png",
@@ -1433,7 +1433,7 @@
           "ident": "Prescriptions",
           "description": "",
           "metadata_url": "https://www.service-public.fr/particuliers/vosdroits/F642",
-          "type": "wms_urba_layer",
+          "type": "wms_urba_sandre_layer",
           "params": {
             "url": "https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v",
             "format": "image/png",
@@ -1446,7 +1446,7 @@
           "ident": "Transport_de_gaz_hydrocarbures_et_produits_chimiques",
           "description": "Le transport d'énergie électrique est le mouvement massif d'énergie électrique d'un site de production, tel qu'une centrale électrique, à un poste électrique.",
           "metadata_url": "https://www.service-public.fr/particuliers/vosdroits/F642",
-          "type": "wms_urba_layer",
+          "type": "wms_urba_sandre_layer",
           "params": {
             "url": "https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v",
             "format": "image/png",
@@ -1459,7 +1459,7 @@
           "ident": "Prescriptions_des_PSMV",
           "description": "Le PSMV est un document de planification prévu pour assurer la sauvegarde et la mise en valeur des sites patrimoniaux remarquables (et, avant eux, des secteurs sauvegardés).",
           "metadata_url": "https://www.service-public.fr/particuliers/vosdroits/F642",
-          "type": "wms_urba_layer",
+          "type": "wms_urba_sandre_layer",
           "params": {
             "url": "https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v",
             "format": "image/png",
@@ -1472,7 +1472,7 @@
           "ident": "Aéroports",
           "description": "",
           "metadata_url": "",
-          "type": "wms_ortho_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/topographie/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/png",
@@ -1514,7 +1514,7 @@
               "ident": "Cartographie des accès biomethane",
               "description": "Accordement optimal des projets d’injection d’une zone en minimisant les coûts d’adaptation des réseaux pour la collectivité.",
               "metadata_url": "https://www.data.gouv.fr/fr/datasets/cartographie-biomethane-dacces-aux-reseaux/",
-              "type": "wms_ortho_layer",
+              "type": "wms_ign_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
                 "format": "image/png",
@@ -1528,7 +1528,7 @@
               "ident": "Estimations des besoins de chaleur (chauffage et ECS) du secteur industriel",
               "description": "",
               "metadata_url": "https://reseaux-chaleur.cerema.fr/donnees-et-cartographies/cartographie-des-besoins-chaleur-et-froid-secteur-france",
-              "type": "wms_ortho_layer",
+              "type": "wms_ign_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
                 "format": "image/png",
@@ -1542,7 +1542,7 @@
               "ident": "Estimations des besoins de chaleur (chauffage et ECS) du secteur résidentiel",
               "description": "",
               "metadata_url": "https://reseaux-chaleur.cerema.fr/donnees-et-cartographies/cartographie-des-besoins-chaleur-et-froid-secteur-france",
-              "type": "wms_ortho_layer",
+              "type": "wms_ign_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
                 "format": "image/png",
@@ -1556,7 +1556,7 @@
               "ident": "Estimations des besoins de chaleur (chauffage et ECS) du secteur tertiaire",
               "description": "",
               "metadata_url": "https://reseaux-chaleur.cerema.fr/donnees-et-cartographies/cartographie-des-besoins-chaleur-et-froid-secteur-france",
-              "type": "wms_ortho_layer",
+              "type": "wms_ign_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
                 "format": "image/png",
@@ -1570,7 +1570,7 @@
               "ident": "Estimations des besoins de froid du secteur tertiaire",
               "description": "",
               "metadata_url": "https://reseaux-chaleur.cerema.fr/donnees-et-cartographies/cartographie-des-besoins-chaleur-et-froid-secteur-france",
-              "type": "wms_ortho_layer",
+              "type": "wms_ign_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
                 "format": "image/png",
@@ -1584,7 +1584,7 @@
               "ident": "Localisation des installations de production de chaleur par Biogaz",
               "description": "Localisation des unités de Biogaz déjà en production",
               "metadata_url": "https://reseaux-chaleur.cerema.fr/espace-documentaire/developper-loffre-chaleur-issue-la-methanisation",
-              "type": "wms_ortho_layer",
+              "type": "wms_ign_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
                 "format": "image/png",
@@ -1598,7 +1598,7 @@
               "ident": "Localisation des installations de production de chaleur par incinération des déchets",
               "description": "Localisation des unités de production de chaleur par incinération des déchets en service",
               "metadata_url": "https://reseaux-chaleur.cerema.fr/espace-documentaire/reseaux-chaleur-et-energies-recuperation",
-              "type": "wms_ortho_layer",
+              "type": "wms_ign_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
                 "format": "image/png",
@@ -1612,7 +1612,7 @@
               "ident": "Localisation des installations de production de chaleur par méthanisation",
               "description": "Localisation des unités de production de chaleur par méthanisation en service",
               "metadata_url": "https://reseaux-chaleur.cerema.fr/espace-documentaire/developper-loffre-chaleur-issue-la-methanisation",
-              "type": "wms_ortho_layer",
+              "type": "wms_ign_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
                 "format": "image/png",
@@ -1626,7 +1626,7 @@
               "ident": "Localisation des installations de production d'électricité pouvant valoriser de la chaleur",
               "description": "",
               "metadata_url": "https://www.ecologie.gouv.fr/chaleur-recuperation-des-processus-industriels",
-              "type": "wms_ortho_layer",
+              "type": "wms_ign_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
                 "format": "image/png",
@@ -1640,7 +1640,7 @@
               "ident": "Localisation des points d'injection de biométhane",
               "description": "",
               "metadata_url": "https://www.data.gouv.fr/fr/datasets/points-dinjection-de-biomethane-en-france-en-service/",
-              "type": "wms_ortho_layer",
+              "type": "wms_ign_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
                 "format": "image/png",
@@ -1654,7 +1654,7 @@
               "ident": "Localisation des réseaux de chaleur et de froid en France",
               "description": "",
               "metadata_url": "https://reseaux-chaleur.cerema.fr/espace-documentaire/les-reseaux-chaleur-en-france",
-              "type": "wms_ortho_layer",
+              "type": "wms_ign_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
                 "format": "image/png",
@@ -1668,7 +1668,7 @@
               "ident": "Potentiel de développement des réseaux de chaleur en PACA",
               "description": "",
               "metadata_url": "https://www.cerema.fr/fr/actualites/quel-potentiel-developpement-reseaux-chaleur-froid-region",
-              "type": "wms_ortho_layer",
+              "type": "wms_ign_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
                 "format": "image/png",
@@ -1682,7 +1682,7 @@
               "ident": "Potentiel de développement des réseaux de chaleur et de froid en région PACA",
               "description": "",
               "metadata_url": "https://www.cerema.fr/fr/actualites/quel-potentiel-developpement-reseaux-chaleur-froid-region",
-              "type": "wms_ortho_layer",
+              "type": "wms_ign_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
                 "format": "image/png",
@@ -1696,7 +1696,7 @@
               "ident": "Potentiel de développement des réseaux de froid en PACA",
               "description": "",
               "metadata_url": "https://www.cerema.fr/fr/actualites/quel-potentiel-developpement-reseaux-chaleur-froid-region",
-              "type": "wms_ortho_layer",
+              "type": "wms_ign_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
                 "format": "image/png",
@@ -1710,7 +1710,7 @@
               "ident": "Potentiel géothermique en PACA",
               "description": "",
               "metadata_url": "https://www.geothermies.fr/sites/default/files/inline-files/10._geothermie_en_provence_alpes_cote_dazur.pdf",
-              "type": "wms_ortho_layer",
+              "type": "wms_ign_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
                 "format": "image/png",
@@ -1724,7 +1724,7 @@
               "ident": "Localisation des points d'injection de biométhane",
               "description": "",
               "metadata_url": "https://www.data.gouv.fr/fr/datasets/points-dinjection-de-biomethane-en-france-en-service/",
-              "type": "wms_ortho_layer",
+              "type": "wms_ign_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
                 "format": "image/png",
@@ -1738,7 +1738,7 @@
               "ident": "Puissance cumulée des installations hydrauliques par commune",
               "description": "",
               "metadata_url": "",
-              "type": "wms_ortho_layer",
+              "type": "wms_ign_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
                 "format": "image/png",
@@ -1752,7 +1752,7 @@
               "ident": "Puissance cumulée électrique installée par filière renouvelable par commune",
               "description": "",
               "metadata_url": "https://www.data.gouv.fr/fr/datasets/production-electrique-annuelle-par-filiere-a-la-maille-commune/",
-              "type": "wms_ortho_layer",
+              "type": "wms_ign_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
                 "format": "image/png",
@@ -1774,7 +1774,7 @@
               "ident": "Localisation des mâts éolien",
               "description": "",
               "metadata_url": "https://www.ecologie.gouv.fr/eolien-terrestre",
-              "type": "wms_ortho_layer",
+              "type": "wms_ign_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
                 "format": "image/png",
@@ -1788,7 +1788,7 @@
               "ident": "Puissance cumulée des installations éoliennes par commune",
               "description": "",
               "metadata_url": "https://www.ecologie.gouv.fr/eolien-terrestre",
-              "type": "wms_ortho_layer",
+              "type": "wms_ign_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
                 "format": "image/png",
@@ -1802,7 +1802,7 @@
               "ident": "Zones à enjeux pour l'installation d'éoliennes",
               "description": "",
               "metadata_url": "https://www.ecologie.gouv.fr/eolien-terrestre",
-              "type": "wms_ortho_layer",
+              "type": "wms_ign_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
                 "format": "image/png",
@@ -1816,7 +1816,7 @@
               "ident": "Potentiel éolien terrestre - gisement de vent à 140m",
               "description": "",
               "metadata_url": "https://energie-fr-de.eu/de/windenergie/nachrichten/leser/hintergrundpapier-zu-windmessungen-und-windgutachten-fuer-die-standortbewertung-von-wea.html?file=files/ofaenr/04-notes-de-synthese/02-acces-libre/01-energie-eoliennne/170927_IWES_Mesures_et_expertises_de_vent_OFATE.pdf",
-              "type": "wms_urba_layer",
+              "type": "wms_urba_sandre_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/r/wms?VERSION%3D1.3.0",
                 "format": "image/png",
@@ -1829,7 +1829,7 @@
               "ident": "Potentiel éolien terrestre - gisement de vent à 160m",
               "description": "",
               "metadata_url": "https://energie-fr-de.eu/de/windenergie/nachrichten/leser/hintergrundpapier-zu-windmessungen-und-windgutachten-fuer-die-standortbewertung-von-wea.html?file=files/ofaenr/04-notes-de-synthese/02-acces-libre/01-energie-eoliennne/170927_IWES_Mesures_et_expertises_de_vent_OFATE.pdf",
-              "type": "wms_urba_layer",
+              "type": "wms_urba_sandre_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/r/wms?VERSION%3D1.3.0",
                 "format": "image/png",
@@ -1850,7 +1850,7 @@
               "ident": "Potentiel solaire sur toiture (méthode simplifiée)",
               "description": "",
               "metadata_url": "https://www.cerema.fr/fr/actualites/comment-identifier-potentiel-installation-panneaux-solaires",
-              "type": "wms_ortho_layer",
+              "type": "wms_ign_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
                 "format": "image/png",
@@ -1864,7 +1864,7 @@
               "ident": "Potentiel solaire au sol - friches susceptibles d’accueillir des installations photovoltaïques",
               "description": "",
               "metadata_url": "https://presse.ademe.fr/2019/05/etude-limportant-potentiel-des-friches-et-des-parkings-pour-developper-lenergie-photovoltaique.html",
-              "type": "wms_ortho_layer",
+              "type": "wms_ign_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
                 "format": "image/png",
@@ -1878,7 +1878,7 @@
               "ident": "Puissance cumulée des installations photovoltaïques par commune",
               "description": "",
               "metadata_url": "https://www.data.gouv.fr/fr/datasets/installations-de-production-de-la-filiere-solaire-par-commune/",
-              "type": "wms_ortho_layer",
+              "type": "wms_ign_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
                 "format": "image/png",
@@ -1892,7 +1892,7 @@
               "ident": "Unités foncières contenant des surfaces de stationnement non couvertes de plus de 500 m² (données déclaratives)",
               "description": "",
               "metadata_url": "",
-              "type": "wms_ortho_layer",
+              "type": "wms_ign_layer",
               "params": {
                 "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
                 "format": "image/png",
@@ -1917,7 +1917,7 @@
           "ident": "Segments de classement de continuité écologique - liste 1",
           "description": "Un Classement de Continuité Ecologique correspond à tout ou partie d'un cours ou d'un canal identifié. Le classement en liste 1 a pour vocation de protéger certains cours d’eau des dégradations et permet d’afficher un objectif de préservation à long terme. ",
           "metadata_url": "https://geo.data.gouv.fr/fr/datasets/bbc59e0deb382a4e97e4bf75d08657fef8730552",
-          "type": "wms_urba_layer",
+          "type": "wms_urba_sandre_layer",
           "params": {
             "url": "https://services.sandre.eaufrance.fr/geo/sandre",
             "format": "image/png",
@@ -1930,7 +1930,7 @@
           "ident": "Segments de classement de continuité écologique - liste 2",
           "description": "Un Classement de Continuité Ecologique correspond à tout ou partie d'un cours ou d'un canal identifié. La liste 2 annule, replace et complète la notion de « rivières classées », elle permet d’assurer rapidement la compatibilité des ouvrages existants avec les objectifs de continuité écologique. ",
           "metadata_url": "https://geo.data.gouv.fr/fr/datasets/bbc59e0deb382a4e97e4bf75d08657fef8730552",
-          "type": "wms_urba_layer",
+          "type": "wms_urba_sandre_layer",
           "params": {
             "url": "https://services.sandre.eaufrance.fr/geo/sandre",
             "format": "image/png",
@@ -1943,7 +1943,7 @@
           "ident": "Segments de classement de continuité écologique - liste 1/2",
           "description": "Combinaison des listes de continuités écologiques 1 et 2",
           "metadata_url": "https://geo.data.gouv.fr/fr/datasets/bbc59e0deb382a4e97e4bf75d08657fef8730552",
-          "type": "wms_urba_layer",
+          "type": "wms_urba_sandre_layer",
           "params": {
             "url": "https://services.sandre.eaufrance.fr/geo/sandre",
             "format": "image/png",
@@ -1956,7 +1956,7 @@
           "ident": "Cours d'eau - BD Carthage",
           "description": "Entité hydrographique, une entité hydrographique est un cours d’eau naturel ou aménagé, un bras naturel ou aménagé, une voie d’eau artificielle (canal,…), un plan d’eau ou une ligne littorale",
           "metadata_url": "https://geo.data.gouv.fr/fr/datasets/ee5c709c9b7ff928ab2529b79ce6e879c4de6950",
-          "type": "wms_urba_layer",
+          "type": "wms_urba_sandre_layer",
           "params": {
             "url": "https://services.sandre.eaufrance.fr/geo/sandre",
             "format": "image/png",

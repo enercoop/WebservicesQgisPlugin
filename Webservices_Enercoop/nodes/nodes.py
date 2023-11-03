@@ -196,7 +196,7 @@ class WmsLayerTreeNode(FavoritesTreeNode):
         )
 
 
-class WmsLayerUrbaTreeNode(FavoritesTreeNode):
+class WmsLayerUrbaSandreTreeNode(FavoritesTreeNode):
     """
     Tree node for a Urba WMS layer
     """
@@ -204,7 +204,7 @@ class WmsLayerUrbaTreeNode(FavoritesTreeNode):
     def __init__(
         self,
         title,
-        node_type=PluginGlobals.instance().NODE_TYPE_WMS_URBA_LAYER,
+        node_type=PluginGlobals.instance().NODE_TYPE_WMS_URBA_SANDRE_LAYER,
         description=None,
         status=None,
         metadata_url=None,
@@ -270,7 +270,7 @@ class WmsLayerUrbaTreeNode(FavoritesTreeNode):
         )
 
 
-class WmsLayerPlanTreeNode(FavoritesTreeNode):
+class WmsLayerIgnCleTreeNode(FavoritesTreeNode):
     """
     Tree node for a WMS layer
     """
@@ -278,7 +278,7 @@ class WmsLayerPlanTreeNode(FavoritesTreeNode):
     def __init__(
         self,
         title,
-        node_type=PluginGlobals.instance().NODE_TYPE_WMS_PLAN_LAYER,
+        node_type=PluginGlobals.instance().NODE_TYPE_WMS_IGN_CLE_LAYER,
         description=None,
         status=None,
         metadata_url=None,
@@ -346,7 +346,7 @@ class WmsLayerPlanTreeNode(FavoritesTreeNode):
         )
 
 
-class WmsLayerOrthoTreeNode(FavoritesTreeNode):
+class WmsLayerIgnTreeNode(FavoritesTreeNode):
     """
     Tree node for a WMS layer
     """
@@ -354,7 +354,7 @@ class WmsLayerOrthoTreeNode(FavoritesTreeNode):
     def __init__(
         self,
         title,
-        node_type=PluginGlobals.instance().NODE_TYPE_WMS_ORTHO_LAYER,
+        node_type=PluginGlobals.instance().NODE_TYPE_WMS_IGN_LAYER,
         description=None,
         status=None,
         metadata_url=None,
@@ -430,7 +430,7 @@ class WmsEnrTreeNode(FavoritesTreeNode):
     def __init__(
         self,
         title,
-        node_type=PluginGlobals.instance().NODE_TYPE_WMS_ORTHO_LAYER,
+        node_type=PluginGlobals.instance().NODE_TYPE_WMS_IGN_LAYER,
         description=None,
         status=None,
         metadata_url=None,
