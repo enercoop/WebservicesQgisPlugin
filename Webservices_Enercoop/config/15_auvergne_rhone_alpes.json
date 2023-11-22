@@ -1,0 +1,50 @@
+{
+    "title": "Auvergne-Rhône-Alpes",
+    "ident": "",
+    "description": "Données issus de DatARA",
+    "type": "folder",
+    "children": [
+        {
+            "title": "Corridors écologiques linéaires",
+            "ident": "Corridors_ecologiques_linéaires",
+            "description": "Les corridors écologiques assurent des connexions entre des réservoirs de biodiversité, offrant aux espèces des conditions favorables à leur déplacement et à l’accomplissement de leur cycle de vie",
+            "metadata_url": "https://catalogue.datara.gouv.fr/geonetwork/srv/fre/catalog.search#/metadata/df86299a-30dd-4ea8-a239-b9b513b33644",
+            "type": "wms_layer",
+            "params": {
+              "url": "https://ids.craig.fr/wxs/public/wms",
+              "format": "image/png",
+              "name": "CER_CORRIDOR_L_FR84",
+              "style": "",
+              "srs": "EPSG:4326"
+            }
+        },
+        {
+            "title": "Corridors écologiques surfaciques",
+            "ident": "Corridors_ecologiques_surfaciques",
+            "description": "Les corridors écologiques assurent des connexions entre des réservoirs de biodiversité, offrant aux espèces des conditions favorables à leur déplacement et à l’accomplissement de leur cycle de vie",
+            "metadata_url": "https://catalogue.datara.gouv.fr/geonetwork/srv/fre/catalog.search#/metadata/df86299a-30dd-4ea8-a239-b9b513b33644",
+            "type": "wms_layer",
+            "params": {
+              "url": "https://ids.craig.fr/wxs/public/wms",
+              "format": "image/png",
+              "name": "CER_CORRIDOR_S_FR84",
+              "style": "",
+              "srs": "EPSG:4326"
+            }
+          },
+          {
+            "title": "Zones humides régionales issues des inventaires départementaux",
+            "ident": "Zones_humides_régionales_issues_des_inventaires_départementaux",
+            "description": "Selon le code de l’environnement, les zones humides sont des « terrains, exploités ou non, habituellement inondés ou gorgés d'eau douce, salée ou saumâtre de façon permanente ou temporaire; la végétation, quand elle existe, y est dominée par des plantes hygrophiles pendant au moins une partie de l'année",
+            "metadata_url": "https://catalogue.datara.gouv.fr/geonetwork/srv/fre/catalog.search#/metadata/df86299a-30dd-4ea8-a239-b9b513b33644",
+            "type": "wms_layer",
+            "params": {
+              "url": "https://ids.craig.fr/wxs/public/wms",
+              "format": "image/png",
+              "name": "CER_ZONES_HUMIDES_S_FR84",
+              "style": "",
+              "srs": "EPSG:4326"
+            }
+          }
+    ]
+}

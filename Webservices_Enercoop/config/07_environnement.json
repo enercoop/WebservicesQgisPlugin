@@ -335,6 +335,104 @@
           "style": "default",
           "srs": "EPSG:2154"
         }
+      },
+      {
+        "title": "Zonage informatif des obligations légales de débroussaillement",
+        "ident": "Zonage_informatif_des_obligations_légales_de_débroussaillement",
+        "description": "Le Zonage Informatif des Obligations légales de débroussaillement (OLD) est une carte en ligne qui permet aux particuliers de pouvoir localiser leur terrain et savoir s’ils sont soumis à la réglementation sur les OLD. Le Zonage Informatif des OLD ne précise pas les règles à appliquer pour débroussailler correctement (profondeur de débroussaillement depuis l’habitation, distance entre les arbres, hauteur d’élagage, etc.). Pour se renseigner sur la réglementation sur les OLD en vigueur sur leur département, les particuliers peuvent contacter la mairie ou la préfecture. Les règles de mise en œuvre des OLD peuvent être différentes d’un département à l’autre, car elles tiennent compte du contexte local. ",
+        "metadata_url": "https://www.geoportail.gouv.fr/depot/fiches/OLD/Info_zonage-OLD-Geoportail.pdf",
+        "type": "wms_ign_layer",
+        "params": {
+        "url": "https://wxs.ign.fr/environnement/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+        "format": "image/png",
+        "name": "DEBROUSSAILLEMENT",
+        "style": "nolegend",
+        "srs": "EPSG:3857"
+        }
+      },
+      {
+        "title": "Forets publiques",
+        "ident": "Forets_publiques",
+        "description": "Localisation des forêts publiques domaniales et non domaniales (communales, sectionales, départementales et d’établissements publics) gérées par l’Office national des forêts (ONF).",
+        "metadata_url": "https://inventaire-forestier.ign.fr/spip.php?rubrique70",
+        "type": "wms_ign_layer",
+        "params": {
+        "url": "https://wxs.ign.fr/environnement/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+        "format": "image/png",
+        "name": "FORETS.PUBLIQUES",
+        "style": "FORETS%20PUBLIQUES%20ONF",
+        "srs": "EPSG:3857"
+        }
+      },
+      {
+        "title": "Carte forestière (v2 : 2006-)",
+        "ident": "Carte_forestière_(v2:2006-)",
+        "description": "Localisation de 32 types de formations végétales en France métropolitaine. (2018)",
+        "metadata_url": "https://inventaire-forestier.ign.fr/spip.php?article646",
+        "type": "wms_ign_layer",
+        "params": {
+        "url": "https://wxs.ign.fr/environnement/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+        "format": "image/png",
+        "name": "LANDCOVER.FORESTINVENTORY.V2",
+        "style": "LANDCOVER.FORESTINVENTORY.V2",
+        "srs": "EPSG:3857"
+        }
+      },
+      {
+        "title": "Périmètres de protection de réserves naturelles",
+        "ident": "Périmètres_de_protection_de_réserves_naturelles",
+        "description": "Un périmètre de protection peut être mis en place en périphérie d’une réserve naturelle. Cet espace constitue une zone tampon autour de l’espace classé, améliorant les échanges écologiques entre la réserve et sa périphérie.",
+        "metadata_url": "https://terranota.fr/les-reserves-naturelles-et-perimetres-de-protection-autour-des-reserves-naturelles-ac3/",
+        "type": "wms_ign_layer",
+        "params": {
+        "url": "https://wxs.ign.fr/environnement/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+        "format": "image/png",
+        "name": "PROTECTEDAREAS.MNHN.RN.PERIMETER",
+        "style": "normal",
+        "srs": "EPSG:3857"
+        }
+      },
+      {
+        "title": "Mesures compensatoires prescrites des atteintes à la biodiversité (polygone)",
+        "ident": "Mesures_compensatoires_prescrites_des_atteintes_à_la_biodiversité_(polygone)",
+        "description": "Une mesure compensatoire des atteintes à la biodiversité intervient sur l’impact résiduel d’un projet d’aménagement, lorsque toutes les mesures envisageables ont été mises en œuvre pour éviter puis réduire les impacts négatifs sur la biodiversité.",
+        "metadata_url": "https://catalogue.datara.gouv.fr/geonetwork/srv/fre/catalog.search#/metadata/48ac3589-499d-4f42-9716-73b4eefef35c",
+        "type": "wms_layer",
+        "params": {
+          "url": "https://datacarto.cdata.cerema.fr/wms_sdom/ENV_INTEGR",
+          "format": "image/png",
+          "name": "geomce_3857_l_mesure_compensatoire_s_000",
+          "style": "",
+          "srs": "EPSG:4326"
+        }
+      },
+      {
+        "title": "Mesures compensatoires prescrites des atteintes à la biodiversité (point)",
+        "ident": "Mesures_compensatoires_prescrites_des_atteintes_à_la_biodiversité_(point)",
+        "description": "Une mesure compensatoire des atteintes à la biodiversité intervient sur l’impact résiduel d’un projet d’aménagement, lorsque toutes les mesures envisageables ont été mises en œuvre pour éviter puis réduire les impacts négatifs sur la biodiversité.",
+        "metadata_url": "https://catalogue.datara.gouv.fr/geonetwork/srv/fre/catalog.search#/metadata/48ac3589-499d-4f42-9716-73b4eefef35c",
+        "type": "wms_layer",
+        "params": {
+          "url": "https://datacarto.cdata.cerema.fr/wms_sdom/ENV_INTEGR",
+          "format": "image/png",
+          "name": "geomce_3857_l_mesure_compensatoire_l_000",
+          "style": "",
+          "srs": "EPSG:4326"
+        }
+      },
+      {
+        "title": "Mesures compensatoires prescrites des atteintes à la biodiversité (linéaire)",
+        "ident": "Mesures_compensatoires_prescrites_des_atteintes_à_la_biodiversité_(linéaire)",
+        "description": "Une mesure compensatoire des atteintes à la biodiversité intervient sur l’impact résiduel d’un projet d’aménagement, lorsque toutes les mesures envisageables ont été mises en œuvre pour éviter puis réduire les impacts négatifs sur la biodiversité.",
+        "metadata_url": "https://catalogue.datara.gouv.fr/geonetwork/srv/fre/catalog.search#/metadata/48ac3589-499d-4f42-9716-73b4eefef35c",
+        "type": "wms_layer",
+        "params": {
+          "url": "https://datacarto.cdata.cerema.fr/wms_sdom/ENV_INTEGR",
+          "format": "image/png",
+          "name": "geomce_3857_l_mesure_compensatoire_p_000",
+          "style": "",
+          "srs": "EPSG:4326"
+        }
       }
     ]
   }

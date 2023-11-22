@@ -1,5 +1,5 @@
 {
-  "title": "Webservices_Enercoop - version du 12 octobre 2023",
+  "title": "Webservices_Enercoop - version du 22 novembre 2023",
   "ident": "316522f0-d2ef-4422-b935-e333815b4f7e",
   "description": "",
   "type": "folder",
@@ -48,6 +48,34 @@
             "url": "https://wxs.ign.fr/administratif/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/png",
             "name": "ADMINEXPRESS-COG.LATEST",
+            "style": "normal",
+            "srs": "EPSG:3857"
+          }
+        },
+        {
+          "title": "PLEIADES 2022",
+          "ident": "PLEIADES_2022",
+          "description": "Mosaïque d’orthoimages résultant d’un traitement massivement automatisé pour minimiser les délais de production.",
+          "metadata_url": "https://www.geoportail.gouv.fr/donnees/ortho-express-2022",
+          "type": "wms_ign_layer",
+          "params": {
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "format": "image/png",
+            "name": "ORTHOIMAGERY.ORTHO-SAT.PLEIADES.2022",
+            "style": "normal",
+            "srs": "EPSG:3857"
+          }
+        },
+        {
+          "title": "SPOT 2021",
+          "ident": "SPOT_2021",
+          "description": "Mosaïque d’orthoimages résultant d’un traitement massivement automatisé pour minimiser les délais de production.",
+          "metadata_url": "",
+          "type": "wms_ign_layer",
+          "params": {
+            "url": "https://data.geopf.fr/wmts?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetCapabilities",
+            "format": "image/jpeg",
+            "name": "ORTHOIMAGERY.ORTHO-SAT.SPOT.2021",
             "style": "normal",
             "srs": "EPSG:3857"
           }
@@ -1191,6 +1219,104 @@
             "style": "default",
             "srs": "EPSG:2154"
           }
+        },
+        {
+          "title": "Zonage informatif des obligations légales de débroussaillement",
+          "ident": "Zonage_informatif_des_obligations_légales_de_débroussaillement",
+          "description": "Le Zonage Informatif des Obligations légales de débroussaillement (OLD) est une carte en ligne qui permet aux particuliers de pouvoir localiser leur terrain et savoir s’ils sont soumis à la réglementation sur les OLD. Le Zonage Informatif des OLD ne précise pas les règles à appliquer pour débroussailler correctement (profondeur de débroussaillement depuis l’habitation, distance entre les arbres, hauteur d’élagage, etc.). Pour se renseigner sur la réglementation sur les OLD en vigueur sur leur département, les particuliers peuvent contacter la mairie ou la préfecture. Les règles de mise en œuvre des OLD peuvent être différentes d’un département à l’autre, car elles tiennent compte du contexte local. ",
+          "metadata_url": "https://www.geoportail.gouv.fr/depot/fiches/OLD/Info_zonage-OLD-Geoportail.pdf",
+          "type": "wms_ign_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/environnement/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+            "format": "image/png",
+            "name": "DEBROUSSAILLEMENT",
+            "style": "nolegend",
+            "srs": "EPSG:3857"
+          }
+        },
+        {
+          "title": "Forets publiques",
+          "ident": "Forets_publiques",
+          "description": "Localisation des forêts publiques domaniales et non domaniales (communales, sectionales, départementales et d’établissements publics) gérées par l’Office national des forêts (ONF).",
+          "metadata_url": "https://inventaire-forestier.ign.fr/spip.php?rubrique70",
+          "type": "wms_ign_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/environnement/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+            "format": "image/png",
+            "name": "FORETS.PUBLIQUES",
+            "style": "FORETS%20PUBLIQUES%20ONF",
+            "srs": "EPSG:3857"
+          }
+        },
+        {
+          "title": "Carte forestière (v2 : 2006-)",
+          "ident": "Carte_forestière_(v2:2006-)",
+          "description": "Localisation de 32 types de formations végétales en France métropolitaine. (2018)",
+          "metadata_url": "https://inventaire-forestier.ign.fr/spip.php?article646",
+          "type": "wms_ign_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/environnement/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+            "format": "image/png",
+            "name": "LANDCOVER.FORESTINVENTORY.V2",
+            "style": "LANDCOVER.FORESTINVENTORY.V2",
+            "srs": "EPSG:3857"
+          }
+        },
+        {
+          "title": "Périmètres de protection de réserves naturelles",
+          "ident": "Périmètres_de_protection_de_réserves_naturelles",
+          "description": "Un périmètre de protection peut être mis en place en périphérie d’une réserve naturelle. Cet espace constitue une zone tampon autour de l’espace classé, améliorant les échanges écologiques entre la réserve et sa périphérie.",
+          "metadata_url": "https://terranota.fr/les-reserves-naturelles-et-perimetres-de-protection-autour-des-reserves-naturelles-ac3/",
+          "type": "wms_ign_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/environnement/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+            "format": "image/png",
+            "name": "PROTECTEDAREAS.MNHN.RN.PERIMETER",
+            "style": "normal",
+            "srs": "EPSG:3857"
+          }
+        },
+        {
+          "title": "Mesures compensatoires prescrites des atteintes à la biodiversité (polygone)",
+          "ident": "Mesures_compensatoires_prescrites_des_atteintes_à_la_biodiversité_(polygone)",
+          "description": "Une mesure compensatoire des atteintes à la biodiversité intervient sur l’impact résiduel d’un projet d’aménagement, lorsque toutes les mesures envisageables ont été mises en œuvre pour éviter puis réduire les impacts négatifs sur la biodiversité.",
+          "metadata_url": "https://catalogue.datara.gouv.fr/geonetwork/srv/fre/catalog.search#/metadata/48ac3589-499d-4f42-9716-73b4eefef35c",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://datacarto.cdata.cerema.fr/wms_sdom/ENV_INTEGR",
+            "format": "image/png",
+            "name": "geomce_3857_l_mesure_compensatoire_s_000",
+            "style": "",
+            "srs": "EPSG:4326"
+          }
+        },
+        {
+          "title": "Mesures compensatoires prescrites des atteintes à la biodiversité (point)",
+          "ident": "Mesures_compensatoires_prescrites_des_atteintes_à_la_biodiversité_(point)",
+          "description": "Une mesure compensatoire des atteintes à la biodiversité intervient sur l’impact résiduel d’un projet d’aménagement, lorsque toutes les mesures envisageables ont été mises en œuvre pour éviter puis réduire les impacts négatifs sur la biodiversité.",
+          "metadata_url": "https://catalogue.datara.gouv.fr/geonetwork/srv/fre/catalog.search#/metadata/48ac3589-499d-4f42-9716-73b4eefef35c",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://datacarto.cdata.cerema.fr/wms_sdom/ENV_INTEGR",
+            "format": "image/png",
+            "name": "geomce_3857_l_mesure_compensatoire_l_000",
+            "style": "",
+            "srs": "EPSG:4326"
+          }
+        },
+        {
+          "title": "Mesures compensatoires prescrites des atteintes à la biodiversité (linéaire)",
+          "ident": "Mesures_compensatoires_prescrites_des_atteintes_à_la_biodiversité_(linéaire)",
+          "description": "Une mesure compensatoire des atteintes à la biodiversité intervient sur l’impact résiduel d’un projet d’aménagement, lorsque toutes les mesures envisageables ont été mises en œuvre pour éviter puis réduire les impacts négatifs sur la biodiversité.",
+          "metadata_url": "https://catalogue.datara.gouv.fr/geonetwork/srv/fre/catalog.search#/metadata/48ac3589-499d-4f42-9716-73b4eefef35c",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://datacarto.cdata.cerema.fr/wms_sdom/ENV_INTEGR",
+            "format": "image/png",
+            "name": "geomce_3857_l_mesure_compensatoire_p_000",
+            "style": "",
+            "srs": "EPSG:4326"
+          }
         }
       ]
     },
@@ -1340,6 +1466,34 @@
             "style": "PCI%20vecteur",
             "srs": "EPSG:3857"
           }
+        },
+        {
+          "title": "Decalage de la representation cadastrale",
+          "ident": "Decalage_de_la_representation_cadastrale",
+          "description": "Cartographie des décalages entre les données BD Parcellaire et Parcellaire Express.",
+          "metadata_url": "https://www.datagrandest.fr/portail/fr/actualites/evolution-du-produit-parcellaire-lign",
+          "type": "wms_ign_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/parcellaire/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+            "format": "image/png",
+            "name": "CADASTRALPARCELS.HEATMAP",
+            "style": "DECALAGE%20DE%20LA%20REPRESENTATION%20CADASTRALE",
+            "srs": "EPSG:3857"
+          }
+        },
+        {
+          "title": "Qualité du géoréférencement de la BD Parcellaire",
+          "ident": "Qualité_du_georeferencement_de_la_BD_Parcellaire",
+          "description": "Qualité du géoréférencement de la BD Parcellaire",
+          "metadata_url": "https://geoservices.ign.fr/sites/default/files/2021-07/DL_BDPARCELLAIRE_1-2.pdf",
+          "type": "wms_ign_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/parcellaire/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+            "format": "image/png",
+            "name": "CADASTRALPARCELS.QUALREFBDP",
+            "style": "DIVCAD_MTD",
+            "srs": "EPSG:3857"
+          }
         }
       ]
     },
@@ -1479,6 +1633,20 @@
             "name": "TRANSPORTNETWORKS.RUNWAYS",
             "style": "normal",
             "srs": "EPSG:3857"
+          }
+        },
+        {
+          "title": "Communes 2019 soumises à la loi Montagne de 1985",
+          "ident": "Communes_2019_soumises_à_la_loi_Montagne_de_1985",
+          "description": "Missionné par la DHUP (Bureau de la législation de l'urbanisme), le Cerema a réalisé une actualisation au 1er janvier 2019 de la liste des communes concernées par l'application des dispositions d'urbanisme de la loi Montagne (Loi n° 85-30 du 9 janvier 1985 relative au développement et à la protection de la montagne, Loi n° 2016-1888 du 28 décembre 2016 de modernisation, de développement et de protection des territoires de montagne).",
+          "metadata_url": "https://catalogue.datara.gouv.fr/geonetwork/srv/fre/catalog.search#/metadata/17aaef31-af53-4d68-97c8-741e695f1820",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://datacarto.datara.gouv.fr/map/carte_zonage_amenagement?VERSION%3D1.3.0",
+            "format": "image/png",
+            "name": "layer31",
+            "style": "",
+            "srs": "EPSG:2154"
           }
         }
       ]
@@ -1967,6 +2135,85 @@
       ]
     },
     {
+      "title": "BDTOPO (IGN)",
+      "ident": "",
+      "description": "La modélisation 2D du territoire et de ses infrastructures sur l'ensemble du territoire français produit par l'IGN",
+      "metadata_url": "https://geoservices.ign.fr/bdtopo",
+      "type": "folder",
+      "children": [
+        {
+          "title": "Haies lineraires",
+          "ident": "Haies_linéraires",
+          "description": "La BD Haie est le résultat des travaux initiés dans le cadre du dispositif de suivi des bocages (DSB).",
+          "metadata_url": "https://geoservices.ign.fr/bdhaie",
+          "type": "wms_ign_layer",
+          "params": {
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "format": "image/png",
+            "name": "hedge.hedge",
+            "style": "normal",
+            "srs": "EPSG:3857"
+          }
+        },
+        {
+          "title": "Réseau ferroviaire",
+          "ident": "Reseau_ferroviaire",
+          "description": "Portion de voie ferrée homogène",
+          "metadata_url": "https://geoservices.ign.fr/sites/default/files/2022-11/BDTOPO%C2%AE_Th%C3%A8me_Transport-Descriptif_de_contenu.pdf",
+          "type": "wms_ign_layer",
+          "params": {
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "format": "image/png",
+            "name": "TRANSPORTNETWORKS.RAILWAYS",
+            "style": "normal",
+            "srs": "EPSG:3857"
+          }
+        },
+        {
+          "title": "Routes",
+          "ident": "Routes",
+          "description": "Portion de voie de communication destinée aux automobiles, aux piétons, aux cycles ou aux animaux,homogène",
+          "metadata_url": "https://geoservices.ign.fr/sites/default/files/2023-10/DC_BDTOPO_Transport.pdf",
+          "type": "wms_ign_layer",
+          "params": {
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "format": "image/png",
+            "name": "TRANSPORTNETWORKS.ROADS",
+            "style": "normal",
+            "srs": "EPSG:3857"
+          }
+        },
+        {
+          "title": "Lignes Electriques",
+          "ident": "Lignes_Electriques",
+          "description": "Toutes les lignes électriques à haute (voltage ≥ 63 kV) ou à très haute tension (voltage ≥ 150 kV) sont incluses, sous souterraines.",
+          "metadata_url": "https://geoservices.ign.fr/sites/default/files/2021-07/DC_BDTOPO_3-0.pdf",
+          "type": "wms_ign_layer",
+          "params": {
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "format": "image/png",
+            "name": "UTILITYANDGOVERNMENTALSERVICES.ALL",
+            "style": "normal",
+            "srs": "EPSG:3857"
+          }
+        },
+        {
+          "title": "Dénominations géographiques",
+          "ident": "Denominations_geographiques",
+          "description": "Dénominations topologiques sur le territoire",
+          "metadata_url": "",
+          "type": "wms_ign_layer",
+          "params": {
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "format": "image/png",
+            "name": "GEOGRAPHICALNAMES.NAMES",
+            "style": "normal",
+            "srs": "EPSG:3857"
+          }
+        }
+      ]
+    },
+    {
       "title": "Occitanie",
       "ident": "",
       "description": "Zonages environnementaux diffusés par la Direction Régionale de l'Environnement, de l'Aménagement et du Logement d'Occitanie (DREAL).",
@@ -2287,6 +2534,56 @@
               }
             }
           ]
+        }
+      ]
+    },
+    {
+      "title": "Auvergne-Rhône-Alpes",
+      "ident": "",
+      "description": "Données issus de DatARA",
+      "type": "folder",
+      "children": [
+        {
+          "title": "Corridors écologiques linéaires",
+          "ident": "Corridors_ecologiques_linéaires",
+          "description": "Les corridors écologiques assurent des connexions entre des réservoirs de biodiversité, offrant aux espèces des conditions favorables à leur déplacement et à l’accomplissement de leur cycle de vie",
+          "metadata_url": "https://catalogue.datara.gouv.fr/geonetwork/srv/fre/catalog.search#/metadata/df86299a-30dd-4ea8-a239-b9b513b33644",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://ids.craig.fr/wxs/public/wms",
+            "format": "image/png",
+            "name": "CER_CORRIDOR_L_FR84",
+            "style": "",
+            "srs": "EPSG:4326"
+          }
+        },
+        {
+          "title": "Corridors écologiques surfaciques",
+          "ident": "Corridors_ecologiques_surfaciques",
+          "description": "Les corridors écologiques assurent des connexions entre des réservoirs de biodiversité, offrant aux espèces des conditions favorables à leur déplacement et à l’accomplissement de leur cycle de vie",
+          "metadata_url": "https://catalogue.datara.gouv.fr/geonetwork/srv/fre/catalog.search#/metadata/df86299a-30dd-4ea8-a239-b9b513b33644",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://ids.craig.fr/wxs/public/wms",
+            "format": "image/png",
+            "name": "CER_CORRIDOR_S_FR84",
+            "style": "",
+            "srs": "EPSG:4326"
+          }
+        },
+        {
+          "title": "Zones humides régionales issues des inventaires départementaux",
+          "ident": "Zones_humides_régionales_issues_des_inventaires_départementaux",
+          "description": "Selon le code de l’environnement, les zones humides sont des « terrains, exploités ou non, habituellement inondés ou gorgés d'eau douce, salée ou saumâtre de façon permanente ou temporaire; la végétation, quand elle existe, y est dominée par des plantes hygrophiles pendant au moins une partie de l'année",
+          "metadata_url": "https://catalogue.datara.gouv.fr/geonetwork/srv/fre/catalog.search#/metadata/df86299a-30dd-4ea8-a239-b9b513b33644",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://ids.craig.fr/wxs/public/wms",
+            "format": "image/png",
+            "name": "CER_ZONES_HUMIDES_S_FR84",
+            "style": "",
+            "srs": "EPSG:4326"
+          }
         }
       ]
     },

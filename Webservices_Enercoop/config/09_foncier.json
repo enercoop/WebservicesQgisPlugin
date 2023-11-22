@@ -17,6 +17,34 @@
           "style": "PCI%20vecteur",
           "srs": "EPSG:3857"
         }
+      },
+      {
+        "title": "Decalage de la representation cadastrale",
+        "ident": "Decalage_de_la_representation_cadastrale",
+        "description": "Cartographie des décalages entre les données BD Parcellaire et Parcellaire Express.",
+        "metadata_url": "https://www.datagrandest.fr/portail/fr/actualites/evolution-du-produit-parcellaire-lign",
+        "type": "wms_ign_layer",
+        "params": {
+          "url": "https://wxs.ign.fr/parcellaire/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+          "format": "image/png",
+          "name": "CADASTRALPARCELS.HEATMAP",
+          "style": "DECALAGE%20DE%20LA%20REPRESENTATION%20CADASTRALE",
+          "srs": "EPSG:3857"
+        }
+      },
+      {
+        "title": "Qualité du géoréférencement de la BD Parcellaire",
+        "ident": "Qualité_du_georeferencement_de_la_BD_Parcellaire",
+        "description": "Qualité du géoréférencement de la BD Parcellaire",
+        "metadata_url": "https://geoservices.ign.fr/sites/default/files/2021-07/DL_BDPARCELLAIRE_1-2.pdf",
+        "type": "wms_ign_layer",
+        "params": {
+          "url": "https://wxs.ign.fr/parcellaire/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+          "format": "image/png",
+          "name": "CADASTRALPARCELS.QUALREFBDP",
+          "style": "DIVCAD_MTD",
+          "srs": "EPSG:3857"
+        }
       }
-        ]
-    }
+  ]
+}

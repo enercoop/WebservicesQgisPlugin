@@ -135,6 +135,20 @@
           "style": "normal",
           "srs": "EPSG:3857"
         }
+      },
+      {
+        "title": "Communes 2019 soumises à la loi Montagne de 1985",
+        "ident": "Communes_2019_soumises_à_la_loi_Montagne_de_1985",
+        "description": "Missionné par la DHUP (Bureau de la législation de l'urbanisme), le Cerema a réalisé une actualisation au 1er janvier 2019 de la liste des communes concernées par l'application des dispositions d'urbanisme de la loi Montagne (Loi n° 85-30 du 9 janvier 1985 relative au développement et à la protection de la montagne, Loi n° 2016-1888 du 28 décembre 2016 de modernisation, de développement et de protection des territoires de montagne).",
+        "metadata_url": "https://catalogue.datara.gouv.fr/geonetwork/srv/fre/catalog.search#/metadata/17aaef31-af53-4d68-97c8-741e695f1820",
+        "type": "wms_layer",
+        "params": {
+          "url": "https://datacarto.datara.gouv.fr/map/carte_zonage_amenagement?VERSION%3D1.3.0",
+          "format": "image/png",
+          "name": "layer31",
+          "style": "",
+          "srs": "EPSG:2154"
+        }
       }
     ]
   }
