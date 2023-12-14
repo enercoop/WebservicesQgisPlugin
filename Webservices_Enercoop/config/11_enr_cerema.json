@@ -285,6 +285,118 @@
         "type": "folder",
         "children": [
         {
+            "title": "Eolien 'clé en main'",
+            "ident": "eolien_cle_en_main",
+            "description": "",
+            "metadata_url": "",
+            "type": "wms_ign_layer",
+            "params": {
+              "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+              "format": "image/png",
+              "name": "POTENTIEL.EOLIEN.REGLEMENTAIRE",
+              "style": "POTENTIEL.EOLIEN.REGLE",
+              "srs": "EPSG:3857"
+              }
+        },
+        {
+          "title": "Zones exclues des aires d'accélération de l'éolien terrestre, de toutes les EnR (sauf toitures) ou nécessitant l'avis du gestionnaire",
+          "ident": "zones_exclues_acceleration",
+          "description": "",
+          "metadata_url": "",
+          "type": "wms_ign_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "format": "image/png",
+            "name": "ZONAGE.OFB",
+            "style": "ZONAGE.OFB",
+            "srs": "EPSG:3857"
+            }
+        },
+        {
+          "title": "Contraintes réglementaires aeronautiques civiles",
+          "ident": "contrainte_aéronautiques_civiles",
+          "description": "",
+          "metadata_url": "",
+          "type": "wms_ign_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "format": "image/png",
+            "name": "ENR.AERO.CIVIL",
+            "style": "ENR.AERO.CIVIL",
+            "srs": "EPSG:3857"
+            }
+        },
+        {
+          "title": "Contraintes réglementaires aeronautiques militaires",
+          "ident": "contrainte_aéronautiques_mitilaires",
+          "description": "",
+          "metadata_url": "",
+          "type": "wms_ign_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "format": "image/png",
+            "name": "ENR.AERO.MILITAIRE",
+            "style": "ENR.AERO.MILITAIRE",
+            "srs": "EPSG:3857"
+            }
+        },
+        {
+          "title": "Contraintes réglementaires liées aux habitations",
+          "ident": "contrainte_habitations",
+          "description": "",
+          "metadata_url": "",
+          "type": "wms_ign_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "format": "image/png",
+            "name": "ENR.PERIMETRE.HABITATION",
+            "style": "PERIMETRE.HABITATION",
+            "srs": "EPSG:3857"
+            }
+        },
+        {
+          "title": "Contraintes réglementaires liées aux pentes",
+          "ident": "contrainte_pentes",
+          "description": "",
+          "metadata_url": "",
+          "type": "wms_ign_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "format": "image/png",
+            "name": "ENR.PERIMETRE.PENTE",
+            "style": "PERIMETRE.PENTE",
+            "srs": "EPSG:3857"
+            }
+        },
+        {
+          "title": "Contraintes réglementaires liées aux routes",
+          "ident": "contrainte_routes",
+          "description": "",
+          "metadata_url": "",
+          "type": "wms_ign_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "format": "image/png",
+            "name": "ENR.PERIMETRE.ROUTE",
+            "style": "PERIMETRE.ROUTE",
+            "srs": "EPSG:3857"
+            }
+        },
+        {
+          "title": "Contraintes réglementaires liées aux voies férrées",
+          "ident": "contrainte_train",
+          "description": "",
+          "metadata_url": "",
+          "type": "wms_ign_layer",
+          "params": {
+            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "format": "image/png",
+            "name": "ENR.PERIMETRE.VOIE.FERREE",
+            "style": "PERIMETRE.VOIE.FERREE",
+            "srs": "EPSG:3857"
+            }
+        },
+        {
         "title": "Localisation des mâts éolien",
         "ident": "Localisation des mâts éolien",
         "description": "",
@@ -413,6 +525,20 @@
           "format": "image/png",
           "name": "POTENTIEL.SOLAIRE.PARKING500",
           "style": "POTENTIEL.SOLAIRE.PARKING500",
+          "srs": "EPSG:3857"
+        }
+      },
+      {
+        "title": "Délaissés autoroutiers",
+        "ident": "delaisses_autoroutiers",
+        "description": "",
+        "metadata_url": "",
+        "type": "wms_ign_layer",
+        "params": {
+          "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+          "format": "image/png",
+          "name": "DELAISSES.AUTOROUTIERS",
+          "style": "DELAISSES.AUTOROUTIERS",
           "srs": "EPSG:3857"
         }
       }
