@@ -5,254 +5,316 @@
     "type": "folder",
     "children": [
       {
-        "title": "Autres",
+        "title": "Potentiel solaire et électrique et thermique",
         "ident": "",
         "description": "",
         "type": "folder",
         "children": [
-        {
-          "title": "Capacité d'accueil techniquement disponible des postes électriques",
-          "ident": "Capacité d'accueil techniquement disponible des postes électriques",
-          "description": "Capacité d'accueil par poste source (en MW) pour le raccordement aux réseaux de transport (HTB) et de distribution (HTA) des installations de production d'électricité.",
-          "metadata_url": "https://www.data.gouv.fr/fr/datasets/capacites-daccueil-du-reseau/",
-          "type": "wms_enr_layer",
-          "params": {
-            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
-            "format": "image/png",
-            "name": "CAPACITE.ACCUEIL.ELECTRIQUE",
-            "style": "CAPACITE.ACCUEIL.ELECTRIQUE",
-            "srs": "EPSG:3857"
+          {
+            "title": "Friches susceptibles d’accueillir des installations photovoltaïques",
+            "ident": "Friches susceptibles d’accueillir des installations photovoltaïques",
+            "description": "Cette couche provient du recensement nationale de friches Cerema Cartofriches dont une couche de données « friches intéressantes pour du PV au sol » issue du travail de recensement de friches menée par le Cerema et Tecsol (étude nationale commandée par MTE/Ademe). Elle identifie des friches favorables a priori à l’implantation de centrale solaire au sol. Elle constitue une information privilégiée pour favoriser l’implantation de photovoltaïque au sol sur site déjà anthropisé au regard des enjeux de préservation des espaces naturels.",
+            "metadata_url": "https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public",
+            "type": "wms_ign_layer",
+            "params": {
+              "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+              "format": "image/png",
+              "name": "POTENTIEL.SOLAIRE.FRICHE",
+              "style": "POTENTIEL.SOLAIRE.FRICHE",
+              "srs": "EPSG:3857"
+            }
+          },
+          {
+            "title": "Potentiel solaire sur toiture (méthode simplifiée)",
+            "ident": "Potentiel solaire sur toiture (méthode simplifiée)",
+            "description": "Estimation simplifiée du potentiel solaire en toiture en Wh/an sur la base de la couche bâti de la Bd Topo® (2022 - producteur IGN). Pour chaque emprise de bâtiment, la valeur fournie est une estimation de l’énergie solaire reçue sur des panneaux photovoltaïque qui seraient installés sur toiture, selon une méthode très simplifiée décrite dans la fiche de métadonnées de cette couche et qui, notamment, ne prend pas en compte les masques proches. Cette information est fournie à titre indicatif et ne saurait se substituer à des estimations réalisées avec des méthodes plus précises.",
+            "metadata_url": "https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public",
+            "type": "wms_ign_layer",
+            "params": {
+              "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+              "format": "image/png",
+              "name": "POTENTIEL.SOLAIRE.BATIMENT",
+              "style": "POTENTIEL.SOLAIRE.BATIMENT",
+              "srs": "EPSG:3857"
+            }
+          },
+          {
+            "title": "Unités foncières contenant des surfaces de stationnement non couvertes de plus de 500 m² (données déclaratives)",
+            "ident": "Unités foncières contenant des surfaces de stationnement non couvertes de plus de 500 m² (données déclaratives)",
+            "description": "Cette couche nationale représente des unités foncières contenant des surfaces de stationnement non couvertes, déclarées fiscalement en France métropolitaine et d’une superficie minimale de 500 m². Les données de cette couche sont constituées à partir des données sources de « Fichiers Fonciers » (2022 – producteur Cerema pour le compte du MTE) et Bd Topo® (2022 - producteur IGN). Ce recensement spécifique peut être approfondi pour identifier des sites favorables à l’implantation d’ombrière de parking.",
+            "metadata_url": "https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public",
+            "type": "wms_ign_layer",
+            "params": {
+              "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+              "format": "image/png",
+              "name": "POTENTIEL.SOLAIRE.PARKING500",
+              "style": "POTENTIEL.SOLAIRE.PARKING500",
+              "srs": "EPSG:3857"
+            }
+          },
+          {
+            "title": "Parkings de plus de 500m²",
+            "ident": "Parkings_de_plus_de_500m²",
+            "description": "Cette couche nationale représente des unités foncières contenant des surfaces de stationnement non couvertes, déclarées fiscalement en France métropolitaine et d’une superficie minimale de 500 m². Les données de cette couche sont constituées à partir des données sources de « Fichiers Fonciers » (2022 – producteur Cerema pour le compte du MTE) et Bd Topo ® (2022 - producteur IGN).",
+            "metadata_url": "https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public",
+            "type": "wms_ign_layer",
+            "params": {
+              "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+              "format": "image/png",
+              "name": "PARKING.SUP.500",
+              "style": "PARKING.SUP.500",
+              "srs": "EPSG:3857"
+            }
+          },
+          {
+            "title": "Délaissés autoroutiers",
+            "ident": "delaisses_autoroutiers",
+            "description": "",
+            "metadata_url": "",
+            "type": "wms_ign_layer",
+            "params": {
+              "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+              "format": "image/png",
+              "name": "DELAISSES.AUTOROUTIERS",
+              "style": "DELAISSES.AUTOROUTIERS",
+              "srs": "EPSG:3857"
+            }
           }
-          },
-          {
-            "title": "Cartographie des accès biomethane",
-            "ident": "Cartographie des accès biomethane",
-            "description": "Accordement optimal des projets d’injection d’une zone en minimisant les coûts d’adaptation des réseaux pour la collectivité.",
-            "metadata_url": "https://www.data.gouv.fr/fr/datasets/cartographie-biomethane-dacces-aux-reseaux/",
+        ]
+      },
+      {
+        "title": "Potentiel éolien terrestre",
+        "ident": "",
+        "description": "",
+        "type": "folder",
+        "children": [
+           {
+            "title": "Eolien 'clé en main'",
+            "ident": "eolien_cle_en_main",
+            "description": "Le territoire est concerné par 4 niveaux d'enjeux différents : 0 pour les zones rédhibitoires où l'éolien est réglementairement interdit, 1 pour les zones non potentiellement favorables du fait de forts enjeux avérés, 2 pour les zones potentiellement favorables sous réserve de la prise en compte d'enjeux et 3 pour les zones potentiellement favorables sous réserve de la prise en compte d'enjeux locaux. Cette couche se veut hybride. En effet, les données sur les régions de Bourgogne-France-Comté, Centre-Val de Loire, Corse, Hauts-de-France, Ile de France, Normandie, Nouvelle-Aquitaine et Pays de la Loire, ont été élaborées par les services de l’État en région dans le cadre du travail de cartographies des zones favorables au développement de l'éolien initié par la circulaire de mai 2021. Elles sont conformes aux orientations établies en 2022 par le Ministère de la Transition énergétique en lien avec le Ministère de la Transition écologique et de la Cohésion des territoires pour permettre une harmonisation des travaux effectués dans les différentes régions.  Elles illustrent le travail de synthèse des différentes contraintes et enjeux proposé par les services de l’État en région. Ces couches sont des aides à la décision pour la définition des zones d'accélération. Les élus peuvent s'appuyer sur ces cartographies s'ils le souhaitent. Ces couches n'ont pas de valeur règlementaire. Sur le reste du territoire, sont représentées les couches dites 'réglementaires', i.e. des couches d'information nationales. Elles permettent par exemple de visualiser les zones où il est interdit d'implanter des éoliennes dans un rayon de 500 mètres autour des habitations (article L 553-1 du code de l'environnement), les routes, les voies ferrées ainsi que les zones concernées par des contraintes aéronautiques civiles et militaires. Ces couches ont été créées par l'IGN à partir de données issues de la BD Topo ou du service de l'information aéronautique (SIA). Les niveaux d'enjeux ont été définis en fonction de la réglementation en vigueur par la DGEC en collaboration avec la DGAC ou le ministère des armées en fonction de la nature des contraintes.",
+            "metadata_url": "https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public",
             "type": "wms_ign_layer",
             "params": {
               "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
               "format": "image/png",
-              "name": "ACCES.BIOMETHANE",
-              "style": "ACCES.BIOMETHANE",
+              "name": "POTENTIEL.EOLIEN.REGLEMENTAIRE",
+              "style": "POTENTIEL.EOLIEN.REGLE",
+              "srs": "EPSG:3857"
+              }
+          },
+          {
+            "title": "Potentiel éolien terrestre - gisement de vent à 140m",
+            "ident": "Potentiel éolien terrestre - gisement de vent à 140m",
+            "description": "Ces données de vent sont issues d’une étude nationale Météo France « AROME » et représentent les moyennes de vent mesurées à une hauteur de 140m.",
+            "metadata_url": "https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public",
+            "type": "wms_urba_sandre_layer",
+            "params": {
+              "url": "https://wxs.ign.fr/enr/geoportail/r/wms?VERSION%3D1.3.0",
+              "format": "image/png",
+              "name": "POTENTIEL.VENT.140M",
               "srs": "EPSG:3857"
             }
           },
           {
-            "title": "Estimations des besoins de chaleur (chauffage et ECS) du secteur industriel",
-            "ident": "Estimations des besoins de chaleur (chauffage et ECS) du secteur industriel",
+            "title": "Potentiel éolien terrestre - gisement de vent à 160m",
+            "ident": "Potentiel éolien terrestre - gisement de vent à 160m",
+            "description": "Ces données de vent sont issues d’une étude nationale Météo France « AROME » et représentent les moyennes de vent mesurées à une hauteur de 160m.",
+            "metadata_url": "https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public",
+            "type": "wms_urba_sandre_layer",
+            "params": {
+              "url": "https://wxs.ign.fr/enr/geoportail/r/wms?VERSION%3D1.3.0",
+              "format": "image/png",
+              "name": "POTENTIEL.VENT.160M",
+              "srs": "EPSG:3857"
+            }
+          },
+          {
+            "title": "Zones exclues des aires d'accélération de l'éolien terrestre, de toutes les EnR (sauf toitures) ou nécessitant l'avis du gestionnaire",
+            "ident": "zones_exclues_acceleration",
             "description": "",
-            "metadata_url": "https://reseaux-chaleur.cerema.fr/donnees-et-cartographies/cartographie-des-besoins-chaleur-et-froid-secteur-france",
+            "metadata_url": "",
             "type": "wms_ign_layer",
             "params": {
               "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
               "format": "image/png",
-              "name": "BESOIN.CHALEUR.INDUSTRIEL",
-              "style": "BESOIN.CHALEUR.INDUSTRIEL",
+              "name": "ZONAGE.OFB",
+              "style": "ZONAGE.OFB",
               "srs": "EPSG:3857"
-            }
+              }
           },
           {
-            "title": "Estimations des besoins de chaleur (chauffage et ECS) du secteur résidentiel",
-            "ident": "Estimations des besoins de chaleur (chauffage et ECS) du secteur résidentiel",
+            "title": "Contraintes réglementaires aeronautiques civiles",
+            "ident": "contrainte_aéronautiques_civiles",
             "description": "",
-            "metadata_url": "https://reseaux-chaleur.cerema.fr/donnees-et-cartographies/cartographie-des-besoins-chaleur-et-froid-secteur-france",
+            "metadata_url": "",
             "type": "wms_ign_layer",
             "params": {
               "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
               "format": "image/png",
-              "name": "BESOIN.CHALEUR.RESIDENTIEL",
-              "style": "BESOIN.CHALEUR.RESIDENTIEL",
+              "name": "ENR.AERO.CIVIL",
+              "style": "ENR.AERO.CIVIL",
               "srs": "EPSG:3857"
-            }
+              }
           },
           {
-            "title": "Estimations des besoins de chaleur (chauffage et ECS) du secteur tertiaire",
-            "ident": "Estimations des besoins de chaleur (chauffage et ECS) du secteur tertiaire",
+            "title": "Contraintes réglementaires aeronautiques militaires",
+            "ident": "contrainte_aéronautiques_mitilaires",
             "description": "",
-            "metadata_url": "https://reseaux-chaleur.cerema.fr/donnees-et-cartographies/cartographie-des-besoins-chaleur-et-froid-secteur-france",
+            "metadata_url": "",
             "type": "wms_ign_layer",
             "params": {
               "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
               "format": "image/png",
-              "name": "BESOIN.CHALEUR.TERTIAIRE",
-              "style": "BESOIN.CHALEUR.TERTIAIRE",
+              "name": "ENR.AERO.MILITAIRE",
+              "style": "ENR.AERO.MILITAIRE",
               "srs": "EPSG:3857"
-            }
+              }
           },
           {
-            "title": "Estimations des besoins de froid du secteur tertiaire",
-            "ident": "Estimations des besoins de froid du secteur tertiaire",
+            "title": "Contraintes réglementaires liées aux habitations",
+            "ident": "contrainte_habitations",
             "description": "",
-            "metadata_url": "https://reseaux-chaleur.cerema.fr/donnees-et-cartographies/cartographie-des-besoins-chaleur-et-froid-secteur-france",
+            "metadata_url": "",
             "type": "wms_ign_layer",
             "params": {
               "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
               "format": "image/png",
-              "name": "BESOIN.FROID.TERTIAIRE",
-              "style": "BESOIN.FROID.TERTIAIRE",
+              "name": "ENR.PERIMETRE.HABITATION",
+              "style": "PERIMETRE.HABITATION",
               "srs": "EPSG:3857"
-            }
+              }
           },
           {
-            "title": "Localisation des installations de production de chaleur par Biogaz",
-            "ident": "Localisation des installations de production de chaleur par Biogaz",
-            "description": "Localisation des unités de Biogaz déjà en production",
-            "metadata_url": "https://reseaux-chaleur.cerema.fr/espace-documentaire/developper-loffre-chaleur-issue-la-methanisation",
-            "type": "wms_ign_layer",
-            "params": {
-              "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
-              "format": "image/png",
-              "name": "SITE.PRODUCTION.CHALEUR.BIOGAZ",
-              "style": "SITE.PRODUCTION.CHALEUR.BIOGAZ",
-              "srs": "EPSG:3857"
-            }
-          },
-          {
-            "title": "Localisation des installations de production de chaleur par incinération des déchets",
-            "ident": "Localisation des installations de production de chaleur par incinération des déchets",
-            "description": "Localisation des unités de production de chaleur par incinération des déchets en service",
-            "metadata_url": "https://reseaux-chaleur.cerema.fr/espace-documentaire/reseaux-chaleur-et-energies-recuperation",
-            "type": "wms_ign_layer",
-            "params": {
-              "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
-              "format": "image/png",
-              "name": "SITE.PRODUCTION.CHALEUR.DECHETS",
-              "style": "SITE.PRODUCTION.CHALEUR.DECHETS",
-              "srs": "EPSG:3857"
-            }
-          },
-          {
-            "title": "Localisation des installations de production de chaleur par méthanisation",
-            "ident": "Localisation des installations de production de chaleur par méthanisation",
-            "description": "Localisation des unités de production de chaleur par méthanisation en service",
-            "metadata_url": "https://reseaux-chaleur.cerema.fr/espace-documentaire/developper-loffre-chaleur-issue-la-methanisation",
-            "type": "wms_ign_layer",
-            "params": {
-              "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
-              "format": "image/png",
-              "name": "SITE.PRODUCTION.CHALEUR.METHANISATON",
-              "style": "SITE.PRODUCTION.CHALEUR.METHANISATON",
-              "srs": "EPSG:3857"
-            }
-          },
-          {
-            "title": "Localisation des installations de production d'électricité pouvant valoriser de la chaleur",
-            "ident": "Localisation des installations de production d'électricité pouvant valoriser de la chaleur",
+            "title": "Contraintes réglementaires liées aux pentes",
+            "ident": "contrainte_pentes",
             "description": "",
-            "metadata_url": "https://www.ecologie.gouv.fr/chaleur-recuperation-des-processus-industriels",
+            "metadata_url": "",
             "type": "wms_ign_layer",
             "params": {
               "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
               "format": "image/png",
-              "name": "SITE.PRODUCTION.CHALEUR.COGENERATION",
-              "style": "SITE.PRODUCTION.CHALEUR.COGENERATION",
+              "name": "ENR.PERIMETRE.PENTE",
+              "style": "PERIMETRE.PENTE",
               "srs": "EPSG:3857"
-            }
+              }
           },
           {
-            "title": "Localisation des points d'injection de biométhane",
-            "ident": "Localisation des points d'injection de biométhane",
+            "title": "Contraintes réglementaires liées aux routes",
+            "ident": "contrainte_routes",
             "description": "",
-            "metadata_url": "https://www.data.gouv.fr/fr/datasets/points-dinjection-de-biomethane-en-france-en-service/",
+            "metadata_url": "",
             "type": "wms_ign_layer",
             "params": {
               "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
               "format": "image/png",
-              "name": "POINTS.INJECTION.BIOMETHANE",
-              "style": "POINTS.INJECTION.BIOMETHANE",
+              "name": "ENR.PERIMETRE.ROUTE",
+              "style": "PERIMETRE.ROUTE",
               "srs": "EPSG:3857"
-            }
+              }
           },
           {
-            "title": "Localisation des réseaux de chaleur et de froid en France",
-            "ident": "Localisation des réseaux de chaleur et de froid en France",
+            "title": "Contraintes réglementaires liées aux voies férrées",
+            "ident": "contrainte_train",
             "description": "",
-            "metadata_url": "https://reseaux-chaleur.cerema.fr/espace-documentaire/les-reseaux-chaleur-en-france",
+            "metadata_url": "",
             "type": "wms_ign_layer",
             "params": {
               "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
               "format": "image/png",
-              "name": "SITE.PRODUCTION.CHALEUR.RC",
-              "style": "SITE.PRODUCTION.CHALEUR.RC",
+              "name": "ENR.PERIMETRE.VOIE.FERREE",
+              "style": "PERIMETRE.VOIE.FERREE",
               "srs": "EPSG:3857"
+              }
+          }
+        ]
+      },
+      {
+        "title": "Potentiel hydroélectrique",
+        "ident": "",
+        "description": "",
+        "type": "folder",
+        "children": [
+            {
+              "title": "Potentiel hydroélectrique sur nouveaux ouvrages",
+              "ident": "Potentiel_hydroélectrique_sur_nouveaux_ouvrages",
+              "description": "Cette couche est une estimation des potentiels hydroélectriques uniquement sur nouveaux ouvrages. Les centrales hydroélectriques existantes, ainsi que les projets en cours de développement (autorisés, concédés ou lauréats d'un Appel d'Offre CRE) ont été retirés de la cartographie, pour qu'il ne reste vraiment que le potentiel à développer. Les données correspondent uniquement au potentiel sur site vierge. Une commune pourrait ainsi disposer d'un potentiel (sur ouvrage existant), sans que celui-ci n'apparaisse sur la couche. Producteur : ISL / Post traitement Cerema.",
+              "metadata_url": "https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public",
+              "type": "wms_ign_layer",
+              "params": {
+                "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+                "format": "image/png",
+                "name": "POTENTIEL.HYDRO",
+                "style": "POTENTIEL.HYDRO",
+                "srs": "EPSG:3857"
+                }
             }
-          },
+        ]
+      },
+      {
+        "title": "Potentiel de développement de réseaux de chaleur et de froid",
+        "ident": "",
+        "description": "",
+        "type": "folder",
+        "children": [
+
+        ]
+      },
+      {
+        "title": "Localisation des installations de production énergétique",
+        "ident": "",
+        "description": "",
+        "type": "folder",
+        "children": [
           {
-            "title": "Potentiel de développement des réseaux de chaleur en PACA",
-            "ident": "Potentiel de développement des réseaux de chaleur en PACA",
-            "description": "",
-            "metadata_url": "https://www.cerema.fr/fr/actualites/quel-potentiel-developpement-reseaux-chaleur-froid-region",
+            "title": "Localisation des mâts éolien",
+            "ident": "Localisation des mâts éolien",
+            "description": "Ces données concernent la localisation des mâts d’éoliennes et sont produites par agrégation des données diffusées par les DREAL. Les parcs éoliens concernés sont construits ou en service, voire en instruction ou dont l’état n’est pas connu. Ce jeu de données ne répertorie pas les projets abandonnés ou dont la demande d’autorisation n’a pas abouti.",
+            "metadata_url": "https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public",
             "type": "wms_ign_layer",
             "params": {
               "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
               "format": "image/png",
-              "name": "POTENTIEL.RESEAU.CHALEUR.PACA",
-              "style": "POTENTIEL.RESEAU.CHALEUR.PACA",
+              "name": "LOCALISATION.MATS.EOLIEN",
+              "style": "LOCALISATION.MATS.EOLIEN",
               "srs": "EPSG:3857"
+              }
             }
-          },
+        ]
+      },
+      {
+        "title": "Productibles annuels par filière de production d'énergie",
+        "ident": "",
+        "description": "",
+        "type": "folder",
+        "children": [
+
+        ]
+      },
+      {
+        "title": "Puissances cumulées électriques installés",
+        "ident": "",
+        "description": "",
+        "type": "folder",
+        "children": [
           {
-            "title": "Potentiel de développement des réseaux de chaleur et de froid en région PACA",
-            "ident": "Potentiel de développement des réseaux de chaleur et de froid en région PACA",
-            "description": "",
-            "metadata_url": "https://www.cerema.fr/fr/actualites/quel-potentiel-developpement-reseaux-chaleur-froid-region",
+            "title": "Puissance cumulée des installations éoliennes par commune",
+            "ident": "Puissance cumulée des installations éoliennes par commune",
+            "description": "Cette couche nationale représente la somme en kW des puissances installées pour la filière photovoltaïque par commune, reconstituée à partir de l’exploitation du registre national des installations de production et de stockage d’électricité raccordées directement ou indirectement aux réseaux publics d’électricité en France métropolitaine et dans les zones non interconnectées (ZNI) arrêté au 28 février 2023.",
+            "metadata_url": "https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public",
             "type": "wms_ign_layer",
             "params": {
               "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
               "format": "image/png",
-              "name": "POTENTIEL.RESEAU.CHAUD.FROID.PACA",
-              "style": "POTENTIEL.RESEAU.CHAUD.FROID.PACA",
-              "srs": "EPSG:3857"
-            }
-          },
-          {
-            "title": "Potentiel de développement des réseaux de froid en PACA",
-            "ident": "Potentiel de développement des réseaux de froid en PACA",
-            "description": "",
-            "metadata_url": "https://www.cerema.fr/fr/actualites/quel-potentiel-developpement-reseaux-chaleur-froid-region",
-            "type": "wms_ign_layer",
-            "params": {
-              "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
-              "format": "image/png",
-              "name": "POTENTIEL.RESEAU.FROID.PACA",
-              "style": "POTENTIEL.RESEAU.FROID.PACA",
-              "srs": "EPSG:3857"
-            }
-          },
-          {
-            "title": "Potentiel géothermique en PACA",
-            "ident": "Potentiel géothermique en PACA",
-            "description": "",
-            "metadata_url": "https://www.geothermies.fr/sites/default/files/inline-files/10._geothermie_en_provence_alpes_cote_dazur.pdf",
-            "type": "wms_ign_layer",
-            "params": {
-              "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
-              "format": "image/png",
-              "name": "POTENTIEL.GEOTHERMIE",
-              "style": "POTENTIEL.GEOTHERMIE",
-              "srs": "EPSG:3857"
-            }
-          },
-          {
-            "title": "Localisation des points d'injection de biométhane",
-            "ident": "Localisation des points d'injection de biométhane",
-            "description": "",
-            "metadata_url": "https://www.data.gouv.fr/fr/datasets/points-dinjection-de-biomethane-en-france-en-service/",
-            "type": "wms_ign_layer",
-            "params": {
-              "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
-              "format": "image/png",
-              "name": "POINTS.INJECTION.BIOMETHANE",
-              "style": "POINTS.INJECTION.BIOMETHANE",
+              "name": "PROD.INSTALLATION.EOLIEN",
+              "style": "PROD.INSTALLATION.EOLIEN",
               "srs": "EPSG:3857"
             }
           },
           {
             "title": "Puissance cumulée des installations hydrauliques par commune",
             "ident": "Puissance cumulée des installations hydrauliques par commune",
-            "description": "",
-            "metadata_url": "",
+            "description": "Cette couche nationale représente la somme des puissances installées en kW pour la filière hydraulique par commune, reconstituée à partir de l’exploitation du registre national des installations de production et de stockage d’électricité raccordées directement ou indirectement aux réseaux publics d’électricité en France métropolitaine et dans les zones non interconnectées (ZNI) arrêté au 28 février 2023.",
+            "metadata_url": "https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public",
             "type": "wms_ign_layer",
             "params": {
               "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
@@ -263,286 +325,34 @@
             }
           },
           {
-        "title": "Puissance cumulée électrique installée par filière renouvelable par commune",
-        "ident": "Puissance cumulée électrique installée par filière renouvelable par commune",
-        "description": "",
-        "metadata_url": "https://www.data.gouv.fr/fr/datasets/production-electrique-annuelle-par-filiere-a-la-maille-commune/",
-        "type": "wms_ign_layer",
-        "params": {
-          "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
-          "format": "image/png",
-          "name": "PART.ENR.COMMUNE",
-          "style": "PART.ENR.COMMUNE",
-          "srs": "EPSG:3857"
-        }
-        }
-        ]
-      },
-      {
-        "title": "Eolien",
-        "ident": "",
-        "description": "",
-        "type": "folder",
-        "children": [
-        {
-            "title": "Eolien 'clé en main'",
-            "ident": "eolien_cle_en_main",
+            "title": "Puissance cumulée électrique installée par filière renouvelable par commune",
+            "ident": "Puissance cumulée électrique installée par filière renouvelable par commune",
             "description": "",
-            "metadata_url": "",
+            "metadata_url": "https://www.data.gouv.fr/fr/datasets/production-electrique-annuelle-par-filiere-a-la-maille-commune/",
             "type": "wms_ign_layer",
             "params": {
               "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
               "format": "image/png",
-              "name": "POTENTIEL.EOLIEN.REGLEMENTAIRE",
-              "style": "POTENTIEL.EOLIEN.REGLE",
+              "name": "PART.ENR.COMMUNE",
+              "style": "PART.ENR.COMMUNE",
               "srs": "EPSG:3857"
-              }
-        },
-        {
-          "title": "Zones exclues des aires d'accélération de l'éolien terrestre, de toutes les EnR (sauf toitures) ou nécessitant l'avis du gestionnaire",
-          "ident": "zones_exclues_acceleration",
-          "description": "",
-          "metadata_url": "",
-          "type": "wms_ign_layer",
-          "params": {
-            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
-            "format": "image/png",
-            "name": "ZONAGE.OFB",
-            "style": "ZONAGE.OFB",
-            "srs": "EPSG:3857"
             }
-        },
-        {
-          "title": "Contraintes réglementaires aeronautiques civiles",
-          "ident": "contrainte_aéronautiques_civiles",
-          "description": "",
-          "metadata_url": "",
-          "type": "wms_ign_layer",
-          "params": {
-            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
-            "format": "image/png",
-            "name": "ENR.AERO.CIVIL",
-            "style": "ENR.AERO.CIVIL",
-            "srs": "EPSG:3857"
+          },
+          {
+            "title": "Puissance cumulée des installations photovoltaïques par commune",
+            "ident": "Puissance cumulée des installations photovoltaïques par commune",
+            "description": "Cette couche nationale représente la somme en kW des puissances installées pour la filière photovoltaïque par commune, reconstituée à partir de l’exploitation du registre national des installations de production et de stockage d’électricité raccordées directement ou indirectement aux réseaux publics d’électricité en France métropolitaine et dans les zones non interconnectées (ZNI) arrêté au 28 février 2023.",
+            "metadata_url": "https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public",
+            "type": "wms_ign_layer",
+            "params": {
+              "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+              "format": "image/png",
+              "name": "PROD.INSTALLATION.PV",
+              "style": "PROD.INSTALLATION.PV",
+              "srs": "EPSG:3857"
             }
-        },
-        {
-          "title": "Contraintes réglementaires aeronautiques militaires",
-          "ident": "contrainte_aéronautiques_mitilaires",
-          "description": "",
-          "metadata_url": "",
-          "type": "wms_ign_layer",
-          "params": {
-            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
-            "format": "image/png",
-            "name": "ENR.AERO.MILITAIRE",
-            "style": "ENR.AERO.MILITAIRE",
-            "srs": "EPSG:3857"
-            }
-        },
-        {
-          "title": "Contraintes réglementaires liées aux habitations",
-          "ident": "contrainte_habitations",
-          "description": "",
-          "metadata_url": "",
-          "type": "wms_ign_layer",
-          "params": {
-            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
-            "format": "image/png",
-            "name": "ENR.PERIMETRE.HABITATION",
-            "style": "PERIMETRE.HABITATION",
-            "srs": "EPSG:3857"
-            }
-        },
-        {
-          "title": "Contraintes réglementaires liées aux pentes",
-          "ident": "contrainte_pentes",
-          "description": "",
-          "metadata_url": "",
-          "type": "wms_ign_layer",
-          "params": {
-            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
-            "format": "image/png",
-            "name": "ENR.PERIMETRE.PENTE",
-            "style": "PERIMETRE.PENTE",
-            "srs": "EPSG:3857"
-            }
-        },
-        {
-          "title": "Contraintes réglementaires liées aux routes",
-          "ident": "contrainte_routes",
-          "description": "",
-          "metadata_url": "",
-          "type": "wms_ign_layer",
-          "params": {
-            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
-            "format": "image/png",
-            "name": "ENR.PERIMETRE.ROUTE",
-            "style": "PERIMETRE.ROUTE",
-            "srs": "EPSG:3857"
-            }
-        },
-        {
-          "title": "Contraintes réglementaires liées aux voies férrées",
-          "ident": "contrainte_train",
-          "description": "",
-          "metadata_url": "",
-          "type": "wms_ign_layer",
-          "params": {
-            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
-            "format": "image/png",
-            "name": "ENR.PERIMETRE.VOIE.FERREE",
-            "style": "PERIMETRE.VOIE.FERREE",
-            "srs": "EPSG:3857"
-            }
-        },
-        {
-        "title": "Localisation des mâts éolien",
-        "ident": "Localisation des mâts éolien",
-        "description": "",
-        "metadata_url": "https://www.ecologie.gouv.fr/eolien-terrestre",
-        "type": "wms_ign_layer",
-        "params": {
-          "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
-          "format": "image/png",
-          "name": "LOCALISATION.MATS.EOLIEN",
-          "style": "LOCALISATION.MATS.EOLIEN",
-          "srs": "EPSG:3857"
           }
-        },
-        {
-          "title": "Puissance cumulée des installations éoliennes par commune",
-          "ident": "Puissance cumulée des installations éoliennes par commune",
-          "description": "",
-          "metadata_url": "https://www.ecologie.gouv.fr/eolien-terrestre",
-          "type": "wms_ign_layer",
-          "params": {
-            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
-            "format": "image/png",
-            "name": "PROD.INSTALLATION.EOLIEN",
-            "style": "PROD.INSTALLATION.EOLIEN",
-            "srs": "EPSG:3857"
-          }
-        },
-        {
-          "title": "Zones à enjeux pour l'installation d'éoliennes",
-          "ident": "Zones à enjeux pour l'installation d'éoliennes",
-          "description": "",
-          "metadata_url": "https://www.ecologie.gouv.fr/eolien-terrestre",
-          "type": "wms_ign_layer",
-          "params": {
-            "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
-            "format": "image/png",
-            "name": "POTENTIEL.EOLIEN.REGLEMENTAIRE",
-            "style": "POTENTIEL.EOLIEN.REGLEMENTAIRE",
-            "srs": "EPSG:3857"
-          }
-        },
-        {
-          "title": "Potentiel éolien terrestre - gisement de vent à 140m",
-          "ident": "Potentiel éolien terrestre - gisement de vent à 140m",
-          "description": "",
-          "metadata_url": "https://energie-fr-de.eu/de/windenergie/nachrichten/leser/hintergrundpapier-zu-windmessungen-und-windgutachten-fuer-die-standortbewertung-von-wea.html?file=files/ofaenr/04-notes-de-synthese/02-acces-libre/01-energie-eoliennne/170927_IWES_Mesures_et_expertises_de_vent_OFATE.pdf",
-          "type": "wms_urba_sandre_layer",
-          "params": {
-            "url": "https://wxs.ign.fr/enr/geoportail/r/wms?VERSION%3D1.3.0",
-            "format": "image/png",
-            "name": "POTENTIEL.VENT.140M",
-            "srs": "EPSG:3857"
-          }
-        },
-        {
-          "title": "Potentiel éolien terrestre - gisement de vent à 160m",
-          "ident": "Potentiel éolien terrestre - gisement de vent à 160m",
-          "description": "",
-          "metadata_url": "https://energie-fr-de.eu/de/windenergie/nachrichten/leser/hintergrundpapier-zu-windmessungen-und-windgutachten-fuer-die-standortbewertung-von-wea.html?file=files/ofaenr/04-notes-de-synthese/02-acces-libre/01-energie-eoliennne/170927_IWES_Mesures_et_expertises_de_vent_OFATE.pdf",
-          "type": "wms_urba_sandre_layer",
-          "params": {
-            "url": "https://wxs.ign.fr/enr/geoportail/r/wms?VERSION%3D1.3.0",
-            "format": "image/png",
-            "name": "POTENTIEL.VENT.160M",
-            "srs": "EPSG:3857"
-          }
-        }
-      ]
-      },
-      {
-        "title": "Photovoltaique",
-        "ident": "",
-        "description": "",
-        "type": "folder",
-        "children": [
-        {
-        "title": "Potentiel solaire sur toiture (méthode simplifiée)",
-        "ident": "Potentiel solaire sur toiture (méthode simplifiée)",
-        "description": "",
-        "metadata_url": "https://www.cerema.fr/fr/actualites/comment-identifier-potentiel-installation-panneaux-solaires",
-        "type": "wms_ign_layer",
-        "params": {
-          "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
-          "format": "image/png",
-          "name": "POTENTIEL.SOLAIRE.BATIMENT",
-          "style": "POTENTIEL.SOLAIRE.BATIMENT",
-          "srs": "EPSG:3857"
-        }
-      },
-      {
-        "title": "Potentiel solaire au sol - friches susceptibles d’accueillir des installations photovoltaïques",
-        "ident": "Potentiel solaire au sol - friches susceptibles d’accueillir des installations photovoltaïques",
-        "description": "",
-        "metadata_url": "https://presse.ademe.fr/2019/05/etude-limportant-potentiel-des-friches-et-des-parkings-pour-developper-lenergie-photovoltaique.html",
-        "type": "wms_ign_layer",
-        "params": {
-          "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
-          "format": "image/png",
-          "name": "POTENTIEL.SOLAIRE.FRICHE",
-          "style": "POTENTIEL.SOLAIRE.FRICHE",
-          "srs": "EPSG:3857"
-        }
-      },
-      {
-        "title": "Puissance cumulée des installations photovoltaïques par commune",
-        "ident": "Puissance cumulée des installations photovoltaïques par commune",
-        "description": "",
-        "metadata_url": "https://www.data.gouv.fr/fr/datasets/installations-de-production-de-la-filiere-solaire-par-commune/",
-        "type": "wms_ign_layer",
-        "params": {
-          "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
-          "format": "image/png",
-          "name": "PROD.INSTALLATION.PV",
-          "style": "PROD.INSTALLATION.PV",
-          "srs": "EPSG:3857"
-        }
-      },
-      {
-        "title": "Unités foncières contenant des surfaces de stationnement non couvertes de plus de 500 m² (données déclaratives)",
-        "ident": "Unités foncières contenant des surfaces de stationnement non couvertes de plus de 500 m² (données déclaratives)",
-        "description": "",
-        "metadata_url": "",
-        "type": "wms_ign_layer",
-        "params": {
-          "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
-          "format": "image/png",
-          "name": "POTENTIEL.SOLAIRE.PARKING500",
-          "style": "POTENTIEL.SOLAIRE.PARKING500",
-          "srs": "EPSG:3857"
-        }
-      },
-      {
-        "title": "Délaissés autoroutiers",
-        "ident": "delaisses_autoroutiers",
-        "description": "",
-        "metadata_url": "",
-        "type": "wms_ign_layer",
-        "params": {
-          "url": "https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
-          "format": "image/png",
-          "name": "DELAISSES.AUTOROUTIERS",
-          "style": "DELAISSES.AUTOROUTIERS",
-          "srs": "EPSG:3857"
-        }
+        ]
       }
-    ]
-    }
-    ]
-  }
+  ]
+}
