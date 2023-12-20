@@ -12,7 +12,7 @@
         "metadata_url": "",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
           "name": "ORTHOIMAGERY.ORTHOPHOTOS2020",
           "style": "normal",
@@ -26,7 +26,7 @@
         "metadata_url": "",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
           "name": "ORTHOIMAGERY.ORTHOPHOTOS2019",
           "style": "normal",
@@ -40,7 +40,7 @@
         "metadata_url": "",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
           "name": "ORTHOIMAGERY.ORTHOPHOTOS2018",
           "style": "normal",
@@ -54,7 +54,7 @@
         "metadata_url": "",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
           "name": "ORTHOIMAGERY.ORTHOPHOTOS2017",
           "style": "normal",
@@ -68,7 +68,7 @@
         "metadata_url": "",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
           "name": "ORTHOIMAGERY.ORTHOPHOTOS2016",
           "style": "normal",
@@ -82,7 +82,7 @@
         "metadata_url": "",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
           "name": "ORTHOIMAGERY.ORTHOPHOTOS2015",
           "style": "normal",
@@ -96,7 +96,7 @@
         "metadata_url": "",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
           "name": "ORTHOIMAGERY.ORTHOPHOTOS2014",
           "style": "normal",
@@ -110,7 +110,7 @@
         "metadata_url": "",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
           "name": "ORTHOIMAGERY.ORTHOPHOTOS2013",
           "style": "normal",
@@ -124,7 +124,7 @@
         "metadata_url": "",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
           "name": "ORTHOIMAGERY.ORTHOPHOTOS2012",
           "style": "normal",
@@ -138,7 +138,7 @@
         "metadata_url": "",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
           "name": "ORTHOIMAGERY.ORTHOPHOTOS2011",
           "style": "normal",
@@ -152,7 +152,7 @@
         "metadata_url": "",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
           "name": "ORTHOIMAGERY.ORTHOPHOTOS2010",
           "style": "normal",
@@ -166,7 +166,7 @@
         "metadata_url": "",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
           "name": "ORTHOIMAGERY.ORTHOPHOTOS2009",
           "style": "normal",
@@ -180,7 +180,7 @@
         "metadata_url": "",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
           "name": "ORTHOIMAGERY.ORTHOPHOTOS2008",
           "style": "normal",
@@ -194,7 +194,7 @@
         "metadata_url": "",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
           "name": "ORTHOIMAGERY.ORTHOPHOTOS2007",
           "style": "normal",
@@ -208,7 +208,7 @@
         "metadata_url": "",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
           "name": "ORTHOIMAGERY.ORTHOPHOTOS2006",
           "style": "normal",
@@ -222,7 +222,7 @@
         "metadata_url": "",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
           "name": "ORTHOIMAGERY.ORTHOPHOTOS2005",
           "style": "normal",
@@ -236,7 +236,7 @@
         "metadata_url": "",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
           "name": "ORTHOIMAGERY.ORTHOPHOTOS2004",
           "style": "normal",
@@ -250,7 +250,7 @@
         "metadata_url": "",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
           "name": "ORTHOIMAGERY.ORTHOPHOTOS2003",
           "style": "normal",
@@ -264,7 +264,7 @@
         "metadata_url": "",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
           "name": "ORTHOIMAGERY.ORTHOPHOTOS2002",
           "style": "normal",
@@ -278,7 +278,7 @@
         "metadata_url": "",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
           "name": "ORTHOIMAGERY.ORTHOPHOTOS2001",
           "style": "normal",
@@ -292,7 +292,7 @@
         "metadata_url": "",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
           "name": "ORTHOIMAGERY.ORTHOPHOTOS2000",
           "style": "normal",
@@ -306,7 +306,7 @@
         "metadata_url": "",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
           "name": "ORTHOIMAGERY.ORTHOPHOTOS2011-2015",
           "style": "normal",
@@ -320,7 +320,7 @@
         "metadata_url": "",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
           "name": "ORTHOIMAGERY.ORTHOPHOTOS2006-2010",
           "style": "normal",
@@ -334,7 +334,7 @@
         "metadata_url": "",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
           "name": "ORTHOIMAGERY.ORTHOPHOTOS2000-2005",
           "style": "normal",
@@ -348,7 +348,7 @@
         "metadata_url": "",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
           "name": "ORTHOIMAGERY.ORTHOPHOTOS.1950-1965",
           "style": "normal",

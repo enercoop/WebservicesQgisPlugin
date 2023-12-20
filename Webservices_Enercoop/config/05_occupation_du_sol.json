@@ -12,7 +12,7 @@
         "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/ocs-ge",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/ocsge/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/png",
           "name": "OCSGE.COUVERTURE",
           "style": "normal",
@@ -26,7 +26,7 @@
         "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/ocs-ge",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/ocsge/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/png",
           "name": "OCSGE.USAGE",
           "style": "normal",
@@ -40,7 +40,7 @@
         "metadata_url": "https://www.statistiques.developpement-durable.gouv.fr/corine-land-cover-0",
         "type": "wms_layer",
         "params": {
-          "url": "https://wxs.ign.fr/clc/geoportail/r/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/png",
           "name": "LANDCOVER.CLC18_FR",
           "srs": "EPSG:3857"

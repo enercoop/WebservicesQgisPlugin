@@ -12,7 +12,7 @@
         "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/png",
           "name": "LANDUSE.AGRICULTURE.LATEST",
           "style": "normal",
@@ -26,7 +26,7 @@
         "metadata_url": "https://www.geoportail.gouv.fr/donnees/cours-eau-bcae-2021",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/png",
           "name": "HYDROGRAPHY.BCAE.LATEST",
           "style": "normal",
@@ -40,7 +40,7 @@
         "metadata_url": "https://www.geoportail.gouv.fr/donnees/prairies-sensibles-bcae",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/png",
           "name": "PRAIRIES.SENSIBLES.BCAE",
           "style": "normal",
@@ -54,7 +54,7 @@
         "metadata_url": "https://www.geoportail.gouv.fr/donnees/inao-aoc-viticoles-parcellaire",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/parcellaire/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/png",
           "name": "Aire-Parcellaire",
           "style": "normal",
@@ -68,7 +68,7 @@
         "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/png",
           "name": "LANDUSE.AGRICULTURE2021",
           "style": "normal",
@@ -82,7 +82,7 @@
         "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/png",
           "name": "LANDUSE.AGRICULTURE2020",
           "style": "normal",
@@ -96,7 +96,7 @@
         "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/png",
           "name": "LANDUSE.AGRICULTURE2019",
           "style": "normal",
@@ -110,7 +110,7 @@
         "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/png",
           "name": "LANDUSE.AGRICULTURE2018",
           "style": "normal",
@@ -124,7 +124,7 @@
         "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/png",
           "name": "LANDUSE.AGRICULTURE2017",
           "style": "normal",
@@ -138,7 +138,7 @@
         "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/png",
           "name": "LANDUSE.AGRICULTURE2016",
           "style": "normal",
@@ -152,7 +152,7 @@
         "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/png",
           "name": "LANDUSE.AGRICULTURE2015",
           "style": "normal",
@@ -166,7 +166,7 @@
         "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/png",
           "name": "LANDUSE.AGRICULTURE2014",
           "style": "normal",
@@ -177,7 +177,7 @@
         "title": "Registre Parcellaire Graphique (RPG) 2013",
         "ident": "Registre_Parcellaire_Graphique_2013",
         "description": "BDD géographique servant de référence à l'instruction des aides de la politique agricole commune (PAC).",
-        "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
+        "metadata_url": "hhttps://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
         "type": "wms_ign_layer",
         "params": {
           "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
@@ -194,7 +194,7 @@
         "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/png",
           "name": "LANDUSE.AGRICULTURE2012",
           "style": "normal",
@@ -208,7 +208,7 @@
         "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/png",
           "name": "LANDUSE.AGRICULTURE2011",
           "style": "normal",
@@ -222,7 +222,7 @@
         "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/png",
           "name": "LANDUSE.AGRICULTURE2010",
           "style": "normal",
@@ -236,7 +236,7 @@
         "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/png",
           "name": "LANDUSE.AGRICULTURE2009",
           "style": "normal",
@@ -250,7 +250,7 @@
         "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/png",
           "name": "LANDUSE.AGRICULTURE2008",
           "style": "normal",
@@ -264,7 +264,7 @@
         "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/png",
           "name": "LANDUSE.AGRICULTURE2007",
           "style": "normal",

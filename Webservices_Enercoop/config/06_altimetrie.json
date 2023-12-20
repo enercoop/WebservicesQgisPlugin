@@ -12,7 +12,7 @@
         "metadata_url": "https://www.geoportail.gouv.fr/donnees/carte-du-relief",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/altimetrie/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
           "name": "ELEVATION.SLOPES",
           "style": "normal",
@@ -26,7 +26,7 @@
         "metadata_url": "https://www.geoportail.gouv.fr/donnees/carte-des-pentes",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/altimetrie/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/png",
           "name": "GEOGRAPHICALGRIDSYSTEMS.SLOPES.MOUNTAIN",
           "style": "normal",
@@ -40,7 +40,7 @@
         "metadata_url": "https://geoservices.ign.fr/documentation/donnees/alti/courbes-de-niveau",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/altimetrie/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/png",
           "name": "ELEVATION.CONTOUR.LINE",
           "style": "normal",

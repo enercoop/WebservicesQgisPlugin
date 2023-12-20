@@ -1,5 +1,5 @@
 {
-  "title": "Webservices_Enercoop - version du 14 décembre 2023",
+  "title": "Webservices_Enercoop - version du 20 décembre 2023",
   "ident": "316522f0-d2ef-4422-b935-e333815b4f7e",
   "description": "",
   "type": "folder",
@@ -16,11 +16,11 @@
           "ident": "Plan_IGN",
           "description": "Fond cartographique proposé par l’IGN.",
           "metadata_url": "https://www.geoportail.gouv.fr/actualites/plan-ign-la-nouvelle-reference-cartographique",
-          "type": "wms_ign_cle_layer",
+          "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/lambert93/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/png",
-            "name": "GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2.L93",
+            "name": "GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2",
             "style": "normal",
             "srs": "EPSG:2154"
           }
@@ -45,7 +45,7 @@
           "metadata_url": "https://geoservices.ign.fr/adminexpress",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/administratif/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/png",
             "name": "ADMINEXPRESS-COG.LATEST",
             "style": "normal",
@@ -96,7 +96,7 @@
           "metadata_url": "https://geoservices.ign.fr/bdortho",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/ortho/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
             "name": "ORTHOIMAGERY.ORTHOPHOTOS.BDORTHO",
             "style": "normal",
@@ -110,7 +110,7 @@
           "metadata_url": "",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/ortho/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
             "name": "HR.ORTHOIMAGERY.ORTHOPHOTOS",
             "style": "normal",
@@ -124,7 +124,7 @@
           "metadata_url": "",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/ortho/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
             "name": "ORTHOIMAGERY.ORTHOPHOTOS.IRC",
             "style": "normal",
@@ -138,7 +138,7 @@
           "metadata_url": "https://www.geoportail.gouv.fr/donnees/ortho-express-2022",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/ortho/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
             "name": "ORTHOIMAGERY.ORTHOPHOTOS.ORTHO-EXPRESS.2022",
             "style": "normal",
@@ -161,7 +161,7 @@
           "metadata_url": "",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
             "name": "ORTHOIMAGERY.ORTHOPHOTOS2020",
             "style": "normal",
@@ -175,7 +175,7 @@
           "metadata_url": "",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
             "name": "ORTHOIMAGERY.ORTHOPHOTOS2019",
             "style": "normal",
@@ -189,7 +189,7 @@
           "metadata_url": "",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
             "name": "ORTHOIMAGERY.ORTHOPHOTOS2018",
             "style": "normal",
@@ -203,7 +203,7 @@
           "metadata_url": "",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
             "name": "ORTHOIMAGERY.ORTHOPHOTOS2017",
             "style": "normal",
@@ -217,7 +217,7 @@
           "metadata_url": "",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
             "name": "ORTHOIMAGERY.ORTHOPHOTOS2016",
             "style": "normal",
@@ -231,7 +231,7 @@
           "metadata_url": "",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
             "name": "ORTHOIMAGERY.ORTHOPHOTOS2015",
             "style": "normal",
@@ -245,7 +245,7 @@
           "metadata_url": "",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
             "name": "ORTHOIMAGERY.ORTHOPHOTOS2014",
             "style": "normal",
@@ -259,7 +259,7 @@
           "metadata_url": "",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
             "name": "ORTHOIMAGERY.ORTHOPHOTOS2013",
             "style": "normal",
@@ -273,7 +273,7 @@
           "metadata_url": "",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
             "name": "ORTHOIMAGERY.ORTHOPHOTOS2012",
             "style": "normal",
@@ -287,7 +287,7 @@
           "metadata_url": "",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
             "name": "ORTHOIMAGERY.ORTHOPHOTOS2011",
             "style": "normal",
@@ -301,7 +301,7 @@
           "metadata_url": "",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
             "name": "ORTHOIMAGERY.ORTHOPHOTOS2010",
             "style": "normal",
@@ -315,7 +315,7 @@
           "metadata_url": "",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
             "name": "ORTHOIMAGERY.ORTHOPHOTOS2009",
             "style": "normal",
@@ -329,7 +329,7 @@
           "metadata_url": "",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
             "name": "ORTHOIMAGERY.ORTHOPHOTOS2008",
             "style": "normal",
@@ -343,7 +343,7 @@
           "metadata_url": "",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
             "name": "ORTHOIMAGERY.ORTHOPHOTOS2007",
             "style": "normal",
@@ -357,7 +357,7 @@
           "metadata_url": "",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
             "name": "ORTHOIMAGERY.ORTHOPHOTOS2006",
             "style": "normal",
@@ -371,7 +371,7 @@
           "metadata_url": "",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
             "name": "ORTHOIMAGERY.ORTHOPHOTOS2005",
             "style": "normal",
@@ -385,7 +385,7 @@
           "metadata_url": "",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
             "name": "ORTHOIMAGERY.ORTHOPHOTOS2004",
             "style": "normal",
@@ -399,7 +399,7 @@
           "metadata_url": "",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
             "name": "ORTHOIMAGERY.ORTHOPHOTOS2003",
             "style": "normal",
@@ -413,7 +413,7 @@
           "metadata_url": "",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
             "name": "ORTHOIMAGERY.ORTHOPHOTOS2002",
             "style": "normal",
@@ -427,7 +427,7 @@
           "metadata_url": "",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
             "name": "ORTHOIMAGERY.ORTHOPHOTOS2001",
             "style": "normal",
@@ -441,7 +441,7 @@
           "metadata_url": "",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
             "name": "ORTHOIMAGERY.ORTHOPHOTOS2000",
             "style": "normal",
@@ -455,7 +455,7 @@
           "metadata_url": "",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
             "name": "ORTHOIMAGERY.ORTHOPHOTOS2011-2015",
             "style": "normal",
@@ -469,7 +469,7 @@
           "metadata_url": "",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
             "name": "ORTHOIMAGERY.ORTHOPHOTOS2006-2010",
             "style": "normal",
@@ -483,7 +483,7 @@
           "metadata_url": "",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
             "name": "ORTHOIMAGERY.ORTHOPHOTOS2000-2005",
             "style": "normal",
@@ -497,7 +497,7 @@
           "metadata_url": "",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/orthohisto/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
             "name": "ORTHOIMAGERY.ORTHOPHOTOS.1950-1965",
             "style": "normal",
@@ -520,7 +520,7 @@
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/png",
             "name": "LANDUSE.AGRICULTURE.LATEST",
             "style": "normal",
@@ -534,7 +534,7 @@
           "metadata_url": "https://www.geoportail.gouv.fr/donnees/cours-eau-bcae-2021",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/png",
             "name": "HYDROGRAPHY.BCAE.LATEST",
             "style": "normal",
@@ -548,7 +548,7 @@
           "metadata_url": "https://www.geoportail.gouv.fr/donnees/prairies-sensibles-bcae",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/png",
             "name": "PRAIRIES.SENSIBLES.BCAE",
             "style": "normal",
@@ -562,7 +562,7 @@
           "metadata_url": "https://www.geoportail.gouv.fr/donnees/inao-aoc-viticoles-parcellaire",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/parcellaire/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/png",
             "name": "Aire-Parcellaire",
             "style": "normal",
@@ -576,7 +576,7 @@
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/png",
             "name": "LANDUSE.AGRICULTURE2021",
             "style": "normal",
@@ -590,7 +590,7 @@
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/png",
             "name": "LANDUSE.AGRICULTURE2020",
             "style": "normal",
@@ -604,7 +604,7 @@
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/png",
             "name": "LANDUSE.AGRICULTURE2019",
             "style": "normal",
@@ -618,7 +618,7 @@
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/png",
             "name": "LANDUSE.AGRICULTURE2018",
             "style": "normal",
@@ -632,7 +632,7 @@
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/png",
             "name": "LANDUSE.AGRICULTURE2017",
             "style": "normal",
@@ -646,7 +646,7 @@
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/png",
             "name": "LANDUSE.AGRICULTURE2016",
             "style": "normal",
@@ -660,7 +660,7 @@
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/png",
             "name": "LANDUSE.AGRICULTURE2015",
             "style": "normal",
@@ -674,7 +674,7 @@
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/png",
             "name": "LANDUSE.AGRICULTURE2014",
             "style": "normal",
@@ -685,7 +685,7 @@
           "title": "Registre Parcellaire Graphique (RPG) 2013",
           "ident": "Registre_Parcellaire_Graphique_2013",
           "description": "BDD géographique servant de référence à l'instruction des aides de la politique agricole commune (PAC).",
-          "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
+          "metadata_url": "hhttps://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
@@ -702,7 +702,7 @@
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/png",
             "name": "LANDUSE.AGRICULTURE2012",
             "style": "normal",
@@ -716,7 +716,7 @@
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/png",
             "name": "LANDUSE.AGRICULTURE2011",
             "style": "normal",
@@ -730,7 +730,7 @@
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/png",
             "name": "LANDUSE.AGRICULTURE2010",
             "style": "normal",
@@ -744,7 +744,7 @@
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/png",
             "name": "LANDUSE.AGRICULTURE2009",
             "style": "normal",
@@ -758,7 +758,7 @@
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/png",
             "name": "LANDUSE.AGRICULTURE2008",
             "style": "normal",
@@ -772,7 +772,7 @@
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/png",
             "name": "LANDUSE.AGRICULTURE2007",
             "style": "normal",
@@ -795,7 +795,7 @@
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/ocs-ge",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/ocsge/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/png",
             "name": "OCSGE.COUVERTURE",
             "style": "normal",
@@ -809,7 +809,7 @@
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/ocs-ge",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/ocsge/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/png",
             "name": "OCSGE.USAGE",
             "style": "normal",
@@ -823,7 +823,7 @@
           "metadata_url": "https://www.statistiques.developpement-durable.gouv.fr/corine-land-cover-0",
           "type": "wms_layer",
           "params": {
-            "url": "https://wxs.ign.fr/clc/geoportail/r/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/png",
             "name": "LANDCOVER.CLC18_FR",
             "srs": "EPSG:3857"
@@ -845,7 +845,7 @@
           "metadata_url": "https://www.geoportail.gouv.fr/donnees/carte-du-relief",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/altimetrie/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
             "name": "ELEVATION.SLOPES",
             "style": "normal",
@@ -859,7 +859,7 @@
           "metadata_url": "https://www.geoportail.gouv.fr/donnees/carte-des-pentes",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/altimetrie/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/png",
             "name": "GEOGRAPHICALGRIDSYSTEMS.SLOPES.MOUNTAIN",
             "style": "normal",
@@ -873,7 +873,7 @@
           "metadata_url": "https://geoservices.ign.fr/documentation/donnees/alti/courbes-de-niveau",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/altimetrie/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/png",
             "name": "ELEVATION.CONTOUR.LINE",
             "style": "normal",
@@ -1460,7 +1460,7 @@
           "metadata_url": "https://geoservices.ign.fr/parcellaire-express-pci",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/parcellaire/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/png",
             "name": "CADASTRALPARCELS.PARCELLAIRE_EXPRESS",
             "style": "PCI%20vecteur",
@@ -1474,7 +1474,7 @@
           "metadata_url": "https://www.datagrandest.fr/portail/fr/actualites/evolution-du-produit-parcellaire-lign",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/parcellaire/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/png",
             "name": "CADASTRALPARCELS.HEATMAP",
             "style": "DECALAGE%20DE%20LA%20REPRESENTATION%20CADASTRALE",
@@ -1488,7 +1488,7 @@
           "metadata_url": "https://geoservices.ign.fr/sites/default/files/2021-07/DL_BDPARCELLAIRE_1-2.pdf",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/parcellaire/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/png",
             "name": "CADASTRALPARCELS.QUALREFBDP",
             "style": "DIVCAD_MTD",

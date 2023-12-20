@@ -12,7 +12,7 @@
         "metadata_url": "https://geoservices.ign.fr/bdortho",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/ortho/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
           "name": "ORTHOIMAGERY.ORTHOPHOTOS.BDORTHO",
           "style": "normal",
@@ -26,7 +26,7 @@
         "metadata_url": "",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/ortho/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
           "name": "HR.ORTHOIMAGERY.ORTHOPHOTOS",
           "style": "normal",
@@ -40,7 +40,7 @@
         "metadata_url": "",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/ortho/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
           "name": "ORTHOIMAGERY.ORTHOPHOTOS.IRC",
           "style": "normal",
@@ -54,7 +54,7 @@
         "metadata_url": "https://www.geoportail.gouv.fr/donnees/ortho-express-2022",
         "type": "wms_ign_layer",
         "params": {
-          "url": "https://wxs.ign.fr/ortho/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
           "name": "ORTHOIMAGERY.ORTHOPHOTOS.ORTHO-EXPRESS.2022",
           "style": "normal",
