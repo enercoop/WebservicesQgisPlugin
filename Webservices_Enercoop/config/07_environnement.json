@@ -9,6 +9,7 @@
         "ident": "Arrêtés_de_Protection_de_Biotope_(APB)",
         "description": "Actes administratifs préféctoraux pris en vue de préserver les habitats des espèces protégées, l’équilibre biologique ou la fonctionnalité des milieux.",
         "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/cdc54288-665e-48d1-9cdf-ef563e100798",
+        "raw_data_url": "https://geo.enercoop.org/data/environnement/",
         "type": "wms_layer",
         "params": {
           "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -23,6 +24,7 @@
         "ident": "Arrêtés_de_Protection_d’Habitats_Naturels_(APHN)",
         "description": "Arrêtés visant à préserver des habitats naturels présentant un intérêt particulier à titre scientifique, de rôle essentiel dans l’écosystème ou de la préservation du patrimoine naturel.",
         "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/ec3e4da1-da04-4e63-924c-1dfa69bc2989",
+        "raw_data_url": "https://geo.enercoop.org/data/environnement/",
         "type": "wms_layer",
         "params": {
           "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -37,6 +39,7 @@
         "ident": "Arrêtés_de_Protection_de_Géotope_(APG)",
         "description": "Outil de protection réglementaire des sites figurant sur la liste départementale des sites d’intérêt géologique",
         "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/3666668b-9553-4942-9462-2699b42d89f7",
+        "raw_data_url": "https://geo.enercoop.org/data/environnement/",
         "type": "wms_layer",
         "params": {
           "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -50,6 +53,7 @@
         "ident": "Biens_du_patrimoine_mondial_de_l'UNESCO",
         "description": "Biens inscrits sur la liste du patrimoine mondial de l'UNESCO du fait de leur valeur patrimoniale exceptionnelle.",
         "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/ea950812-5a72-4540-bf3f-868efc5bbcc3",
+        "raw_data_url": "https://geo.enercoop.org/data/environnement/",
         "type": "wms_layer",
         "params": {
           "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -64,6 +68,7 @@
         "ident": "Géoparcs_mondiaux_UNESCO",
         "description": "Territoires labellisés par l’UNESCO où l’élément géologique patrimonial est le support pour des projets de protection, de développements du territoire et d’éducation.",
         "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/d5b93447-0802-4799-b64f-bf6d0aadbb87",
+        "raw_data_url": "https://geo.enercoop.org/data/environnement/",
         "type": "wms_layer",
         "params": {
           "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -77,6 +82,7 @@
         "ident": "Inventaire_du_Patrimoine_géologique_National_(INPG)",
         "description": "Programme recensant les sites géologiques d’intérêt patrimonial sur la plateforme InvenTerre",
         "metadata_url": "https://inventerre.mnhn.fr/accueil",
+        "raw_data_url": "https://geo.enercoop.org/data/environnement/",
         "type": "wms_layer",
         "params": {
           "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -90,6 +96,7 @@
         "ident": "Parcs_Nationaux_(PN)",
         "description": "Vaste espace protégé dont le patrimoine naturel, culturel et paysager est exceptionnel. Classiquement composé de 2 zones : le cœur de parc et une aire d'adhésion.",
         "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/53286c20-c2b0-4c6f-b877-7afeafbe39dc",
+        "raw_data_url": "https://geo.enercoop.org/data/environnement/",
         "type": "wms_layer",
         "params": {
           "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -104,6 +111,7 @@
         "ident": "Parcs_Naturels_Régionaux_(PNR)",
         "description": "Outils de valorisation de vastes espaces de fort intérêt culturel et naturel.",
         "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/951d23fd-bf2f-4a23-88b5-2ca8622e1cd1",
+        "raw_data_url": "https://geo.enercoop.org/data/environnement/",
         "type": "wms_layer",
         "params": {
           "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -118,6 +126,7 @@
         "ident": "Réserves_Biologiques_(RBiol)",
         "description": "Espace protégé en milieu forestier ou en milieu associé à la forêt (landes, mares, tourbières, dunes).",
         "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/71a5f31d-3ef5-4c45-bd31-39141154e277",
+        "raw_data_url": "https://geo.enercoop.org/data/environnement/",
         "type": "wms_layer",
         "params": {
           "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -132,6 +141,7 @@
         "ident": "Réserves_de_Biosphère_(RBios)",
         "description": "Réserves naturelles reconnues par le Programme sur l’Homme et la Biosphère créé par l’UNESCO.",
         "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/016307b9-5d14-4f61-873f-a41691d13a7b",
+        "raw_data_url": "https://geo.enercoop.org/data/environnement/",
         "type": "wms_layer",
         "params": {
           "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -146,6 +156,7 @@
         "ident": "Réserves_Intégrales_de_Parcs_Nationaux_(RIPN)",
         "description": "Créées au sein d'un coeur de PN afin d'assurer, dans un but scientifique, une protection plus grande de certains éléments de la faune et de la flore.",
         "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/5ca16eed-0bc0-4e56-94b4-219fc400b68c",
+        "raw_data_url": "https://geo.enercoop.org/data/environnement/",
         "type": "wms_layer",
         "params": {
           "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -160,6 +171,7 @@
         "ident": "Réserves_Naturelles_Nationales_(RNN)",
         "description": "Aires protégeant à long terme des espaces, espèces ou objets géologiques.",
         "metadata_url": "",
+        "raw_data_url": "https://geo.enercoop.org/data/environnement/",
         "type": "wms_layer",
         "params": {
           "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -174,6 +186,7 @@
         "ident": "Réserves_Naturelles_Régionales_(RNR)",
         "description": "Identiques aux RNN dans leur gestion, mais créées par les Régions.",
         "metadata_url": "https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique",
+        "raw_data_url": "https://geo.enercoop.org/data/environnement/",
         "type": "wms_layer",
         "params": {
           "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -188,6 +201,7 @@
         "ident": "Réserves_Nationales_de_Chasse_et_de_Faune_Sauvage_(RNCFS)",
         "description": "Réserves gérées par l'Office Français de la Biodiversité (OFB) ou un autre établissement public visant à la protection d’espèces de faune sauvage menacées.",
         "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/f305b23f-7439-4cd6-9403-3f18563a7a6e",
+        "raw_data_url": "https://geo.enercoop.org/data/environnement/",
         "type": "wms_layer",
         "params": {
           "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -202,6 +216,7 @@
         "ident": "Conservatoires_d'Espaces Naturels_Sites_Acquis_(CEN-SA)",
         "description": "Sites acquis et/ou « assimilés » (bail emphytéotique et contrat de plus de 18 ans) dont les CEN ont pleinement la maîtrise foncière.",
         "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/e724c2e1-af95-4c2a-8ce9-7154f2e06673",
+        "raw_data_url": "https://geo.enercoop.org/data/environnement/",
         "type": "wms_layer",
         "params": {
           "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -216,6 +231,7 @@
         "ident": "Conservatoires_d'Espaces_Naturels_Site_Gérés_(CEN-SG)",
         "description": "Sites gérés (location, gestion de moins de 18 ans, convention de gestion) par les CEN.",
         "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/e724c2e1-af95-4c2a-8ce9-7154f2e06673",
+        "raw_data_url": "https://geo.enercoop.org/data/environnement/",
         "type": "wms_layer",
         "params": {
           "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -230,6 +246,7 @@
         "ident": "Conservatoire_du_Littoral_(CDL)_Terrains_acquis",
         "description": "Terrains acquis par le Conservatoire du Littoral pour la sauvegarde des espaces côtiers et lacustres.",
         "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/5a24eed8-f8c9-4554-98d8-9d7fb364efb6",
+        "raw_data_url": "https://geo.enercoop.org/data/environnement/",
         "type": "wms_layer",
         "params": {
           "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -244,6 +261,7 @@
         "ident": "Conservatoire_du_Littoral_(CDL)_Périmètres autorisés",
         "description": "Zones à préserver définies par le Conservatoire et susceptibles d’être acquises par celui-ci.",
         "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
+        "raw_data_url": "https://geo.enercoop.org/data/environnement/",
         "type": "wms_layer",
         "params": {
           "url": "https://wxs.ign.fr/environnement/geoportail/r/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
@@ -257,6 +275,7 @@
         "ident": "Zones_humides_protégées_par_la_Convention_de_Ramsar",
         "description": "Zones humides d'importance internationale inscrite sur la liste établie par la Convention de Ramsar",
         "metadata_url": "https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique",
+        "raw_data_url": "https://geo.enercoop.org/data/environnement/",        
         "type": "wms_layer",
         "params": {
           "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -271,6 +290,7 @@
         "ident": "ZNIEFF1",
         "description": "Zones Naturelles d’Intérêt Ecologique, Faunistique et Floristique de type 1, définies par la présence d’espèces ou de milieux rares, remarquables ou caractéristiques.",
         "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/f30dd410-9c72-47f5-a384-96603ddc703e",
+        "raw_data_url": "https://geo.enercoop.org/data/environnement/",
         "type": "wms_layer",
         "params": {
           "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -285,6 +305,7 @@
         "ident": "ZNIEFF2",
         "description": "Zones Naturelles d’Intérêt Ecologique, Faunistique et Floristique de type 2 : grands ensembles naturels ou peu modifiés offrant des potentialités biologiques importantes. Moins remarquables que les ZNIEFF1.",
         "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/50bc6286-83f6-4494-9fb6-3d82a43cafa8",
+        "raw_data_url": "https://geo.enercoop.org/data/environnement/",
         "type": "wms_layer",
         "params": {
           "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -299,6 +320,7 @@
         "ident": "Zones_Importantes_pour_la_Conservation_des_Oiseaux_(ZICO)",
         "description": "Les ZICO ont servi de base pour établir les Zones de Protection Spéciale (ZPS) Natura2000  ",
         "metadata_url": "https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique/inv/zico",
+        "raw_data_url": "https://geo.enercoop.org/data/environnement/",
         "type": "wms_layer",
         "params": {
           "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -313,6 +335,7 @@
         "ident": "Natura_2000_Zones_de_Protection_Spéciale_(ZPS)_Directive Oiseaux",
         "description": "Zones visant la conservation des espèces d'oiseaux sauvages figurant à l'annexe I de la Directive europénne Oiseaux.",
         "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/c334eb2e-634e-479a-b867-8bf352e5827f",
+        "raw_data_url": "https://geo.enercoop.org/data/environnement/",
         "type": "wms_layer",
         "params": {
           "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -327,6 +350,7 @@
         "ident": "Natura_2000_Zones_Spéciales_de_Conservation_(ZSC/SIC)_Directive_Habitats",
         "description": "Désignées dans le droit français comme ZSC, ces zones sont des Sites d'Importance Communautaire (SIC) au sens de l'UE et de la Directive 'Habitats, Faune, Flore'.",
         "metadata_url": "https://www.nord.gouv.fr/Actions-de-l-Etat/Environnement/Nature-et-biodiversite/Natura-2000/Natura-2000-ZPS-ZSC-SIC-DOCOB",
+        "raw_data_url": "https://geo.enercoop.org/data/environnement/",
         "type": "wms_layer",
         "params": {
           "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -383,6 +407,7 @@
         "ident": "Périmètres_de_protection_de_réserves_naturelles",
         "description": "Un périmètre de protection peut être mis en place en périphérie d’une réserve naturelle. Cet espace constitue une zone tampon autour de l’espace classé, améliorant les échanges écologiques entre la réserve et sa périphérie.",
         "metadata_url": "https://terranota.fr/les-reserves-naturelles-et-perimetres-de-protection-autour-des-reserves-naturelles-ac3/",
+        "raw_data_url": "https://geo.enercoop.org/data/environnement/",
         "type": "wms_ign_layer",
         "params": {
         "url": "https://wxs.ign.fr/environnement/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",

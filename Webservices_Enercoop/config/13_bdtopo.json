@@ -5,6 +5,22 @@
     "metadata_url": "https://geoservices.ign.fr/bdtopo",
     "type": "folder",
     "children": [
+
+        {
+            "title": "BDTOPO (entière)",
+            "ident": "BDTOPO",
+            "description": "La modélisation 2D du territoire et de ses infrastructures sur l'ensemble du territoire français produit par l'IGN",
+            "metadata_url": "https://geoservices.ign.fr/bdtopo",
+            "raw_data_url": "https://geo.enercoop.org/data/bdtopo/",
+            "type": "void_layer",
+            "params": {
+            "url": "",
+            "format": "",
+            "name": "",
+            "style": "",
+            "srs": ""
+            }
+        },
         {
             "title": "Administatif",
             "ident": "",
@@ -100,6 +116,21 @@
                     "name": "TRANSPORTNETWORKS.ROADS",
                     "style": "normal",
                     "srs": "EPSG:3857"
+                    }
+                },
+                {
+                    "title": "DGAC (entière)",
+                    "ident": "DGAC",
+                    "description": "Données de la Direction Générale de l'Aviation Civile (DGAC)",
+                    "metadata_url": "https://si.enercoop.org/eprod:qgis_aviation",
+                    "raw_data_url": "https://geo.enercoop.org/data/aerien/",
+                    "type": "void_layer",
+                    "params": {
+                    "url": "",
+                    "format": "",
+                    "name": "",
+                    "style": "",
+                    "srs": ""
                     }
                 },
                 {

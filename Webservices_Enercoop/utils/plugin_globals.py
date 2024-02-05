@@ -26,6 +26,7 @@ class PluginGlobals:
     NODE_TYPE_WMS_IGN_LAYER = "wms_ign_layer"
     NODE_TYPE_WMS_ENR_LAYER = "wms_enr_layer"
     NODE_TYPE_WMS_IGN_CLE_LAYER = "wms_ign_cle_layer"
+    NODE_TYPE_VOID_LAYER = "void_layer"
     NODE_TYPE_VECTOR_TILES_LAYER = "vector_layer"
     NODE_TYPE_WMTS_LAYER = "wmts_layer"
     NODE_TYPE_WMS_LAYER_STYLE = "wms_layer_style"

@@ -1,10 +1,40 @@
 {
-    "title": "Sandre (Eau)",
+    "title": "Eau",
     "ident": "",
-    "description": "Données relatives aux services d'administration nationale des données et référentiels sur l'eau (SANDRE)",
-    "metadata_url": "https://www.sandre.eaufrance.fr/",
+    "description": "Données relatives aux services d'administration nationale des données et référentiels sur l'eau (SANDRE) et de Cart'eaux",
+    "metadata_url": "https://si.enercoop.org/eprod:qgis_eau",
     "type": "folder",
     "children": [
+      {
+        "title": "Aires d'alimentations et de captage",
+        "ident": "Aires_d_alimentations_et_de_captage",
+        "description": " Les données sur les périmètres de captage était historiquement en opendata afin de savoir où respecter la réglementation sur l’environnement, mais “à cause de la menace terroriste” elles ont été dépubliées“ (source). Elles sont maintenant de retour sur Carteaux.fr. On distingue 3 niveaux de protection des périmètres de captage, par ordre d'importance : Les Périmètres de Protection Immédiate (PPI), dont les terrains sont à acquérir en pleine propriété par la collectivité, ont pour fonctions principales d'empêcher la détérioration des ouvrages et d'éviter les déversements de substances polluantes à proximité immédiate de l'ouvrage. Les Périmètres de Protection Rapprochée (PPR) Les Périmètres de Protection Eloignés (PPE)",
+        "metadata_url": "https://si.enercoop.org/eprod:qgis_eau",
+        "raw_data_url": "https://geo.enercoop.org/data/eau/",
+        "type": "void_layer",
+        "params": {
+        "url": "",
+        "format": "",
+        "name": "",
+        "style": "",
+        "srs": ""
+        }
+      },
+      {
+        "title": "Périmètres de protections des captages",
+        "ident": "perimetres_de_protections_captages",
+        "description": "On distingue 3 niveaux de protection des périmètres de captage, par ordre d'importance : Les Périmètres de Protection Immédiate (PPI), dont les terrains sont à acquérir en pleine propriété par la collectivité, ont pour fonctions principales d'empêcher la détérioration des ouvrages et d'éviter les déversements de substances polluantes à proximité immédiate de l'ouvrage. Les Périmètres de Protection Rapprochée (PPR) Les Périmètres de Protection Eloignés (PPE)",
+        "metadata_url": "https://si.enercoop.org/eprod:qgis_eau",
+        "raw_data_url": "https://geo.enercoop.org/data/eau/",
+        "type": "void_layer",
+        "params": {
+        "url": "",
+        "format": "",
+        "name": "",
+        "style": "",
+        "srs": ""
+        }
+      },
       {
         "title": "Segments de classement de continuité écologique - liste 1",
         "ident": "Segments de classement de continuité écologique - liste 1",

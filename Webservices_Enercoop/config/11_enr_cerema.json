@@ -25,6 +25,21 @@
             }
           },
           {
+            "title": "Cartofriches",
+            "ident": "Cartofriches",
+            "description": "Le besoin principal auquel souhaite répondre Cartofriches est l'aide au recensement les friches pour les qualifier et faciliter leur réutilisation. Il s'adresse à tout porteur de projet, public ou privé. Le Cerema utilise les données de BASIAS et BASOL, ainsi que d'autres lots de données nationaux (candidatures aux appels à projets, par exemple) pour assurer une pré-identification des friches sur tout le territoire national. ",
+            "metadata_url": "https://si.enercoop.org/eprod:qgis_sites_pollues",
+            "raw_data_url": "https://geo.enercoop.org/data/cartofriches/",
+            "type": "void_layer",
+            "params": {
+            "url": "",
+            "format": "",
+            "name": "",
+            "style": "",
+            "srs": ""
+            }
+        },
+          {
             "title": "Potentiel solaire sur toiture (méthode simplifiée)",
             "ident": "Potentiel solaire sur toiture (méthode simplifiée)",
             "description": "Estimation simplifiée du potentiel solaire en toiture en Wh/an sur la base de la couche bâti de la Bd Topo® (2022 - producteur IGN). Pour chaque emprise de bâtiment, la valeur fournie est une estimation de l’énergie solaire reçue sur des panneaux photovoltaïque qui seraient installés sur toiture, selon une méthode très simplifiée décrite dans la fiche de métadonnées de cette couche et qui, notamment, ne prend pas en compte les masques proches. Cette information est fournie à titre indicatif et ne saurait se substituer à des estimations réalisées avec des méthodes plus précises.",
@@ -36,6 +51,21 @@
               "name": "POTENTIEL.SOLAIRE.BATIMENT",
               "style": "POTENTIEL.SOLAIRE.BATIMENT",
               "srs": "EPSG:3857"
+            }
+          },
+          {
+            "title": "OpenSolarMap",
+            "ident": "OpenSolarMap",
+            "description": "Données sur l'orientation des toits issus d'un projet de crowdsourcing et disponible sur OpenStreetMap",
+            "metadata_url": "https://www.data.gouv.fr/fr/reuses/opensolarmap/",
+            "raw_data_url": "https://geo.enercoop.org/data/batiment/opensolarmap/",
+            "type": "void_layer",
+            "params": {
+              "url": "",
+              "format": "",
+              "name": "",
+              "style": "",
+              "srs": ""
             }
           },
           {
@@ -225,6 +255,21 @@
               "style": "PERIMETRE.VOIE.FERREE",
               "srs": "EPSG:3857"
               }
+          },
+          {
+            "title": "Faisceaux_hertziens",
+            "ident": "faisceaux_hertziens",
+            "description": "Faisceaux hertziens pouvant affecté l'implantation d'éoliennes",
+            "metadata_url": "",
+            "raw_data_url": "https://geo.enercoop.org/data/faisceaux_hertziens/",
+            "type": "void_layer",
+            "params": {
+              "url": "",
+              "format": "",
+              "name": "",
+              "style": "",
+              "srs": ""
+            }
           }
         ]
       },

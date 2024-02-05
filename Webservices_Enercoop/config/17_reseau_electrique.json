@@ -1,0 +1,53 @@
+{
+    "title": "Réseau éléctrique (geo.enercoop.org)",
+    "ident": "",
+    "description": "Réseau eléctrique RTE,HTA,BT aérien et souterrain",
+    "type": "folder",
+    "children": [
+      {
+        "title": "Réseau BT",
+        "ident": "reseau_bt",
+        "description": "Les lignes BT sont les plus petites lignes du réseau. Leur tension est de 230V ou 400V",
+        "metadata_url": "https://geo.enercoop.org/data/reseau/enedis_bt/",
+        "raw_data_url": "https://geo.enercoop.org/data/reseau/",
+        "type": "void_layer",
+        "params": {
+          "url": "",
+          "format": "",
+          "name": "",
+          "style": "",
+          "srs": ""
+        }
+      },
+      {
+        "title": "Réseau HTA",
+        "ident": "reseau_hta",
+        "description": "Les lignes HTA permettent le transport de l’électricité à l’échelle locale vers les petites industries, les PME et les commerces. Elles font également le lien entre les clients et les postes de transformations. Ces lignes ont une tension comprise entre 15 kV et 30 kV",
+        "metadata_url": "https://si.enercoop.org/eprod:qgis_reseau",
+        "raw_data_url": "https://geo.enercoop.org/data/reseau/enedis_hta/",
+        "type": "void_layer",
+        "params": {
+          "url": "",
+          "format": "",
+          "name": "",
+          "style": "",
+          "srs": ""
+        }
+      },
+      {
+        "title": "Réseau RTE",
+        "ident": "reseau_rte",
+        "description": "Le réseau de transport, géré par RTE, conduit l’électricité depuis les centres de production aux gros industriels et jusqu’aux postes électriques. Il est composé de deux types de lignes pour le transport : des lignes à Très Haute Tension (THT, 400 000 et 225 000 volts) et des lignes à Haute Tension (HT, 90 000 et 63 000 volts).",
+        "metadata_url": "https://si.enercoop.org/eprod:qgis_reseau",
+        "raw_data_url": "https://geo.enercoop.org/data/reseau/",
+        "type": "void_layer",
+        "params": {
+          "url": "",
+          "format": "",
+          "name": "",
+          "style": "",
+          "srs": ""
+        }
+      }
+    ]
+}

@@ -1,50 +1,238 @@
 {
-    "title": "Foncier",
-    "ident": "",
-    "description": "Couches relatives au foncier (IGN)",
-    "type": "folder",
-    "children": [
-      {
-        "title": "PCI - Plan Cadastral Informatisé Vecteur",
-        "ident": "PCI",
-        "description": "Le plan cadastral est un assemblage d’environ 600 000 feuilles ou planches représentant chacune une section ou une partie d’une section cadastrale.",
-        "metadata_url": "https://geoservices.ign.fr/parcellaire-express-pci",
-        "type": "wms_ign_layer",
-        "params": {
-          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
-          "format": "image/png",
-          "name": "CADASTRALPARCELS.PARCELLAIRE_EXPRESS",
-          "style": "PCI%20vecteur",
-          "srs": "EPSG:3857"
-        }
-      },
-      {
-        "title": "Decalage de la representation cadastrale",
-        "ident": "Decalage_de_la_representation_cadastrale",
-        "description": "Cartographie des décalages entre les données BD Parcellaire et Parcellaire Express.",
-        "metadata_url": "https://www.datagrandest.fr/portail/fr/actualites/evolution-du-produit-parcellaire-lign",
-        "type": "wms_ign_layer",
-        "params": {
-          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
-          "format": "image/png",
-          "name": "CADASTRALPARCELS.HEATMAP",
-          "style": "DECALAGE%20DE%20LA%20REPRESENTATION%20CADASTRALE",
-          "srs": "EPSG:3857"
-        }
-      },
-      {
-        "title": "Qualité du géoréférencement de la BD Parcellaire",
-        "ident": "Qualité_du_georeferencement_de_la_BD_Parcellaire",
-        "description": "Qualité du géoréférencement de la BD Parcellaire",
-        "metadata_url": "https://geoservices.ign.fr/sites/default/files/2021-07/DL_BDPARCELLAIRE_1-2.pdf",
-        "type": "wms_ign_layer",
-        "params": {
-          "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
-          "format": "image/png",
-          "name": "CADASTRALPARCELS.QUALREFBDP",
-          "style": "DIVCAD_MTD",
-          "srs": "EPSG:3857"
-        }
+  "title": "Foncier",
+  "ident": "",
+  "description": "Couches relatives au foncier (IGN)",
+  "type": "folder",
+  "children": [
+    {
+      "title": "PCI - Plan Cadastral Informatisé Vecteur",
+      "ident": "PCI",
+      "description": "Le plan cadastral est un assemblage d’environ 600 000 feuilles ou planches représentant chacune une section ou une partie d’une section cadastrale.",
+      "metadata_url": "https://geoservices.ign.fr/parcellaire-express-pci",
+      "type": "wms_ign_layer",
+      "params": {
+        "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+        "format": "image/png",
+        "name": "CADASTRALPARCELS.PARCELLAIRE_EXPRESS",
+        "style": "PCI%20vecteur",
+        "srs": "EPSG:3857"
       }
+    },
+    {
+      "title": "Decalage de la representation cadastrale",
+      "ident": "Decalage_de_la_representation_cadastrale",
+      "description": "Cartographie des décalages entre les données BD Parcellaire et Parcellaire Express.",
+      "metadata_url": "https://www.datagrandest.fr/portail/fr/actualites/evolution-du-produit-parcellaire-lign",
+      "type": "wms_ign_layer",
+      "params": {
+        "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+        "format": "image/png",
+        "name": "CADASTRALPARCELS.HEATMAP",
+        "style": "DECALAGE%20DE%20LA%20REPRESENTATION%20CADASTRALE",
+        "srs": "EPSG:3857"
+      }
+    },
+    {
+      "title": "Qualité du géoréférencement de la BD Parcellaire",
+      "ident": "Qualité_du_georeferencement_de_la_BD_Parcellaire",
+      "description": "Qualité du géoréférencement de la BD Parcellaire",
+      "metadata_url": "https://geoservices.ign.fr/sites/default/files/2021-07/DL_BDPARCELLAIRE_1-2.pdf",
+      "type": "wms_ign_layer",
+      "params": {
+        "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+        "format": "image/png",
+        "name": "CADASTRALPARCELS.QUALREFBDP",
+        "style": "DIVCAD_MTD",
+        "srs": "EPSG:3857"
+      }
+    },
+    {
+        "title": "Cadastre minier (Camino)",
+        "ident": "Cadastre_minier",
+        "description": "Informations admnistratives pour les titres miniers valides et demandes initiales ou modificatives afférentes publiques et en cours d'instruction.",
+        "metadata_url": "https://www.data.gouv.fr/fr/datasets/cadastre-minier/",
+        "raw_data_url": "https://geo.enercoop.org/data/cadastre_minier/",
+        "type": "void_layer",
+        "params": {
+          "url": "",
+          "format": "",
+          "name": "",
+          "style": "",
+          "srs": ""
+        }
+    },
+    {
+      "title": "Foncier collectivités et pers. morales (geo.enercoop.org)",
+      "ident": "",
+      "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales",
+      "type": "folder",
+      "children": [
+        {
+          "title": "Foncier ELR",
+          "ident": "Foncier_ELR",
+          "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales pour Enercoop Languedoc Roussilon",
+          "metadata_url": "https://si.enercoop.org/eprod:qgis_foncier",
+          "raw_data_url": "https://geo.enercoop.org/ELR/data/foncier/",
+          "type": "void_layer",
+          "params": {
+            "url": "",
+            "format": "",
+            "name": "",
+            "style": "",
+            "srs": ""
+          }
+        },
+        {
+          "title": "Foncier EAURA",
+          "ident": "Foncier_EAURA",
+          "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales pour Enercoop Auvergne-Rhône-Alpes",
+          "metadata_url": "https://si.enercoop.org/eprod:qgis_foncier",
+          "raw_data_url": "https://geo.enercoop.org/EAURA/data/foncier/",
+          "type": "void_layer",
+          "params": {
+            "url": "",
+            "format": "",
+            "name": "",
+            "style": "",
+            "srs": ""
+          }
+        },
+        {
+          "title": "Foncier EBZH",
+          "ident": "Foncier_EBZH",
+          "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales pour Enercoop Bretagne",
+          "metadata_url": "https://si.enercoop.org/eprod:qgis_foncier",
+          "raw_data_url": "https://geo.enercoop.org/EBZH/data/foncier/",
+          "type": "void_layer",
+          "params": {
+            "url": "",
+            "format": "",
+            "name": "",
+            "style": "",
+            "srs": ""
+          }
+        },
+        {
+          "title": "Foncier EHDFR",
+          "ident": "Foncier_EHDFR",
+          "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales pour Enercoop Hauts-de-France",
+          "metadata_url": "https://si.enercoop.org/eprod:qgis_foncier",
+          "raw_data_url": "https://geo.enercoop.org/EHDFR/",
+          "type": "void_layer",
+          "params": {
+            "url": "",
+            "format": "",
+            "name": "",
+            "style": "",
+            "srs": ""
+          }
+        },
+        {
+          "title": "Foncier EMIPY",
+          "ident": "Foncier_EMIPY",
+          "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales pour Enercoop Midi-Pyrénées",
+          "metadata_url": "https://si.enercoop.org/eprod:qgis_foncier",
+          "raw_data_url": "https://geo.enercoop.org/EMIPY/data/foncier/",
+          "type": "void_layer",
+          "params": {
+            "url": "",
+            "format": "",
+            "name": "",
+            "style": "",
+            "srs": ""
+          }
+        },
+        {
+          "title": "Foncier ENAQUI",
+          "ident": "Foncier_ENAQUI",
+          "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales pour Enercoop Nouvelle-Aquitaine",
+          "metadata_url": "https://si.enercoop.org/eprod:qgis_foncier",
+          "raw_data_url": "https://geo.enercoop.org/ENAQUI/data/foncier/",
+          "type": "void_layer",
+          "params": {
+            "url": "",
+            "format": "",
+            "name": "",
+            "style": "",
+            "srs": ""
+          }
+        },
+        {
+          "title": "Foncier ENATL",
+          "ident": "Foncier_ENATL",
+          "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales pour Enercoop Nationale",
+          "metadata_url": "https://si.enercoop.org/eprod:qgis_foncier",
+          "raw_data_url": "https://geo.enercoop.org/ENATL/data/foncier/",
+          "type": "void_layer",
+          "params": {
+            "url": "",
+            "format": "",
+            "name": "",
+            "style": "",
+            "srs": ""
+          }
+        },
+        {
+          "title": "Foncier ENEST",
+          "ident": "Foncier_ENEST",
+          "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales pour Enercoop Nord-est",
+          "metadata_url": "https://si.enercoop.org/eprod:qgis_foncier",
+          "raw_data_url": "https://geo.enercoop.org/ENEST/data/foncier/",
+          "type": "void_layer",
+          "params": {
+            "url": "",
+            "format": "",
+            "name": "",
+            "style": "",
+            "srs": ""
+          }
+        },
+        {
+          "title": "Foncier ENORM",
+          "ident": "Foncier_ENORM",
+          "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales pour Enercoop Normandie",
+          "metadata_url": "https://si.enercoop.org/eprod:qgis_foncier",
+          "raw_data_url": "https://geo.enercoop.org/ENORM/data/foncier/",
+          "type": "void_layer",
+          "params": {
+            "url": "",
+            "format": "",
+            "name": "",
+            "style": "",
+            "srs": ""
+          }
+        },
+        {
+          "title": "Foncier EPACA",
+          "ident": "Foncier_EPACA",
+          "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales pour Enercoop Provence-Alpes-Côte-d'Azur",
+          "metadata_url": "https://si.enercoop.org/eprod:qgis_foncier",
+          "raw_data_url": "https://geo.enercoop.org/EPACA/data/foncier/",
+          "type": "void_layer",
+          "params": {
+            "url": "",
+            "format": "",
+            "name": "",
+            "style": "",
+            "srs": ""
+          }
+        },
+        {
+          "title": "Foncier EPDL",
+          "ident": "Foncier_EPDL",
+          "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales pour Enercoop Pays de la Loire",
+          "metadata_url": "https://si.enercoop.org/eprod:qgis_foncier",
+          "raw_data_url": "https://geo.enercoop.org/EPDL/data/foncier/",
+          "type": "void_layer",
+          "params": {
+            "url": "",
+            "format": "",
+            "name": "",
+            "style": "",
+            "srs": ""
+          }
+        }
+      ]
+    }
   ]
 }

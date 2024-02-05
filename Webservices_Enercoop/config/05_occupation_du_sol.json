@@ -10,6 +10,7 @@
         "ident": "OCS_GE_Couverture du sol",
         "description": "L'OCcupation du Sol à Grande Echelle (OCS GE) est une base de données vectorielle produite par l'IGN pour la description de l’occupation du sol. Elle s’appuie sur un modèle ouvert séparant la couverture du sol et l’usage du sol.",
         "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/ocs-ge",
+        "raw_data_url": "https://geo.enercoop.org/data/ocsge/",
         "type": "wms_ign_layer",
         "params": {
           "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
@@ -24,6 +25,7 @@
         "ident": "OCS_GE_Usage du sol",
         "description": "L'OCcupation du Sol à Grande Echelle (OCS GE) est une base de données vectorielle produite par l'IGN pour la description de l’occupation du sol. Elle s’appuie sur un modèle ouvert séparant la couverture du sol et l’usage du sol.",
         "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/ocs-ge",
+        "raw_data_url": "https://geo.enercoop.org/data/ocsge/",
         "type": "wms_ign_layer",
         "params": {
           "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",

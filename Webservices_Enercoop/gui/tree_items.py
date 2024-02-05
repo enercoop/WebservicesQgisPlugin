@@ -87,6 +87,12 @@ class TreeWidgetItem(QTreeWidgetItem):
         """
         self.item_data.run_show_metadata_action()
 
+    def run_show_raw_data_action(self):
+        """
+        Displays the brut resource
+        """
+        self.item_data.run_show_raw_data_action()
+
     def contains_unexpanded_subitems(self):
         """
         Determines if subitems are not expanded
@@ -127,6 +133,10 @@ class TreeWidgetItem(QTreeWidgetItem):
         if self.item_data.metadata_url:
             show_metadata_action = menu.addAction(u"Afficher les métadonnées...")
             show_metadata_action.triggered.connect(self.run_show_metadata_action)
+        
+        if self.item_data.raw_data_url:
+            show_brut_action = menu.addAction(u"Télécharger les données brutes...")
+            show_brut_action.triggered.connect(self.run_show_raw_data_action)
 
         if self.childCount() > 0 and self.contains_unexpanded_subitems():
             expand_all_subitems_action = menu.addAction(

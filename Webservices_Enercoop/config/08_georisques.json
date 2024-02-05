@@ -9,6 +9,7 @@
         "ident": "Base_des_Anciens_Sites_Industriels_et_Activités_de_Service_(BASIAS)",
         "description": "La BASIAS recense les sites industriels, abandonnés ou en activité, susceptibles d'engendrer une pollution de l'environnement.",
         "metadata_url": "https://www.georisques.gouv.fr/articles-risques/pollutions-sols-sis-anciens-sites-industriels/basias",
+        "raw_data_url": "https://geo.enercoop.org/data/georisques/",       
         "type": "wms_layer",
         "params": {
           "url": "https://www.georisques.gouv.fr/services",
@@ -23,6 +24,7 @@
         "ident": "Sites_et_Sols_Pollués_ou_potentiellement_pollués_(SSP_ex-BASOL)",
         "description": "Sites et sols pollués (ou potentiellement pollués) appelant une action des pouvoirs publics, à titre préventif ou curatif.",
         "metadata_url": "https://www.georisques.gouv.fr/articles-risques/pollutions-sols-sis-anciens-sites-industriels/basol",
+        "raw_data_url": "https://geo.enercoop.org/data/georisques/",
         "type": "wms_urba_sandre_layer",
         "params": {
           "url": "https://www.georisques.gouv.fr/services",
@@ -89,6 +91,7 @@
         "ident": "Canalisations_de_transport_de_matières_dangereuses",
         "description": "Il s’agit d’une canalisation qui achemine des produits chimiques vers des réseaux de distribution, d’autres ouvrages de transport, des entreprises industrielles ou commerciales, des sites de stockage ou de chargement. Cette dénomination ne s’applique pas au réseau de distribution de gaz en ville, mais aux conduites de transport longue distance, qui sont plus grosses (entre 8 et 120 cm de diamètre) et fonctionnent à des pressions plus importantes (jusqu’à 94 bars).",
         "metadata_url": "https://www.georisques.gouv.fr/cartes-interactives#/",
+        "raw_data_url": "https://geo.enercoop.org/data/georisques/",
         "type": "wms_urba_sandre_layer",
         "params": {
           "url": "https://www.georisques.gouv.fr/services",
@@ -102,6 +105,7 @@
         "ident": "Canalisations_de_transport_de_matières_dangereuses",
         "description": "Il s’agit d’une canalisation qui achemine du gaz vers des réseaux de distribution, d’autres ouvrages de transport, des entreprises industrielles ou commerciales, des sites de stockage ou de chargement. Cette dénomination ne s’applique pas au réseau de distribution de gaz en ville, mais aux conduites de transport longue distance, qui sont plus grosses (entre 8 et 120 cm de diamètre) et fonctionnent à des pressions plus importantes (jusqu’à 94 bars).",
         "metadata_url": "https://www.georisques.gouv.fr/cartes-interactives#/",
+        "raw_data_url": "https://geo.enercoop.org/data/georisques/",
         "type": "wms_urba_sandre_layer",
         "params": {
           "url": "https://www.georisques.gouv.fr/services",
@@ -115,11 +119,55 @@
         "ident": "Canalisations_de_transport_de_matières_dangereuses",
         "description": "Il s’agit d’une canalisation qui achemine des hydrocarbures vers des réseaux de distribution, d’autres ouvrages de transport, des entreprises industrielles ou commerciales, des sites de stockage ou de chargement. Cette dénomination ne s’applique pas au réseau de distribution de gaz en ville, mais aux conduites de transport longue distance, qui sont plus grosses (entre 8 et 120 cm de diamètre) et fonctionnent à des pressions plus importantes (jusqu’à 94 bars).",
         "metadata_url": "https://www.georisques.gouv.fr/cartes-interactives#/",
+        "raw_data_url": "https://geo.enercoop.org/data/georisques/",
         "type": "wms_urba_sandre_layer",
         "params": {
           "url": "https://www.georisques.gouv.fr/services",
           "format": "image/png",
           "name": "C_HYDROCARBURES",
+          "srs": "EPSG:2154"
+        }
+      },
+      {
+        "title": "Mouvement de terrains et cavités",
+        "ident": "mouv_terrains_cavites",
+        "description": "Ensemble des projets de production en cours ou achévés",
+        "metadata_url": "Ensemble des ressencement sur les mouvements de terrains et les cavités",
+        "raw_data_url": "https://geo.enercoop.org/data/georisques/",
+        "type": "void_layer",
+        "params": {
+          "url": "",
+          "format": "",
+          "name": "",
+          "style": "",
+          "srs": ""
+        }
+      },
+      {
+        "title": "Plan de Prévention des Risques Feu de forêts (PPRNF)",
+        "ident": "Plan_de_Prévention_des_Risques_feu",
+        "description": "Plan de prévention des riques de feub de forêts",
+        "metadata_url": "https://www.georisques.gouv.fr/plans-de-prevention-des-risques-naturels",
+        "type": "wms_layer",
+        "params": {
+          "url": "https://www.georisques.gouv.fr/services",
+          "format": "image/png",
+          "name": "PPRN_ZONE_FEU_FXX",
+          "style": "default",
+          "srs": "EPSG:4326"
+        }
+      },
+      {
+        "title": "Plan de Prévention des Risques Mouvement de terrains (PPRNMV)",
+        "ident": "Plan_de_Prévention_des_Risques_feu",
+        "description": "Plan de Prévention des Risques Mouvement de terrains argiles, cavités, etc",
+        "metadata_url": "https://www.georisques.gouv.fr/plans-de-prevention-des-risques-naturels",
+        "type": "wms_layer",
+        "params": {
+          "url": "https://www.georisques.gouv.fr/services",
+          "format": "image/png",
+          "name": "PPRN_PERIMETRE_MVT_FXX",
+          "style": "default",
           "srs": "EPSG:2154"
         }
       }

@@ -1,7 +1,7 @@
 {
-    "title": "Géoportail de l'Urbanisme",
+    "title": "Urbanisme et patrimoine",
     "ident": "",
-    "description": "Couches diffusées par le Géoportail de l'Urbanisme et l'IGN",
+    "description": "Couches diffusées par le Géoportail de l'Urbanisme, l'IGN et l'atlas du patrimoine",
     "type": "folder",
     "children": [
       {
@@ -31,6 +31,21 @@
         }
       },
       {
+        "title": "ZPPA - Zones de présomption de prescription archéologique",
+        "ident": "ZPPA",
+        "description": " Au sein des secteurs à fort potentiel archéologique, l’État peut définir des zones où les projets d’aménagement affectant le sous-sol sont présumés faire l’objet de prescriptions de diagnostic préalablement à leur réalisation. Dans ces zones, les autorisations d’urbanisme sont traitées par le SRA selon des seuils prédéfinis par le Préfet de Région. Ces zonages, amenés à évoluer, sont transmis à titre informatif et réglementaire selon leur catégorie. En dehors de ces zones, il est prévu que le SRA n’examine que les projets supérieurs à 3000 m2 et les études d’impact",
+        "metadata_url": "https://si.enercoop.org/eprod:qgis_patrimoine",
+        "raw_data_url": "https://geo.enercoop.org/data/patrimoine/",
+        "type": "void_layer",
+        "params": {
+          "url": "",
+          "format": "",
+          "name": "",
+          "style": "",
+          "srs": ""
+        }
+      },
+      {
         "title": "Emprise des documents d'urbanisme (petite échelle)",
         "ident": "Emprise_des_documents_d'urbanisme_(petite échelle)",
         "description": "Emprise des documents d'urbanisme (petite échelle)",
@@ -57,6 +72,81 @@
         }
       },
       {
+        "title": "SUP - Servitudes d'utilités publiques Patrimoine",
+        "ident": "SUP_Patrimoine",
+        "description": "Limitations administratives au droit de propriété, instituées par l’autorité publique dans un but d’utilité publique",
+        "metadata_url": "https://www.geoinformations.developpement-durable.gouv.fr/nomenclature-nationale-des-sup-r1082.html",
+        "raw_data_url": "https://geo.enercoop.org/data/patrimoine/",
+        "type": "void_layer",
+        "params": {
+          "url": "",
+          "format": "",
+          "name": "",
+          "style": "",
+          "srs": ""
+        }
+      },
+      {
+        "title": "Assiette SUP",
+        "ident": "assiette_sup",
+        "description": "",
+        "metadata_url": "",
+        "raw_data_url": "https://geo.enercoop.org/data/urbanisme/assiette_sup/",
+        "type": "void_layer",
+        "params": {
+          "url": "",
+          "format": "",
+          "name": "",
+          "style": "",
+          "srs": ""
+        }
+      },
+      {
+        "title": "Générateur SUP",
+        "ident": "generateur_sup",
+        "description": "",
+        "metadata_url": "",
+        "raw_data_url": "https://geo.enercoop.org/data/urbanisme/generateur_sup/",
+        "type": "void_layer",
+        "params": {
+          "url": "",
+          "format": "",
+          "name": "",
+          "style": "",
+          "srs": ""
+        }
+      },
+      {
+        "title": "Prescriptions urbanisme",
+        "ident": "Prescriptions_urba",
+        "description": "",
+        "metadata_url": "",
+        "raw_data_url": "https://geo.enercoop.org/data/urbanisme/prescription_urba/",
+        "type": "void_layer",
+        "params": {
+          "url": "",
+          "format": "",
+          "name": "",
+          "style": "",
+          "srs": ""
+        }
+      },
+      {
+        "title": "Zones urbanisme",
+        "ident": "zones_urba",
+        "description": "",
+        "metadata_url": "",
+        "raw_data_url": "https://geo.enercoop.org/data/urbanisme/zone_urba/",
+        "type": "void_layer",
+        "params": {
+          "url": "",
+          "format": "",
+          "name": "",
+          "style": "",
+          "srs": ""
+        }
+      },
+      {
         "title": "SCOT - Schéma de Cohérence Territoriale",
         "ident": "SCOT_Schéma_de_Cohérence_Territoriale",
         "description": "Le schéma de cohérence territoriale (SCoT) est un document d'urbanisme qui, à l'échelle d'un territoire de projet ou bassin de vie (périmètre intercommunal ou au-delà), détermine l'organisation spatiale et les grandes orientations de développement d'un territoire.",
@@ -74,6 +164,7 @@
         "ident": "Communes_loi_littoral",
         "description": "La loi Littoral concerne plus de 1 200 communes riveraines de la mer, mais aussi de grands lacs, d'estuaires ou de deltas. Face à la pression urbaine, aux phénomènes d'érosion ou de submersion marine subis par ces territoires, elle tente de concilier préservation et développement du littoral",
         "metadata_url": "https://carmen.naturefrance.fr/",
+        "raw_data_url": "https://geo.enercoop.org/data/geoadmin/",
         "type": "wms_layer",
         "params": {
           "url": "http://ws.carmen.developpement-durable.gouv.fr/WMS/91/loi_littoral?",
@@ -141,6 +232,7 @@
         "ident": "Communes_2019_soumises_à_la_loi_Montagne_de_1985",
         "description": "Missionné par la DHUP (Bureau de la législation de l'urbanisme), le Cerema a réalisé une actualisation au 1er janvier 2019 de la liste des communes concernées par l'application des dispositions d'urbanisme de la loi Montagne (Loi n° 85-30 du 9 janvier 1985 relative au développement et à la protection de la montagne, Loi n° 2016-1888 du 28 décembre 2016 de modernisation, de développement et de protection des territoires de montagne).",
         "metadata_url": "https://catalogue.datara.gouv.fr/geonetwork/srv/fre/catalog.search#/metadata/17aaef31-af53-4d68-97c8-741e695f1820",
+        "raw_data_url": "https://geo.enercoop.org/data/geoadmin/",
         "type": "wms_layer",
         "params": {
           "url": "https://datacarto.datara.gouv.fr/map/carte_zonage_amenagement?VERSION%3D1.3.0",
@@ -148,6 +240,21 @@
           "name": "layer31",
           "style": "",
           "srs": "EPSG:2154"
+        }
+      },
+      {
+        "title": "Dérogation ACC",
+        "ident": "derogation_acc",
+        "description": "Regarder les métadonnées",
+        "metadata_url": "https://si.enercoop.org/eprod:qgis_acc",
+        "raw_data_url": "https://geo.enercoop.org/data/insee/",
+        "type": "void_layer",
+        "params": {
+          "url": "",
+          "format": "",
+          "name": "",
+          "style": "",
+          "srs": ""
         }
       }
     ]

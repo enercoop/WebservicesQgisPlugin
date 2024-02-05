@@ -23,6 +23,7 @@ from .nodes import (
     WmsLayerIgnTreeNode,
     WmsLayerIgnCleTreeNode,
     WmsEnrTreeNode,
+    VoidTreeNode,
     VectorTilesTreeNode
 )
 from .nodes import (
@@ -127,6 +128,7 @@ class TreeNodeFactory:
         node_type = tree_config.get("type", None)
         node_status = tree_config.get("status", None)
         node_metadata_url = tree_config.get("metadata_url", None)
+        node_raw_data_url = tree_config.get("raw_data_url", None)
         node_ident = tree_config.get("ident", None)
         node_params = tree_config.get("params", None)
         node_bounding_boxes = tree_config.get("bounding_boxes", None)
@@ -140,6 +142,7 @@ class TreeNodeFactory:
                     node_description,
                     node_status,
                     node_metadata_url,
+                    node_raw_data_url,
                     node_ident,
                     node_params,
                     node_bounding_boxes,
@@ -153,6 +156,7 @@ class TreeNodeFactory:
                     node_description,
                     node_status,
                     node_metadata_url,
+                    node_raw_data_url,
                     node_ident,
                     node_params,
                     node_bounding_boxes,
@@ -166,6 +170,7 @@ class TreeNodeFactory:
                     node_description,
                     node_status,
                     node_metadata_url,
+                    node_raw_data_url,
                     node_ident,
                     node_params,
                     node_bounding_boxes,
@@ -179,6 +184,7 @@ class TreeNodeFactory:
                     node_description,
                     node_status,
                     node_metadata_url,
+                    node_raw_data_url,
                     node_ident,
                     node_params,
                     node_bounding_boxes,
@@ -192,6 +198,7 @@ class TreeNodeFactory:
                     node_description,
                     node_status,
                     node_metadata_url,
+                    node_raw_data_url,
                     node_ident,
                     node_params,
                     node_bounding_boxes,
@@ -205,6 +212,7 @@ class TreeNodeFactory:
                     node_description,
                     node_status,
                     node_metadata_url,
+                    node_raw_data_url,
                     node_ident,
                     node_params,
                     node_bounding_boxes,
@@ -218,6 +226,21 @@ class TreeNodeFactory:
                     node_description,
                     node_status,
                     node_metadata_url,
+                    node_raw_data_url,
+                    node_ident,
+                    node_params,
+                    node_bounding_boxes,
+                    parent_node,
+                )
+
+            elif node_type == PluginGlobals.instance().NODE_TYPE_VOID_LAYER:
+                node = VoidTreeNode(
+                    node_title,
+                    node_type,
+                    node_description,
+                    node_status,
+                    node_metadata_url,
+                    node_raw_data_url,
                     node_ident,
                     node_params,
                     node_bounding_boxes,
@@ -231,6 +254,7 @@ class TreeNodeFactory:
                     node_description,
                     node_status,
                     node_metadata_url,
+                    node_raw_data_url,
                     node_ident,
                     node_params,
                     node_bounding_boxes,
@@ -244,6 +268,7 @@ class TreeNodeFactory:
                     node_description,
                     node_status,
                     node_metadata_url,
+                    node_raw_data_url,
                     node_ident,
                     node_params,
                     node_bounding_boxes,
@@ -259,6 +284,7 @@ class TreeNodeFactory:
                     node_description,
                     node_status,
                     node_metadata_url,
+                    node_raw_data_url,
                     node_ident,
                     node_params,
                     node_bounding_boxes,
@@ -272,6 +298,7 @@ class TreeNodeFactory:
                     node_description,
                     node_status,
                     node_metadata_url,
+                    node_raw_data_url,
                     node_ident,
                     node_params,
                     node_bounding_boxes,

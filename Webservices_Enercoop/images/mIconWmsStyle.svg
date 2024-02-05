@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -13,7 +11,7 @@
    height="24"
    id="svg5692"
    version="1.1"
-   inkscape:version="0.48.2 r9819"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
    sodipodi:docname="mIconWmsStyle.svg"
    inkscape:export-filename="/media/home1/robert/svn/graphics/trunk/toolbar-icons/32x32/layer-vector.png"
    inkscape:export-xdpi="90"
@@ -135,9 +133,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="34.5"
-     inkscape:cx="11.195668"
-     inkscape:cy="12"
+     inkscape:zoom="24.395184"
+     inkscape:cx="14.854562"
+     inkscape:cy="8.0939269"
      inkscape:current-layer="layer2"
      showgrid="true"
      inkscape:grid-bbox="true"
@@ -145,8 +143,8 @@
      borderlayer="false"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:snap-global="false"
      showguides="true"
@@ -154,7 +152,8 @@
      inkscape:snap-object-midpoints="true"
      inkscape:snap-grids="false"
      inkscape:object-paths="false"
-     inkscape:snap-bbox="true">
+     inkscape:snap-bbox="true"
+     inkscape:document-rotation="0">
     <inkscape:grid
        type="xygrid"
        id="grid5700"
@@ -163,8 +162,10 @@
        enabled="true"
        snapvisiblegridlinesonly="true"
        dotted="true"
-       originx="2.5px"
-       originy="2.5px" />
+       originx="2.5"
+       originy="2.5"
+       spacingx="1"
+       spacingy="1" />
   </sodipodi:namedview>
   <metadata
      id="metadata5697">
@@ -218,24 +219,14 @@
      inkscape:label="Layer"
      style="display:inline"
      transform="translate(0,-8)">
-    <path
-       transform="matrix(0.8884151,0.45904097,-0.45904097,0.8884151,0,0)"
-       style="fill:#1b4758;fill-opacity:1;stroke:none"
-       d="m 19.228389,-0.46355173 5.112557,-2.55124507 1.891105,3.58017286 -1.733143,8.50326244 -4.00647,0.1182979 z"
-       id="rect3019"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccc" />
-    <path
-       style="fill:#6b94ba;fill-opacity:1;stroke:#106996;stroke-width:1.60000002000000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="M 17.947785,19.934971 C 14.929689,17.99012 13.587539,16.950927 11.473359,17.824356 9.3591799,18.697788 8.8959384,21.764468 8.0379037,23.694521 7.1798731,25.624576 2.8926696,30.308626 2.8926696,30.308626 8.549676,29.415167 15.75407,26.526033 17.154013,24.488156 c 1.399943,-2.037876 0.793772,-4.553185 0.793772,-4.553185 z"
-       id="path3793"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="czzczc" />
-    <path
-       style="fill:#1b4758;fill-opacity:1;stroke:none;display:inline"
-       d="m 17.965548,22.017288 c -1.78764,-1.113503 -2.582861,-1.708098 -3.831887,-1.212913 -1.249025,0.495206 -1.518577,2.243628 -2.023227,3.343231 -0.50465,1.099606 -3.8207209,5.197201 -3.8207209,5.197201 3.3441709,-0.501622 8.3879899,-3.57138 9.2129539,-4.731735 0.824967,-1.160341 0.462875,-2.595803 0.462881,-2.595784 z"
-       id="path3793-1"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="czzczc" />
+    <g
+       style="fill:#415fea;fill-opacity:1"
+       id="g859"
+       transform="matrix(0.12336592,0,0,0.10750858,-3.5549693,6.2280737)">
+      <path
+         d="m 213.66,82.34 -56,-56 A 8,8 0 0 0 152,24 H 56 A 16,16 0 0 0 40,40 v 176 a 16,16 0 0 0 16,16 h 144 a 16,16 0 0 0 16,-16 V 88 a 8,8 0 0 0 -2.34,-5.66 z M 160,51.31 188.69,80 H 160 Z M 200,216 H 56 V 40 h 88 v 48 a 8,8 0 0 0 8,8 h 48 z m -42.34,-61.66 a 8,8 0 0 1 0,11.32 l -24,24 a 8,8 0 0 1 -11.32,0 l -24,-24 a 8.0044488,8.0044488 0 0 1 11.32,-11.32 L 120,164.69 V 120 a 8,8 0 0 1 16,0 v 44.69 l 10.34,-10.35 a 8,8 0 0 1 11.32,0 z"
+         id="path848"
+         style="fill:#415fea;fill-opacity:1" />
+    </g>
   </g>
 </svg>

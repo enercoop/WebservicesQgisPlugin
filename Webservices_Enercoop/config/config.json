@@ -1,5 +1,5 @@
 {
-  "title": "Webservices_Enercoop - version du 20 décembre 2023",
+  "title": "Webservices_Enercoop - version du 05 février 2024",
   "ident": "316522f0-d2ef-4422-b935-e333815b4f7e",
   "description": "",
   "type": "folder",
@@ -518,6 +518,7 @@
           "ident": "Registre_Parcellaire_Graphique_(RPG)_Dernière édition",
           "description": "BDD géographique servant de référence à l'instruction des aides de la politique agricole commune (PAC).",
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
+          "raw_data_url": "https://geo.enercoop.org/data/agriculture/rpg_2021/",
           "type": "wms_ign_layer",
           "params": {
             "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
@@ -560,6 +561,7 @@
           "ident": "Parcelles_AOC_viticoles",
           "description": "Délimitations parcellaires AOC viticoles diffusées par l'INAO.",
           "metadata_url": "https://www.geoportail.gouv.fr/donnees/inao-aoc-viticoles-parcellaire",
+          "raw_data_url": "https://geo.enercoop.org/data/agriculture/",
           "type": "wms_ign_layer",
           "params": {
             "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
@@ -793,6 +795,7 @@
           "ident": "OCS_GE_Couverture du sol",
           "description": "L'OCcupation du Sol à Grande Echelle (OCS GE) est une base de données vectorielle produite par l'IGN pour la description de l’occupation du sol. Elle s’appuie sur un modèle ouvert séparant la couverture du sol et l’usage du sol.",
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/ocs-ge",
+          "raw_data_url": "https://geo.enercoop.org/data/ocsge/",
           "type": "wms_ign_layer",
           "params": {
             "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
@@ -807,6 +810,7 @@
           "ident": "OCS_GE_Usage du sol",
           "description": "L'OCcupation du Sol à Grande Echelle (OCS GE) est une base de données vectorielle produite par l'IGN pour la description de l’occupation du sol. Elle s’appuie sur un modèle ouvert séparant la couverture du sol et l’usage du sol.",
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/ocs-ge",
+          "raw_data_url": "https://geo.enercoop.org/data/ocsge/",
           "type": "wms_ign_layer",
           "params": {
             "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
@@ -893,6 +897,7 @@
           "ident": "Arrêtés_de_Protection_de_Biotope_(APB)",
           "description": "Actes administratifs préféctoraux pris en vue de préserver les habitats des espèces protégées, l’équilibre biologique ou la fonctionnalité des milieux.",
           "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/cdc54288-665e-48d1-9cdf-ef563e100798",
+          "raw_data_url": "https://geo.enercoop.org/data/environnement/",
           "type": "wms_layer",
           "params": {
             "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -907,6 +912,7 @@
           "ident": "Arrêtés_de_Protection_d’Habitats_Naturels_(APHN)",
           "description": "Arrêtés visant à préserver des habitats naturels présentant un intérêt particulier à titre scientifique, de rôle essentiel dans l’écosystème ou de la préservation du patrimoine naturel.",
           "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/ec3e4da1-da04-4e63-924c-1dfa69bc2989",
+          "raw_data_url": "https://geo.enercoop.org/data/environnement/",
           "type": "wms_layer",
           "params": {
             "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -921,6 +927,7 @@
           "ident": "Arrêtés_de_Protection_de_Géotope_(APG)",
           "description": "Outil de protection réglementaire des sites figurant sur la liste départementale des sites d’intérêt géologique",
           "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/3666668b-9553-4942-9462-2699b42d89f7",
+          "raw_data_url": "https://geo.enercoop.org/data/environnement/",
           "type": "wms_layer",
           "params": {
             "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -934,6 +941,7 @@
           "ident": "Biens_du_patrimoine_mondial_de_l'UNESCO",
           "description": "Biens inscrits sur la liste du patrimoine mondial de l'UNESCO du fait de leur valeur patrimoniale exceptionnelle.",
           "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/ea950812-5a72-4540-bf3f-868efc5bbcc3",
+          "raw_data_url": "https://geo.enercoop.org/data/environnement/",
           "type": "wms_layer",
           "params": {
             "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -948,6 +956,7 @@
           "ident": "Géoparcs_mondiaux_UNESCO",
           "description": "Territoires labellisés par l’UNESCO où l’élément géologique patrimonial est le support pour des projets de protection, de développements du territoire et d’éducation.",
           "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/d5b93447-0802-4799-b64f-bf6d0aadbb87",
+          "raw_data_url": "https://geo.enercoop.org/data/environnement/",
           "type": "wms_layer",
           "params": {
             "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -961,6 +970,7 @@
           "ident": "Inventaire_du_Patrimoine_géologique_National_(INPG)",
           "description": "Programme recensant les sites géologiques d’intérêt patrimonial sur la plateforme InvenTerre",
           "metadata_url": "https://inventerre.mnhn.fr/accueil",
+          "raw_data_url": "https://geo.enercoop.org/data/environnement/",
           "type": "wms_layer",
           "params": {
             "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -974,6 +984,7 @@
           "ident": "Parcs_Nationaux_(PN)",
           "description": "Vaste espace protégé dont le patrimoine naturel, culturel et paysager est exceptionnel. Classiquement composé de 2 zones : le cœur de parc et une aire d'adhésion.",
           "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/53286c20-c2b0-4c6f-b877-7afeafbe39dc",
+          "raw_data_url": "https://geo.enercoop.org/data/environnement/",
           "type": "wms_layer",
           "params": {
             "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -988,6 +999,7 @@
           "ident": "Parcs_Naturels_Régionaux_(PNR)",
           "description": "Outils de valorisation de vastes espaces de fort intérêt culturel et naturel.",
           "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/951d23fd-bf2f-4a23-88b5-2ca8622e1cd1",
+          "raw_data_url": "https://geo.enercoop.org/data/environnement/",
           "type": "wms_layer",
           "params": {
             "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -1002,6 +1014,7 @@
           "ident": "Réserves_Biologiques_(RBiol)",
           "description": "Espace protégé en milieu forestier ou en milieu associé à la forêt (landes, mares, tourbières, dunes).",
           "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/71a5f31d-3ef5-4c45-bd31-39141154e277",
+          "raw_data_url": "https://geo.enercoop.org/data/environnement/",
           "type": "wms_layer",
           "params": {
             "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -1016,6 +1029,7 @@
           "ident": "Réserves_de_Biosphère_(RBios)",
           "description": "Réserves naturelles reconnues par le Programme sur l’Homme et la Biosphère créé par l’UNESCO.",
           "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/016307b9-5d14-4f61-873f-a41691d13a7b",
+          "raw_data_url": "https://geo.enercoop.org/data/environnement/",
           "type": "wms_layer",
           "params": {
             "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -1030,6 +1044,7 @@
           "ident": "Réserves_Intégrales_de_Parcs_Nationaux_(RIPN)",
           "description": "Créées au sein d'un coeur de PN afin d'assurer, dans un but scientifique, une protection plus grande de certains éléments de la faune et de la flore.",
           "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/5ca16eed-0bc0-4e56-94b4-219fc400b68c",
+          "raw_data_url": "https://geo.enercoop.org/data/environnement/",
           "type": "wms_layer",
           "params": {
             "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -1044,6 +1059,7 @@
           "ident": "Réserves_Naturelles_Nationales_(RNN)",
           "description": "Aires protégeant à long terme des espaces, espèces ou objets géologiques.",
           "metadata_url": "",
+          "raw_data_url": "https://geo.enercoop.org/data/environnement/",
           "type": "wms_layer",
           "params": {
             "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -1058,6 +1074,7 @@
           "ident": "Réserves_Naturelles_Régionales_(RNR)",
           "description": "Identiques aux RNN dans leur gestion, mais créées par les Régions.",
           "metadata_url": "https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique",
+          "raw_data_url": "https://geo.enercoop.org/data/environnement/",
           "type": "wms_layer",
           "params": {
             "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -1072,6 +1089,7 @@
           "ident": "Réserves_Nationales_de_Chasse_et_de_Faune_Sauvage_(RNCFS)",
           "description": "Réserves gérées par l'Office Français de la Biodiversité (OFB) ou un autre établissement public visant à la protection d’espèces de faune sauvage menacées.",
           "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/f305b23f-7439-4cd6-9403-3f18563a7a6e",
+          "raw_data_url": "https://geo.enercoop.org/data/environnement/",
           "type": "wms_layer",
           "params": {
             "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -1086,6 +1104,7 @@
           "ident": "Conservatoires_d'Espaces Naturels_Sites_Acquis_(CEN-SA)",
           "description": "Sites acquis et/ou « assimilés » (bail emphytéotique et contrat de plus de 18 ans) dont les CEN ont pleinement la maîtrise foncière.",
           "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/e724c2e1-af95-4c2a-8ce9-7154f2e06673",
+          "raw_data_url": "https://geo.enercoop.org/data/environnement/",
           "type": "wms_layer",
           "params": {
             "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -1100,6 +1119,7 @@
           "ident": "Conservatoires_d'Espaces_Naturels_Site_Gérés_(CEN-SG)",
           "description": "Sites gérés (location, gestion de moins de 18 ans, convention de gestion) par les CEN.",
           "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/e724c2e1-af95-4c2a-8ce9-7154f2e06673",
+          "raw_data_url": "https://geo.enercoop.org/data/environnement/",
           "type": "wms_layer",
           "params": {
             "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -1114,6 +1134,7 @@
           "ident": "Conservatoire_du_Littoral_(CDL)_Terrains_acquis",
           "description": "Terrains acquis par le Conservatoire du Littoral pour la sauvegarde des espaces côtiers et lacustres.",
           "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/5a24eed8-f8c9-4554-98d8-9d7fb364efb6",
+          "raw_data_url": "https://geo.enercoop.org/data/environnement/",
           "type": "wms_layer",
           "params": {
             "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -1128,6 +1149,7 @@
           "ident": "Conservatoire_du_Littoral_(CDL)_Périmètres autorisés",
           "description": "Zones à préserver définies par le Conservatoire et susceptibles d’être acquises par celui-ci.",
           "metadata_url": "https://geoservices.ign.fr/services-web-experts-environnement",
+          "raw_data_url": "https://geo.enercoop.org/data/environnement/",
           "type": "wms_layer",
           "params": {
             "url": "https://wxs.ign.fr/environnement/geoportail/r/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
@@ -1141,6 +1163,7 @@
           "ident": "Zones_humides_protégées_par_la_Convention_de_Ramsar",
           "description": "Zones humides d'importance internationale inscrite sur la liste établie par la Convention de Ramsar",
           "metadata_url": "https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique",
+          "raw_data_url": "https://geo.enercoop.org/data/environnement/",
           "type": "wms_layer",
           "params": {
             "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -1155,6 +1178,7 @@
           "ident": "ZNIEFF1",
           "description": "Zones Naturelles d’Intérêt Ecologique, Faunistique et Floristique de type 1, définies par la présence d’espèces ou de milieux rares, remarquables ou caractéristiques.",
           "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/f30dd410-9c72-47f5-a384-96603ddc703e",
+          "raw_data_url": "https://geo.enercoop.org/data/environnement/",
           "type": "wms_layer",
           "params": {
             "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -1169,6 +1193,7 @@
           "ident": "ZNIEFF2",
           "description": "Zones Naturelles d’Intérêt Ecologique, Faunistique et Floristique de type 2 : grands ensembles naturels ou peu modifiés offrant des potentialités biologiques importantes. Moins remarquables que les ZNIEFF1.",
           "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/50bc6286-83f6-4494-9fb6-3d82a43cafa8",
+          "raw_data_url": "https://geo.enercoop.org/data/environnement/",
           "type": "wms_layer",
           "params": {
             "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -1183,6 +1208,7 @@
           "ident": "Zones_Importantes_pour_la_Conservation_des_Oiseaux_(ZICO)",
           "description": "Les ZICO ont servi de base pour établir les Zones de Protection Spéciale (ZPS) Natura2000  ",
           "metadata_url": "https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique/inv/zico",
+          "raw_data_url": "https://geo.enercoop.org/data/environnement/",
           "type": "wms_layer",
           "params": {
             "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -1197,6 +1223,7 @@
           "ident": "Natura_2000_Zones_de_Protection_Spéciale_(ZPS)_Directive Oiseaux",
           "description": "Zones visant la conservation des espèces d'oiseaux sauvages figurant à l'annexe I de la Directive europénne Oiseaux.",
           "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/c334eb2e-634e-479a-b867-8bf352e5827f",
+          "raw_data_url": "https://geo.enercoop.org/data/environnement/",
           "type": "wms_layer",
           "params": {
             "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -1211,6 +1238,7 @@
           "ident": "Natura_2000_Zones_Spéciales_de_Conservation_(ZSC/SIC)_Directive_Habitats",
           "description": "Désignées dans le droit français comme ZSC, ces zones sont des Sites d'Importance Communautaire (SIC) au sens de l'UE et de la Directive 'Habitats, Faune, Flore'.",
           "metadata_url": "https://www.nord.gouv.fr/Actions-de-l-Etat/Environnement/Nature-et-biodiversite/Natura-2000/Natura-2000-ZPS-ZSC-SIC-DOCOB",
+          "raw_data_url": "https://geo.enercoop.org/data/environnement/",
           "type": "wms_layer",
           "params": {
             "url": "https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
@@ -1267,6 +1295,7 @@
           "ident": "Périmètres_de_protection_de_réserves_naturelles",
           "description": "Un périmètre de protection peut être mis en place en périphérie d’une réserve naturelle. Cet espace constitue une zone tampon autour de l’espace classé, améliorant les échanges écologiques entre la réserve et sa périphérie.",
           "metadata_url": "https://terranota.fr/les-reserves-naturelles-et-perimetres-de-protection-autour-des-reserves-naturelles-ac3/",
+          "raw_data_url": "https://geo.enercoop.org/data/environnement/",
           "type": "wms_ign_layer",
           "params": {
             "url": "https://wxs.ign.fr/environnement/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
@@ -1331,6 +1360,7 @@
           "ident": "Base_des_Anciens_Sites_Industriels_et_Activités_de_Service_(BASIAS)",
           "description": "La BASIAS recense les sites industriels, abandonnés ou en activité, susceptibles d'engendrer une pollution de l'environnement.",
           "metadata_url": "https://www.georisques.gouv.fr/articles-risques/pollutions-sols-sis-anciens-sites-industriels/basias",
+          "raw_data_url": "https://geo.enercoop.org/data/georisques/",
           "type": "wms_layer",
           "params": {
             "url": "https://www.georisques.gouv.fr/services",
@@ -1345,6 +1375,7 @@
           "ident": "Sites_et_Sols_Pollués_ou_potentiellement_pollués_(SSP_ex-BASOL)",
           "description": "Sites et sols pollués (ou potentiellement pollués) appelant une action des pouvoirs publics, à titre préventif ou curatif.",
           "metadata_url": "https://www.georisques.gouv.fr/articles-risques/pollutions-sols-sis-anciens-sites-industriels/basol",
+          "raw_data_url": "https://geo.enercoop.org/data/georisques/",
           "type": "wms_urba_sandre_layer",
           "params": {
             "url": "https://www.georisques.gouv.fr/services",
@@ -1411,6 +1442,7 @@
           "ident": "Canalisations_de_transport_de_matières_dangereuses",
           "description": "Il s’agit d’une canalisation qui achemine des produits chimiques vers des réseaux de distribution, d’autres ouvrages de transport, des entreprises industrielles ou commerciales, des sites de stockage ou de chargement. Cette dénomination ne s’applique pas au réseau de distribution de gaz en ville, mais aux conduites de transport longue distance, qui sont plus grosses (entre 8 et 120 cm de diamètre) et fonctionnent à des pressions plus importantes (jusqu’à 94 bars).",
           "metadata_url": "https://www.georisques.gouv.fr/cartes-interactives#/",
+          "raw_data_url": "https://geo.enercoop.org/data/georisques/",
           "type": "wms_urba_sandre_layer",
           "params": {
             "url": "https://www.georisques.gouv.fr/services",
@@ -1424,6 +1456,7 @@
           "ident": "Canalisations_de_transport_de_matières_dangereuses",
           "description": "Il s’agit d’une canalisation qui achemine du gaz vers des réseaux de distribution, d’autres ouvrages de transport, des entreprises industrielles ou commerciales, des sites de stockage ou de chargement. Cette dénomination ne s’applique pas au réseau de distribution de gaz en ville, mais aux conduites de transport longue distance, qui sont plus grosses (entre 8 et 120 cm de diamètre) et fonctionnent à des pressions plus importantes (jusqu’à 94 bars).",
           "metadata_url": "https://www.georisques.gouv.fr/cartes-interactives#/",
+          "raw_data_url": "https://geo.enercoop.org/data/georisques/",
           "type": "wms_urba_sandre_layer",
           "params": {
             "url": "https://www.georisques.gouv.fr/services",
@@ -1437,11 +1470,55 @@
           "ident": "Canalisations_de_transport_de_matières_dangereuses",
           "description": "Il s’agit d’une canalisation qui achemine des hydrocarbures vers des réseaux de distribution, d’autres ouvrages de transport, des entreprises industrielles ou commerciales, des sites de stockage ou de chargement. Cette dénomination ne s’applique pas au réseau de distribution de gaz en ville, mais aux conduites de transport longue distance, qui sont plus grosses (entre 8 et 120 cm de diamètre) et fonctionnent à des pressions plus importantes (jusqu’à 94 bars).",
           "metadata_url": "https://www.georisques.gouv.fr/cartes-interactives#/",
+          "raw_data_url": "https://geo.enercoop.org/data/georisques/",
           "type": "wms_urba_sandre_layer",
           "params": {
             "url": "https://www.georisques.gouv.fr/services",
             "format": "image/png",
             "name": "C_HYDROCARBURES",
+            "srs": "EPSG:2154"
+          }
+        },
+        {
+          "title": "Mouvement de terrains et cavités",
+          "ident": "mouv_terrains_cavites",
+          "description": "Ensemble des projets de production en cours ou achévés",
+          "metadata_url": "Ensemble des ressencement sur les mouvements de terrains et les cavités",
+          "raw_data_url": "https://geo.enercoop.org/data/georisques/",
+          "type": "void_layer",
+          "params": {
+            "url": "",
+            "format": "",
+            "name": "",
+            "style": "",
+            "srs": ""
+          }
+        },
+        {
+          "title": "Plan de Prévention des Risques Feu de forêts (PPRNF)",
+          "ident": "Plan_de_Prévention_des_Risques_feu",
+          "description": "Plan de prévention des riques de feub de forêts",
+          "metadata_url": "https://www.georisques.gouv.fr/plans-de-prevention-des-risques-naturels",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://www.georisques.gouv.fr/services",
+            "format": "image/png",
+            "name": "PPRN_ZONE_FEU_FXX",
+            "style": "default",
+            "srs": "EPSG:4326"
+          }
+        },
+        {
+          "title": "Plan de Prévention des Risques Mouvement de terrains (PPRNMV)",
+          "ident": "Plan_de_Prévention_des_Risques_feu",
+          "description": "Plan de Prévention des Risques Mouvement de terrains argiles, cavités, etc",
+          "metadata_url": "https://www.georisques.gouv.fr/plans-de-prevention-des-risques-naturels",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://www.georisques.gouv.fr/services",
+            "format": "image/png",
+            "name": "PPRN_PERIMETRE_MVT_FXX",
+            "style": "default",
             "srs": "EPSG:2154"
           }
         }
@@ -1494,13 +1571,201 @@
             "style": "DIVCAD_MTD",
             "srs": "EPSG:3857"
           }
+        },
+        {
+          "title": "Cadastre minier (Camino)",
+          "ident": "Cadastre_minier",
+          "description": "Informations admnistratives pour les titres miniers valides et demandes initiales ou modificatives afférentes publiques et en cours d'instruction.",
+          "metadata_url": "https://www.data.gouv.fr/fr/datasets/cadastre-minier/",
+          "raw_data_url": "https://geo.enercoop.org/data/cadastre_minier/",
+          "type": "void_layer",
+          "params": {
+            "url": "",
+            "format": "",
+            "name": "",
+            "style": "",
+            "srs": ""
+          }
+        },
+        {
+          "title": "Foncier collectivités et pers. morales (geo.enercoop.org)",
+          "ident": "",
+          "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales",
+          "type": "folder",
+          "children": [
+            {
+              "title": "Foncier ELR",
+              "ident": "Foncier_ELR",
+              "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales pour Enercoop Languedoc Roussilon",
+              "metadata_url": "https://si.enercoop.org/eprod:qgis_foncier",
+              "raw_data_url": "https://geo.enercoop.org/ELR/data/foncier/",
+              "type": "void_layer",
+              "params": {
+                "url": "",
+                "format": "",
+                "name": "",
+                "style": "",
+                "srs": ""
+              }
+            },
+            {
+              "title": "Foncier EAURA",
+              "ident": "Foncier_EAURA",
+              "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales pour Enercoop Auvergne-Rhône-Alpes",
+              "metadata_url": "https://si.enercoop.org/eprod:qgis_foncier",
+              "raw_data_url": "https://geo.enercoop.org/EAURA/data/foncier/",
+              "type": "void_layer",
+              "params": {
+                "url": "",
+                "format": "",
+                "name": "",
+                "style": "",
+                "srs": ""
+              }
+            },
+            {
+              "title": "Foncier EBZH",
+              "ident": "Foncier_EBZH",
+              "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales pour Enercoop Bretagne",
+              "metadata_url": "https://si.enercoop.org/eprod:qgis_foncier",
+              "raw_data_url": "https://geo.enercoop.org/EBZH/data/foncier/",
+              "type": "void_layer",
+              "params": {
+                "url": "",
+                "format": "",
+                "name": "",
+                "style": "",
+                "srs": ""
+              }
+            },
+            {
+              "title": "Foncier EHDFR",
+              "ident": "Foncier_EHDFR",
+              "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales pour Enercoop Hauts-de-France",
+              "metadata_url": "https://si.enercoop.org/eprod:qgis_foncier",
+              "raw_data_url": "https://geo.enercoop.org/EHDFR/",
+              "type": "void_layer",
+              "params": {
+                "url": "",
+                "format": "",
+                "name": "",
+                "style": "",
+                "srs": ""
+              }
+            },
+            {
+              "title": "Foncier EMIPY",
+              "ident": "Foncier_EMIPY",
+              "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales pour Enercoop Midi-Pyrénées",
+              "metadata_url": "https://si.enercoop.org/eprod:qgis_foncier",
+              "raw_data_url": "https://geo.enercoop.org/EMIPY/data/foncier/",
+              "type": "void_layer",
+              "params": {
+                "url": "",
+                "format": "",
+                "name": "",
+                "style": "",
+                "srs": ""
+              }
+            },
+            {
+              "title": "Foncier ENAQUI",
+              "ident": "Foncier_ENAQUI",
+              "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales pour Enercoop Nouvelle-Aquitaine",
+              "metadata_url": "https://si.enercoop.org/eprod:qgis_foncier",
+              "raw_data_url": "https://geo.enercoop.org/ENAQUI/data/foncier/",
+              "type": "void_layer",
+              "params": {
+                "url": "",
+                "format": "",
+                "name": "",
+                "style": "",
+                "srs": ""
+              }
+            },
+            {
+              "title": "Foncier ENATL",
+              "ident": "Foncier_ENATL",
+              "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales pour Enercoop Nationale",
+              "metadata_url": "https://si.enercoop.org/eprod:qgis_foncier",
+              "raw_data_url": "https://geo.enercoop.org/ENATL/data/foncier/",
+              "type": "void_layer",
+              "params": {
+                "url": "",
+                "format": "",
+                "name": "",
+                "style": "",
+                "srs": ""
+              }
+            },
+            {
+              "title": "Foncier ENEST",
+              "ident": "Foncier_ENEST",
+              "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales pour Enercoop Nord-est",
+              "metadata_url": "https://si.enercoop.org/eprod:qgis_foncier",
+              "raw_data_url": "https://geo.enercoop.org/ENEST/data/foncier/",
+              "type": "void_layer",
+              "params": {
+                "url": "",
+                "format": "",
+                "name": "",
+                "style": "",
+                "srs": ""
+              }
+            },
+            {
+              "title": "Foncier ENORM",
+              "ident": "Foncier_ENORM",
+              "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales pour Enercoop Normandie",
+              "metadata_url": "https://si.enercoop.org/eprod:qgis_foncier",
+              "raw_data_url": "https://geo.enercoop.org/ENORM/data/foncier/",
+              "type": "void_layer",
+              "params": {
+                "url": "",
+                "format": "",
+                "name": "",
+                "style": "",
+                "srs": ""
+              }
+            },
+            {
+              "title": "Foncier EPACA",
+              "ident": "Foncier_EPACA",
+              "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales pour Enercoop Provence-Alpes-Côte-d'Azur",
+              "metadata_url": "https://si.enercoop.org/eprod:qgis_foncier",
+              "raw_data_url": "https://geo.enercoop.org/EPACA/data/foncier/",
+              "type": "void_layer",
+              "params": {
+                "url": "",
+                "format": "",
+                "name": "",
+                "style": "",
+                "srs": ""
+              }
+            },
+            {
+              "title": "Foncier EPDL",
+              "ident": "Foncier_EPDL",
+              "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales pour Enercoop Pays de la Loire",
+              "metadata_url": "https://si.enercoop.org/eprod:qgis_foncier",
+              "raw_data_url": "https://geo.enercoop.org/EPDL/data/foncier/",
+              "type": "void_layer",
+              "params": {
+                "url": "",
+                "format": "",
+                "name": "",
+                "style": "",
+                "srs": ""
+              }
+            }
+          ]
         }
       ]
     },
     {
-      "title": "Géoportail de l'Urbanisme",
+      "title": "Urbanisme et patrimoine",
       "ident": "",
-      "description": "Couches diffusées par le Géoportail de l'Urbanisme et l'IGN",
+      "description": "Couches diffusées par le Géoportail de l'Urbanisme, l'IGN et l'atlas du patrimoine",
       "type": "folder",
       "children": [
         {
@@ -1530,6 +1795,21 @@
           }
         },
         {
+          "title": "ZPPA - Zones de présomption de prescription archéologique",
+          "ident": "ZPPA",
+          "description": " Au sein des secteurs à fort potentiel archéologique, l’État peut définir des zones où les projets d’aménagement affectant le sous-sol sont présumés faire l’objet de prescriptions de diagnostic préalablement à leur réalisation. Dans ces zones, les autorisations d’urbanisme sont traitées par le SRA selon des seuils prédéfinis par le Préfet de Région. Ces zonages, amenés à évoluer, sont transmis à titre informatif et réglementaire selon leur catégorie. En dehors de ces zones, il est prévu que le SRA n’examine que les projets supérieurs à 3000 m2 et les études d’impact",
+          "metadata_url": "https://si.enercoop.org/eprod:qgis_patrimoine",
+          "raw_data_url": "https://geo.enercoop.org/data/patrimoine/",
+          "type": "void_layer",
+          "params": {
+            "url": "",
+            "format": "",
+            "name": "",
+            "style": "",
+            "srs": ""
+          }
+        },
+        {
           "title": "Emprise des documents d'urbanisme (petite échelle)",
           "ident": "Emprise_des_documents_d'urbanisme_(petite échelle)",
           "description": "Emprise des documents d'urbanisme (petite échelle)",
@@ -1556,6 +1836,81 @@
           }
         },
         {
+          "title": "SUP - Servitudes d'utilités publiques Patrimoine",
+          "ident": "SUP_Patrimoine",
+          "description": "Limitations administratives au droit de propriété, instituées par l’autorité publique dans un but d’utilité publique",
+          "metadata_url": "https://www.geoinformations.developpement-durable.gouv.fr/nomenclature-nationale-des-sup-r1082.html",
+          "raw_data_url": "https://geo.enercoop.org/data/patrimoine/",
+          "type": "void_layer",
+          "params": {
+            "url": "",
+            "format": "",
+            "name": "",
+            "style": "",
+            "srs": ""
+          }
+        },
+        {
+          "title": "Assiette SUP",
+          "ident": "assiette_sup",
+          "description": "",
+          "metadata_url": "",
+          "raw_data_url": "https://geo.enercoop.org/data/urbanisme/assiette_sup/",
+          "type": "void_layer",
+          "params": {
+            "url": "",
+            "format": "",
+            "name": "",
+            "style": "",
+            "srs": ""
+          }
+        },
+        {
+          "title": "Générateur SUP",
+          "ident": "generateur_sup",
+          "description": "",
+          "metadata_url": "",
+          "raw_data_url": "https://geo.enercoop.org/data/urbanisme/generateur_sup/",
+          "type": "void_layer",
+          "params": {
+            "url": "",
+            "format": "",
+            "name": "",
+            "style": "",
+            "srs": ""
+          }
+        },
+        {
+          "title": "Prescriptions urbanisme",
+          "ident": "Prescriptions_urba",
+          "description": "",
+          "metadata_url": "",
+          "raw_data_url": "https://geo.enercoop.org/data/urbanisme/prescription_urba/",
+          "type": "void_layer",
+          "params": {
+            "url": "",
+            "format": "",
+            "name": "",
+            "style": "",
+            "srs": ""
+          }
+        },
+        {
+          "title": "Zones urbanisme",
+          "ident": "zones_urba",
+          "description": "",
+          "metadata_url": "",
+          "raw_data_url": "https://geo.enercoop.org/data/urbanisme/zone_urba/",
+          "type": "void_layer",
+          "params": {
+            "url": "",
+            "format": "",
+            "name": "",
+            "style": "",
+            "srs": ""
+          }
+        },
+        {
           "title": "SCOT - Schéma de Cohérence Territoriale",
           "ident": "SCOT_Schéma_de_Cohérence_Territoriale",
           "description": "Le schéma de cohérence territoriale (SCoT) est un document d'urbanisme qui, à l'échelle d'un territoire de projet ou bassin de vie (périmètre intercommunal ou au-delà), détermine l'organisation spatiale et les grandes orientations de développement d'un territoire.",
@@ -1573,6 +1928,7 @@
           "ident": "Communes_loi_littoral",
           "description": "La loi Littoral concerne plus de 1 200 communes riveraines de la mer, mais aussi de grands lacs, d'estuaires ou de deltas. Face à la pression urbaine, aux phénomènes d'érosion ou de submersion marine subis par ces territoires, elle tente de concilier préservation et développement du littoral",
           "metadata_url": "https://carmen.naturefrance.fr/",
+          "raw_data_url": "https://geo.enercoop.org/data/geoadmin/",
           "type": "wms_layer",
           "params": {
             "url": "http://ws.carmen.developpement-durable.gouv.fr/WMS/91/loi_littoral?",
@@ -1640,6 +1996,7 @@
           "ident": "Communes_2019_soumises_à_la_loi_Montagne_de_1985",
           "description": "Missionné par la DHUP (Bureau de la législation de l'urbanisme), le Cerema a réalisé une actualisation au 1er janvier 2019 de la liste des communes concernées par l'application des dispositions d'urbanisme de la loi Montagne (Loi n° 85-30 du 9 janvier 1985 relative au développement et à la protection de la montagne, Loi n° 2016-1888 du 28 décembre 2016 de modernisation, de développement et de protection des territoires de montagne).",
           "metadata_url": "https://catalogue.datara.gouv.fr/geonetwork/srv/fre/catalog.search#/metadata/17aaef31-af53-4d68-97c8-741e695f1820",
+          "raw_data_url": "https://geo.enercoop.org/data/geoadmin/",
           "type": "wms_layer",
           "params": {
             "url": "https://datacarto.datara.gouv.fr/map/carte_zonage_amenagement?VERSION%3D1.3.0",
@@ -1647,6 +2004,21 @@
             "name": "layer31",
             "style": "",
             "srs": "EPSG:2154"
+          }
+        },
+        {
+          "title": "Dérogation ACC",
+          "ident": "derogation_acc",
+          "description": "Regarder les métadonnées",
+          "metadata_url": "https://si.enercoop.org/eprod:qgis_acc",
+          "raw_data_url": "https://geo.enercoop.org/data/insee/",
+          "type": "void_layer",
+          "params": {
+            "url": "",
+            "format": "",
+            "name": "",
+            "style": "",
+            "srs": ""
           }
         }
       ]
@@ -1678,6 +2050,21 @@
               }
             },
             {
+              "title": "Cartofriches",
+              "ident": "Cartofriches",
+              "description": "Le besoin principal auquel souhaite répondre Cartofriches est l'aide au recensement les friches pour les qualifier et faciliter leur réutilisation. Il s'adresse à tout porteur de projet, public ou privé. Le Cerema utilise les données de BASIAS et BASOL, ainsi que d'autres lots de données nationaux (candidatures aux appels à projets, par exemple) pour assurer une pré-identification des friches sur tout le territoire national. ",
+              "metadata_url": "https://si.enercoop.org/eprod:qgis_sites_pollues",
+              "raw_data_url": "https://geo.enercoop.org/data/cartofriches/",
+              "type": "void_layer",
+              "params": {
+                "url": "",
+                "format": "",
+                "name": "",
+                "style": "",
+                "srs": ""
+              }
+            },
+            {
               "title": "Potentiel solaire sur toiture (méthode simplifiée)",
               "ident": "Potentiel solaire sur toiture (méthode simplifiée)",
               "description": "Estimation simplifiée du potentiel solaire en toiture en Wh/an sur la base de la couche bâti de la Bd Topo® (2022 - producteur IGN). Pour chaque emprise de bâtiment, la valeur fournie est une estimation de l’énergie solaire reçue sur des panneaux photovoltaïque qui seraient installés sur toiture, selon une méthode très simplifiée décrite dans la fiche de métadonnées de cette couche et qui, notamment, ne prend pas en compte les masques proches. Cette information est fournie à titre indicatif et ne saurait se substituer à des estimations réalisées avec des méthodes plus précises.",
@@ -1689,6 +2076,21 @@
                 "name": "POTENTIEL.SOLAIRE.BATIMENT",
                 "style": "POTENTIEL.SOLAIRE.BATIMENT",
                 "srs": "EPSG:3857"
+              }
+            },
+            {
+              "title": "OpenSolarMap",
+              "ident": "OpenSolarMap",
+              "description": "Données sur l'orientation des toits issus d'un projet de crowdsourcing et disponible sur OpenStreetMap",
+              "metadata_url": "https://www.data.gouv.fr/fr/reuses/opensolarmap/",
+              "raw_data_url": "https://geo.enercoop.org/data/batiment/opensolarmap/",
+              "type": "void_layer",
+              "params": {
+                "url": "",
+                "format": "",
+                "name": "",
+                "style": "",
+                "srs": ""
               }
             },
             {
@@ -1878,6 +2280,21 @@
                 "style": "PERIMETRE.VOIE.FERREE",
                 "srs": "EPSG:3857"
               }
+            },
+            {
+              "title": "Faisceaux_hertziens",
+              "ident": "faisceaux_hertziens",
+              "description": "Faisceaux hertziens pouvant affecté l'implantation d'éoliennes",
+              "metadata_url": "",
+              "raw_data_url": "https://geo.enercoop.org/data/faisceaux_hertziens/",
+              "type": "void_layer",
+              "params": {
+                "url": "",
+                "format": "",
+                "name": "",
+                "style": "",
+                "srs": ""
+              }
             }
           ]
         },
@@ -2006,12 +2423,42 @@
       ]
     },
     {
-      "title": "Sandre (Eau)",
+      "title": "Eau",
       "ident": "",
-      "description": "Données relatives aux services d'administration nationale des données et référentiels sur l'eau (SANDRE)",
-      "metadata_url": "https://www.sandre.eaufrance.fr/",
+      "description": "Données relatives aux services d'administration nationale des données et référentiels sur l'eau (SANDRE) et de Cart'eaux",
+      "metadata_url": "https://si.enercoop.org/eprod:qgis_eau",
       "type": "folder",
       "children": [
+        {
+          "title": "Aires d'alimentations et de captage",
+          "ident": "Aires_d_alimentations_et_de_captage",
+          "description": " Les données sur les périmètres de captage était historiquement en opendata afin de savoir où respecter la réglementation sur l’environnement, mais “à cause de la menace terroriste” elles ont été dépubliées“ (source). Elles sont maintenant de retour sur Carteaux.fr. On distingue 3 niveaux de protection des périmètres de captage, par ordre d'importance : Les Périmètres de Protection Immédiate (PPI), dont les terrains sont à acquérir en pleine propriété par la collectivité, ont pour fonctions principales d'empêcher la détérioration des ouvrages et d'éviter les déversements de substances polluantes à proximité immédiate de l'ouvrage. Les Périmètres de Protection Rapprochée (PPR) Les Périmètres de Protection Eloignés (PPE)",
+          "metadata_url": "https://si.enercoop.org/eprod:qgis_eau",
+          "raw_data_url": "https://geo.enercoop.org/data/eau/",
+          "type": "void_layer",
+          "params": {
+            "url": "",
+            "format": "",
+            "name": "",
+            "style": "",
+            "srs": ""
+          }
+        },
+        {
+          "title": "Périmètres de protections des captages",
+          "ident": "perimetres_de_protections_captages",
+          "description": "On distingue 3 niveaux de protection des périmètres de captage, par ordre d'importance : Les Périmètres de Protection Immédiate (PPI), dont les terrains sont à acquérir en pleine propriété par la collectivité, ont pour fonctions principales d'empêcher la détérioration des ouvrages et d'éviter les déversements de substances polluantes à proximité immédiate de l'ouvrage. Les Périmètres de Protection Rapprochée (PPR) Les Périmètres de Protection Eloignés (PPE)",
+          "metadata_url": "https://si.enercoop.org/eprod:qgis_eau",
+          "raw_data_url": "https://geo.enercoop.org/data/eau/",
+          "type": "void_layer",
+          "params": {
+            "url": "",
+            "format": "",
+            "name": "",
+            "style": "",
+            "srs": ""
+          }
+        },
         {
           "title": "Segments de classement de continuité écologique - liste 1",
           "ident": "Segments de classement de continuité écologique - liste 1",
@@ -2073,6 +2520,21 @@
       "metadata_url": "https://geoservices.ign.fr/bdtopo",
       "type": "folder",
       "children": [
+        {
+          "title": "BDTOPO (entière)",
+          "ident": "BDTOPO",
+          "description": "La modélisation 2D du territoire et de ses infrastructures sur l'ensemble du territoire français produit par l'IGN",
+          "metadata_url": "https://geoservices.ign.fr/bdtopo",
+          "raw_data_url": "https://geo.enercoop.org/data/bdtopo/",
+          "type": "void_layer",
+          "params": {
+            "url": "",
+            "format": "",
+            "name": "",
+            "style": "",
+            "srs": ""
+          }
+        },
         {
           "title": "Administatif",
           "ident": "",
@@ -2163,6 +2625,21 @@
                 "name": "TRANSPORTNETWORKS.ROADS",
                 "style": "normal",
                 "srs": "EPSG:3857"
+              }
+            },
+            {
+              "title": "DGAC (entière)",
+              "ident": "DGAC",
+              "description": "Données de la Direction Générale de l'Aviation Civile (DGAC)",
+              "metadata_url": "https://si.enercoop.org/eprod:qgis_aviation",
+              "raw_data_url": "https://geo.enercoop.org/data/aerien/",
+              "type": "void_layer",
+              "params": {
+                "url": "",
+                "format": "",
+                "name": "",
+                "style": "",
+                "srs": ""
               }
             },
             {
@@ -2668,6 +3145,285 @@
             "name": "CER_ZONES_HUMIDES_S_FR84",
             "style": "",
             "srs": "EPSG:4326"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Données Enercoop et sociétaires (geo.enercoop.org)",
+      "ident": "",
+      "description": "Couches internes en géopackages contenant des données sur les Enercoop et des données sensibles sur les sociétaires",
+      "type": "folder",
+      "children": [
+        {
+          "title": "Enercoop locales",
+          "ident": "Enercoop_locales",
+          "description": "Découpage des Els",
+          "metadata_url": "",
+          "raw_data_url": "https://geo.enercoop.org/data/enercoop/",
+          "type": "void_layer",
+          "params": {
+            "url": "",
+            "format": "",
+            "name": "",
+            "style": "",
+            "srs": ""
+          }
+        },
+        {
+          "title": "Projets production",
+          "ident": "projets_production",
+          "description": "Ensemble des projets de production en cours ou achévés",
+          "metadata_url": "",
+          "raw_data_url": "https://geo.enercoop.org/data/enercoop/",
+          "type": "void_layer",
+          "params": {
+            "url": "",
+            "format": "",
+            "name": "",
+            "style": "",
+            "srs": ""
+          }
+        },
+        {
+          "title": "Statistiques sociétaires par département",
+          "ident": "stats_societaires_dep",
+          "description": "Statistiques concernant les sociétaires au sein d'Enercoop",
+          "metadata_url": "",
+          "raw_data_url": "https://geo.enercoop.org/data/enercoop/",
+          "type": "void_layer",
+          "params": {
+            "url": "",
+            "format": "",
+            "name": "",
+            "style": "",
+            "srs": ""
+          }
+        },
+        {
+          "title": "Sociétaires",
+          "ident": "",
+          "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires",
+          "type": "folder",
+          "children": [
+            {
+              "title": "Sociétaires ELR",
+              "ident": "Societaires_ELR",
+              "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Languedoc Roussilon",
+              "metadata_url": "https://si.enercoop.org/eprod:qgis_societariat",
+              "raw_data_url": "https://geo.enercoop.org/ELR/data/enercoop/",
+              "type": "void_layer",
+              "params": {
+                "url": "",
+                "format": "",
+                "name": "",
+                "style": "",
+                "srs": ""
+              }
+            },
+            {
+              "title": "Sociétaires EAURA",
+              "ident": "Societaires_EAURA",
+              "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Auvergne-Rhône-Alpes",
+              "metadata_url": "https://si.enercoop.org/eprod:qgis_societariat",
+              "raw_data_url": "https://geo.enercoop.org/EAURA/data/enercoop/",
+              "type": "void_layer",
+              "params": {
+                "url": "",
+                "format": "",
+                "name": "",
+                "style": "",
+                "srs": ""
+              }
+            },
+            {
+              "title": "Sociétaires EBZH",
+              "ident": "Societaires_EBZH",
+              "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Bretagne",
+              "metadata_url": "https://si.enercoop.org/eprod:qgis_societariat",
+              "raw_data_url": "https://geo.enercoop.org/EBZH/data/enercoop/",
+              "type": "void_layer",
+              "params": {
+                "url": "",
+                "format": "",
+                "name": "",
+                "style": "",
+                "srs": ""
+              }
+            },
+            {
+              "title": "Sociétaires EHDFR",
+              "ident": "Societaires_EHDFR",
+              "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Hauts-de-France",
+              "metadata_url": "https://si.enercoop.org/eprod:qgis_societariat",
+              "raw_data_url": "https://geo.enercoop.org/EHDFR/",
+              "type": "void_layer",
+              "params": {
+                "url": "",
+                "format": "",
+                "name": "",
+                "style": "",
+                "srs": ""
+              }
+            },
+            {
+              "title": "Sociétaires EMIPY",
+              "ident": "Societaires_EMIPY",
+              "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Midi-Pyrénées",
+              "metadata_url": "https://si.enercoop.org/eprod:qgis_societariat",
+              "raw_data_url": "https://geo.enercoop.org/EMIPY/data/enercoop/",
+              "type": "void_layer",
+              "params": {
+                "url": "",
+                "format": "",
+                "name": "",
+                "style": "",
+                "srs": ""
+              }
+            },
+            {
+              "title": "Sociétaires ENAQUI",
+              "ident": "Societaires_ENAQUI",
+              "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Nouvelle-Aquitaine",
+              "metadata_url": "https://si.enercoop.org/eprod:qgis_societariat",
+              "raw_data_url": "https://geo.enercoop.org/ENAQUI/data/enercoop/",
+              "type": "void_layer",
+              "params": {
+                "url": "",
+                "format": "",
+                "name": "",
+                "style": "",
+                "srs": ""
+              }
+            },
+            {
+              "title": "Sociétaires ENATL",
+              "ident": "Societaires_ENATL",
+              "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Nationale",
+              "metadata_url": "https://si.enercoop.org/eprod:qgis_societariat",
+              "raw_data_url": "https://geo.enercoop.org/ENATL/data/enercoop/",
+              "type": "void_layer",
+              "params": {
+                "url": "",
+                "format": "",
+                "name": "",
+                "style": "",
+                "srs": ""
+              }
+            },
+            {
+              "title": "Sociétaires ENEST",
+              "ident": "Societaires_ENEST",
+              "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Nord-est",
+              "metadata_url": "https://si.enercoop.org/eprod:qgis_societariat",
+              "raw_data_url": "https://geo.enercoop.org/ENEST/data/enercoop/",
+              "type": "void_layer",
+              "params": {
+                "url": "",
+                "format": "",
+                "name": "",
+                "style": "",
+                "srs": ""
+              }
+            },
+            {
+              "title": "Sociétaires ENORM",
+              "ident": "Societaires_ENORM",
+              "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Normandie",
+              "metadata_url": "https://si.enercoop.org/eprod:qgis_societariat",
+              "raw_data_url": "https://geo.enercoop.org/ENORM/data/enercoop/",
+              "type": "void_layer",
+              "params": {
+                "url": "",
+                "format": "",
+                "name": "",
+                "style": "",
+                "srs": ""
+              }
+            },
+            {
+              "title": "Sociétaires EPACA",
+              "ident": "Societaires_EPACA",
+              "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Provence-Alpes-Côte-d'Azur",
+              "metadata_url": "https://si.enercoop.org/eprod:qgis_societariat",
+              "raw_data_url": "https://geo.enercoop.org/EPACA/data/enercoop/",
+              "type": "void_layer",
+              "params": {
+                "url": "",
+                "format": "",
+                "name": "",
+                "style": "",
+                "srs": ""
+              }
+            },
+            {
+              "title": "Sociétaires EPDL",
+              "ident": "Societaires_EPDL",
+              "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Pays de la Loire",
+              "metadata_url": "https://si.enercoop.org/eprod:qgis_societariat",
+              "raw_data_url": "https://geo.enercoop.org/EPDL/data/enercoop/",
+              "type": "void_layer",
+              "params": {
+                "url": "",
+                "format": "",
+                "name": "",
+                "style": "",
+                "srs": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Réseau éléctrique (geo.enercoop.org)",
+      "ident": "",
+      "description": "Réseau eléctrique RTE,HTA,BT aérien et souterrain",
+      "type": "folder",
+      "children": [
+        {
+          "title": "Réseau BT",
+          "ident": "reseau_bt",
+          "description": "Les lignes BT sont les plus petites lignes du réseau. Leur tension est de 230V ou 400V",
+          "metadata_url": "https://geo.enercoop.org/data/reseau/enedis_bt/",
+          "raw_data_url": "https://geo.enercoop.org/data/reseau/",
+          "type": "void_layer",
+          "params": {
+            "url": "",
+            "format": "",
+            "name": "",
+            "style": "",
+            "srs": ""
+          }
+        },
+        {
+          "title": "Réseau HTA",
+          "ident": "reseau_hta",
+          "description": "Les lignes HTA permettent le transport de l’électricité à l’échelle locale vers les petites industries, les PME et les commerces. Elles font également le lien entre les clients et les postes de transformations. Ces lignes ont une tension comprise entre 15 kV et 30 kV",
+          "metadata_url": "https://si.enercoop.org/eprod:qgis_reseau",
+          "raw_data_url": "https://geo.enercoop.org/data/reseau/enedis_hta/",
+          "type": "void_layer",
+          "params": {
+            "url": "",
+            "format": "",
+            "name": "",
+            "style": "",
+            "srs": ""
+          }
+        },
+        {
+          "title": "Réseau RTE",
+          "ident": "reseau_rte",
+          "description": "Le réseau de transport, géré par RTE, conduit l’électricité depuis les centres de production aux gros industriels et jusqu’aux postes électriques. Il est composé de deux types de lignes pour le transport : des lignes à Très Haute Tension (THT, 400 000 et 225 000 volts) et des lignes à Haute Tension (HT, 90 000 et 63 000 volts).",
+          "metadata_url": "https://si.enercoop.org/eprod:qgis_reseau",
+          "raw_data_url": "https://geo.enercoop.org/data/reseau/",
+          "type": "void_layer",
+          "params": {
+            "url": "",
+            "format": "",
+            "name": "",
+            "style": "",
+            "srs": ""
           }
         }
       ]
