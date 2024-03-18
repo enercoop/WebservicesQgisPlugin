@@ -68,11 +68,11 @@
       "type": "folder",
       "children": [
         {
-          "title": "Foncier ELR",
-          "ident": "Foncier_ELR",
+          "title": "Foncier LANG",
+          "ident": "Foncier_LANG",
           "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales pour Enercoop Languedoc Roussilon",
           "metadata_url": "https://si.enercoop.org/eprod:qgis_foncier",
-          "raw_data_url": "https://geo.enercoop.org/ELR/data/foncier/",
+          "raw_data_url": "https://geo.enercoop.org/LANG/data/foncier/",
           "type": "void_layer",
           "params": {
             "url": "",
@@ -83,11 +83,11 @@
           }
         },
         {
-          "title": "Foncier EAURA",
-          "ident": "Foncier_EAURA",
+          "title": "Foncier RHOA",
+          "ident": "Foncier_RHOA",
           "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales pour Enercoop Auvergne-Rhône-Alpes",
           "metadata_url": "https://si.enercoop.org/eprod:qgis_foncier",
-          "raw_data_url": "https://geo.enercoop.org/EAURA/data/foncier/",
+          "raw_data_url": "https://geo.enercoop.org/RHOA/data/foncier/",
           "type": "void_layer",
           "params": {
             "url": "",
@@ -98,11 +98,11 @@
           }
         },
         {
-          "title": "Foncier EBZH",
-          "ident": "Foncier_EBZH",
+          "title": "Foncier BRZH",
+          "ident": "Foncier_BRZH",
           "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales pour Enercoop Bretagne",
           "metadata_url": "https://si.enercoop.org/eprod:qgis_foncier",
-          "raw_data_url": "https://geo.enercoop.org/EBZH/data/foncier/",
+          "raw_data_url": "https://geo.enercoop.org/BRZH/data/foncier/",
           "type": "void_layer",
           "params": {
             "url": "",
@@ -113,11 +113,11 @@
           }
         },
         {
-          "title": "Foncier EHDFR",
-          "ident": "Foncier_EHDFR",
+          "title": "Foncier NPCP",
+          "ident": "Foncier_NPCP",
           "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales pour Enercoop Hauts-de-France",
           "metadata_url": "https://si.enercoop.org/eprod:qgis_foncier",
-          "raw_data_url": "https://geo.enercoop.org/EHDFR/",
+          "raw_data_url": "https://geo.enercoop.org/NPCP/",
           "type": "void_layer",
           "params": {
             "url": "",
@@ -128,11 +128,11 @@
           }
         },
         {
-          "title": "Foncier EMIPY",
-          "ident": "Foncier_EMIPY",
+          "title": "Foncier MIPY",
+          "ident": "Foncier_MIPY",
           "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales pour Enercoop Midi-Pyrénées",
           "metadata_url": "https://si.enercoop.org/eprod:qgis_foncier",
-          "raw_data_url": "https://geo.enercoop.org/EMIPY/data/foncier/",
+          "raw_data_url": "https://geo.enercoop.org/MIPY/data/foncier/",
           "type": "void_layer",
           "params": {
             "url": "",
@@ -143,11 +143,11 @@
           }
         },
         {
-          "title": "Foncier ENAQUI",
-          "ident": "Foncier_ENAQUI",
+          "title": "Foncier AQUI",
+          "ident": "Foncier_AQUI",
           "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales pour Enercoop Nouvelle-Aquitaine",
           "metadata_url": "https://si.enercoop.org/eprod:qgis_foncier",
-          "raw_data_url": "https://geo.enercoop.org/ENAQUI/data/foncier/",
+          "raw_data_url": "https://geo.enercoop.org/AQUI/data/foncier/",
           "type": "void_layer",
           "params": {
             "url": "",
@@ -158,11 +158,11 @@
           }
         },
         {
-          "title": "Foncier ENATL",
-          "ident": "Foncier_ENATL",
+          "title": "Foncier NATL",
+          "ident": "Foncier_NATL",
           "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales pour Enercoop Nationale",
           "metadata_url": "https://si.enercoop.org/eprod:qgis_foncier",
-          "raw_data_url": "https://geo.enercoop.org/ENATL/data/foncier/",
+          "raw_data_url": "https://geo.enercoop.org/NATL/data/foncier/",
           "type": "void_layer",
           "params": {
             "url": "",
@@ -173,11 +173,11 @@
           }
         },
         {
-          "title": "Foncier ENEST",
-          "ident": "Foncier_ENEST",
+          "title": "Foncier ARDC",
+          "ident": "Foncier_ARDC",
           "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales pour Enercoop Nord-est",
           "metadata_url": "https://si.enercoop.org/eprod:qgis_foncier",
-          "raw_data_url": "https://geo.enercoop.org/ENEST/data/foncier/",
+          "raw_data_url": "https://geo.enercoop.org/ARDC/data/foncier/",
           "type": "void_layer",
           "params": {
             "url": "",
@@ -188,11 +188,11 @@
           }
         },
         {
-          "title": "Foncier ENORM",
-          "ident": "Foncier_ENORM",
+          "title": "Foncier ENOR",
+          "ident": "Foncier_ENOR",
           "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales pour Enercoop Normandie",
           "metadata_url": "https://si.enercoop.org/eprod:qgis_foncier",
-          "raw_data_url": "https://geo.enercoop.org/ENORM/data/foncier/",
+          "raw_data_url": "https://geo.enercoop.org/ENOR/data/foncier/",
           "type": "void_layer",
           "params": {
             "url": "",
@@ -203,11 +203,11 @@
           }
         },
         {
-          "title": "Foncier EPACA",
-          "ident": "Foncier_EPACA",
+          "title": "Foncier PACA",
+          "ident": "Foncier_PACA",
           "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales pour Enercoop Provence-Alpes-Côte-d'Azur",
           "metadata_url": "https://si.enercoop.org/eprod:qgis_foncier",
-          "raw_data_url": "https://geo.enercoop.org/EPACA/data/foncier/",
+          "raw_data_url": "https://geo.enercoop.org/PACA/data/foncier/",
           "type": "void_layer",
           "params": {
             "url": "",
@@ -218,11 +218,11 @@
           }
         },
         {
-          "title": "Foncier EPDL",
-          "ident": "Foncier_EPDL",
+          "title": "Foncier PDLL",
+          "ident": "Foncier_PDLL",
           "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales pour Enercoop Pays de la Loire",
           "metadata_url": "https://si.enercoop.org/eprod:qgis_foncier",
-          "raw_data_url": "https://geo.enercoop.org/EPDL/data/foncier/",
+          "raw_data_url": "https://geo.enercoop.org/PDLL/data/foncier/",
           "type": "void_layer",
           "params": {
             "url": "",

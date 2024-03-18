@@ -349,9 +349,9 @@
         "type": "wms_ign_layer",
         "params": {
           "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
-          "format": "image/jpeg",
+          "format": "image/png",
           "name": "ORTHOIMAGERY.ORTHOPHOTOS.1950-1965",
-          "style": "normal",
+          "style": "BDORTHOHISTORIQUE",
           "srs": "EPSG:3857"
         }
       }

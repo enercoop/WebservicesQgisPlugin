@@ -26,8 +26,8 @@
         "params": {
           "url": "https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v",
           "format": "image/png",
-          "name": "naturel",
-          "srs": "EPSG:4326"
+          "name": "monument_naturel_site_previsu",
+          "srs": "EPSG:2154"
         }
       },
       {

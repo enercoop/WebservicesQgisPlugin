@@ -1,5 +1,5 @@
 {
-  "title": "Webservices_Enercoop - version du 05 février 2024",
+  "title": "Webservices_Enercoop - version du 18 mars 2024",
   "ident": "316522f0-d2ef-4422-b935-e333815b4f7e",
   "description": "",
   "type": "folder",
@@ -22,7 +22,7 @@
             "format": "image/png",
             "name": "GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2",
             "style": "normal",
-            "srs": "EPSG:2154"
+            "srs": "EPSG:3857"
           }
         },
         {
@@ -67,15 +67,15 @@
           }
         },
         {
-          "title": "SPOT 2021",
-          "ident": "SPOT_2021",
+          "title": "SPOT 2023",
+          "ident": "SPOT_2023",
           "description": "Mosaïque d’orthoimages résultant d’un traitement massivement automatisé pour minimiser les délais de production.",
           "metadata_url": "",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://data.geopf.fr/wmts?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
-            "name": "ORTHOIMAGERY.ORTHO-SAT.SPOT.2021",
+            "name": "ORTHOIMAGERY.ORTHO-SAT.SPOT.2023",
             "style": "normal",
             "srs": "EPSG:3857"
           }
@@ -132,15 +132,15 @@
           }
         },
         {
-          "title": "Ortho Express 2022",
-          "ident": "Ortho_Express_2022",
+          "title": "Ortho Express 2023",
+          "ident": "Ortho_Express_2023",
           "description": "Mosaïque d’orthoimages résultant d’un traitement massivement automatisé pour minimiser les délais de production.",
           "metadata_url": "https://www.geoportail.gouv.fr/donnees/ortho-express-2022",
           "type": "wms_ign_layer",
           "params": {
             "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/jpeg",
-            "name": "ORTHOIMAGERY.ORTHOPHOTOS.ORTHO-EXPRESS.2022",
+            "name": "ORTHOIMAGERY.ORTHOPHOTOS.ORTHO-EXPRESS.2023",
             "style": "normal",
             "srs": "EPSG:3857"
           }
@@ -498,9 +498,9 @@
           "type": "wms_ign_layer",
           "params": {
             "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
-            "format": "image/jpeg",
+            "format": "image/png",
             "name": "ORTHOIMAGERY.ORTHOPHOTOS.1950-1965",
-            "style": "normal",
+            "style": "BDORTHOHISTORIQUE",
             "srs": "EPSG:3857"
           }
         }
@@ -825,11 +825,12 @@
           "ident": "Corine_Land_Cover_2018",
           "description": "Inventaire biophysique européen de l’occupation des sols à l'échelle 1:100000. CLC permet de cartographier des unités homogènes d’occupation des sols d’une surface minimale de 25 ha.",
           "metadata_url": "https://www.statistiques.developpement-durable.gouv.fr/corine-land-cover-0",
-          "type": "wms_layer",
+          "type": "wms_ign_layer",
           "params": {
             "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/png",
             "name": "LANDCOVER.CLC18_FR",
+            "style": "CORINE%20Land%20Cover%20-%20France%20m%C3%A9tropolitaine",
             "srs": "EPSG:3857"
           }
         }
@@ -1356,17 +1357,16 @@
       "type": "folder",
       "children": [
         {
-          "title": " BASIAS - Base des Anciens Sites Industriels et Activités de Service)",
-          "ident": "Base_des_Anciens_Sites_Industriels_et_Activités_de_Service_(BASIAS)",
-          "description": "La BASIAS recense les sites industriels, abandonnés ou en activité, susceptibles d'engendrer une pollution de l'environnement.",
+          "title": " CASIAS - Base des Anciens Sites Industriels et Activités de Service",
+          "ident": "Base_des_Anciens_Sites_Industriels_et_Activités_de_Service_(CASIAS)",
+          "description": "La CASIAS anciennement BASIAS recense les sites industriels, abandonnés ou en activité, susceptibles d'engendrer une pollution de l'environnement.",
           "metadata_url": "https://www.georisques.gouv.fr/articles-risques/pollutions-sols-sis-anciens-sites-industriels/basias",
           "raw_data_url": "https://geo.enercoop.org/data/georisques/",
-          "type": "wms_layer",
+          "type": "wms_urba_sandre_layer",
           "params": {
-            "url": "https://www.georisques.gouv.fr/services",
+            "url": "https://www.georisques.gouv.fr/services?",
             "format": "image/png",
-            "name": "BASIAS_LOCALISE",
-            "style": "default",
+            "name": "SSP_ETS_GE_POINT",
             "srs": "EPSG:2154"
           }
         },
@@ -1594,11 +1594,11 @@
           "type": "folder",
           "children": [
             {
-              "title": "Foncier ELR",
-              "ident": "Foncier_ELR",
+              "title": "Foncier LANG",
+              "ident": "Foncier_LANG",
               "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales pour Enercoop Languedoc Roussilon",
               "metadata_url": "https://si.enercoop.org/eprod:qgis_foncier",
-              "raw_data_url": "https://geo.enercoop.org/ELR/data/foncier/",
+              "raw_data_url": "https://geo.enercoop.org/LANG/data/foncier/",
               "type": "void_layer",
               "params": {
                 "url": "",
@@ -1609,11 +1609,11 @@
               }
             },
             {
-              "title": "Foncier EAURA",
-              "ident": "Foncier_EAURA",
+              "title": "Foncier RHOA",
+              "ident": "Foncier_RHOA",
               "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales pour Enercoop Auvergne-Rhône-Alpes",
               "metadata_url": "https://si.enercoop.org/eprod:qgis_foncier",
-              "raw_data_url": "https://geo.enercoop.org/EAURA/data/foncier/",
+              "raw_data_url": "https://geo.enercoop.org/RHOA/data/foncier/",
               "type": "void_layer",
               "params": {
                 "url": "",
@@ -1624,11 +1624,11 @@
               }
             },
             {
-              "title": "Foncier EBZH",
-              "ident": "Foncier_EBZH",
+              "title": "Foncier BRZH",
+              "ident": "Foncier_BRZH",
               "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales pour Enercoop Bretagne",
               "metadata_url": "https://si.enercoop.org/eprod:qgis_foncier",
-              "raw_data_url": "https://geo.enercoop.org/EBZH/data/foncier/",
+              "raw_data_url": "https://geo.enercoop.org/BRZH/data/foncier/",
               "type": "void_layer",
               "params": {
                 "url": "",
@@ -1639,11 +1639,11 @@
               }
             },
             {
-              "title": "Foncier EHDFR",
-              "ident": "Foncier_EHDFR",
+              "title": "Foncier NPCP",
+              "ident": "Foncier_NPCP",
               "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales pour Enercoop Hauts-de-France",
               "metadata_url": "https://si.enercoop.org/eprod:qgis_foncier",
-              "raw_data_url": "https://geo.enercoop.org/EHDFR/",
+              "raw_data_url": "https://geo.enercoop.org/NPCP/",
               "type": "void_layer",
               "params": {
                 "url": "",
@@ -1654,11 +1654,11 @@
               }
             },
             {
-              "title": "Foncier EMIPY",
-              "ident": "Foncier_EMIPY",
+              "title": "Foncier MIPY",
+              "ident": "Foncier_MIPY",
               "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales pour Enercoop Midi-Pyrénées",
               "metadata_url": "https://si.enercoop.org/eprod:qgis_foncier",
-              "raw_data_url": "https://geo.enercoop.org/EMIPY/data/foncier/",
+              "raw_data_url": "https://geo.enercoop.org/MIPY/data/foncier/",
               "type": "void_layer",
               "params": {
                 "url": "",
@@ -1669,11 +1669,11 @@
               }
             },
             {
-              "title": "Foncier ENAQUI",
-              "ident": "Foncier_ENAQUI",
+              "title": "Foncier AQUI",
+              "ident": "Foncier_AQUI",
               "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales pour Enercoop Nouvelle-Aquitaine",
               "metadata_url": "https://si.enercoop.org/eprod:qgis_foncier",
-              "raw_data_url": "https://geo.enercoop.org/ENAQUI/data/foncier/",
+              "raw_data_url": "https://geo.enercoop.org/AQUI/data/foncier/",
               "type": "void_layer",
               "params": {
                 "url": "",
@@ -1684,11 +1684,11 @@
               }
             },
             {
-              "title": "Foncier ENATL",
-              "ident": "Foncier_ENATL",
+              "title": "Foncier NATL",
+              "ident": "Foncier_NATL",
               "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales pour Enercoop Nationale",
               "metadata_url": "https://si.enercoop.org/eprod:qgis_foncier",
-              "raw_data_url": "https://geo.enercoop.org/ENATL/data/foncier/",
+              "raw_data_url": "https://geo.enercoop.org/NATL/data/foncier/",
               "type": "void_layer",
               "params": {
                 "url": "",
@@ -1699,11 +1699,11 @@
               }
             },
             {
-              "title": "Foncier ENEST",
-              "ident": "Foncier_ENEST",
+              "title": "Foncier ARDC",
+              "ident": "Foncier_ARDC",
               "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales pour Enercoop Nord-est",
               "metadata_url": "https://si.enercoop.org/eprod:qgis_foncier",
-              "raw_data_url": "https://geo.enercoop.org/ENEST/data/foncier/",
+              "raw_data_url": "https://geo.enercoop.org/ARDC/data/foncier/",
               "type": "void_layer",
               "params": {
                 "url": "",
@@ -1714,11 +1714,11 @@
               }
             },
             {
-              "title": "Foncier ENORM",
-              "ident": "Foncier_ENORM",
+              "title": "Foncier ENOR",
+              "ident": "Foncier_ENOR",
               "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales pour Enercoop Normandie",
               "metadata_url": "https://si.enercoop.org/eprod:qgis_foncier",
-              "raw_data_url": "https://geo.enercoop.org/ENORM/data/foncier/",
+              "raw_data_url": "https://geo.enercoop.org/ENOR/data/foncier/",
               "type": "void_layer",
               "params": {
                 "url": "",
@@ -1729,11 +1729,11 @@
               }
             },
             {
-              "title": "Foncier EPACA",
-              "ident": "Foncier_EPACA",
+              "title": "Foncier PACA",
+              "ident": "Foncier_PACA",
               "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales pour Enercoop Provence-Alpes-Côte-d'Azur",
               "metadata_url": "https://si.enercoop.org/eprod:qgis_foncier",
-              "raw_data_url": "https://geo.enercoop.org/EPACA/data/foncier/",
+              "raw_data_url": "https://geo.enercoop.org/PACA/data/foncier/",
               "type": "void_layer",
               "params": {
                 "url": "",
@@ -1744,11 +1744,11 @@
               }
             },
             {
-              "title": "Foncier EPDL",
-              "ident": "Foncier_EPDL",
+              "title": "Foncier PDLL",
+              "ident": "Foncier_PDLL",
               "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales pour Enercoop Pays de la Loire",
               "metadata_url": "https://si.enercoop.org/eprod:qgis_foncier",
-              "raw_data_url": "https://geo.enercoop.org/EPDL/data/foncier/",
+              "raw_data_url": "https://geo.enercoop.org/PDLL/data/foncier/",
               "type": "void_layer",
               "params": {
                 "url": "",
@@ -1790,8 +1790,8 @@
           "params": {
             "url": "https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v",
             "format": "image/png",
-            "name": "naturel",
-            "srs": "EPSG:4326"
+            "name": "monument_naturel_site_previsu",
+            "srs": "EPSG:2154"
           }
         },
         {
@@ -3207,11 +3207,11 @@
           "type": "folder",
           "children": [
             {
-              "title": "Sociétaires ELR",
-              "ident": "Societaires_ELR",
+              "title": "Sociétaires LANG",
+              "ident": "Societaires_LANG",
               "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Languedoc Roussilon",
               "metadata_url": "https://si.enercoop.org/eprod:qgis_societariat",
-              "raw_data_url": "https://geo.enercoop.org/ELR/data/enercoop/",
+              "raw_data_url": "https://geo.enercoop.org/LANG/data/enercoop/",
               "type": "void_layer",
               "params": {
                 "url": "",
@@ -3222,11 +3222,11 @@
               }
             },
             {
-              "title": "Sociétaires EAURA",
-              "ident": "Societaires_EAURA",
+              "title": "Sociétaires RHOA",
+              "ident": "Societaires_RHOA",
               "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Auvergne-Rhône-Alpes",
               "metadata_url": "https://si.enercoop.org/eprod:qgis_societariat",
-              "raw_data_url": "https://geo.enercoop.org/EAURA/data/enercoop/",
+              "raw_data_url": "https://geo.enercoop.org/RHOA/data/enercoop/",
               "type": "void_layer",
               "params": {
                 "url": "",
@@ -3237,11 +3237,11 @@
               }
             },
             {
-              "title": "Sociétaires EBZH",
-              "ident": "Societaires_EBZH",
+              "title": "Sociétaires BRZH",
+              "ident": "Societaires_BRZH",
               "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Bretagne",
               "metadata_url": "https://si.enercoop.org/eprod:qgis_societariat",
-              "raw_data_url": "https://geo.enercoop.org/EBZH/data/enercoop/",
+              "raw_data_url": "https://geo.enercoop.org/BRZH/data/enercoop/",
               "type": "void_layer",
               "params": {
                 "url": "",
@@ -3252,11 +3252,11 @@
               }
             },
             {
-              "title": "Sociétaires EHDFR",
-              "ident": "Societaires_EHDFR",
+              "title": "Sociétaires NPCP",
+              "ident": "Societaires_NPCP",
               "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Hauts-de-France",
               "metadata_url": "https://si.enercoop.org/eprod:qgis_societariat",
-              "raw_data_url": "https://geo.enercoop.org/EHDFR/",
+              "raw_data_url": "https://geo.enercoop.org/NPCP/",
               "type": "void_layer",
               "params": {
                 "url": "",
@@ -3267,11 +3267,11 @@
               }
             },
             {
-              "title": "Sociétaires EMIPY",
-              "ident": "Societaires_EMIPY",
+              "title": "Sociétaires MIPY",
+              "ident": "Societaires_MIPY",
               "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Midi-Pyrénées",
               "metadata_url": "https://si.enercoop.org/eprod:qgis_societariat",
-              "raw_data_url": "https://geo.enercoop.org/EMIPY/data/enercoop/",
+              "raw_data_url": "https://geo.enercoop.org/MIPY/data/enercoop/",
               "type": "void_layer",
               "params": {
                 "url": "",
@@ -3282,11 +3282,11 @@
               }
             },
             {
-              "title": "Sociétaires ENAQUI",
-              "ident": "Societaires_ENAQUI",
+              "title": "Sociétaires AQUI",
+              "ident": "Societaires_AQUI",
               "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Nouvelle-Aquitaine",
               "metadata_url": "https://si.enercoop.org/eprod:qgis_societariat",
-              "raw_data_url": "https://geo.enercoop.org/ENAQUI/data/enercoop/",
+              "raw_data_url": "https://geo.enercoop.org/AQUI/data/enercoop/",
               "type": "void_layer",
               "params": {
                 "url": "",
@@ -3297,11 +3297,11 @@
               }
             },
             {
-              "title": "Sociétaires ENATL",
-              "ident": "Societaires_ENATL",
+              "title": "Sociétaires NATL",
+              "ident": "Societaires_NATL",
               "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Nationale",
               "metadata_url": "https://si.enercoop.org/eprod:qgis_societariat",
-              "raw_data_url": "https://geo.enercoop.org/ENATL/data/enercoop/",
+              "raw_data_url": "https://geo.enercoop.org/NATL/data/enercoop/",
               "type": "void_layer",
               "params": {
                 "url": "",
@@ -3312,11 +3312,11 @@
               }
             },
             {
-              "title": "Sociétaires ENEST",
-              "ident": "Societaires_ENEST",
+              "title": "Sociétaires ARDC",
+              "ident": "Societaires_ARDC",
               "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Nord-est",
               "metadata_url": "https://si.enercoop.org/eprod:qgis_societariat",
-              "raw_data_url": "https://geo.enercoop.org/ENEST/data/enercoop/",
+              "raw_data_url": "https://geo.enercoop.org/ARDC/data/enercoop/",
               "type": "void_layer",
               "params": {
                 "url": "",
@@ -3327,11 +3327,11 @@
               }
             },
             {
-              "title": "Sociétaires ENORM",
-              "ident": "Societaires_ENORM",
+              "title": "Sociétaires ENOR",
+              "ident": "Societaires_ENOR",
               "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Normandie",
               "metadata_url": "https://si.enercoop.org/eprod:qgis_societariat",
-              "raw_data_url": "https://geo.enercoop.org/ENORM/data/enercoop/",
+              "raw_data_url": "https://geo.enercoop.org/ENOR/data/enercoop/",
               "type": "void_layer",
               "params": {
                 "url": "",
@@ -3342,11 +3342,11 @@
               }
             },
             {
-              "title": "Sociétaires EPACA",
-              "ident": "Societaires_EPACA",
+              "title": "Sociétaires PACA",
+              "ident": "Societaires_PACA",
               "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Provence-Alpes-Côte-d'Azur",
               "metadata_url": "https://si.enercoop.org/eprod:qgis_societariat",
-              "raw_data_url": "https://geo.enercoop.org/EPACA/data/enercoop/",
+              "raw_data_url": "https://geo.enercoop.org/PACA/data/enercoop/",
               "type": "void_layer",
               "params": {
                 "url": "",
@@ -3357,11 +3357,11 @@
               }
             },
             {
-              "title": "Sociétaires EPDL",
-              "ident": "Societaires_EPDL",
+              "title": "Sociétaires PDLL",
+              "ident": "Societaires_PDLL",
               "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Pays de la Loire",
               "metadata_url": "https://si.enercoop.org/eprod:qgis_societariat",
-              "raw_data_url": "https://geo.enercoop.org/EPDL/data/enercoop/",
+              "raw_data_url": "https://geo.enercoop.org/PDLL/data/enercoop/",
               "type": "void_layer",
               "params": {
                 "url": "",

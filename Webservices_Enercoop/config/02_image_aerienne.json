@@ -48,15 +48,15 @@
         }
       },
       {
-        "title": "Ortho Express 2022",
-        "ident": "Ortho_Express_2022",
+        "title": "Ortho Express 2023",
+        "ident": "Ortho_Express_2023",
         "description": "Mosaïque d’orthoimages résultant d’un traitement massivement automatisé pour minimiser les délais de production.",
         "metadata_url": "https://www.geoportail.gouv.fr/donnees/ortho-express-2022",
         "type": "wms_ign_layer",
         "params": {
           "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
           "format": "image/jpeg",
-          "name": "ORTHOIMAGERY.ORTHOPHOTOS.ORTHO-EXPRESS.2022",
+          "name": "ORTHOIMAGERY.ORTHOPHOTOS.ORTHO-EXPRESS.2023",
           "style": "normal",
           "srs": "EPSG:3857"
         }

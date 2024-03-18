@@ -56,11 +56,11 @@
         "type": "folder",
         "children": [
         {
-          "title": "Sociétaires ELR",
-          "ident": "Societaires_ELR",
+          "title": "Sociétaires LANG",
+          "ident": "Societaires_LANG",
           "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Languedoc Roussilon",
           "metadata_url": "https://si.enercoop.org/eprod:qgis_societariat",
-          "raw_data_url": "https://geo.enercoop.org/ELR/data/enercoop/",
+          "raw_data_url": "https://geo.enercoop.org/LANG/data/enercoop/",
           "type": "void_layer",
           "params": {
             "url": "",
@@ -71,11 +71,11 @@
           }
         },
         {
-          "title": "Sociétaires EAURA",
-          "ident": "Societaires_EAURA",
+          "title": "Sociétaires RHOA",
+          "ident": "Societaires_RHOA",
           "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Auvergne-Rhône-Alpes",
           "metadata_url": "https://si.enercoop.org/eprod:qgis_societariat",
-          "raw_data_url": "https://geo.enercoop.org/EAURA/data/enercoop/",
+          "raw_data_url": "https://geo.enercoop.org/RHOA/data/enercoop/",
           "type": "void_layer",
           "params": {
             "url": "",
@@ -86,11 +86,11 @@
           }
         },
         {
-          "title": "Sociétaires EBZH",
-          "ident": "Societaires_EBZH",
+          "title": "Sociétaires BRZH",
+          "ident": "Societaires_BRZH",
           "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Bretagne",
           "metadata_url": "https://si.enercoop.org/eprod:qgis_societariat",
-          "raw_data_url": "https://geo.enercoop.org/EBZH/data/enercoop/",
+          "raw_data_url": "https://geo.enercoop.org/BRZH/data/enercoop/",
           "type": "void_layer",
           "params": {
             "url": "",
@@ -101,11 +101,11 @@
           }
         },
         {
-          "title": "Sociétaires EHDFR",
-          "ident": "Societaires_EHDFR",
+          "title": "Sociétaires NPCP",
+          "ident": "Societaires_NPCP",
           "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Hauts-de-France",
           "metadata_url": "https://si.enercoop.org/eprod:qgis_societariat",
-          "raw_data_url": "https://geo.enercoop.org/EHDFR/",
+          "raw_data_url": "https://geo.enercoop.org/NPCP/",
           "type": "void_layer",
           "params": {
             "url": "",
@@ -116,11 +116,11 @@
           }
         },
         {
-          "title": "Sociétaires EMIPY",
-          "ident": "Societaires_EMIPY",
+          "title": "Sociétaires MIPY",
+          "ident": "Societaires_MIPY",
           "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Midi-Pyrénées",
           "metadata_url": "https://si.enercoop.org/eprod:qgis_societariat",
-          "raw_data_url": "https://geo.enercoop.org/EMIPY/data/enercoop/",
+          "raw_data_url": "https://geo.enercoop.org/MIPY/data/enercoop/",
           "type": "void_layer",
           "params": {
             "url": "",
@@ -131,11 +131,11 @@
           }
         },
         {
-          "title": "Sociétaires ENAQUI",
-          "ident": "Societaires_ENAQUI",
+          "title": "Sociétaires AQUI",
+          "ident": "Societaires_AQUI",
           "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Nouvelle-Aquitaine",
           "metadata_url": "https://si.enercoop.org/eprod:qgis_societariat",
-          "raw_data_url": "https://geo.enercoop.org/ENAQUI/data/enercoop/",
+          "raw_data_url": "https://geo.enercoop.org/AQUI/data/enercoop/",
           "type": "void_layer",
           "params": {
             "url": "",
@@ -146,11 +146,11 @@
           }
         },
         {
-          "title": "Sociétaires ENATL",
-          "ident": "Societaires_ENATL",
+          "title": "Sociétaires NATL",
+          "ident": "Societaires_NATL",
           "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Nationale",
           "metadata_url": "https://si.enercoop.org/eprod:qgis_societariat",
-          "raw_data_url": "https://geo.enercoop.org/ENATL/data/enercoop/",
+          "raw_data_url": "https://geo.enercoop.org/NATL/data/enercoop/",
           "type": "void_layer",
           "params": {
             "url": "",
@@ -161,11 +161,11 @@
           }
         },
         {
-          "title": "Sociétaires ENEST",
-          "ident": "Societaires_ENEST",
+          "title": "Sociétaires ARDC",
+          "ident": "Societaires_ARDC",
           "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Nord-est",
           "metadata_url": "https://si.enercoop.org/eprod:qgis_societariat",
-          "raw_data_url": "https://geo.enercoop.org/ENEST/data/enercoop/",
+          "raw_data_url": "https://geo.enercoop.org/ARDC/data/enercoop/",
           "type": "void_layer",
           "params": {
             "url": "",
@@ -176,11 +176,11 @@
           }
         },
         {
-          "title": "Sociétaires ENORM",
-          "ident": "Societaires_ENORM",
+          "title": "Sociétaires ENOR",
+          "ident": "Societaires_ENOR",
           "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Normandie",
           "metadata_url": "https://si.enercoop.org/eprod:qgis_societariat",
-          "raw_data_url": "https://geo.enercoop.org/ENORM/data/enercoop/",
+          "raw_data_url": "https://geo.enercoop.org/ENOR/data/enercoop/",
           "type": "void_layer",
           "params": {
             "url": "",
@@ -191,11 +191,11 @@
           }
         },
         {
-          "title": "Sociétaires EPACA",
-          "ident": "Societaires_EPACA",
+          "title": "Sociétaires PACA",
+          "ident": "Societaires_PACA",
           "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Provence-Alpes-Côte-d'Azur",
           "metadata_url": "https://si.enercoop.org/eprod:qgis_societariat",
-          "raw_data_url": "https://geo.enercoop.org/EPACA/data/enercoop/",
+          "raw_data_url": "https://geo.enercoop.org/PACA/data/enercoop/",
           "type": "void_layer",
           "params": {
             "url": "",
@@ -206,11 +206,11 @@
           }
         },
         {
-          "title": "Sociétaires EPDL",
-          "ident": "Societaires_EPDL",
+          "title": "Sociétaires PDLL",
+          "ident": "Societaires_PDLL",
           "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Pays de la Loire",
           "metadata_url": "https://si.enercoop.org/eprod:qgis_societariat",
-          "raw_data_url": "https://geo.enercoop.org/EPDL/data/enercoop/",
+          "raw_data_url": "https://geo.enercoop.org/PDLL/data/enercoop/",
           "type": "void_layer",
           "params": {
             "url": "",

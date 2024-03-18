@@ -5,17 +5,16 @@
     "type": "folder",
     "children": [
       {
-        "title": " BASIAS - Base des Anciens Sites Industriels et Activités de Service)",
-        "ident": "Base_des_Anciens_Sites_Industriels_et_Activités_de_Service_(BASIAS)",
-        "description": "La BASIAS recense les sites industriels, abandonnés ou en activité, susceptibles d'engendrer une pollution de l'environnement.",
+        "title": " CASIAS - Base des Anciens Sites Industriels et Activités de Service",
+        "ident": "Base_des_Anciens_Sites_Industriels_et_Activités_de_Service_(CASIAS)",
+        "description": "La CASIAS anciennement BASIAS recense les sites industriels, abandonnés ou en activité, susceptibles d'engendrer une pollution de l'environnement.",
         "metadata_url": "https://www.georisques.gouv.fr/articles-risques/pollutions-sols-sis-anciens-sites-industriels/basias",
         "raw_data_url": "https://geo.enercoop.org/data/georisques/",       
-        "type": "wms_layer",
+        "type": "wms_urba_sandre_layer",
         "params": {
-          "url": "https://www.georisques.gouv.fr/services",
+          "url": "https://www.georisques.gouv.fr/services?",
           "format": "image/png",
-          "name": "BASIAS_LOCALISE",
-          "style": "default",
+          "name": "SSP_ETS_GE_POINT",
           "srs": "EPSG:2154"
         }
       },
