@@ -120,8 +120,8 @@ children:
       name: ''
       style: ''
       srs: ''
-  - title: Zones urbanisme
-    ident: zones_urba
+  - title: PLU - Documents d’urbanisme
+    ident: PLU_Documents_d_urbanisme
     description: ''
     metadata_url: ''
     raw_data_url: https://geo.enercoop.org/data/urbanisme/zone_urba/

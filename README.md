@@ -1,31 +1,27 @@
 # Plugin Webservices Enercoop
 
-Plugin QGIS 3 fournissant des accès aux webservices cartographiques (WMS, WMTS, WFS, etc.) intéressants pour les salarié(e)s d'Enercoop. Pour fonctionner, **il nécessite le VPN**.
+Plugin QGIS 3 fournissant des accès aux webservices cartographiques (WMS, WMTS, WFS, etc.) intéressants pour les salarié(e)s d'Enercoop. Pour l'installer, **il nécessite le VPN**.
 
 Ce projet est un fork du plugin [GeoGrandEst](https://github.com/geograndest/qgis-plugin), lui-même étant un fork du plugin [Géo2France](https://github.com/geo2france/idg-qgis-plugin). Ce plugin a donné lieu à plusieurs forks : Géo2France a été forké par le [CRAIG](https://github.com/gipcraig/qgis-plugin), [GéoBretagne](https://github.com/geobretagne/qgis-plugin) a fait un fork de GéoGrandEst, et [Indigéo](https://gitlab.in2p3.fr/letg/indigeo-for-qgis/-/tree/master) a fait un fork de GéoBretagne (ouf!).
 
 ## Installation
 
-### Pour les développeurs
-
-Le répertoire des extensions externes de QGIS 3 est localisé dans :
-
-- Linux : `$HOME/.local/share/QGIS/QGIS3/profiles/default/python/plugins`
-- Windows : `C:\Users\USER\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins`
-- Mac OS : `Library/Application Support/QGIS/QGIS3/profiles/default/python/plugins`
-
-Afin de développer et tester rapidement les modifications, on clone ce dépôt, puis l'on crée dans le répertoire d'extensions un lien symbolique vers celui-ci :
-
-```bash
-cd $HOME/.local/share/QGIS/QGIS3/profiles/default/python/plugins/
-ln -s <chemin_vers_le_depot>/WebservicesQgisPlugin
-```
-
-Puis, dans QGIS, activez l'extension (`Extensions > Installer/Gérer les extensions > Installées` - cocher "Webservices Enercoop"), et affichez le panneau latéral (`Extensions > Webservices Enercoop > Afficher le panneau latéral`).
-
 ### Pour les salariés
 
-L'installation et l'utilisation du plugin est documentée dans la [doc interne](https://si.enercoop.org/eprod:qgis_plugin_webservices). Il est nécessaire d'ajouter au préalable le dépôt de plugins interne à la liste des dépôts d'extensions QGIS, étape documentée [ici](https://si.enercoop.org/eprod:qgis_ajout_depot_interne).
+L'installation et l'utilisation du plugin est documentée dans la [doc interne](https://si.enercoop.org/eprod:plugin_webservices). Il est nécessaire d'ajouter au préalable le dépôt de plugins interne à la liste des dépôts d'extensions QGIS, étape nécessitant le VPN et documentée [ici](https://si.enercoop.org/eprod:depot_plugins).
+
+### Pour les développeurs
+
+Pour effectuer des modifications et des tests de code sur le plugin, il faut suivre la même procédure que les salariés pour installer une version locale de celui-ci, puis ouvrir le répertoire des plugins QGIS en allant dans (`Préférences > Profils utilisateurs > ouvrir le dossier du profil actif > python > plugins > Webservices_ENnercoop`) et effectuer ses modifications de code via un éditeur de code tel que Visual Studio Code.
+
+Afin de voir en temps réel les modifications on peut utiliser le plugin [Plugin Reloader](https://plugins.qgis.org/plugins/plugin_reloader/) qui permet de recharger un plugin sans quitter QGIS. Il suffit de sélectionner l'îcone de Plugin Reloader aller dans `Configurer Plugin Reloder > Sélectionner l'extension à recharger > Webservices_Enercoop` et de cliquer sur `Recharger l'extension Webservices_Enercoop`
+
+Une fois les modifications actives et fonctionnels, il faut alors les transférer dans le dépot local de Webservices Enercoop, afin de les passer en production.
+
+## Mise à jour du plugin
+
+Les mises à jour sont facilement faisible depuis QGIS grâce à un dépôt distant nécessitant le VPN d'activé. Pour le configuré ce référer [ici](https://si.enercoop.org/eprod:depot_plugins).
+Pour mettre à jour le plugin depuis QGIS, il suffira alors d'aller dans (`Extensions > Paramètres > Recharger tous les dépôts > Mises à jour disponibles > Webservices Enercoop > Mettre à jour l'extension`)
 
 ## Séparation entre code `.py` du plugin et la liste de webservices `config.json`
 
@@ -33,23 +29,24 @@ L'installation et l'utilisation du plugin est documentée dans la [doc interne](
 
 Le plugin fonctionne grâce à 2 éléments distincts :
 
-- Le code Python du plugin, que l'utilisateur installe avec `Webservices_Enercoop.zip`.
+- Le code Python du plugin, que l'utilisateur installe avec le dépôt distant Enercoop.
 - La liste des adresses de webservices chargée par le plugin au démarrage de QGIS, contenue dans le `config.json`.
 
-Ainsi, les utilisateurs voient cette liste s'enrichir automatiquement de nouveaux webservices lorsqu'ils redémarrent QGIS, sans avoir besoin de télécharger une nouvelle version du plugin. Nous faisons évoluer la liste des webservices accessibles via le plugin indépendament de son code Python en modifiant le fichier `config.json` chargé à chaque démarrage de QGIS. Ce `config.json` est placé sur [public.geo.enercoop.org](https://public.geo.enercoop.org/plugins/), accessible uniquement via le VPN, ce qui demane donc à l'utilisateur **d'activer le VPN au démarrage de QGIS** pour que le plugin puisse charger la liste des webservices - le VPN pouvant être ensuite coupé, tant que QGIS n'est pas redémarré.
+Ainsi, les utilisateurs voient cette liste s'enrichir automatiquement de nouveaux webservices lorsqu'ils redémarrent QGIS, sans avoir besoin de télécharger une nouvelle version du plugin. Nous faisons évoluer la liste des webservices accessibles via le plugin indépendament de son code Python en modifiant le fichier `config.json` chargé à chaque démarrage de QGIS. Ce `config.json` est placé sur [public.geo.enercoop.org](https://public.geo.enercoop.org/plugins/), accessible et est accesible en public.
 
-### Mise à jour du plugin et de la configuration
+### Mise à jour du dépôt distant
 
-Le plugin `.zip` et le `config.json` sont placés sur le serveur `geo`, dans le dossier `/var/www/public.geo.enercoop.org/plugins`, diffusés sur [public.geo.enercoop.org](https://public.geo.enercoop.org/plugins/) :
+Le plugin `.zip` et le `config.json` sont placés sur le serveur `geo`, dans le dossier `/var/www/public.geo.enercoop.org/plugins`, diffusés sur [public.geo.enercoop.org](https://public.geo.enercoop.org/plugins/).
 
-```bash
-geo@geo:~$ ls -l /var/www/public.geo.enercoop.org/plugins/
-total 208
--rw-r--r-- 1 geo geo 115890 Oct 12 11:06 config.json
--rw-r--r-- 1 geo geo  90870 Nov  2 12:15 Webservices_Enercoop.zip
-```
+L'ensemble est ensuite diffusé à travers un dépôt distant aux salariés:
 
-Pour mettre à jour sur le serveur le `config.json` après l'avoir modifié, on exécute `./rsync_config.sh`. Pour mettre à jour le plugin, on exécute `./zip_rsync_plugin.sh`.
+Le dépôt d'extensions QGIS d'Enercoop est un point d'accès unique vers les plugins développés en interne permettant de faciliter leur installation et leur mise à jour. Ajouter ce dépôt d'extensions à votre QGIS vous permettra d'installer nos extensions, et surtout de les mettre à jour avec plus de facilité par la suite quand nous y apportons des améliorations. A ce jour, un seul plugin a été développé, Webservices Enercoop, et d'autres pourront suivre à l'avenir.
+
+Le dépôt est un fichier XML demandant une structure bien précise. Comme le montre ce [guide](https://portailsig.org/content/creer-un-depot-d-extensions-pour-qgis.html) présente sur [public.geo.enercoop.org/plugins/](https://public.geo.enercoop.org/plugins/) accessible par VPN.
+
+Lors d'une montée de version du plugin, la `version` présente dans le `plugins.xml` doit être montée, comme le nom du `.zip` présente dans [public.geo.enercoop.org/plugins/Webservices_Enercoop](https://public.geo.enercoop.org/plugins/Webservices_Enercoop/).
+
+Pour cela on utilise le script `update_plugin.sh` en adaptant la `version` du script.
 
 A l'avenir, pour rendre l'installation et la MAJ plus aisée, on pourra mettre le `.zip` du plugin sur un dépôt public, comme l'a fait Géo2France (cf. code [repo](https://github.com/geo2france/idg-qgis-plugin/tree/main/repo) et [lien](https://www.geo2france.fr/public/qgis3/plugins/plugins.xml) vers le dépôt), puis déclarer et activer celui-ci dans les dépôts d'extensions QGIS.
 

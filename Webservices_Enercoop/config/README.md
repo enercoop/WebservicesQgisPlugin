@@ -1,7 +1,5 @@
 # Webservices Enercoop - merge_json.py
 
-Le script `merge_json.py` permet de fusionner plusieurs fichiers JSON afin de générer le config.json du plugin Webservices Enercoop. Cette multiplicité des json permet de plus facilement éditer les webservices présent dans le plugin, et de classer les différents dossiers du config.
-
 ## Description
 
 Le script `merge_json.py` fonctionne comme suit :
@@ -24,5 +22,5 @@ Le script `merge_json.py` fonctionne comme suit :
 ## Utilisation
 
 ```bash
-python3 merge_json.py output.json *.json
+python3 merge_to_json.py config.json *.yaml
 ```

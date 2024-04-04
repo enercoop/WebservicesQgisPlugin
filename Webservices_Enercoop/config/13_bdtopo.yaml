@@ -64,7 +64,19 @@ children:
   ident: ''
   description: ''
   type: folder
-  children: []
+  children:
+  - title: Surface hydrographique >5ha LANG
+    ident: surface_hydro_lang
+    description: Surface hydrographique de plus de 5 hectares issus de la BDTOPO
+    metadata_url: https://bdtopoexplorer.ign.fr/surface_hydrographique
+    raw_data_url: https://geo.enercoop.org/LANG/data/bdtopo/
+    type: void_layer
+    params:
+      url: ''
+      format: ''
+      name: ''
+      style: ''
+      srs: ''
 - title: Transports
   ident: ''
   description: ''

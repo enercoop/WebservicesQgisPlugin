@@ -1,14 +1,10 @@
-"""
-Script permettant de merge plusieurs json en un seul, afin de créer un config.json pour Webservices
-Enercoop
-"""
-
 # import
 import json
 import os
 import argparse
 from datetime import datetime
 import locale
+import yaml
 
 
 def get_current_date():
@@ -28,20 +24,35 @@ def get_current_date():
     return datetime.now().strftime("%d %B %Y")
 
 
-def merge_json_files(output_file: json,
-                     *input_files: json) -> json:
+def yaml_to_json(yaml_file):
     """
-    Merge multiple JSON files as children into a single parent JSON.
+    Convert YAML file to JSON format.
 
     Args:
-        output_file (json): The parent JSON file where the merged content will be stored.
-        *input_files (json): Multiple JSON files to be merged as children.
+        yaml_file (str): Path to the YAML file.
 
     Returns:
-        json: The merged JSON content.
+        dict: The content of the YAML file as a Python dictionary.
+    """
+    with open(yaml_file, 'r', encoding='utf-8') as file:
+        try:
+            data = yaml.safe_load(file)
+            return data
+        except yaml.YAMLError as e:
+            print(f"ERROR: invalid YAML file {yaml_file}: {e}")
+            return {}
 
-    Example:
-    python3 merge_json.py config.json *.json
+
+def merge_yaml_files(output_file: str, *input_files: str):
+    """
+    Merge multiple YAML files into a single JSON file.
+
+    Args:
+        output_file (str): The output JSON file.
+        *input_files (str): Multiple YAML files to merge.
+
+    Returns:
+        None
     """
     merged_data = {
         "title": f"Webservices_Enercoop - version du {get_current_date()}",
@@ -57,12 +68,11 @@ def merge_json_files(output_file: json,
             print(f"WARNING: File '{file_path}' does not exist, skip")
             continue
 
-        with open(file_path, 'r', encoding='utf-8') as file:
-            try:
-                data = json.load(file)
-                merged_data["children"].append(data)
-            except json.JSONDecodeError as e:
-                print(f"ERROR: invalid json file {file_path}: {e}")
+        if file_name.endswith('.yaml'):
+            data = yaml_to_json(file_path)
+            merged_data["children"].append(data)
+        else:
+            print(f"WARNING: Unsupported file format for '{file_path}', only YAML files are supported.")
 
     with open(output_file, 'w', encoding='utf-8') as outfile:
         json.dump(merged_data, outfile, indent=2, ensure_ascii=False)
@@ -74,11 +84,11 @@ if __name__ == "__main__":
 
     cwd = str(os.getcwd())
 
-    parser = argparse.ArgumentParser(description="Merge multiples .json files into one")
+    parser = argparse.ArgumentParser(description="Merge multiples .yaml files into one")
     parser.add_argument("outfile", help="Output merged .json file")
-    parser.add_argument("input_files", nargs="+", help="Input .json files to merge")
+    parser.add_argument("input_files", nargs="+", help="Input .yaml files to merge")
     parser.add_argument("--input-dir", default=cwd, help="input dir by default: %(default)s)")
     args = parser.parse_args()
 
     INPUT_DIRECTORY = os.path.abspath(args.input_dir)
-    merge_json_files(args.outfile, *args.input_files)
+    merge_yaml_files(args.outfile, *args.input_files)

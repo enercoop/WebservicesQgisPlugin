@@ -1,5 +1,5 @@
 {
-  "title": "Webservices_Enercoop - version du 18 mars 2024",
+  "title": "Webservices_Enercoop - version du 04 avril 2024",
   "ident": "316522f0-d2ef-4422-b935-e333815b4f7e",
   "description": "",
   "type": "folder",
@@ -41,7 +41,7 @@
         {
           "title": "ADMINEXPRESS COG",
           "ident": "ADMINEXPRESS_COG",
-          "description": "Délimitations administratives française qui varient en fonction du zoom sur la carte : Contient les Régions, Départements, EPCI, Métropoles, Communes.",
+          "description": "Délimitations administratives française qui varient en fonction du zoom sur la carte. Contient les Régions, Départements, EPCI, Métropoles, Communes.",
           "metadata_url": "https://geoservices.ign.fr/adminexpress",
           "type": "wms_ign_layer",
           "params": {
@@ -515,7 +515,7 @@
       "children": [
         {
           "title": "Registre Parcellaire Graphique (RPG) - Dernière édition",
-          "ident": "Registre_Parcellaire_Graphique_(RPG)_Dernière édition",
+          "ident": "Registre_Parcellaire_Graphique_(RPG)_Dernière_édition",
           "description": "BDD géographique servant de référence à l'instruction des aides de la politique agricole commune (PAC).",
           "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
           "raw_data_url": "https://geo.enercoop.org/data/agriculture/rpg_2021/",
@@ -544,7 +544,7 @@
         },
         {
           "title": "Prairies sensibles BCAE 9",
-          "ident": "Prairies_sensibles_BCAE 9",
+          "ident": "Prairies_sensibles_BCAE_9",
           "description": "Prairies permanentes désignées comme écologiquement sensibles au titre des règles des bonnes conditions agricoles et environnementales (BCAE)",
           "metadata_url": "https://www.geoportail.gouv.fr/donnees/prairies-sensibles-bcae",
           "type": "wms_ign_layer",
@@ -687,10 +687,10 @@
           "title": "Registre Parcellaire Graphique (RPG) 2013",
           "ident": "Registre_Parcellaire_Graphique_2013",
           "description": "BDD géographique servant de référence à l'instruction des aides de la politique agricole commune (PAC).",
-          "metadata_url": "hhttps://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+          "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
           "type": "wms_ign_layer",
           "params": {
-            "url": "https://wxs.ign.fr/agriculture/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "format": "image/png",
             "name": "LANDUSE.AGRICULTURE2013",
             "style": "normal",
@@ -846,7 +846,7 @@
         {
           "title": "Altitude - Carte du relief",
           "ident": "Altitude_Carte du relief",
-          "description": "Représentation de l’altitude sous forme de teintes hypsométriques (fausses couleurs). ",
+          "description": "Représentation de l’altitude sous forme de teintes hypsométriques (fausses couleurs).",
           "metadata_url": "https://www.geoportail.gouv.fr/donnees/carte-du-relief",
           "type": "wms_ign_layer",
           "params": {
@@ -1352,12 +1352,12 @@
     },
     {
       "title": "Géorisques",
-      "ident": "",
+      "ident": null,
       "description": "Couches diffusées sur le portail Géorisques par le Bureau des Recherches Géologiques et Minières (BRGM) et le Ministère de la Transition Ecologique.",
       "type": "folder",
       "children": [
         {
-          "title": " CASIAS - Base des Anciens Sites Industriels et Activités de Service",
+          "title": "CASIAS - Base des Anciens Sites Industriels et Activités de Service",
           "ident": "Base_des_Anciens_Sites_Industriels_et_Activités_de_Service_(CASIAS)",
           "description": "La CASIAS anciennement BASIAS recense les sites industriels, abandonnés ou en activité, susceptibles d'engendrer une pollution de l'environnement.",
           "metadata_url": "https://www.georisques.gouv.fr/articles-risques/pollutions-sols-sis-anciens-sites-industriels/basias",
@@ -1438,9 +1438,9 @@
           }
         },
         {
-          "title": "Canalisations de transport de matières dangereuses : Produits chimiques",
+          "title": "Canalisations de transport de matières dangereuses; Produits chimiques",
           "ident": "Canalisations_de_transport_de_matières_dangereuses",
-          "description": "Il s’agit d’une canalisation qui achemine des produits chimiques vers des réseaux de distribution, d’autres ouvrages de transport, des entreprises industrielles ou commerciales, des sites de stockage ou de chargement. Cette dénomination ne s’applique pas au réseau de distribution de gaz en ville, mais aux conduites de transport longue distance, qui sont plus grosses (entre 8 et 120 cm de diamètre) et fonctionnent à des pressions plus importantes (jusqu’à 94 bars).",
+          "description": "Il s’agit d’une canalisation qui achemine des produits chimiques vers des réseaux de distribution, d’autres ouvrages de transport, des entreprises industrielles ou commerciales, des sites de stockage ou de chargement. Cette dénomination ne s’applique pas au réseau de distribution de gaz en ville, mais aux conduites de transport longue distance, qui sont plus grosses (entre 8 et 120 cm de diamètre) et fonctionnent à des pressions plus importantes (jusqu’à 94 bars).",
           "metadata_url": "https://www.georisques.gouv.fr/cartes-interactives#/",
           "raw_data_url": "https://geo.enercoop.org/data/georisques/",
           "type": "wms_urba_sandre_layer",
@@ -1452,9 +1452,9 @@
           }
         },
         {
-          "title": "Canalisations de transport de matières dangereuses : Gaz",
+          "title": "Canalisations de transport de matières dangereuses; Gaz",
           "ident": "Canalisations_de_transport_de_matières_dangereuses",
-          "description": "Il s’agit d’une canalisation qui achemine du gaz vers des réseaux de distribution, d’autres ouvrages de transport, des entreprises industrielles ou commerciales, des sites de stockage ou de chargement. Cette dénomination ne s’applique pas au réseau de distribution de gaz en ville, mais aux conduites de transport longue distance, qui sont plus grosses (entre 8 et 120 cm de diamètre) et fonctionnent à des pressions plus importantes (jusqu’à 94 bars).",
+          "description": "Il s’agit d’une canalisation qui achemine du gaz vers des réseaux de distribution, d’autres ouvrages de transport, des entreprises industrielles ou commerciales, des sites de stockage ou de chargement. Cette dénomination ne s’applique pas au réseau de distribution de gaz en ville, mais aux conduites de transport longue distance, qui sont plus grosses (entre 8 et 120 cm de diamètre) et fonctionnent à des pressions plus importantes (jusqu’à 94 bars).",
           "metadata_url": "https://www.georisques.gouv.fr/cartes-interactives#/",
           "raw_data_url": "https://geo.enercoop.org/data/georisques/",
           "type": "wms_urba_sandre_layer",
@@ -1466,61 +1466,9 @@
           }
         },
         {
-          "title": "Canalisations de transport de matières dangereuses : Hydrocarbure",
+          "title": "Canalisations de transport de matières dangereuses; Hydrocarbure",
           "ident": "Canalisations_de_transport_de_matières_dangereuses",
-          "description": "Il s’agit d’une canalisation qui achemine des hydrocarbures vers des réseaux de distribution, d’autres ouvrages de transport, des entreprises industrielles ou commerciales, des sites de stockage ou de chargement. Cette dénomination ne s’applique pas au réseau de distribution de gaz en ville, mais aux conduites de transport longue distance, qui sont plus grosses (entre 8 et 120 cm de diamètre) et fonctionnent à des pressions plus importantes (jusqu’à 94 bars).",
-          "metadata_url": "https://www.georisques.gouv.fr/cartes-interactives#/",
-          "raw_data_url": "https://geo.enercoop.org/data/georisques/",
-          "type": "wms_urba_sandre_layer",
-          "params": {
-            "url": "https://www.georisques.gouv.fr/services",
-            "format": "image/png",
-            "name": "C_HYDROCARBURES",
-            "srs": "EPSG:2154"
-          }
-        },
-        {
-          "title": "Mouvement de terrains et cavités",
-          "ident": "mouv_terrains_cavites",
-          "description": "Ensemble des projets de production en cours ou achévés",
-          "metadata_url": "Ensemble des ressencement sur les mouvements de terrains et les cavités",
-          "raw_data_url": "https://geo.enercoop.org/data/georisques/",
-          "type": "void_layer",
-          "params": {
-            "url": "",
-            "format": "",
-            "name": "",
-            "style": "",
-            "srs": ""
-          }
-        },
-        {
-          "title": "Plan de Prévention des Risques Feu de forêts (PPRNF)",
-          "ident": "Plan_de_Prévention_des_Risques_feu",
-          "description": "Plan de prévention des riques de feub de forêts",
-          "metadata_url": "https://www.georisques.gouv.fr/plans-de-prevention-des-risques-naturels",
-          "type": "wms_layer",
-          "params": {
-            "url": "https://www.georisques.gouv.fr/services",
-            "format": "image/png",
-            "name": "PPRN_ZONE_FEU_FXX",
-            "style": "default",
-            "srs": "EPSG:4326"
-          }
-        },
-        {
-          "title": "Plan de Prévention des Risques Mouvement de terrains (PPRNMV)",
-          "ident": "Plan_de_Prévention_des_Risques_feu",
-          "description": "Plan de Prévention des Risques Mouvement de terrains argiles, cavités, etc",
-          "metadata_url": "https://www.georisques.gouv.fr/plans-de-prevention-des-risques-naturels",
-          "type": "wms_layer",
-          "params": {
-            "url": "https://www.georisques.gouv.fr/services",
-            "format": "image/png",
-            "name": "PPRN_PERIMETRE_MVT_FXX",
-            "style": "default",
-            "srs": "EPSG:2154"
-          }
+          "description": "Il s’agit d’une canalisation qui achemine des hydrocarbures vers des réseaux de distribution, d’autres ouvrages de transport, des entreprises industrielles ou commerciales, des sites de stockage ou de chargement. Cette dénomination ne s’applique pas au réseau de distribution de gaz en ville, mais aux conduites de transport longue distance, qui sont plus grosses (entre 8 et 120 cm de diamètre) et fonctionnent à des pressions"
         }
       ]
     },
@@ -1896,8 +1844,8 @@
           }
         },
         {
-          "title": "Zones urbanisme",
-          "ident": "zones_urba",
+          "title": "PLU - Documents d’urbanisme",
+          "ident": "PLU_Documents_d_urbanisme",
           "description": "",
           "metadata_url": "",
           "raw_data_url": "https://geo.enercoop.org/data/urbanisme/zone_urba/",
@@ -2146,7 +2094,7 @@
             {
               "title": "Eolien 'clé en main'",
               "ident": "eolien_cle_en_main",
-              "description": "Le territoire est concerné par 4 niveaux d'enjeux différents : 0 pour les zones rédhibitoires où l'éolien est réglementairement interdit, 1 pour les zones non potentiellement favorables du fait de forts enjeux avérés, 2 pour les zones potentiellement favorables sous réserve de la prise en compte d'enjeux et 3 pour les zones potentiellement favorables sous réserve de la prise en compte d'enjeux locaux. Cette couche se veut hybride. En effet, les données sur les régions de Bourgogne-France-Comté, Centre-Val de Loire, Corse, Hauts-de-France, Ile de France, Normandie, Nouvelle-Aquitaine et Pays de la Loire, ont été élaborées par les services de l’État en région dans le cadre du travail de cartographies des zones favorables au développement de l'éolien initié par la circulaire de mai 2021. Elles sont conformes aux orientations établies en 2022 par le Ministère de la Transition énergétique en lien avec le Ministère de la Transition écologique et de la Cohésion des territoires pour permettre une harmonisation des travaux effectués dans les différentes régions.  Elles illustrent le travail de synthèse des différentes contraintes et enjeux proposé par les services de l’État en région. Ces couches sont des aides à la décision pour la définition des zones d'accélération. Les élus peuvent s'appuyer sur ces cartographies s'ils le souhaitent. Ces couches n'ont pas de valeur règlementaire. Sur le reste du territoire, sont représentées les couches dites 'réglementaires', i.e. des couches d'information nationales. Elles permettent par exemple de visualiser les zones où il est interdit d'implanter des éoliennes dans un rayon de 500 mètres autour des habitations (article L 553-1 du code de l'environnement), les routes, les voies ferrées ainsi que les zones concernées par des contraintes aéronautiques civiles et militaires. Ces couches ont été créées par l'IGN à partir de données issues de la BD Topo ou du service de l'information aéronautique (SIA). Les niveaux d'enjeux ont été définis en fonction de la réglementation en vigueur par la DGEC en collaboration avec la DGAC ou le ministère des armées en fonction de la nature des contraintes.",
+              "description": "Le territoire est concerné par 4 niveaux d''enjeux différents : 0 pour les zones rédhibitoires où l''éolien est réglementairement interdit, 1 pour les zones non potentiellement favorables du fait de forts enjeux avérés, 2 pour les zones potentiellement favorables sous réserve de la prise en compte d''enjeux et 3 pour les zones potentiellement favorables sous réserve de la prise en compte d''enjeux locaux. Cette couche se veut hybride. En effet, les données sur les régions de Bourgogne-France-Comté, Centre-Val de Loire, Corse, Hauts-de-France, Ile de France, Normandie, Nouvelle-Aquitaine et Pays de la Loire, ont été élaborées par les services de l’État en région dans le cadre du travail de cartographies des zones favorables au développement de l''éolien initié par la circulaire de mai 2021. Elles sont conformes aux orientations établies en 2022 par le Ministère de la Transition énergétique en lien avec le Ministère de la Transition écologique et de la Cohésion des territoires pour permettre une harmonisation des travaux effectués dans les différentes régions.  Elles illustrent le travail de synthèse des différentes contraintes et enjeux proposé par les services de l’État en région. Ces couches sont des aides à la décision pour la définition des zones d''accélération. Les élus peuvent s''appuyer sur ces cartographies s''ils le souhaitent. Ces couches n''ont pas de valeur règlementaire. Sur le reste du territoire, sont représentées les couches dites ''réglementaires'', i.e. des couches d''information nationales. Elles permettent par exemple de visualiser les zones où il est interdit d''implanter des éoliennes dans un rayon de 500 mètres autour des habitations (article L 553-1 du code de l''environnement), les routes, les voies ferrées ainsi que les zones concernées par des contraintes aéronautiques civiles et militaires. Ces couches ont été créées par l''IGN à partir de données issues de la BD Topo ou du service de l''information aéronautique (SIA). Les niveaux d''enjeux ont été définis en fonction de la réglementation en vigueur par la DGEC en collaboration avec la DGAC ou le ministère des armées en fonction de la nature des contraintes.",
               "metadata_url": "https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public",
               "type": "wms_ign_layer",
               "params": {
@@ -2307,7 +2255,7 @@
             {
               "title": "Potentiel hydroélectrique sur nouveaux ouvrages",
               "ident": "Potentiel_hydroélectrique_sur_nouveaux_ouvrages",
-              "description": "Cette couche est une estimation des potentiels hydroélectriques uniquement sur nouveaux ouvrages. Les centrales hydroélectriques existantes, ainsi que les projets en cours de développement (autorisés, concédés ou lauréats d'un Appel d'Offre CRE) ont été retirés de la cartographie, pour qu'il ne reste vraiment que le potentiel à développer. Les données correspondent uniquement au potentiel sur site vierge. Une commune pourrait ainsi disposer d'un potentiel (sur ouvrage existant), sans que celui-ci n'apparaisse sur la couche. Producteur : ISL / Post traitement Cerema.",
+              "description": "Cette couche est une estimation des potentiels hydroélectriques uniquement sur nouveaux ouvrages. Les centrales hydroélectriques existantes, ainsi que les projets en cours de développement (autorisés, concédés ou lauréats d''un Appel d''Offre CRE) ont été retirés de la cartographie, pour qu''il ne reste vraiment que le potentiel à développer. Les données correspondent uniquement au potentiel sur site vierge. Une commune pourrait ainsi disposer d''un potentiel (sur ouvrage existant), sans que celui-ci n''apparaisse sur la couche. Producteur : ISL / Post traitement Cerema.",
               "metadata_url": "https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public",
               "type": "wms_ign_layer",
               "params": {
@@ -2501,7 +2449,7 @@
         {
           "title": "Cours d'eau - BD Carthage",
           "ident": "Cours d'eau - BD Carthage",
-          "description": "Entité hydrographique, une entité hydrographique est un cours d’eau naturel ou aménagé, un bras naturel ou aménagé, une voie d’eau artificielle (canal,…), un plan d’eau ou une ligne littorale",
+          "description": "Entité hydrographique, une entité hydrographique est un cours d’eau naturel ou aménagé, un bras naturel ou aménagé, une voie d’eau artificielle (canal,…), un plan d'eau ou une ligne littorale",
           "metadata_url": "https://geo.data.gouv.fr/fr/datasets/ee5c709c9b7ff928ab2529b79ce6e879c4de6950",
           "type": "wms_urba_sandre_layer",
           "params": {
@@ -2591,7 +2539,23 @@
           "ident": "",
           "description": "",
           "type": "folder",
-          "children": []
+          "children": [
+            {
+              "title": "Surface hydrographique >5ha LANG",
+              "ident": "surface_hydro_lang",
+              "description": "Surface hydrographique de plus de 5 hectares issus de la BDTOPO",
+              "metadata_url": "https://bdtopoexplorer.ign.fr/surface_hydrographique",
+              "raw_data_url": "https://geo.enercoop.org/LANG/data/bdtopo/",
+              "type": "void_layer",
+              "params": {
+                "url": "",
+                "format": "",
+                "name": "",
+                "style": "",
+                "srs": ""
+              }
+            }
+          ]
         },
         {
           "title": "Transports",
@@ -3211,7 +3175,7 @@
               "ident": "Societaires_LANG",
               "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Languedoc Roussilon",
               "metadata_url": "https://si.enercoop.org/eprod:qgis_societariat",
-              "raw_data_url": "https://geo.enercoop.org/LANG/data/enercoop/",
+              "raw_data_url": "https://geo.enercoop.org/LANG/data/coopener/",
               "type": "void_layer",
               "params": {
                 "url": "",
@@ -3226,7 +3190,7 @@
               "ident": "Societaires_RHOA",
               "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Auvergne-Rhône-Alpes",
               "metadata_url": "https://si.enercoop.org/eprod:qgis_societariat",
-              "raw_data_url": "https://geo.enercoop.org/RHOA/data/enercoop/",
+              "raw_data_url": "https://geo.enercoop.org/RHOA/data/coopener/",
               "type": "void_layer",
               "params": {
                 "url": "",
@@ -3241,7 +3205,7 @@
               "ident": "Societaires_BRZH",
               "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Bretagne",
               "metadata_url": "https://si.enercoop.org/eprod:qgis_societariat",
-              "raw_data_url": "https://geo.enercoop.org/BRZH/data/enercoop/",
+              "raw_data_url": "https://geo.enercoop.org/BRZH/data/coopener/",
               "type": "void_layer",
               "params": {
                 "url": "",
@@ -3256,7 +3220,7 @@
               "ident": "Societaires_NPCP",
               "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Hauts-de-France",
               "metadata_url": "https://si.enercoop.org/eprod:qgis_societariat",
-              "raw_data_url": "https://geo.enercoop.org/NPCP/",
+              "raw_data_url": "https://geo.enercoop.org/NPCP/data/coopener/",
               "type": "void_layer",
               "params": {
                 "url": "",
@@ -3271,7 +3235,7 @@
               "ident": "Societaires_MIPY",
               "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Midi-Pyrénées",
               "metadata_url": "https://si.enercoop.org/eprod:qgis_societariat",
-              "raw_data_url": "https://geo.enercoop.org/MIPY/data/enercoop/",
+              "raw_data_url": "https://geo.enercoop.org/MIPY/data/coopener/",
               "type": "void_layer",
               "params": {
                 "url": "",
@@ -3286,7 +3250,7 @@
               "ident": "Societaires_AQUI",
               "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Nouvelle-Aquitaine",
               "metadata_url": "https://si.enercoop.org/eprod:qgis_societariat",
-              "raw_data_url": "https://geo.enercoop.org/AQUI/data/enercoop/",
+              "raw_data_url": "https://geo.enercoop.org/AQUI/data/coopener/",
               "type": "void_layer",
               "params": {
                 "url": "",
@@ -3301,7 +3265,7 @@
               "ident": "Societaires_NATL",
               "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Nationale",
               "metadata_url": "https://si.enercoop.org/eprod:qgis_societariat",
-              "raw_data_url": "https://geo.enercoop.org/NATL/data/enercoop/",
+              "raw_data_url": "https://geo.enercoop.org/NATL/data/coopener/",
               "type": "void_layer",
               "params": {
                 "url": "",
@@ -3316,7 +3280,7 @@
               "ident": "Societaires_ARDC",
               "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Nord-est",
               "metadata_url": "https://si.enercoop.org/eprod:qgis_societariat",
-              "raw_data_url": "https://geo.enercoop.org/ARDC/data/enercoop/",
+              "raw_data_url": "https://geo.enercoop.org/ARDC/data/coopener/",
               "type": "void_layer",
               "params": {
                 "url": "",
@@ -3331,7 +3295,7 @@
               "ident": "Societaires_ENOR",
               "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Normandie",
               "metadata_url": "https://si.enercoop.org/eprod:qgis_societariat",
-              "raw_data_url": "https://geo.enercoop.org/ENOR/data/enercoop/",
+              "raw_data_url": "https://geo.enercoop.org/ENOR/data/coopener/",
               "type": "void_layer",
               "params": {
                 "url": "",
@@ -3346,7 +3310,7 @@
               "ident": "Societaires_PACA",
               "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Provence-Alpes-Côte-d'Azur",
               "metadata_url": "https://si.enercoop.org/eprod:qgis_societariat",
-              "raw_data_url": "https://geo.enercoop.org/PACA/data/enercoop/",
+              "raw_data_url": "https://geo.enercoop.org/PACA/data/coopener/",
               "type": "void_layer",
               "params": {
                 "url": "",
@@ -3361,7 +3325,7 @@
               "ident": "Societaires_PDLL",
               "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Pays de la Loire",
               "metadata_url": "https://si.enercoop.org/eprod:qgis_societariat",
-              "raw_data_url": "https://geo.enercoop.org/PDLL/data/enercoop/",
+              "raw_data_url": "https://geo.enercoop.org/PDLL/data/coopener/",
               "type": "void_layer",
               "params": {
                 "url": "",
@@ -3377,7 +3341,7 @@
     },
     {
       "title": "Réseau éléctrique (geo.enercoop.org)",
-      "ident": "",
+      "ident": null,
       "description": "Réseau eléctrique RTE,HTA,BT aérien et souterrain",
       "type": "folder",
       "children": [
@@ -3389,11 +3353,11 @@
           "raw_data_url": "https://geo.enercoop.org/data/reseau/",
           "type": "void_layer",
           "params": {
-            "url": "",
-            "format": "",
-            "name": "",
-            "style": "",
-            "srs": ""
+            "url": null,
+            "format": null,
+            "name": null,
+            "style": null,
+            "srs": null
           }
         },
         {
@@ -3404,11 +3368,11 @@
           "raw_data_url": "https://geo.enercoop.org/data/reseau/enedis_hta/",
           "type": "void_layer",
           "params": {
-            "url": "",
-            "format": "",
-            "name": "",
-            "style": "",
-            "srs": ""
+            "url": null,
+            "format": null,
+            "name": null,
+            "style": null,
+            "srs": null
           }
         },
         {
@@ -3419,26 +3383,26 @@
           "raw_data_url": "https://geo.enercoop.org/data/reseau/",
           "type": "void_layer",
           "params": {
-            "url": "",
-            "format": "",
-            "name": "",
-            "style": "",
-            "srs": ""
+            "url": null,
+            "format": null,
+            "name": null,
+            "style": null,
+            "srs": null
           }
         }
       ]
     },
     {
       "title": "Couches Vector Tiles",
-      "ident": "",
-      "description": "",
+      "ident": null,
+      "description": null,
       "type": "folder",
       "children": [
         {
           "title": "ADMINEXPRESS Vector Tiles",
           "ident": "ADMINEXPRESS_Vector_Tiles",
-          "description": "",
-          "metadata_url": "",
+          "description": null,
+          "metadata_url": null,
           "type": "vector_layer",
           "params": {
             "url": "https://wxs.ign.fr/essentiels/geoportail/tms/1.0.0/ADMIN_EXPRESS/%7Bz%7D/%7Bx%7D/%7By%7D.pbf"
@@ -3447,8 +3411,8 @@
         {
           "title": "Plan IGN Vector Tiles",
           "ident": "Plan_IGN_Vector_Tiles",
-          "description": "",
-          "metadata_url": "",
+          "description": null,
+          "metadata_url": null,
           "type": "vector_layer",
           "params": {
             "url": "https://wxs.ign.fr/essentiels/geoportail/tms/1.0.0/PLAN.IGN/{z}/{x}/{y}.pbf"
@@ -3457,8 +3421,8 @@
         {
           "title": "BD TOPO Vector Tiles",
           "ident": "BD TOPO Vector_Tiles",
-          "description": "",
-          "metadata_url": "",
+          "description": null,
+          "metadata_url": null,
           "type": "vector_layer",
           "params": {
             "url": "https://wxs.ign.fr/essentiels/geoportail/tms/1.0.0/topographie/{z}/{x}/{y}.pbf"

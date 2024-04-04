@@ -23,6 +23,21 @@ Pour que les modifications soient effectives, il faut faire un 2ème `git push` 
 
 ## Modifications apportées dans ce fork (Lucas)
 
+### Utilisation de fichiers YAML pour générer le config.json
+
+L'une des principales modification est l'utilisation de multiples fichiers .yaml dans le dossier `Webservices_Enercoop/config` afin de générer le `config.json` alimentant le plugin. Cette fragmentations du config.json en plusieurs YAML permet de faciliter les modification du `config.json` et éviter de se perdre et de générer des erreurs.
+
+Les YAML sont convertis en JSON et insérés dans le template JSON du config.json. Pour automatiser cela on utilise le script python `merge_to_json.py` présent dans le `Webservices_Enercoop/config` qui prends l'ensemble des YAML du dossier afin de générer le JSON de config.
+
+Pour plus d'informations ce référer au [README du config](Webservices_Enercoop/config/README.md)
+
+Pour l'utiser on effectue les commandes suivantes :
+
+```bash
+cd WebservicesQgisPlugin/Webservices_Enercoop/config
+python3 merge_to_json.py config.json *.yaml
+```
+
 ### Géoportail de l'urbanisme (GPU)
 
 Les flux WMS du GPU ont pour problème de ne s'ouvrir que si le SCR du projet QGIS est en WGS84 (`EPSG:4326`). Comme expliqué [ici](https://www.geoportail-urbanisme.gouv.fr/image/UtilisationWMS_GPU_Qgis_1-0.pdf#page=3) dans leur documentation :
@@ -33,23 +48,39 @@ Cette limite étant un frein important à l'utilisation de ce flux WMS par les s
 
 ### Modification des noeuds
 
-La création de nouveau noeud a nécessité la modification de trois fichiers dans le répertoire du plugin :
+Afin de pouvoir accepter de nouvelle structure connexion (URL) au webservices il est nécessaire de créer de nouveaux noeuds dans le code du plugin. C'est modification ce passe dans plusieurs fichiers.
 
-- `nodes/nodes.py` est le fichier python permettant de créer des nouveaux noeuds à travers de classe python. Dans ce fichier ont défini les différents paramètres que notre nouveau noeud va prendre comme l'url, le style, le type de chargement ect. Dans le cadre du plugin, nous avons rajouté deux types de noeud :
+- `nodes/nodes.py` : défini les différents paramètres que notre nouveau noeud va prendre comme l'url, le style, le type de chargement ect. Dans le cadre du plugin, nous avons rajouté plusieurs types noeuds :
 
-  - `class WmsLayerUrbaTreeNode` permettant de se connecter au webservice de l'urbanisme.
+  - `class WmsLayerUrbaTreeNode`, `class WmsLayerOrthoTreeNode` , `class WmsLayerPlanTreeNode`, `class WmsEnrTreeNode`, etc
 
-  - `class WmsLayerOrthoTreeNode` permettant de se connecter au webservice wms de l'IGN et spécifiquement de la BD Ortho.
-  
-  - `class WmsLayerPlanTreeNode` permettant de se connecter au webservice de l'IGN possédant une clé.
+- `nodes/tree_node_factory.py` : permet d'initialiser le type de connexion issu des noeuds de `nodes.py`, lors de l'appel des webservices. La modification apportée est le rajout dans une boucle d'appel des noeuds crées dans `nodes.py`
 
-  - `class WmsEnrTreeNode` permettant de se connecter au webservice du portail cartographique des Enr possédant une clé.
-  
-  - `class VectorTilesTreeNode` permettant de se connecter au webservice en VectorTiles, en l'occurance ceux de l'IGN. Ici la méthode PyQGIS de rajout de couche a été modifiée, en passant de `PluginGlobals.instance().iface.addRasterLayer()` vers `PluginGlobals.instance().iface.addVectorTileslayer`. Les paramètres d'entrées de la méthode ont été modifiés et adaptés à VectorTiles, ainsi que l'url de connexion.
+- `plugins_globals.py` permet de définir le nom d'appel des noeuds dans le `config.json`. Les nouveaux noeuds sont alors définis par une variable qui est reconnue spécifier dans la définition des couches du `config.json`
 
-- `nodes/tree_node_factory.py` est le fichier python permettant d'initialiser le type de connexion issu des noeuds de `nodes.py`, lors de l'appel des webservices. La modification apportée est le rajout dans une boucle d'appel des deux noeuds crées dans `nodes.py`
+La création des noeuds est un aller-retour avec les webservices existants. Il se peut que le webservice possède un noeud capable de le charger, ou non. Pour vérifier cela, il suffit de charger le webservice sur traditionnele sur QGIS (`WMS/WMTS > Nouvelle connexion > Rajouter le webservices > Propriétés de la couche > Informations (URL + source)`).
+Puis de disséquer l'URL et la source du webservice.
 
-- `plugins_globals.py` est un fichier python permettant de définir le nom d'appel des noeuds dans le `config.json`. Les nouveaux noeuds sont alors définis par une variable qui est reconnue spécifier dans la définition des couches du `config.json`
+Exemple : Cartes IGN de datara.
+URL : `https://datacarto.datara.gouv.fr/map/carte_zonage_amenagement?VERSION=1.3.0`
+Source : `crs=EPSG:2154&dpiMode=7&format=image/png&layers=layer23&styles&tilePixelRatio=0&url=https://datacarto.datara.gouv.fr/map/carte_zonage_amenagement?VERSION%3D1.3.0`
+
+Dans cet exemple, la source possède un ordre avec le crs puis un dpi, puis un format, puis un layer, puis un style et enfin un url.
+
+Si on compare à nos nodes, celui-ci correspond à `WmsLayerUrbaSandreTreeNode` avec une structure du node ressemblant à :
+
+```python
+            "uri": u"crs={}&dpiMode=7&format={}&layers={}&styles&url={}".format(
+                self.layer_srs,
+                self.layer_format,
+                self.layer_name,
+                self.service_url,
+            )
+```
+
+Puisque le node existe déjà, on va pouvoir appeler `WmsLayerUrbaSandreTreeNode` comme `type` dans le config.json afin de charger le webservice.
+
+Si le webservice ne possède pas de node pouvant le charger, il faudra en créer un nouveau en modifiant les trois fichiers spécifiés en haut: `nodes/nodes.py`, `nodes/tree_node_factory.py`, `plugins_globals.py`.
 
 ### Ajout d'un curseur d'opacité
 

@@ -52,7 +52,7 @@ children:
       description: Couches internes en géopackages contenant des données sensibles sur
         les sociétaires pour Enercoop Languedoc Roussilon
       metadata_url: https://si.enercoop.org/eprod:qgis_societariat
-      raw_data_url: https://geo.enercoop.org/LANG/data/enercoop/
+      raw_data_url: https://geo.enercoop.org/LANG/data/coopener/
       type: void_layer
       params:
         url: ''
@@ -65,7 +65,7 @@ children:
       description: Couches internes en géopackages contenant des données sensibles sur
         les sociétaires pour Enercoop Auvergne-Rhône-Alpes
       metadata_url: https://si.enercoop.org/eprod:qgis_societariat
-      raw_data_url: https://geo.enercoop.org/RHOA/data/enercoop/
+      raw_data_url: https://geo.enercoop.org/RHOA/data/coopener/
       type: void_layer
       params:
         url: ''
@@ -78,7 +78,7 @@ children:
       description: Couches internes en géopackages contenant des données sensibles sur
         les sociétaires pour Enercoop Bretagne
       metadata_url: https://si.enercoop.org/eprod:qgis_societariat
-      raw_data_url: https://geo.enercoop.org/BRZH/data/enercoop/
+      raw_data_url: https://geo.enercoop.org/BRZH/data/coopener/
       type: void_layer
       params:
         url: ''
@@ -91,7 +91,7 @@ children:
       description: Couches internes en géopackages contenant des données sensibles sur
         les sociétaires pour Enercoop Hauts-de-France
       metadata_url: https://si.enercoop.org/eprod:qgis_societariat
-      raw_data_url: https://geo.enercoop.org/NPCP/
+      raw_data_url: https://geo.enercoop.org/NPCP/data/coopener/
       type: void_layer
       params:
         url: ''
@@ -104,7 +104,7 @@ children:
       description: Couches internes en géopackages contenant des données sensibles sur
         les sociétaires pour Enercoop Midi-Pyrénées
       metadata_url: https://si.enercoop.org/eprod:qgis_societariat
-      raw_data_url: https://geo.enercoop.org/MIPY/data/enercoop/
+      raw_data_url: https://geo.enercoop.org/MIPY/data/coopener/
       type: void_layer
       params:
         url: ''
@@ -117,7 +117,7 @@ children:
       description: Couches internes en géopackages contenant des données sensibles sur
         les sociétaires pour Enercoop Nouvelle-Aquitaine
       metadata_url: https://si.enercoop.org/eprod:qgis_societariat
-      raw_data_url: https://geo.enercoop.org/AQUI/data/enercoop/
+      raw_data_url: https://geo.enercoop.org/AQUI/data/coopener/
       type: void_layer
       params:
         url: ''
@@ -130,7 +130,7 @@ children:
       description: Couches internes en géopackages contenant des données sensibles sur
         les sociétaires pour Enercoop Nationale
       metadata_url: https://si.enercoop.org/eprod:qgis_societariat
-      raw_data_url: https://geo.enercoop.org/NATL/data/enercoop/
+      raw_data_url: https://geo.enercoop.org/NATL/data/coopener/
       type: void_layer
       params:
         url: ''
@@ -143,7 +143,7 @@ children:
       description: Couches internes en géopackages contenant des données sensibles sur
         les sociétaires pour Enercoop Nord-est
       metadata_url: https://si.enercoop.org/eprod:qgis_societariat
-      raw_data_url: https://geo.enercoop.org/ARDC/data/enercoop/
+      raw_data_url: https://geo.enercoop.org/ARDC/data/coopener/
       type: void_layer
       params:
         url: ''
@@ -156,7 +156,7 @@ children:
       description: Couches internes en géopackages contenant des données sensibles sur
         les sociétaires pour Enercoop Normandie
       metadata_url: https://si.enercoop.org/eprod:qgis_societariat
-      raw_data_url: https://geo.enercoop.org/ENOR/data/enercoop/
+      raw_data_url: https://geo.enercoop.org/ENOR/data/coopener/
       type: void_layer
       params:
         url: ''
@@ -169,7 +169,7 @@ children:
       description: Couches internes en géopackages contenant des données sensibles sur
         les sociétaires pour Enercoop Provence-Alpes-Côte-d'Azur
       metadata_url: https://si.enercoop.org/eprod:qgis_societariat
-      raw_data_url: https://geo.enercoop.org/PACA/data/enercoop/
+      raw_data_url: https://geo.enercoop.org/PACA/data/coopener/
       type: void_layer
       params:
         url: ''
@@ -182,7 +182,7 @@ children:
       description: Couches internes en géopackages contenant des données sensibles sur
         les sociétaires pour Enercoop Pays de la Loire
       metadata_url: https://si.enercoop.org/eprod:qgis_societariat
-      raw_data_url: https://geo.enercoop.org/PDLL/data/enercoop/
+      raw_data_url: https://geo.enercoop.org/PDLL/data/coopener/
       type: void_layer
       params:
         url: ''
