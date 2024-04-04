@@ -20,7 +20,7 @@ Une fois les modifications actives et fonctionnels, il faut alors les transfére
 
 ## Mise à jour du plugin
 
-Les mises à jour sont facilement faisible depuis QGIS grâce à un dépôt distant nécessitant le VPN d'activé. Pour le configuré ce référer [ici](https://si.enercoop.org/eprod:depot_plugins).
+Les mises à jour sont facilement faisible depuis QGIS grâce à un dépôt distant nécessitant le VPN d'activé. Pour le configurer ce référer [ici](https://si.enercoop.org/eprod:depot_plugins).
 Pour mettre à jour le plugin depuis QGIS, il suffira alors d'aller dans (`Extensions > Paramètres > Recharger tous les dépôts > Mises à jour disponibles > Webservices Enercoop > Mettre à jour l'extension`)
 
 ## Séparation entre code `.py` du plugin et la liste de webservices `config.json`
