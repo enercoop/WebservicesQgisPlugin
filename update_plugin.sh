@@ -17,7 +17,8 @@ rsync -av -e ssh Webservices_Enercoop-${version}.zip geo@geo.enercoop.infra:/var
 echo "Update config.json ..."
 rsync -av -e ssh Webservices_Enercoop/config/config.json geo@geo.enercoop.infra:/var/www/public.geo.enercoop.org/plugins/Webservices_Enercoop
 
-# TODO: Update the config.json on Lucas GitHub (for prod)
+# Update the config.json on the cloud (prod)
+rsync -av -e ssh  Webservices_Enercoop/config/config.json "$HOME"/Clood/Production\ -\ REZO\ -\ Public/Outils\ cartographiques/WebservicesQgisPlugin/
 
 # Update the repo XML
 echo "Update plugins.xml ..."
