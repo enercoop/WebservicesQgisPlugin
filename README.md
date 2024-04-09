@@ -1,5 +1,5 @@
 # Plugin Webservices Enercoop
 
-Plugin QGIS 3 fournissant des accès aux webservices cartographiques (WMS, WMTS, WFS, etc.) intéressants pour les salarié(e)s d'Enercoop. Pour l'installer, **il nécessite le VPN**.
+Webservices Enercoop est un plugin QGIS 3 proposant un catalogue centralisé de webservices cartographiques (WMS, WMTS, WFS, etc.) issus de divers fournisseurs (IGN, BRGM, Ministères, etc). Il vise à créer dans QGIS un point d'entrée unique vers les données géographiques ouvertes en visualisation.
 
-Ce projet est un fork du plugin [GeoGrandEst](https://github.com/geograndest/qgis-plugin), lui-même étant un fork du plugin [Géo2France](https://github.com/geo2france/idg-qgis-plugin). Ce plugin a donné lieu à plusieurs forks : Géo2France a été forké par le [CRAIG](https://github.com/gipcraig/qgis-plugin), [GéoBretagne](https://github.com/geobretagne/qgis-plugin) a fait un fork de GéoGrandEst, et [Indigéo](https://gitlab.in2p3.fr/letg/indigeo-for-qgis/-/tree/master) a fait un fork de GéoBretagne (ouf!).
+Pour plus d'informations, consultez le [wiki](../../wiki) (côté développeur) ou la [documentation](https://si.enercoop.org/eprod:plugin_webservices) interne (côté utilisateur).
