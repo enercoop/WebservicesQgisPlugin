@@ -21,18 +21,20 @@ class PluginGlobals:
     # Tree nodes types
     NODE_TYPE_FOLDER = "folder"
     NODE_TYPE_WS = "web_service"
-    NODE_TYPE_WMS_LAYER = "wms_layer"
+    NODE_TYPE_UNIVERSAL_WMS_WMTS_LAYER = "wms_wmts_universal_layer"
+    NODE_TYPE_VOID_LAYER = "void_layer"
+    NODE_TYPE_VECTOR_TILES_LAYER = "vector_layer"
+
+    '''NODE_TYPE_WMS_LAYER = "wms_layer"
     NODE_TYPE_WMS_URBA_SANDRE_LAYER = "wms_urba_sandre_layer"
     NODE_TYPE_WMS_IGN_LAYER = "wms_ign_layer"
     NODE_TYPE_WMS_ENR_LAYER = "wms_enr_layer"
     NODE_TYPE_WMS_IGN_CLE_LAYER = "wms_ign_cle_layer"
-    NODE_TYPE_VOID_LAYER = "void_layer"
-    NODE_TYPE_VECTOR_TILES_LAYER = "vector_layer"
     NODE_TYPE_WMTS_LAYER = "wmts_layer"
     NODE_TYPE_WMS_LAYER_STYLE = "wms_layer_style"
     NODE_TYPE_WFS_FEATURE_TYPE = "wfs_feature_type"
     NODE_TYPE_WFS_FEATURE_TYPE_FILTER = "wfs_feature_type_filter"
-    NODE_TYPE_GDAL_WMS_CONFIG_FILE = "gdal_wms_config_file"
+    NODE_TYPE_GDAL_WMS_CONFIG_FILE = "gdal_wms_config_file"'''
 
     # Node status values
     NODE_STATUS_WARN = "warn"

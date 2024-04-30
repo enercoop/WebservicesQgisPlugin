@@ -14,7 +14,13 @@ from qgis.PyQt.QtCore import QUrl
 
 
 from Webservices_Enercoop.utils.plugin_globals import PluginGlobals
-from .nodes import (
+
+from .wms_wmts_tree_node import WMS_WMTS_UniversalTreeNode
+from .void_tree_node import VoidTreeNode
+from .vector_tiles_tree_node import VectorTilesTreeNode
+from .folder_tree_node import FolderTreeNode
+
+"""from .nodes import (
     WmsLayerTreeNode,
     WmsStyleLayerTreeNode,
     WmtsLayerTreeNode,
@@ -30,7 +36,7 @@ from .nodes import (
     WfsFeatureTypeFilterTreeNode,
     GdalWmsConfigFileTreeNode,
     FolderTreeNode,
-)
+)"""
 
 
 def download_tree_config_file(file_url):
@@ -135,7 +141,63 @@ class TreeNodeFactory:
 
         if node_title:
             # Creation of the node
-            if node_type == PluginGlobals.instance().NODE_TYPE_WMS_LAYER:
+
+            if node_type == PluginGlobals.instance().NODE_TYPE_UNIVERSAL_WMS_WMTS_LAYER:
+                node = WMS_WMTS_UniversalTreeNode(
+                    node_title,
+                    node_type,
+                    node_description,
+                    node_status,
+                    node_metadata_url,
+                    node_raw_data_url,
+                    node_ident,
+                    node_params,
+                    node_bounding_boxes,
+                    parent_node,
+                )
+
+            elif node_type == PluginGlobals.instance().NODE_TYPE_VECTOR_TILES_LAYER:
+                node = VectorTilesTreeNode(
+                    node_title,
+                    node_type,
+                    node_description,
+                    node_status,
+                    node_metadata_url,
+                    node_raw_data_url,
+                    node_ident,
+                    node_params,
+                    node_bounding_boxes,
+                    parent_node,
+                )
+            
+            elif node_type == PluginGlobals.instance().NODE_TYPE_VOID_LAYER:
+                node = VoidTreeNode(
+                    node_title,
+                    node_type,
+                    node_description,
+                    node_status,
+                    node_metadata_url,
+                    node_raw_data_url,
+                    node_ident,
+                    node_params,
+                    node_bounding_boxes,
+                    parent_node,
+                )
+
+            else:
+                node = FolderTreeNode(
+                    node_title,
+                    node_type,
+                    node_description,
+                    node_status,
+                    node_metadata_url,
+                    node_ident,
+                    node_params,
+                    node_bounding_boxes,
+                    parent_node,
+                )
+
+            """elif node_type == PluginGlobals.instance().NODE_TYPE_WMS_LAYER:
                 node = WmsLayerTreeNode(
                     node_title,
                     node_type,
@@ -191,20 +253,6 @@ class TreeNodeFactory:
                     parent_node,
                 )
 
-            elif node_type == PluginGlobals.instance().NODE_TYPE_VECTOR_TILES_LAYER:
-                node = VectorTilesTreeNode(
-                    node_title,
-                    node_type,
-                    node_description,
-                    node_status,
-                    node_metadata_url,
-                    node_raw_data_url,
-                    node_ident,
-                    node_params,
-                    node_bounding_boxes,
-                    parent_node,
-                )
-
             elif node_type == PluginGlobals.instance().NODE_TYPE_WMS_IGN_CLE_LAYER:
                 node = WmsLayerIgnCleTreeNode(
                     node_title,
@@ -221,20 +269,6 @@ class TreeNodeFactory:
 
             elif node_type == PluginGlobals.instance().NODE_TYPE_WMS_LAYER_STYLE:
                 node = WmsStyleLayerTreeNode(
-                    node_title,
-                    node_type,
-                    node_description,
-                    node_status,
-                    node_metadata_url,
-                    node_raw_data_url,
-                    node_ident,
-                    node_params,
-                    node_bounding_boxes,
-                    parent_node,
-                )
-
-            elif node_type == PluginGlobals.instance().NODE_TYPE_VOID_LAYER:
-                node = VoidTreeNode(
                     node_title,
                     node_type,
                     node_description,
@@ -303,20 +337,7 @@ class TreeNodeFactory:
                     node_params,
                     node_bounding_boxes,
                     parent_node,
-                )
-
-            else:
-                node = FolderTreeNode(
-                    node_title,
-                    node_type,
-                    node_description,
-                    node_status,
-                    node_metadata_url,
-                    node_ident,
-                    node_params,
-                    node_bounding_boxes,
-                    parent_node,
-                )
+                )"""
 
             # Creation of the node children
             node_children = tree_config.get("children", [])

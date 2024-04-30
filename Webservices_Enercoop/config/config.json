@@ -17,13 +17,10 @@
           "ident": "Plan_IGN",
           "description": "Fond cartographique proposé par l’IGN.",
           "metadata_url": "https://www.geoportail.gouv.fr/actualites/plan-ign-la-nouvelle-reference-cartographique",
-          "type": "wms_ign_layer",
+          "type": "wms_wmts_universal_layer",
           "params": {
-            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
-            "format": "image/png",
-            "name": "GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2",
-            "style": "normal",
-            "srs": "EPSG:3857"
+            "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2&styles=normal&tileMatrixSet=PM&tilePixelRatio=0&url=https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "provider": "wms"
           }
         },
         {
@@ -31,12 +28,10 @@
           "ident": "OpenStreetMap_Style_Google_Maps",
           "description": "Fond de plan OpenStreetMap élaboré par GéoGrandEst - OSM style Google Maps",
           "metadata_url": "https://www.datagrandest.fr/geonetwork/srv/fre/catalog.search#/metadata/FR-200052264-GGE-OSM",
-          "type": "wms_layer",
+          "type": "wms_wmts_universal_layer",
           "params": {
-            "url": "https://osm.datagrandest.fr/mapcache",
-            "format": "image/png",
-            "name": "osm_google",
-            "srs": "EPSG:2154"
+            "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=relief&styles&tilePixelRatio=0&url=https://osm.datagrandest.fr/mapcache",
+            "provider": "wms"
           }
         },
         {
@@ -44,13 +39,10 @@
           "ident": "ADMINEXPRESS_COG",
           "description": "Délimitations administratives française qui varient en fonction du zoom sur la carte. Contient les Régions, Départements, EPCI, Métropoles, Communes.",
           "metadata_url": "https://geoservices.ign.fr/adminexpress",
-          "type": "wms_ign_layer",
+          "type": "wms_wmts_universal_layer",
           "params": {
-            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
-            "format": "image/png",
-            "name": "ADMINEXPRESS-COG.LATEST",
-            "style": "normal",
-            "srs": "EPSG:3857"
+            "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=ADMINEXPRESS-COG.LATEST&styles=normal&tileMatrixSet=PM&tilePixelRatio=0&url=https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "provider": "wms"
           }
         },
         {
@@ -58,13 +50,10 @@
           "ident": "PLEIADES_2022",
           "description": "Mosaïque d’orthoimages résultant d’un traitement massivement automatisé pour minimiser les délais de production.",
           "metadata_url": "https://www.geoportail.gouv.fr/donnees/ortho-express-2022",
-          "type": "wms_ign_layer",
+          "type": "wms_wmts_universal_layer",
           "params": {
-            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
-            "format": "image/png",
-            "name": "ORTHOIMAGERY.ORTHO-SAT.PLEIADES.2022",
-            "style": "normal",
-            "srs": "EPSG:3857"
+            "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=ORTHOIMAGERY.ORTHO-SAT.PLEIADES.2022&styles=normal&tileMatrixSet=PM&tilePixelRatio=0&url=https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "provider": "wms"
           }
         },
         {
@@ -72,13 +61,10 @@
           "ident": "SPOT_2023",
           "description": "Mosaïque d’orthoimages résultant d’un traitement massivement automatisé pour minimiser les délais de production.",
           "metadata_url": "",
-          "type": "wms_ign_layer",
+          "type": "wms_wmts_universal_layer",
           "params": {
-            "url": "https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
-            "format": "image/jpeg",
-            "name": "ORTHOIMAGERY.ORTHO-SAT.SPOT.2023",
-            "style": "normal",
-            "srs": "EPSG:3857"
+            "uri": "crs=EPSG:3857&dpiMode=7&format=image/jpeg&layers=ORTHOIMAGERY.ORTHO-SAT.SPOT.2023&styles=normal&tileMatrixSet=PM&tilePixelRatio=0&url=https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "provider": "wms"
           }
         }
       ]
