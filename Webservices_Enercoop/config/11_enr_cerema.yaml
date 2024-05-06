@@ -4,122 +4,109 @@ ident: ''
 description: ''
 type: folder
 children:
+
   - title: Potentiel solaire et électrique et thermique
     ident: ''
     description: ''
     type: folder
     children:
+
     - title: Friches susceptibles d’accueillir des installations photovoltaïques
-      ident: Friches susceptibles d’accueillir des installations photovoltaïques
-      description: Cette couche provient du recensement nationale de friches Cerema
-        Cartofriches dont une couche de données « friches intéressantes pour du PV au
-        sol » issue du travail de recensement de friches menée par le Cerema et Tecsol
+      ident: friches_photovoltaiques
+      description: >-
+        Cette couche provient du recensement nationale de friches Cerema
+        Cartofriches dont une couche de données «friches intéressantes pour du PV au
+        sol» issue du travail de recensement de friches menée par le Cerema et Tecsol
         (étude nationale commandée par MTE/Ademe). Elle identifie des friches favorables
         a priori à l’implantation de centrale solaire au sol. Elle constitue une information
         privilégiée pour favoriser l’implantation de photovoltaïque au sol sur site
-        déjà anthropisé au regard des enjeux de préservation des espaces naturels.
+        déjà anthropisé au regard des enjeux de préservation des espaces naturels
       metadata_url: https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public
-      type: wms_ign_layer
+      type: wms_wmts_universal_layer
       params:
-        url: https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities
-        format: image/png
-        name: POTENTIEL.SOLAIRE.FRICHE
-        style: POTENTIEL.SOLAIRE.FRICHE
-        srs: EPSG:3857
+        uri: crs=EPSG:3857&fdpiMode=7&format=image/png&http-header:referer=&layers=POTENTIEL.SOLAIRE.FRICHE&styles=POTENTIEL.SOLAIRE.FRICHE&tileMatrixSet=PM&url=https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities
+        provider: wms
+
     - title: Cartofriches
-      ident: Cartofriches
-      description: 'Le besoin principal auquel souhaite répondre Cartofriches est l''aide
+      ident: cartofriches
+      description: >-
+        Le besoin principal auquel souhaite répondre Cartofriches est l''aide
         au recensement les friches pour les qualifier et faciliter leur réutilisation.
-        Il s''adresse à tout porteur de projet, public ou privé. Le Cerema utilise les
+        Il s'adresse à tout porteur de projet, public ou privé. Le Cerema utilise les
         données de BASIAS et BASOL, ainsi que d''autres lots de données nationaux (candidatures
         aux appels à projets, par exemple) pour assurer une pré-identification des friches
-        sur tout le territoire national. '
-      metadata_url: https://si.enercoop.org/eprod:qgis_sites_pollues
+        sur tout le territoire national
+      metadata_url: https://si.enercoop.org/eprod:donnees:sites_pollues
       raw_data_url: https://geo.enercoop.org/data/cartofriches/
       type: void_layer
-      params:
-        url: ''
-        format: ''
-        name: ''
-        style: ''
-        srs: ''
+
     - title: Potentiel solaire sur toiture (méthode simplifiée)
-      ident: Potentiel solaire sur toiture (méthode simplifiée)
-      description: Estimation simplifiée du potentiel solaire en toiture en Wh/an sur
+      ident: potentiel_solaire
+      description: >-
+        Estimation simplifiée du potentiel solaire en toiture en Wh/an sur
         la base de la couche bâti de la Bd Topo® (2022 - producteur IGN). Pour chaque
         emprise de bâtiment, la valeur fournie est une estimation de l’énergie solaire
         reçue sur des panneaux photovoltaïque qui seraient installés sur toiture, selon
         une méthode très simplifiée décrite dans la fiche de métadonnées de cette couche
         et qui, notamment, ne prend pas en compte les masques proches. Cette information
         est fournie à titre indicatif et ne saurait se substituer à des estimations
-        réalisées avec des méthodes plus précises.
+        réalisées avec des méthodes plus précises
       metadata_url: https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public
-      type: wms_ign_layer
+      type: wms_wmts_universal_layer
       params:
-        url: https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities
-        format: image/png
-        name: POTENTIEL.SOLAIRE.BATIMENT
-        style: POTENTIEL.SOLAIRE.BATIMENT
-        srs: EPSG:3857
+        uri: crs=EPSG:3857&fdpiMode=7&format=image/png&http-header:referer=&layers=POTENTIEL.SOLAIRE.BATIMENT&styles=POTENTIEL.SOLAIRE.BATIMENT&tileMatrixSet=PM&url=https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities
+        provider: wms
+
     - title: OpenSolarMap
-      ident: OpenSolarMap
-      description: Données sur l'orientation des toits issus d'un projet de crowdsourcing
+      ident: opensolarmap
+      description: >-
+        Données sur l'orientation des toits issus d'un projet de crowdsourcing
         et disponible sur OpenStreetMap
       metadata_url: https://www.data.gouv.fr/fr/reuses/opensolarmap/
       raw_data_url: https://geo.enercoop.org/data/batiment/opensolarmap/
       type: void_layer
-      params:
-        url: ''
-        format: ''
-        name: ''
-        style: ''
-        srs: ''
+
     - title: Unités foncières contenant des surfaces de stationnement non couvertes
         de plus de 500 m² (données déclaratives)
-      ident: Unités foncières contenant des surfaces de stationnement non couvertes
-        de plus de 500 m² (données déclaratives)
-      description: Cette couche nationale représente des unités foncières contenant
+      ident: surface_non_couvertes_500
+      description: >-
+        Cette couche nationale représente des unités foncières contenant
         des surfaces de stationnement non couvertes, déclarées fiscalement en France
         métropolitaine et d’une superficie minimale de 500 m². Les données de cette
         couche sont constituées à partir des données sources de « Fichiers Fonciers
         » (2022 – producteur Cerema pour le compte du MTE) et Bd Topo® (2022 - producteur
         IGN). Ce recensement spécifique peut être approfondi pour identifier des sites
-        favorables à l’implantation d’ombrière de parking.
+        favorables à l’implantation d’ombrière de parking
       metadata_url: https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public
-      type: wms_ign_layer
+      type: wms_wmts_universal_layer
       params:
-        url: https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities
-        format: image/png
-        name: POTENTIEL.SOLAIRE.PARKING500
-        style: POTENTIEL.SOLAIRE.PARKING500
-        srs: EPSG:3857
+        uri: crs=EPSG:3857&fdpiMode=7&format=image/png&http-header:referer=&layers=POTENTIEL.SOLAIRE.PARKING500&styles=POTENTIEL.SOLAIRE.PARKING500&tileMatrixSet=PM&url=https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities
+        provider: wms
+
     - title: Parkings de plus de 500m²
-      ident: Parkings_de_plus_de_500m²
-      description: Cette couche nationale représente des unités foncières contenant
+      ident: parkings_500
+      description: >-
+        Cette couche nationale représente des unités foncières contenant
         des surfaces de stationnement non couvertes, déclarées fiscalement en France
         métropolitaine et d’une superficie minimale de 500 m². Les données de cette
         couche sont constituées à partir des données sources de « Fichiers Fonciers
         » (2022 – producteur Cerema pour le compte du MTE) et Bd Topo ® (2022 - producteur
-        IGN).
+        IGN)
       metadata_url: https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public
-      type: wms_ign_layer
+      type: wms_wmts_universal_layer
       params:
-        url: https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities
-        format: image/png
-        name: PARKING.SUP.500
-        style: PARKING.SUP.500
-        srs: EPSG:3857
+        uri: crs=EPSG:3857&fdpiMode=7&format=image/png&http-header:referer=&layers=PARKING.SUP.500&styles=PARKING.SUP.500&tileMatrixSet=PM&url=https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities
+        provider: wms
+
     - title: Délaissés autoroutiers
       ident: delaisses_autoroutiers
       description: ''
       metadata_url: ''
-      type: wms_ign_layer
+      type: wms_wmts_universal_layer
       params:
-        url: https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities
-        format: image/png
-        name: DELAISSES.AUTOROUTIERS
-        style: DELAISSES.AUTOROUTIERS
-        srs: EPSG:3857
+        uri: crs=EPSG:3857&fdpiMode=7&format=image/png&http-header:referer=&layers=DELAISSES.AUTOROUTIERS&styles=DELAISSES.AUTOROUTIERS&tileMatrixSet=PM&url=https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities
+        provider: wms
+
   - title: Potentiel éolien terrestre
     ident: ''
     description: ''
@@ -127,7 +114,8 @@ children:
     children:
     - title: Eolien 'clé en main'
       ident: eolien_cle_en_main
-      description: "Le territoire est concerné par 4 niveaux d''enjeux différents :
+      description: >-
+        Le territoire est concerné par 4 niveaux d'enjeux différents:
         0 pour les zones rédhibitoires où l''éolien est réglementairement interdit,
         1 pour les zones non potentiellement favorables du fait de forts enjeux avérés,
         2 pour les zones potentiellement favorables sous réserve de la prise en compte
@@ -154,241 +142,206 @@ children:
         partir de données issues de la BD Topo ou du service de l''information aéronautique
         (SIA). Les niveaux d''enjeux ont été définis en fonction de la réglementation
         en vigueur par la DGEC en collaboration avec la DGAC ou le ministère des armées
-        en fonction de la nature des contraintes."
+        en fonction de la nature des contraintes
       metadata_url: https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public
-      type: wms_ign_layer
+      type: wms_wmts_universal_layer
       params:
-        url: https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities
-        format: image/png
-        name: POTENTIEL.EOLIEN.REGLEMENTAIRE
-        style: POTENTIEL.EOLIEN.REGLE
-        srs: EPSG:3857
+        uri: crs=EPSG:3857&fdpiMode=7&format=image/png&http-header:referer=&layers=POTENTIEL.EOLIEN.REGLEMENTAIRE&styles=POTENTIEL.EOLIEN.REGLE&tileMatrixSet=PM&url=https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities
+        provider: wms
+
     - title: Potentiel éolien terrestre - gisement de vent à 140m
-      ident: Potentiel éolien terrestre - gisement de vent à 140m
+      ident: vent_140
       description: Ces données de vent sont issues d’une étude nationale Météo France
-        « AROME » et représentent les moyennes de vent mesurées à une hauteur de 140m.
+        « AROME » et représentent les moyennes de vent mesurées à une hauteur de 140m
       metadata_url: https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public
-      type: wms_urba_sandre_layer
+      type: wms_wmts_universal_layer
       params:
-        url: https://wxs.ign.fr/enr/geoportail/r/wms?VERSION%3D1.3.0
-        format: image/png
-        name: POTENTIEL.VENT.140M
-        srs: EPSG:3857
+        uri: crs=EPSG:3857&dpiMode=7&format=image/png&layers=POTENTIEL.VENT.140M&styles&url=https://wxs.ign.fr/enr/geoportail/r/wms?VERSION%3D1.3.0
+        provider: wms
+
     - title: Potentiel éolien terrestre - gisement de vent à 160m
-      ident: Potentiel éolien terrestre - gisement de vent à 160m
+      ident: vent_160
       description: Ces données de vent sont issues d’une étude nationale Météo France
         « AROME » et représentent les moyennes de vent mesurées à une hauteur de 160m.
       metadata_url: https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public
-      type: wms_urba_sandre_layer
+      type: wms_wmts_universal_layer
       params:
-        url: https://wxs.ign.fr/enr/geoportail/r/wms?VERSION%3D1.3.0
-        format: image/png
-        name: POTENTIEL.VENT.160M
-        srs: EPSG:3857
-    - title: Zones exclues des aires d'accélération de l'éolien terrestre, de toutes
-        les EnR (sauf toitures) ou nécessitant l'avis du gestionnaire
-      ident: zones_exclues_acceleration
-      description: ''
-      metadata_url: ''
-      type: wms_ign_layer
-      params:
-        url: https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities
-        format: image/png
-        name: ZONAGE.OFB
-        style: ZONAGE.OFB
-        srs: EPSG:3857
+        uri: crs=EPSG:3857&dpiMode=7&format=image/png&layers=POTENTIEL.VENT.160M&styles&url=https://wxs.ign.fr/enr/geoportail/r/wms?VERSION%3D1.3.0
+        provider: wms
+
     - title: Contraintes réglementaires aeronautiques civiles
       ident: contrainte_aéronautiques_civiles
       description: ''
       metadata_url: ''
-      type: wms_ign_layer
+      type: wms_wmts_universal_layer
       params:
-        url: https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities
-        format: image/png
-        name: ENR.AERO.CIVIL
-        style: ENR.AERO.CIVIL
-        srs: EPSG:3857
+        uri: crs=EPSG:3857&fdpiMode=7&format=image/png&http-header:referer=&layers=ENR.AERO.CIVIL&styles=ENR.AERO.CIVIL&tileMatrixSet=PM&url=https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities
+        provider: wms
+
     - title: Contraintes réglementaires aeronautiques militaires
       ident: contrainte_aéronautiques_mitilaires
       description: ''
       metadata_url: ''
-      type: wms_ign_layer
+      type: wms_wmts_universal_layer
       params:
-        url: https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities
-        format: image/png
-        name: ENR.AERO.MILITAIRE
-        style: ENR.AERO.MILITAIRE
-        srs: EPSG:3857
+        uri: crs=EPSG:3857&fdpiMode=7&format=image/png&http-header:referer=&layers=ENR.AERO.MILITAIRE&styles=ENR.AERO.MILITAIRE&tileMatrixSet=PM&url=https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities
+        provider: wms
+
     - title: Contraintes réglementaires liées aux habitations
       ident: contrainte_habitations
       description: ''
       metadata_url: ''
-      type: wms_ign_layer
+      type: wms_wmts_universal_layer
       params:
-        url: https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities
-        format: image/png
-        name: ENR.PERIMETRE.HABITATION
-        style: PERIMETRE.HABITATION
-        srs: EPSG:3857
+        uri: crs=EPSG:3857&fdpiMode=7&format=image/png&http-header:referer=&layers=ENR.PERIMETRE.HABITATION&styles=PERIMETRE.HABITATION&tileMatrixSet=PM&url=https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities
+        provider: wms
+
     - title: Contraintes réglementaires liées aux pentes
       ident: contrainte_pentes
       description: ''
       metadata_url: ''
-      type: wms_ign_layer
+      type: wms_wmts_universal_layer
       params:
-        url: https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities
-        format: image/png
-        name: ENR.PERIMETRE.PENTE
-        style: PERIMETRE.PENTE
-        srs: EPSG:3857
+        uri: crs=EPSG:3857&fdpiMode=7&format=image/png&http-header:referer=&layers=ENR.PERIMETRE.PENTE&styles=PERIMETRE.PENTE&tileMatrixSet=PM&url=https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities
+        provider: wms
+
     - title: Contraintes réglementaires liées aux routes
       ident: contrainte_routes
       description: ''
       metadata_url: ''
-      type: wms_ign_layer
+      type: wms_wmts_universal_layer
       params:
-        url: https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities
-        format: image/png
-        name: ENR.PERIMETRE.ROUTE
-        style: PERIMETRE.ROUTE
-        srs: EPSG:3857
+        uri: crs=EPSG:3857&fdpiMode=7&format=image/png&http-header:referer=&layers=ENR.PERIMETRE.ROUTE&styles=PERIMETRE.ROUTE&tileMatrixSet=PM&url=https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities
+        provider: wms
+
     - title: Contraintes réglementaires liées aux voies férrées
       ident: contrainte_train
       description: ''
       metadata_url: ''
-      type: wms_ign_layer
+      type: wms_wmts_universal_layer
       params:
-        url: https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities
-        format: image/png
-        name: ENR.PERIMETRE.VOIE.FERREE
-        style: PERIMETRE.VOIE.FERREE
-        srs: EPSG:3857
+        uri: crs=EPSG:3857&fdpiMode=7&format=image/png&http-header:referer=&layers=ENR.PERIMETRE.VOIE.FERREE&styles=PERIMETRE.VOIE.FERREE&tileMatrixSet=PM&url=https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities
+        provider: wms
+
     - title: Faisceaux_hertziens
       ident: faisceaux_hertziens
-      description: Faisceaux hertziens pouvant affecté l'implantation d'éoliennes
-      metadata_url: ''
+      description: >-
+        Faisceaux hertziens pouvant affecté l'implantation d'éoliennes
+      metadata_url: https://si.enercoop.org/eprod:donnees:radioelectricite
       raw_data_url: https://geo.enercoop.org/data/faisceaux_hertziens/
       type: void_layer
-      params:
-        url: ''
-        format: ''
-        name: ''
-        style: ''
-        srs: ''
+
   - title: Potentiel hydroélectrique
     ident: ''
     description: ''
     type: folder
     children:
+    
     - title: Potentiel hydroélectrique sur nouveaux ouvrages
-      ident: Potentiel_hydroélectrique_sur_nouveaux_ouvrages
-      description: "Cette couche est une estimation des potentiels hydroélectriques
+      ident: potentiel_hydroeletrique
+      description: >-
+        Cette couche est une estimation des potentiels hydroélectriques
         uniquement sur nouveaux ouvrages. Les centrales hydroélectriques existantes,
         ainsi que les projets en cours de développement (autorisés, concédés ou lauréats
-        d''un Appel d''Offre CRE) ont été retirés de la cartographie, pour qu''il ne
+        d''un Appel d'Offre CRE) ont été retirés de la cartographie, pour qu''il ne
         reste vraiment que le potentiel à développer. Les données correspondent uniquement
         au potentiel sur site vierge. Une commune pourrait ainsi disposer d''un potentiel
-        (sur ouvrage existant), sans que celui-ci n''apparaisse sur la couche. Producteur :
-        ISL / Post traitement Cerema."
+        (sur ouvrage existant), sans que celui-ci n''apparaisse sur la couche. Producteur:
+        ISL / Post traitement Cerema
       metadata_url: https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public
-      type: wms_ign_layer
+      type: wms_wmts_universal_layer
       params:
-        url: https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities
-        format: image/png
-        name: POTENTIEL.HYDRO
-        style: POTENTIEL.HYDRO
-        srs: EPSG:3857
+        uri: crs=EPSG:3857&fdpiMode=7&format=image/png&http-header:referer=&layers=POTENTIEL.HYDRO&styles=POTENTIEL.HYDRO&tileMatrixSet=PM&url=https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities
+        provider: wms
+
   - title: Potentiel de développement de réseaux de chaleur et de froid
     ident: ''
     description: ''
     type: folder
     children: []
+
   - title: Localisation des installations de production énergétique
     ident: ''
     description: ''
     type: folder
     children:
+
     - title: Localisation des mâts éolien
-      ident: Localisation des mâts éolien
-      description: Ces données concernent la localisation des mâts d’éoliennes et sont
+      ident: localisation_eolienne
+      description: >-
+        Ces données concernent la localisation des mâts d’éoliennes et sont
         produites par agrégation des données diffusées par les DREAL. Les parcs éoliens
         concernés sont construits ou en service, voire en instruction ou dont l’état
         n’est pas connu. Ce jeu de données ne répertorie pas les projets abandonnés
-        ou dont la demande d’autorisation n’a pas abouti.
+        ou dont la demande d’autorisation n’a pas abouti
       metadata_url: https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public
-      type: wms_ign_layer
+      type: wms_wmts_universal_layer
       params:
-        url: https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities
-        format: image/png
-        name: LOCALISATION.MATS.EOLIEN
-        style: LOCALISATION.MATS.EOLIEN
-        srs: EPSG:3857
+        uri: crs=EPSG:3857&fdpiMode=7&format=image/png&http-header:referer=&layers=LOCALISATION.MATS.EOLIEN&styles=LOCALISATION.MATS.EOLIEN&tileMatrixSet=PM&url=https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities
+        provider: wms
+
   - title: Productibles annuels par filière de production d'énergie
     ident: ''
     description: ''
     type: folder
     children: []
+
   - title: Puissances cumulées électriques installés
     ident: ''
     description: ''
     type: folder
     children:
+
     - title: Puissance cumulée des installations éoliennes par commune
-      ident: Puissance cumulée des installations éoliennes par commune
-      description: Cette couche nationale représente la somme en kW des puissances installées
+      ident: puissance_eoliennes_commune
+      description: >-
+        Cette couche nationale représente la somme en kW des puissances installées
         pour la filière photovoltaïque par commune, reconstituée à partir de l’exploitation
         du registre national des installations de production et de stockage d’électricité
         raccordées directement ou indirectement aux réseaux publics d’électricité en
         France métropolitaine et dans les zones non interconnectées (ZNI) arrêté au
-        28 février 2023.
+        28 février 2023
       metadata_url: https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public
-      type: wms_ign_layer
+      type: wms_wmts_universal_layer
       params:
-        url: https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities
-        format: image/png
-        name: PROD.INSTALLATION.EOLIEN
-        style: PROD.INSTALLATION.EOLIEN
-        srs: EPSG:3857
+        uri: crs=EPSG:3857&fdpiMode=7&format=image/png&http-header:referer=&layers=PROD.INSTALLATION.EOLIEN&styles=PROD.INSTALLATION.EOLIEN&tileMatrixSet=PM&url=https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities
+        provider: wms
+
     - title: Puissance cumulée des installations hydrauliques par commune
-      ident: Puissance cumulée des installations hydrauliques par commune
-      description: Cette couche nationale représente la somme des puissances installées
+      ident: puissance_hydroelectrique_commune
+      description: >-
+        Cette couche nationale représente la somme des puissances installées
         en kW pour la filière hydraulique par commune, reconstituée à partir de l’exploitation
         du registre national des installations de production et de stockage d’électricité
         raccordées directement ou indirectement aux réseaux publics d’électricité en
         France métropolitaine et dans les zones non interconnectées (ZNI) arrêté au
-        28 février 2023.
+        28 février 2023
       metadata_url: https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public
-      type: wms_ign_layer
+      type: wms_wmts_universal_layer
       params:
-        url: https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities
-        format: image/png
-        name: PROD.INSTALLATION.HYDRO
-        style: PROD.INSTALLATION.HYDRO
-        srs: EPSG:3857
+        uri: crs=EPSG:3857&fdpiMode=7&format=image/png&http-header:referer=&layers=PROD.INSTALLATION.HYDRO&styles=PROD.INSTALLATION.HYDRO&tileMatrixSet=PM&url=https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities
+        provider: wms
+
     - title: Puissance cumulée électrique installée par filière renouvelable par commune
-      ident: Puissance cumulée électrique installée par filière renouvelable par commune
+      ident: puissance_cumulee_commune
       description: ''
       metadata_url: https://www.data.gouv.fr/fr/datasets/production-electrique-annuelle-par-filiere-a-la-maille-commune/
-      type: wms_ign_layer
+      type: wms_wmts_universal_layer
       params:
-        url: https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities
-        format: image/png
-        name: PART.ENR.COMMUNE
-        style: PART.ENR.COMMUNE
-        srs: EPSG:3857
+        uri: crs=EPSG:3857&fdpiMode=7&format=image/png&http-header:referer=&layers=PART.ENR.COMMUNE&styles=PART.ENR.COMMUNE&tileMatrixSet=PM&url=https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities
+        provider: wms
+
     - title: Puissance cumulée des installations photovoltaïques par commune
-      ident: Puissance cumulée des installations photovoltaïques par commune
-      description: Cette couche nationale représente la somme en kW des puissances installées
+      ident: puissance_photovoltaiques_commune
+      description: >-
+        Cette couche nationale représente la somme en kW des puissances installées
         pour la filière photovoltaïque par commune, reconstituée à partir de l’exploitation
         du registre national des installations de production et de stockage d’électricité
         raccordées directement ou indirectement aux réseaux publics d’électricité en
         France métropolitaine et dans les zones non interconnectées (ZNI) arrêté au
         28 février 2023.
       metadata_url: https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public
-      type: wms_ign_layer
+      type: wms_wmts_universal_layer
       params:
-        url: https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities
-        format: image/png
-        name: PROD.INSTALLATION.PV
-        style: PROD.INSTALLATION.PV
-        srs: EPSG:3857
+        uri: crs=EPSG:3857&fdpiMode=7&format=image/png&http-header:referer=&layers=PROD.INSTALLATION.PV&styles=PROD.INSTALLATION.PV&tileMatrixSet=PM&url=https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities
+        provider: wms

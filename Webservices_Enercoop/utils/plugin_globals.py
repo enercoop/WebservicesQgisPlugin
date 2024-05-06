@@ -54,7 +54,7 @@ class PluginGlobals:
     CONFIG_DIR_NAME = "config"
     CONFIG_FILE_NAMES = ["config.json"]
     CONFIG_FILE_URLS = [
-        "https://raw.githubusercontent.com/LucasJumMou/config/main/config.json"
+        "https://clood.enercoop.org/index.php/s/WebservicesQgisPlugin_config/download/config.json"
     ]
 
     # Hide resources with status = warn

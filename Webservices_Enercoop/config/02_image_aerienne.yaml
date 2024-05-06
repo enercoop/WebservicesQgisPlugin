@@ -7,7 +7,7 @@ type: folder
 children:
 
   - title: BD ORTHO 50cm
-    ident: BD_ORTHO_50cm
+    ident: ortho_50
     description: >-
       Mosaïque d’orthoimages produites tous les 3-4 ans.
     metadata_url: https://geoservices.ign.fr/bdortho
@@ -17,7 +17,7 @@ children:
       provider: wms
 
   - title: BD ORTHO 20cm
-    ident: BD_ORTHO_20cm
+    ident: ortho_20
     description: >-
       Mosaïque d’orthoimages produites tous les 3-4 ans.
     metadata_url: ''
@@ -27,16 +27,16 @@ children:
       provider: wms
 
   - title: ORTHO infra-rouge couleur (IRC)
-    ident: ORTHO_infra-rouge_couleur_(IRC)
+    ident: ortho_infra
     description: ''
     metadata_url: ''
     type: wms_wmts_universal_layer
     params:
-      uri: crs=EPSG:3857&dpiMode=7&format=image/png&layers=GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2&styles=normal&tileMatrixSet=PM&tilePixelRatio=0&url=https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities
+      uri: crs=EPSG:3857&dpiMode=7&format=image/jpeg&layers=ORTHOIMAGERY.ORTHOPHOTOS.IRC&styles=normal&tileMatrixSet=PM&tilePixelRatio=0&url=https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities
       provider: wms
 
   - title: Ortho Express 2023
-    ident: Ortho_Express_2023
+    ident: ortho_express
     description: >- 
       Mosaïque d’orthoimages résultant d’un traitement massivement automatisé pour minimiser les délais de production.
     metadata_url: https://www.geoportail.gouv.fr/donnees/ortho-express-2022

@@ -1,92 +1,107 @@
 ---
 title: Géorisques
 ident: 
-description: Couches diffusées sur le portail Géorisques par le Bureau des Recherches Géologiques et Minières (BRGM) et le Ministère de la Transition Ecologique.
+description: >-
+  Couches diffusées sur le portail Géorisques par le Bureau des Recherches Géologiques et Minières (BRGM) 
+  et le Ministère de la Transition Ecologique.
 type: folder
 children:
-  - title: "CASIAS - Base des Anciens Sites Industriels et Activités de Service"
-    ident: Base_des_Anciens_Sites_Industriels_et_Activités_de_Service_(CASIAS)
-    description: La CASIAS anciennement BASIAS recense les sites industriels, abandonnés ou en activité, susceptibles d'engendrer une pollution de l'environnement.
+
+  - title: CASIAS - Base des Anciens Sites Industriels et Activités de Service (Point)
+    ident: casias
+    description: >-
+      La CASIAS anciennement BASIAS recense les sites industriels, abandonnés ou en activité, 
+      susceptibles d'engendrer une pollution de l'environnement
     metadata_url: https://www.georisques.gouv.fr/articles-risques/pollutions-sols-sis-anciens-sites-industriels/basias
     raw_data_url: https://geo.enercoop.org/data/georisques/
-    type: wms_urba_sandre_layer
+    type: wms_wmts_universal_layer
     params:
-      url: https://www.georisques.gouv.fr/services?
-      format: image/png
-      name: SSP_ETS_GE_POINT
-      srs: EPSG:2154
-  - title: "Sites et Sols Pollués ou potentiellement pollués (SSP, ex-BASOL)"
-    ident: Sites_et_Sols_Pollués_ou_potentiellement_pollués_(SSP_ex-BASOL)
-    description: Sites et sols pollués (ou potentiellement pollués) appelant une action des pouvoirs publics, à titre préventif ou curatif.
+      uri: crs=EPSG:3857&dpiMode=7&format=image/png&layers=SSP_ETS_GE_POINT&styles&tilePixelRatio=0&url=http://georisques.gouv.fr/services
+      provider: wms
+
+  - title: CASIAS - Base des Anciens Sites Industriels et Activités de Service (Polygon)
+    ident: casias
+    description: >-
+      La CASIAS anciennement BASIAS recense les sites industriels, abandonnés ou en activité, 
+      susceptibles d'engendrer une pollution de l'environnement
+    metadata_url: https://www.georisques.gouv.fr/articles-risques/pollutions-sols-sis-anciens-sites-industriels/basias
+    raw_data_url: https://geo.enercoop.org/data/georisques/
+    type: wms_wmts_universal_layer
+    params:
+      uri: crs=EPSG:3857&dpiMode=7&format=image/png&layers=SSP_ETS_GE_POLYGON&styles&tilePixelRatio=0&url=http://georisques.gouv.fr/services
+      provider: wms
+
+  - title: Sites et Sols Pollués ou potentiellement pollués (SSP, ex-BASOL)
+    ident: basol
+    description: >-
+      Sites et sols pollués (ou potentiellement pollués) appelant une action des pouvoirs publics, 
+      à titre préventif ou curatif
     metadata_url: https://www.georisques.gouv.fr/articles-risques/pollutions-sols-sis-anciens-sites-industriels/basol
     raw_data_url: https://geo.enercoop.org/data/georisques/
-    type: wms_urba_sandre_layer
+    type: wms_wmts_universal_layer
     params:
-      url: https://www.georisques.gouv.fr/services
-      format: image/png
-      name: SSP_INSTRUCTION
-      srs: EPSG:2154
+      uri: crs=EPSG:2154&dpiMode=7&format=image/png&layers=SSP_INSTRUCTION&styles&url=https://www.georisques.gouv.fr/services
+      provider: wms
+
   - title: Plan de Prévention des Risques d'inondation (PPRi)
-    ident: Plan_de_Prévention_des_Risques_d'inondation_(PPRi)
-    description: ''
+    ident: ppri
+    description: >-
+      Le plan de prévention des risques naturels d'inondation (PPRi ou PPRNi) 
+      Le PPRNi est un outil de prévention majeur contre les risques naturels d'inondation, 
+      permettant d'influer sur l'occupation et l'utilisation des sols
     metadata_url: https://www.georisques.gouv.fr/plans-de-prevention-des-risques-naturels
-    type: wms_layer
+    type: wms_wmts_universal_layer
     params:
-      url: https://www.georisques.gouv.fr/services
-      format: image/png
-      name: PPRN_ZONE_INOND_FXX
-      style: default
-      srs: EPSG:2154
+      uri: crs=EPSG:2154&featureCount=10&format=image/png&layers=PPRN_ZONE_INOND_FXX&maxHeight=256&maxWidth=256&styles=default&url=https://www.georisques.gouv.fr/services
+      provider: wms
+
   - title: Surface inondable - Aléa submersion rare ou millénial
-    ident: Surface_inondable_Aléa_submersion_rare_ou_millénial
+    ident: alea_submersion_rare
     description: >-
       Les inondations et les submersions marines sont les risques naturels qui
       concernent le plus grand nombre de personnes en France. Phénomène
       saisonnier qui trouve sa source dans des précipitations soutenues et
       durables, l’inondation peut aussi venir de la mer ou des eaux
       souterraines. Ce risque naturel peut être fortement accentué par les
-      activités humaines et les aménagements.
+      activités humaines et les aménagements
     metadata_url: https://www.georisques.gouv.fr/donnees/bases-de-donnees/zonages-inondation-rapportage-2020
-    type: wms_urba_sandre_layer
+    type: wms_wmts_universal_layer
     params:
-      url: https://www.georisques.gouv.fr/services
-      format: image/png
-      name: ALEA_SYNT_03_04FAI_FXX
-      srs: EPSG:2154
+      uri: crs=EPSG:3857&dpiMode=7&format=image/png&layers=ISO_HT_03_04FAI_MYT&styles&tilePixelRatio=0&url=http://georisques.gouv.fr/services
+      provider: wms
+
   - title: Surface inondable - Aléa submersion moyen ou centennal
-    ident: Surface_inondable_Aléa_submersion_moyen_ou_centennal
+    ident: alea_submersion_moyen
     description: >-
       Les inondations et les submersions marines sont les risques naturels qui
       concernent le plus grand nombre de personnes en France. Phénomène
       saisonnier qui trouve sa source dans des précipitations soutenues et
       durables, l’inondation peut aussi venir de la mer ou des eaux
       souterraines. Ce risque naturel peut être fortement accentué par les
-      activités humaines et les aménagements.
+      activités humaines et les aménagements
     metadata_url: https://www.georisques.gouv.fr/donnees/bases-de-donnees/zonages-inondation-rapportage-2020
-    type: wms_urba_sandre_layer
+    type: wms_wmts_universal_layer
     params:
-      url: https://www.georisques.gouv.fr/services
-      format: image/png
-      name: ALEA_SYNT_03_02MOY_FXX
-      srs: EPSG:2154
+      uri: crs=EPSG:3857&dpiMode=7&format=image/png&layers=ISO_HT_03_03MCC_FXX&styles&tilePixelRatio=0&url=http://georisques.gouv.fr/services
+      provider: wms
+
   - title: Surface inondable - Aléa débordement de cours d'eau fréquent ou décennal
-    ident: Surface_inondable_Aléa_débordement_de_cours_d'eau_fréquent_ou_décennal
+    ident: alea_submersion_frequent
     description: >-
       Les inondations et les submersions marines sont les risques naturels qui
       concernent le plus grand nombre de personnes en France. Phénomène
       saisonnier qui trouve sa source dans des précipitations soutenues et
       durables, l’inondation peut aussi venir de la mer ou des eaux
       souterraines. Ce risque naturel peut être fortement accentué par les
-      activités humaines et les aménagements.
+      activités humaines et les aménagements
     metadata_url: https://www.georisques.gouv.fr/donnees/bases-de-donnees/zonages-inondation-rapportage-2020
-    type: wms_urba_sandre_layer
+    type: wms_wmts_universal_layer
     params:
-      url: https://www.georisques.gouv.fr/services
-      format: image/png
-      name: ALEA_SYNT_01_01FOR_FXX
-      srs: EPSG:2154
+      uri: crs=EPSG:3857&dpiMode=7&format=image/png&layers=ISO_HT_03_01FOR_FXX&styles&tilePixelRatio=0&url=http://georisques.gouv.fr/services
+      provider: wms
+
   - title: Canalisations de transport de matières dangereuses; Produits chimiques
-    ident: Canalisations_de_transport_de_matières_dangereuses
+    ident: canalisation_produit_chimique
     description: >-
       Il s’agit d’une canalisation qui achemine des produits chimiques vers des
       réseaux de distribution, d’autres ouvrages de transport, des entreprises
@@ -94,17 +109,16 @@ children:
       Cette dénomination ne s’applique pas au réseau de distribution de gaz en
       ville, mais aux conduites de transport longue distance, qui sont plus
       grosses (entre 8 et 120 cm de diamètre) et fonctionnent à des pressions
-      plus importantes (jusqu’à 94 bars).
+      plus importantes (jusqu’à 94 bars)
     metadata_url: https://www.georisques.gouv.fr/cartes-interactives#/
     raw_data_url: https://geo.enercoop.org/data/georisques/
-    type: wms_urba_sandre_layer
+    type: wms_wmts_universal_layer
     params:
-      url: https://www.georisques.gouv.fr/services
-      format: image/png
-      name: C_PRODUITS_CHIM
-      srs: EPSG:2154
+      uri: crs=EPSG:3857&dpiMode=7&format=image/png&layers=C_PRODUITS_CHIM&styles&tilePixelRatio=0&url=http://georisques.gouv.fr/services
+      provider: wms
+
   - title: Canalisations de transport de matières dangereuses; Gaz
-    ident: Canalisations_de_transport_de_matières_dangereuses
+    ident: canalisation_gaz
     description: >-
       Il s’agit d’une canalisation qui achemine du gaz vers des réseaux de
       distribution, d’autres ouvrages de transport, des entreprises industrielles
@@ -112,17 +126,16 @@ children:
       ne s’applique pas au réseau de distribution de gaz en ville, mais aux
       conduites de transport longue distance, qui sont plus grosses (entre 8 et
       120 cm de diamètre) et fonctionnent à des pressions plus importantes
-      (jusqu’à 94 bars).
+      (jusqu’à 94 bars)
     metadata_url: https://www.georisques.gouv.fr/cartes-interactives#/
     raw_data_url: https://geo.enercoop.org/data/georisques/
-    type: wms_urba_sandre_layer
+    type: wms_wmts_universal_layer
     params:
-      url: https://www.georisques.gouv.fr/services
-      format: image/png
-      name: C_GAZ
-      srs: EPSG:2154
+      uri: crs=EPSG:3857&dpiMode=7&format=image/png&layers=C_GAZ&styles&tilePixelRatio=0&url=http://georisques.gouv.fr/services
+      provider: wms
+
   - title: Canalisations de transport de matières dangereuses; Hydrocarbure
-    ident: Canalisations_de_transport_de_matières_dangereuses
+    ident: canalisation_hydrocarbure
     description: >-
       Il s’agit d’une canalisation qui achemine des hydrocarbures vers des
       réseaux de distribution, d’autres ouvrages de transport, des entreprises
@@ -130,4 +143,28 @@ children:
       Cette dénomination ne s’applique pas au réseau de distribution de gaz en
       ville, mais aux conduites de transport longue distance, qui sont plus
       grosses (entre 8 et 120 cm de diamètre) et fonctionnent à des pressions
+        metadata_url: https://www.georisques.gouv.fr/cartes-interactives#/
+    metadata_url: https://www.georisques.gouv.fr/cartes-interactives#/
+    raw_data_url: https://geo.enercoop.org/data/georisques/
+    type: wms_wmts_universal_layer
+    params:
+      uri: crs=EPSG:3857&dpiMode=7&format=image/png&layers=C_HYDROCARBURES&styles&tilePixelRatio=0&url=http://georisques.gouv.fr/services
+      provider: wms
      
+  - title: Exposition au retrait-gonflement des argiles
+    ident: argiles
+    description: >-
+      Les terrains argileux superficiels peuvent voir leur volume varier à la suite d'une modification de 
+      leur teneur en eau, en lien avec les conditions météorologiques.
+      Ils se « rétractent » lors des périodes de sécheresse (phénomène de « retrait ») 
+      et gonflent au retour des pluies lorsqu’ils sont de nouveau hydratés (phénomène de « gonflement »).
+      Ces variations sont lentes, mais elles peuvent atteindre une amplitude 
+      assez importante pour endommager les bâtiments localisés sur ces terrains.
+      Le phénomène de retrait-gonflement des argiles engendre chaque année des dégâts considérables, 
+      indemnisables au titre des catastrophes naturelles. 
+      La grande majorité des sinistres concerne les maisons individuelles
+    metadata_url: https://www.georisques.gouv.fr/cartes-interactives#/
+    type: wms_wmts_universal_layer
+    params:
+      uri: crs=EPSG:3857&dpiMode=7&format=image/png&layers=C_HYDROCARBURES&styles&tilePixelRatio=0&url=http://georisques.gouv.fr/services
+      provider: wms

@@ -197,6 +197,8 @@ class TreeNodeFactory:
                     parent_node,
                 )
 
+            # Décommenter le elif du node voulu qui se repère avec le nom de variable et le placer avant le else si dessus
+
             """elif node_type == PluginGlobals.instance().NODE_TYPE_WMS_LAYER:
                 node = WmsLayerTreeNode(
                     node_title,
