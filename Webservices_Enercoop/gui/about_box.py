@@ -36,7 +36,12 @@ class AboutBox(QDialog):
 
         # Define the title and descriptions for the About box
         title = u"À propos de l'extension Webservices Enercoop…"
-        description1 = """Extension pour QGIS donnant un accès simplifié aux ressources géographiques qu'Enercoop utilisent""".format(
+        description1 = """Extension pour QGIS donnant un accès simplifié aux ressources géographiques (webservices) 
+        issus de multiples fournisseurs de données en OpenData ou du serveur interne d'Enercoop.
+        \n Pour mieux connaître l'utilisation du plugin: https://si.enercoop.org/eprod:plugin_webservices
+        \n Pour installer le plugin: https://si.enercoop.org/eprod:depot_plugins
+        \n Pour mettre à jour le plugin: https://si.enercoop.org/eprod:maj_plugins
+        \n Pour les curieux, le code source du plugin: https://github.com/enercoop/WebservicesQgisPlugin""".format(
             PluginGlobals.instance().PLUGIN_VERSION
         )
         description2 = """Plus d'informations à l'adresse suivante : <a href="https://github.com/enercoop/prodspection/tree/main/qgis/QgisEnercoopPlugin/Webservices_Enercoop">GitHub </a>""".format(
