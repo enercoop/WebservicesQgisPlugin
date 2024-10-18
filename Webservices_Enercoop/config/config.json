@@ -48,7 +48,7 @@
           "title": "PLEIADES 2022",
           "ident": "pleiades",
           "description": "Mosaïque d’orthoimages résultant d’un traitement massivement automatisé pour minimiser les délais de production.",
-          "metadata_url": "https://www.geoportail.gouv.fr/donnees/ortho-express-2022",
+          "metadata_url": "https://geoservices.ign.fr/services-web-experts-satellite",
           "type": "wms_wmts_universal_layer",
           "params": {
             "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=ORTHOIMAGERY.ORTHO-SAT.PLEIADES.2022&styles=normal&tileMatrixSet=PM&tilePixelRatio=0&url=https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
@@ -112,7 +112,7 @@
           "title": "Ortho Express 2023",
           "ident": "ortho_express",
           "description": "Mosaïque d’orthoimages résultant d’un traitement massivement automatisé pour minimiser les délais de production.",
-          "metadata_url": "https://www.geoportail.gouv.fr/donnees/ortho-express-2022",
+          "metadata_url": "https://geoservices.ign.fr/services-web-experts-satellite",
           "type": "wms_wmts_universal_layer",
           "params": {
             "uri": "crs=EPSG:3857&dpiMode=7&format=image/jpeg&layers=ORTHOIMAGERY.ORTHOPHOTOS.ORTHO-EXPRESS.2023&styles=normal&tileMatrixSet=PM&tilePixelRatio=0&url=https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
@@ -929,7 +929,7 @@
           "raw_data_url": "https://geo.enercoop.org/data/environnement/",
           "type": "wms_wmts_universal_layer",
           "params": {
-            "uri": "REQUEST=GetCapabilities&VERSION=1.3.0&crs=EPSG:2154&featureCount=10&format=image/png&layers=PROTECTEDAREAS.MNHN.CDL.PERIMETER&maxHeight=256&maxWidth=256&styles=&url=https://wxs.ign.fr/environnement/geoportail/r/wms?SERVICE%3DWMS",
+            "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=PROTECTEDAREAS.MNHN.CDL.PERIMETER&styles=normal&tileMatrixSet=PM_6_16&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wmts/environnement.xml",
             "provider": "wms"
           }
         },
@@ -1046,7 +1046,7 @@
           "raw_data_url": "https://geo.enercoop.org/data/environnement/",
           "type": "wms_wmts_universal_layer",
           "params": {
-            "uri": "crs=EPSG:3857&fdpiMode=7&format=image/png&http-header:referer=&layers=PROTECTEDAREAS.MNHN.RN.PERIMETER&styles=normal&tileMatrixSet=PM&url=https://wxs.ign.fr/environnement/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities",
+            "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=PROTECTEDAREAS.MNHN.RN.PERIMETER&styles=normal&tileMatrixSet=PM_0_16&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wmts/environnement.xml",
             "provider": "wms"
           }
         },
@@ -1214,7 +1214,7 @@
           "metadata_url": "https://www.georisques.gouv.fr/cartes-interactives#/",
           "type": "wms_wmts_universal_layer",
           "params": {
-            "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=C_HYDROCARBURES&styles&tilePixelRatio=0&url=http://georisques.gouv.fr/services",
+            "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=ALEARG_REALISE&styles&tilePixelRatio=0&url=http://georisques.gouv.fr/services",
             "provider": "wms"
           }
         }
@@ -1520,13 +1520,13 @@
           }
         },
         {
-          "title": "Aéroports",
+          "title": "Pistes d'aéroports et aérodromes",
           "ident": "aeroports",
           "description": "",
           "metadata_url": "",
           "type": "wms_wmts_universal_layer",
           "params": {
-            "uri": "crs=EPSG:3857&fdpiMode=7&format=image/png&http-header:referer=&layers=TRANSPORTNETWORKS.RUNWAYS&styles=normal&tileMatrixSet=PM&url=https://wxs.ign.fr/topographie/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=TRANSPORTNETWORKS.RUNWAYS&styles=normal&tileMatrixSet=PM_6_18&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wmts/topographie.xml",
             "provider": "wms"
           }
         },
@@ -1571,7 +1571,7 @@
               "metadata_url": "https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public",
               "type": "wms_wmts_universal_layer",
               "params": {
-                "uri": "crs=EPSG:3857&fdpiMode=7&format=image/png&http-header:referer=&layers=POTENTIEL.SOLAIRE.FRICHE&styles=POTENTIEL.SOLAIRE.FRICHE&tileMatrixSet=PM&url=https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+                "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=POTENTIEL.SOLAIRE.FRICHE&styles=POTENTIEL.SOLAIRE.FRICHE&tileMatrixSet=PM_6_18&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wmts/enr.xml",
                 "provider": "wms"
               }
             },
@@ -1590,7 +1590,7 @@
               "metadata_url": "https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public",
               "type": "wms_wmts_universal_layer",
               "params": {
-                "uri": "crs=EPSG:3857&fdpiMode=7&format=image/png&http-header:referer=&layers=POTENTIEL.SOLAIRE.BATIMENT&styles=POTENTIEL.SOLAIRE.BATIMENT&tileMatrixSet=PM&url=https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+                "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=POTENTIEL.SOLAIRE.BATIMENT&styles=POTENTIEL.SOLAIRE.BATIMENT&tileMatrixSet=PM_6_18&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wmts/enr.xml",
                 "provider": "wms"
               }
             },
@@ -1609,7 +1609,7 @@
               "metadata_url": "https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public",
               "type": "wms_wmts_universal_layer",
               "params": {
-                "uri": "crs=EPSG:3857&fdpiMode=7&format=image/png&http-header:referer=&layers=POTENTIEL.SOLAIRE.PARKING500&styles=POTENTIEL.SOLAIRE.PARKING500&tileMatrixSet=PM&url=https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+                "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=POTENTIEL.SOLAIRE.PARKING500&styles=POTENTIEL.SOLAIRE.PARKING500&tileMatrixSet=PM_6_16&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wmts/enr.xml",
                 "provider": "wms"
               }
             },
@@ -1620,7 +1620,7 @@
               "metadata_url": "https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public",
               "type": "wms_wmts_universal_layer",
               "params": {
-                "uri": "crs=EPSG:3857&fdpiMode=7&format=image/png&http-header:referer=&layers=PARKING.SUP.500&styles=PARKING.SUP.500&tileMatrixSet=PM&url=https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+                "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=PARKING.SUP.500&styles=PARKING.SUP.500&tileMatrixSet=PM_6_18&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wmts/enr.xml",
                 "provider": "wms"
               }
             },
@@ -1631,7 +1631,7 @@
               "metadata_url": "",
               "type": "wms_wmts_universal_layer",
               "params": {
-                "uri": "crs=EPSG:3857&fdpiMode=7&format=image/png&http-header:referer=&layers=DELAISSES.AUTOROUTIERS&styles=DELAISSES.AUTOROUTIERS&tileMatrixSet=PM&url=https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+                "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=DELAISSES.AUTOROUTIERS&styles=DELAISSES.AUTOROUTIERS&tileMatrixSet=PM_6_18&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wmts/enr.xml",
                 "provider": "wms"
               }
             }
@@ -1644,35 +1644,13 @@
           "type": "folder",
           "children": [
             {
-              "title": "Eolien 'clé en main'",
+              "title": "Potentiel éolien terrestre - couche 'clé en main'",
               "ident": "eolien_cle_en_main",
               "description": "Le territoire est concerné par 4 niveaux d'enjeux différents: 0 pour les zones rédhibitoires où l''éolien est réglementairement interdit, 1 pour les zones non potentiellement favorables du fait de forts enjeux avérés, 2 pour les zones potentiellement favorables sous réserve de la prise en compte d''enjeux et 3 pour les zones potentiellement favorables sous réserve de la prise en compte d''enjeux locaux. Cette couche se veut hybride. En effet, les données sur les régions de Bourgogne-France-Comté, Centre-Val de Loire, Corse, Hauts-de-France, Ile de France, Normandie, Nouvelle-Aquitaine et Pays de la Loire, ont été élaborées par les services de l’État en région dans le cadre du travail de cartographies des zones favorables au développement de l''éolien initié par la circulaire de mai 2021. Elles sont conformes aux orientations établies en 2022 par le Ministère de la Transition énergétique en lien avec le Ministère de la Transition écologique et de la Cohésion des territoires pour permettre une harmonisation des travaux effectués dans les différentes régions.  Elles illustrent le travail de synthèse des différentes contraintes et enjeux proposé par les services de l’État en région. Ces couches sont des aides à la décision pour la définition des zones d''accélération. Les élus peuvent s''appuyer sur ces cartographies s''ils le souhaitent. Ces couches n''ont pas de valeur règlementaire. Sur le reste du territoire, sont représentées les couches dites ''réglementaires'', i.e. des couches d''information nationales. Elles permettent par exemple de visualiser les zones où il est interdit d''implanter des éoliennes dans un rayon de 500 mètres autour des habitations (article L 553-1 du code de l''environnement), les routes, les voies ferrées ainsi que les zones concernées par des contraintes aéronautiques civiles et militaires. Ces couches ont été créées par l''IGN à partir de données issues de la BD Topo ou du service de l''information aéronautique (SIA). Les niveaux d''enjeux ont été définis en fonction de la réglementation en vigueur par la DGEC en collaboration avec la DGAC ou le ministère des armées en fonction de la nature des contraintes",
               "metadata_url": "https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public",
               "type": "wms_wmts_universal_layer",
               "params": {
-                "uri": "crs=EPSG:3857&fdpiMode=7&format=image/png&http-header:referer=&layers=POTENTIEL.EOLIEN.REGLEMENTAIRE&styles=POTENTIEL.EOLIEN.REGLE&tileMatrixSet=PM&url=https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
-                "provider": "wms"
-              }
-            },
-            {
-              "title": "Potentiel éolien terrestre - gisement de vent à 140m",
-              "ident": "vent_140",
-              "description": "Ces données de vent sont issues d’une étude nationale Météo France « AROME » et représentent les moyennes de vent mesurées à une hauteur de 140m",
-              "metadata_url": "https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public",
-              "type": "wms_wmts_universal_layer",
-              "params": {
-                "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=POTENTIEL.VENT.140M&styles&url=https://wxs.ign.fr/enr/geoportail/r/wms?VERSION%3D1.3.0",
-                "provider": "wms"
-              }
-            },
-            {
-              "title": "Potentiel éolien terrestre - gisement de vent à 160m",
-              "ident": "vent_160",
-              "description": "Ces données de vent sont issues d’une étude nationale Météo France « AROME » et représentent les moyennes de vent mesurées à une hauteur de 160m.",
-              "metadata_url": "https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public",
-              "type": "wms_wmts_universal_layer",
-              "params": {
-                "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=POTENTIEL.VENT.160M&styles&url=https://wxs.ign.fr/enr/geoportail/r/wms?VERSION%3D1.3.0",
+                "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=POTENTIEL.EOLIEN.REGLEMENTAIRE&styles=POTENTIEL.EOLIEN.REGLE&tileMatrixSet=PM_6_16&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wmts/enr.xml",
                 "provider": "wms"
               }
             },
@@ -1683,7 +1661,7 @@
               "metadata_url": "",
               "type": "wms_wmts_universal_layer",
               "params": {
-                "uri": "crs=EPSG:3857&fdpiMode=7&format=image/png&http-header:referer=&layers=ENR.AERO.CIVIL&styles=ENR.AERO.CIVIL&tileMatrixSet=PM&url=https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+                "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=ENR.AERO.CIVIL&styles=ENR.AERO.CIVIL&tileMatrixSet=PM_6_18&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wmts/enr.xml",
                 "provider": "wms"
               }
             },
@@ -1694,7 +1672,7 @@
               "metadata_url": "",
               "type": "wms_wmts_universal_layer",
               "params": {
-                "uri": "crs=EPSG:3857&fdpiMode=7&format=image/png&http-header:referer=&layers=ENR.AERO.MILITAIRE&styles=ENR.AERO.MILITAIRE&tileMatrixSet=PM&url=https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+                "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=ENR.AERO.MILITAIRE&styles=ENR.AERO.MILITAIRE&tileMatrixSet=PM_6_18&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wmts/enr.xml",
                 "provider": "wms"
               }
             },
@@ -1705,7 +1683,7 @@
               "metadata_url": "",
               "type": "wms_wmts_universal_layer",
               "params": {
-                "uri": "crs=EPSG:3857&fdpiMode=7&format=image/png&http-header:referer=&layers=ENR.PERIMETRE.HABITATION&styles=PERIMETRE.HABITATION&tileMatrixSet=PM&url=https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+                "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=ENR.PERIMETRE.HABITATION&styles=PERIMETRE.HABITATION&tileMatrixSet=PM_6_18&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wmts/enr.xml",
                 "provider": "wms"
               }
             },
@@ -1716,7 +1694,7 @@
               "metadata_url": "",
               "type": "wms_wmts_universal_layer",
               "params": {
-                "uri": "crs=EPSG:3857&fdpiMode=7&format=image/png&http-header:referer=&layers=ENR.PERIMETRE.PENTE&styles=PERIMETRE.PENTE&tileMatrixSet=PM&url=https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+                "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=ENR.PERIMETRE.PENTE&styles=PERIMETRE.PENTE&tileMatrixSet=PM_6_18&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wmts/enr.xml",
                 "provider": "wms"
               }
             },
@@ -1727,7 +1705,7 @@
               "metadata_url": "",
               "type": "wms_wmts_universal_layer",
               "params": {
-                "uri": "crs=EPSG:3857&fdpiMode=7&format=image/png&http-header:referer=&layers=ENR.PERIMETRE.ROUTE&styles=PERIMETRE.ROUTE&tileMatrixSet=PM&url=https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+                "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=ENR.PERIMETRE.ROUTE&styles=PERIMETRE.ROUTE&tileMatrixSet=PM_6_18&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wmts/enr.xml",
                 "provider": "wms"
               }
             },
@@ -1738,7 +1716,7 @@
               "metadata_url": "",
               "type": "wms_wmts_universal_layer",
               "params": {
-                "uri": "crs=EPSG:3857&fdpiMode=7&format=image/png&http-header:referer=&layers=ENR.PERIMETRE.VOIE.FERREE&styles=PERIMETRE.VOIE.FERREE&tileMatrixSet=PM&url=https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+                "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=ENR.PERIMETRE.VOIE.FERREE&styles=PERIMETRE.VOIE.FERREE&tileMatrixSet=PM_6_16&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wmts/enr.xml",
                 "provider": "wms"
               }
             },
@@ -1765,18 +1743,52 @@
               "metadata_url": "https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public",
               "type": "wms_wmts_universal_layer",
               "params": {
-                "uri": "crs=EPSG:3857&fdpiMode=7&format=image/png&http-header:referer=&layers=POTENTIEL.HYDRO&styles=POTENTIEL.HYDRO&tileMatrixSet=PM&url=https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+                "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=POTENTIEL.HYDRO&styles=POTENTIEL.HYDRO&tileMatrixSet=PM_6_18&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wmts/enr.xml",
                 "provider": "wms"
               }
             }
           ]
         },
         {
-          "title": "Potentiel de développement de réseaux de chaleur et de froid",
+          "title": "OFB et ZAENR",
           "ident": "",
           "description": "",
           "type": "folder",
-          "children": []
+          "children": [
+            {
+              "title": "OFB - zonages exclus des aires d'accélération",
+              "ident": "ofb_zones_exclues",
+              "description": "",
+              "metadata_url": "https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public",
+              "type": "wms_wmts_universal_layer",
+              "params": {
+                "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=OFB.ZONES.EXCLUES&styles=OFB.ZONES.EXCLUES&tileMatrixSet=PM_6_16&tilePixelRatio=2&url=https://data.geopf.fr/annexes/ressources/wmts/enr.xml",
+                "provider": "wms"
+              }
+            },
+            {
+              "title": "OFB - zonages exclus des aires d'accélération sauf toiture",
+              "ident": "ofb_zones_exclues_sauf_toiture",
+              "description": "",
+              "metadata_url": "https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public",
+              "type": "wms_wmts_universal_layer",
+              "params": {
+                "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=OFB.ZONES.EXCLUES.SAUF.TOITURE&styles=OFB.ZONES.EXCLUES.SAUF.TOITURE&tileMatrixSet=PM_6_16&tilePixelRatio=2&url=https://data.geopf.fr/annexes/ressources/wmts/enr.xml",
+                "provider": "wms"
+              }
+            },
+            {
+              "title": "OFB - zonages nécessitant l'avis du gestionnaire",
+              "ident": "ofb_zones_necessitant_avis_gestionnaire",
+              "description": "",
+              "metadata_url": "https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public",
+              "type": "wms_wmts_universal_layer",
+              "params": {
+                "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=OFB.ZONES.NECESSITANT.AVIS.GESTIONNAIRE&styles=OFB.ZONES.NECESSITANT.AVIS.GESTIONNAIRE&tileMatrixSet=PM_6_16&tilePixelRatio=2&url=https://data.geopf.fr/annexes/ressources/wmts/enr.xml",
+                "provider": "wms"
+              }
+            }
+          ]
         },
         {
           "title": "Localisation des installations de production énergétique",
@@ -1791,7 +1803,7 @@
               "metadata_url": "https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public",
               "type": "wms_wmts_universal_layer",
               "params": {
-                "uri": "crs=EPSG:3857&fdpiMode=7&format=image/png&http-header:referer=&layers=LOCALISATION.MATS.EOLIEN&styles=LOCALISATION.MATS.EOLIEN&tileMatrixSet=PM&url=https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+                "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=LOCALISATION.MATS.EOLIEN&styles=LOCALISATION.MATS.EOLIEN&tileMatrixSet=PM_6_16&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wmts/enr.xml",
                 "provider": "wms"
               }
             }
@@ -1811,35 +1823,13 @@
           "type": "folder",
           "children": [
             {
-              "title": "Puissance cumulée des installations éoliennes par commune",
-              "ident": "puissance_eoliennes_commune",
-              "description": "Cette couche nationale représente la somme en kW des puissances installées pour la filière photovoltaïque par commune, reconstituée à partir de l’exploitation du registre national des installations de production et de stockage d’électricité raccordées directement ou indirectement aux réseaux publics d’électricité en France métropolitaine et dans les zones non interconnectées (ZNI) arrêté au 28 février 2023",
-              "metadata_url": "https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public",
-              "type": "wms_wmts_universal_layer",
-              "params": {
-                "uri": "crs=EPSG:3857&fdpiMode=7&format=image/png&http-header:referer=&layers=PROD.INSTALLATION.EOLIEN&styles=PROD.INSTALLATION.EOLIEN&tileMatrixSet=PM&url=https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
-                "provider": "wms"
-              }
-            },
-            {
               "title": "Puissance cumulée des installations hydrauliques par commune",
               "ident": "puissance_hydroelectrique_commune",
               "description": "Cette couche nationale représente la somme des puissances installées en kW pour la filière hydraulique par commune, reconstituée à partir de l’exploitation du registre national des installations de production et de stockage d’électricité raccordées directement ou indirectement aux réseaux publics d’électricité en France métropolitaine et dans les zones non interconnectées (ZNI) arrêté au 28 février 2023",
               "metadata_url": "https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public",
               "type": "wms_wmts_universal_layer",
               "params": {
-                "uri": "crs=EPSG:3857&fdpiMode=7&format=image/png&http-header:referer=&layers=PROD.INSTALLATION.HYDRO&styles=PROD.INSTALLATION.HYDRO&tileMatrixSet=PM&url=https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
-                "provider": "wms"
-              }
-            },
-            {
-              "title": "Puissance cumulée électrique installée par filière renouvelable par commune",
-              "ident": "puissance_cumulee_commune",
-              "description": "",
-              "metadata_url": "https://www.data.gouv.fr/fr/datasets/production-electrique-annuelle-par-filiere-a-la-maille-commune/",
-              "type": "wms_wmts_universal_layer",
-              "params": {
-                "uri": "crs=EPSG:3857&fdpiMode=7&format=image/png&http-header:referer=&layers=PART.ENR.COMMUNE&styles=PART.ENR.COMMUNE&tileMatrixSet=PM&url=https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+                "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=PROD.INSTALLATION.HYDRO&styles=PROD.INSTALLATION.HYDRO&tileMatrixSet=PM_6_18&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wmts/enr.xml",
                 "provider": "wms"
               }
             },
@@ -1850,7 +1840,29 @@
               "metadata_url": "https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public",
               "type": "wms_wmts_universal_layer",
               "params": {
-                "uri": "crs=EPSG:3857&fdpiMode=7&format=image/png&http-header:referer=&layers=PROD.INSTALLATION.PV&styles=PROD.INSTALLATION.PV&tileMatrixSet=PM&url=https://wxs.ign.fr/enr/geoportail/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+                "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=PROD.INSTALLATION.PV&styles=PROD.INSTALLATION.PV&tileMatrixSet=PM_6_18&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wmts/enr.xml",
+                "provider": "wms"
+              }
+            },
+            {
+              "title": "Puissance cumulée des installations éoliennes par commune",
+              "ident": "puissance_eoliennes_commune",
+              "description": "Cette couche nationale représente la somme en kW des puissances installées pour la filière photovoltaïque par commune, reconstituée à partir de l’exploitation du registre national des installations de production et de stockage d’électricité raccordées directement ou indirectement aux réseaux publics d’électricité en France métropolitaine et dans les zones non interconnectées (ZNI) arrêté au 28 février 2023",
+              "metadata_url": "https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public",
+              "type": "wms_wmts_universal_layer",
+              "params": {
+                "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=PROD.INSTALLATION.EOLIEN&styles=PROD.INSTALLATION.EOLIEN&tileMatrixSet=PM_6_18&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wmts/enr.xml",
+                "provider": "wms"
+              }
+            },
+            {
+              "title": "Puissance cumulée électrique installée par filière renouvelable par commune",
+              "ident": "puissance_cumulee_commune",
+              "description": "",
+              "metadata_url": "https://www.data.gouv.fr/fr/datasets/production-electrique-annuelle-par-filiere-a-la-maille-commune/",
+              "type": "wms_wmts_universal_layer",
+              "params": {
+                "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=PART.ENR.COMMUNE&styles=PART.ENR.COMMUNE&tileMatrixSet=PM_6_18&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wmts/enr.xml",
                 "provider": "wms"
               }
             }
@@ -2031,68 +2043,46 @@
               "type": "void_layer"
             },
             {
-              "title": "DGAC - PEB (Plans d'exposition aux bruits)",
+              "title": "DGAC - Plans d'Exposition au Bruit (PEB)",
               "ident": "dgac_peb",
               "description": "",
               "metadata_url": "https://geoservices.ign.fr/sites/default/files/2023-10/DC_BDTOPO_Transport.pdf",
               "type": "wms_wmts_universal_layer",
               "params": {
-                "uri": "crs=EPSG:3857&featureCount=10&format=image/png&layers=DGAC-PEB_BDD_FXX_WM_WMS&maxHeight=256&maxWidth=256&styles=&url=https://wxs.ign.fr/transports/geoportail/v/wms?VERSION%3D1.3.0",
+                "uri": "crs=EPSG:2154&dpiMode=7&format=image/png&layers=DGAC-PEB_BDD_FXX_WM_WMS&styles&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wms-v/transports.xml",
                 "provider": "wms"
               }
             },
             {
-              "title": "DGAC - PGS (Plans de gêne sonore)",
+              "title": "DGAC - Plans de Gêne Sonore (PGS)",
               "ident": "dgac_pgs",
               "description": "",
               "metadata_url": "https://geoservices.ign.fr/sites/default/files/2023-10/DC_BDTOPO_Transport.pdf",
               "type": "wms_wmts_universal_layer",
               "params": {
-                "uri": "crs=EPSG:3857&featureCount=10&format=image/png&layers=DGAC-PGS_BDD_FXX_WM_WMS&maxHeight=256&maxWidth=256&styles=&url=https://wxs.ign.fr/transports/geoportail/v/wms?VERSION%3D1.3.0",
+                "uri": "crs=EPSG:2154&dpiMode=7&format=image/png&layers=DGAC-PGS_BDD_FXX_WM_WMS&styles&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wms-v/transports.xml",
                 "provider": "wms"
               }
             },
             {
-              "title": "DGAC - PSA (Plans de servitudes aéronautiques)",
+              "title": "DGAC - Plans de Servitudes Aéronautiques (PSA)",
               "ident": "dgac_psa",
               "description": "",
               "metadata_url": "https://geoservices.ign.fr/sites/default/files/2023-10/DC_BDTOPO_Transport.pdf",
               "type": "wms_wmts_universal_layer",
               "params": {
-                "uri": "crs=EPSG:3857&featureCount=10&format=image/png&layers=TRANSPORTS.AIRNOISE&maxHeight=256&maxWidth=256&styles=&url=https://wxs.ign.fr/transports/geoportail/v/wms?VERSION%3D1.3.0",
+                "uri": "crs=EPSG:2154&dpiMode=7&format=image/png&layers=TRANSPORTS.AIRNOISE&styles&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wms-v/transports.xml",
                 "provider": "wms"
               }
             },
             {
-              "title": "DGAC Documentations - PEB (Plans d'exposition aux bruits)",
-              "ident": "dgac_documentations_peb",
-              "description": "",
-              "metadata_url": "https://geoservices.ign.fr/sites/default/files/2023-10/DC_BDTOPO_Transport.pdf",
-              "type": "wms_wmts_universal_layer",
-              "params": {
-                "uri": "crs=EPSG:3857&featureCount=10&format=image/png&layers=DGAC-PEB-POI_BDD_WLD_WM&maxHeight=256&maxWidth=256&styles=&url=https://wxs.ign.fr/transports/geoportail/v/wms?VERSION%3D1.3.0",
-                "provider": "wms"
-              }
-            },
-            {
-              "title": "DGAC Documentations - PGS (Plans de gêne sonore)",
-              "ident": "dgac_documentations_pgs",
-              "description": "",
-              "metadata_url": "https://geoservices.ign.fr/sites/default/files/2023-10/DC_BDTOPO_Transport.pdf",
-              "type": "wms_wmts_universal_layer",
-              "params": {
-                "uri": "crs=EPSG:3857&featureCount=10&format=image/png&layers=DGAC-PGS-POI_BDD_FXX_WM_WM&maxHeight=256&maxWidth=256&styles=&url=https://wxs.ign.fr/transports/geoportail/v/wms?VERSION%3D1.3.0",
-                "provider": "wms"
-              }
-            },
-            {
-              "title": "DGAC Documentations - PSA (Plans de servitudes aéronautiques)",
+              "title": "DGAC - Plans de Servitudes Aéronautiques (PSA) - documentation",
               "ident": "dgac_documentations_psa",
               "description": "",
               "metadata_url": "https://geoservices.ign.fr/sites/default/files/2023-10/DC_BDTOPO_Transport.pdf",
               "type": "wms_wmts_universal_layer",
               "params": {
-                "uri": "crs=EPSG:3857&featureCount=10&format=image/png&layers=TRANSPORTS.AIRNOISE.DOCS&maxHeight=256&maxWidth=256&styles=&url=https://wxs.ign.fr/transports/geoportail/v/wms?VERSION%3D1.3.0",
+                "uri": "crs=EPSG:2154&dpiMode=7&format=image/png&layers=TRANSPORTS.AIRNOISE.DOCS&styles&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wms-v/transports.xml",
                 "provider": "wms"
               }
             }
