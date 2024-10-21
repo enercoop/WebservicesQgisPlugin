@@ -766,6 +766,18 @@
           }
         },
         {
+          "title": "Espaces naturels sensibles (couche en construction)",
+          "ident": "ens",
+          "description": "Un espace naturel sensible (ENS) est un site remarquable en termes de patrimoine naturel (faune, flore et paysage), tant pour la richesse que pour la rareté des espèces qu'il abrite. Les départements sont compétents pour élaborer et mettre en œuvre une politique de protection, de gestion et d'ouverture au public (sauf exception justifiée par la fragilité du milieu naturel) des espaces naturels sensibles, boisés ou non, afin de préserver la qualité des sites, des paysages, des milieux naturels et des champs naturels d'expansion des crues et d'assurer la sauvegarde des habitats naturels. Ces espaces sont classés en catégorie V de l'UICN, en tant que paysage terrestre ou marin protégé. Les Conseils départementaux peuvent créer des zones de préemption (DPENS) des espaces naturels sur leur territoire, afin d'en faciliter l'acquisition, pour répondre aux enjeux paysagers, écologiques et de prévention des risques d'inondation repérés sur ces espaces.",
+          "metadata_url": "https://inpn-inspire.mnhn.fr/catalogue/srv/fre/catalog.search#/metadata/734f835c-959a-4f38-8f87-10b6bdfbc026",
+          "raw_data_url": "",
+          "type": "wms_wmts_universal_layer",
+          "params": {
+            "uri": "crs=EPSG:2154&dpiMode=7&format=image/png&layers=Espaces_naturels_sensibles&styles&tilePixelRatio=0&url=https://ws.carmencarto.fr/WMS/119/fxx_inpn",
+            "provider": "wms"
+          }
+        },
+        {
           "title": "Géoparcs mondiaux UNESCO",
           "ident": "géoparcs",
           "description": "Territoires labellisés par l’UNESCO où l’élément géologique patrimonial est le support pour des projets de protection, de développements du territoire et d’éducation",
@@ -1082,6 +1094,17 @@
             "uri": "crs=EPSG:4326&featureCount=10&format=image/png&layers=geomce_3857_l_mesure_compensatoire_p_000&maxHeight=256&maxWidth=256&styles=&url=https://datacarto.cdata.cerema.fr/wms_sdom/ENV_INTEGR",
             "provider": "wms"
           }
+        },
+        {
+          "title": "Haies (suivi des bocages)",
+          "ident": "haies_bocages",
+          "description": "Couche nationale des haies issue du Dispositif de Suivi des Bocages",
+          "metadata_url": "",
+          "type": "wms_wmts_universal_layer",
+          "params": {
+            "uri": "crs=EPSG:2154&dpiMode=7&format=image/png&layers=HAIES.BOCAGES&styles&tilePixelRatio=0&url=https://data.geopf.fr/wms-v/ows",
+            "provider": "wms"
+          }
         }
       ]
     },
@@ -1260,12 +1283,15 @@
           }
         },
         {
-          "title": "Cadastre minier (Camino)",
+          "title": "Cadastre minier",
           "ident": "camino",
-          "description": "Informations admnistratives pour les titres miniers valides et demandes initiales ou  modificatives afférentes publiques et en cours d'instruction",
-          "metadata_url": "https://www.data.gouv.fr/fr/datasets/cadastre-minier/",
-          "raw_data_url": "https://geo.enercoop.org/data/cadastre_minier/",
-          "type": "void_layer"
+          "description": "",
+          "metadata_url": "",
+          "type": "wms_wmts_universal_layer",
+          "params": {
+            "uri": "crs=EPSG:2154&dpiMode=7&format=image/png&layers=CAMINO&styles&tilePixelRatio=0&url=https://data.geopf.fr/wms-v/ows",
+            "provider": "wms"
+          }
         },
         {
           "title": "Foncier collectivités et pers. morales (geo.enercoop.org)",
@@ -1378,7 +1404,7 @@
           "metadata_url": "https://www.geoportail-urbanisme.gouv.fr/services/",
           "type": "wms_wmts_universal_layer",
           "params": {
-            "uri": "crs=EPSG:2154&dpiMode=7&format=image/png&layers=monument_historique&styles&tilePixelRatio=0&url=https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v",
+            "uri": "crs=EPSG:2154&dpiMode=7&format=image/png&layers=monument_historique&styles&tilePixelRatio=0&url=https://data.geopf.fr/wms-v/ows",
             "provider": "wms"
           }
         },
@@ -1389,7 +1415,7 @@
           "metadata_url": "",
           "type": "wms_wmts_universal_layer",
           "params": {
-            "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=POI.MONUMENTS_BDD_WLD_WM&styles&tilePixelRatio=0&url=https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v",
+            "uri": "crs=EPSG:2154&dpiMode=7&format=image/png&layers=POI.MONUMENTS_BDD_WLD_WM&styles&tilePixelRatio=0&url=https://data.geopf.fr/wms-v/ows",
             "provider": "wms"
           }
         },
@@ -1400,7 +1426,7 @@
           "metadata_url": "https://www.culture.gouv.fr/Regions/Drac-Centre-Val-de-Loire/Nos-secteurs-d-activite/Espaces-proteges/Les-sites-inscrits-et-classes",
           "type": "wms_wmts_universal_layer",
           "params": {
-            "uri": "crs=EPSG:2154&dpiMode=7&format=image/png&layers=monument_naturel_site&styles&tilePixelRatio=0&url=https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v",
+            "uri": "crs=EPSG:2154&dpiMode=7&format=image/png&layers=monument_naturel_site&styles&tilePixelRatio=0&url=https://data.geopf.fr/wms-v/ows",
             "provider": "wms"
           }
         },
@@ -1419,7 +1445,7 @@
           "metadata_url": "https://www.geoportail-urbanisme.gouv.fr/services/",
           "type": "wms_wmts_universal_layer",
           "params": {
-            "uri": "crs=EPSG:4326&dpiMode=7&format=image/png&layers=document&styles&url=https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v",
+            "uri": "crs=EPSG:2154&dpiMode=7&format=image/png&layers=document&styles&tilePixelRatio=0&url=https://data.geopf.fr/wms-v/ows",
             "provider": "wms"
           }
         },
@@ -1430,7 +1456,18 @@
           "metadata_url": "https://www.geoportail-urbanisme.gouv.fr/services/",
           "type": "wms_wmts_universal_layer",
           "params": {
-            "uri": "crs=EPSG:4326&dpiMode=7&format=image/png&layers=du&styles&url=https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v",
+            "uri": "crs=EPSG:2154&dpiMode=7&format=image/png&layers=zone_secteur&styles&tilePixelRatio=0&url=https://data.geopf.fr/wms-v/ows",
+            "provider": "wms"
+          }
+        },
+        {
+          "title": "Servitudes d'Utilité Publique (SUP)",
+          "ident": "plu",
+          "description": "",
+          "metadata_url": "https://www.geoportail-urbanisme.gouv.fr/services/",
+          "type": "wms_wmts_universal_layer",
+          "params": {
+            "uri": "crs=EPSG:2154&dpiMode=7&format=image/png&layers=sup&styles&tilePixelRatio=0&url=https://data.geopf.fr/wms-v/ows",
             "provider": "wms"
           }
         },
@@ -1481,7 +1518,7 @@
           "metadata_url": "https://www.geoportail-urbanisme.gouv.fr/services/",
           "type": "wms_wmts_universal_layer",
           "params": {
-            "uri": "crs=EPSG:4326&dpiMode=7&format=image/png&layers=scot&styles&url=https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v",
+            "uri": "crs=EPSG:2154&dpiMode=7&format=image/png&layers=scot&styles&tilePixelRatio=0&url=https://data.geopf.fr/wms-v/ows",
             "provider": "wms"
           }
         },
@@ -1504,7 +1541,7 @@
           "metadata_url": "https://www.service-public.fr/particuliers/vosdroits/F642",
           "type": "wms_wmts_universal_layer",
           "params": {
-            "uri": "crs=EPSG:4326&dpiMode=7&format=image/png&layers=prescription&styles&url=https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v",
+            "uri": "crs=EPSG:2154&dpiMode=7&format=image/png&layers=prescription&styles&tilePixelRatio=0&url=https://data.geopf.fr/wms-v/ows",
             "provider": "wms"
           }
         },
@@ -1515,7 +1552,7 @@
           "metadata_url": "https://www.service-public.fr/particuliers/vosdroits/F642",
           "type": "wms_wmts_universal_layer",
           "params": {
-            "uri": "crs=EPSG:4326&dpiMode=7&format=image/png&layers=prescription_psmv&styles&url=https://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v",
+            "uri": "crs=EPSG:2154&dpiMode=7&format=image/png&layers=prescription_psmv&styles&tilePixelRatio=0&url=https://data.geopf.fr/wms-v/ows",
             "provider": "wms"
           }
         },
@@ -1527,6 +1564,17 @@
           "type": "wms_wmts_universal_layer",
           "params": {
             "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=TRANSPORTNETWORKS.RUNWAYS&styles=normal&tileMatrixSet=PM_6_18&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wmts/topographie.xml",
+            "provider": "wms"
+          }
+        },
+        {
+          "title": "Circulation aérienne",
+          "ident": "circulation_aerienne",
+          "description": "",
+          "metadata_url": "",
+          "type": "wms_wmts_universal_layer",
+          "params": {
+            "uri": "crs=EPSG:2154&dpiMode=7&format=image/png&layers=circulation_aerienne&styles&tilePixelRatio=0&url=https://data.geopf.fr/wms-v/ows",
             "provider": "wms"
           }
         },
@@ -1559,7 +1607,7 @@
       "type": "folder",
       "children": [
         {
-          "title": "Potentiel solaire et électrique et thermique",
+          "title": "Potentiel solaire et électrique",
           "ident": "",
           "description": "",
           "type": "folder",
@@ -1576,14 +1624,6 @@
               }
             },
             {
-              "title": "Cartofriches",
-              "ident": "cartofriches",
-              "description": "Le besoin principal auquel souhaite répondre Cartofriches est l''aide au recensement les friches pour les qualifier et faciliter leur réutilisation. Il s'adresse à tout porteur de projet, public ou privé. Le Cerema utilise les données de BASIAS et BASOL, ainsi que d''autres lots de données nationaux (candidatures aux appels à projets, par exemple) pour assurer une pré-identification des friches sur tout le territoire national",
-              "metadata_url": "https://si.enercoop.org/eprod:donnees:sites_pollues",
-              "raw_data_url": "https://geo.enercoop.org/data/cartofriches/",
-              "type": "void_layer"
-            },
-            {
               "title": "Potentiel solaire sur toiture (méthode simplifiée)",
               "ident": "potentiel_solaire",
               "description": "Estimation simplifiée du potentiel solaire en toiture en Wh/an sur la base de la couche bâti de la Bd Topo® (2022 - producteur IGN). Pour chaque emprise de bâtiment, la valeur fournie est une estimation de l’énergie solaire reçue sur des panneaux photovoltaïque qui seraient installés sur toiture, selon une méthode très simplifiée décrite dans la fiche de métadonnées de cette couche et qui, notamment, ne prend pas en compte les masques proches. Cette information est fournie à titre indicatif et ne saurait se substituer à des estimations réalisées avec des méthodes plus précises",
@@ -1593,14 +1633,6 @@
                 "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=POTENTIEL.SOLAIRE.BATIMENT&styles=POTENTIEL.SOLAIRE.BATIMENT&tileMatrixSet=PM_6_18&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wmts/enr.xml",
                 "provider": "wms"
               }
-            },
-            {
-              "title": "OpenSolarMap",
-              "ident": "opensolarmap",
-              "description": "Données sur l'orientation des toits issus d'un projet de crowdsourcing et disponible sur OpenStreetMap",
-              "metadata_url": "https://www.data.gouv.fr/fr/reuses/opensolarmap/",
-              "raw_data_url": "https://geo.enercoop.org/data/batiment/opensolarmap/",
-              "type": "void_layer"
             },
             {
               "title": "Unités foncières contenant des surfaces de stationnement non couvertes de plus de 500 m² (données déclaratives)",
@@ -1634,6 +1666,22 @@
                 "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=DELAISSES.AUTOROUTIERS&styles=DELAISSES.AUTOROUTIERS&tileMatrixSet=PM_6_18&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wmts/enr.xml",
                 "provider": "wms"
               }
+            },
+            {
+              "title": "Cartofriches",
+              "ident": "cartofriches",
+              "description": "Le besoin principal auquel souhaite répondre Cartofriches est l''aide au recensement les friches pour les qualifier et faciliter leur réutilisation. Il s'adresse à tout porteur de projet, public ou privé. Le Cerema utilise les données de BASIAS et BASOL, ainsi que d''autres lots de données nationaux (candidatures aux appels à projets, par exemple) pour assurer une pré-identification des friches sur tout le territoire national",
+              "metadata_url": "https://si.enercoop.org/eprod:donnees:sites_pollues",
+              "raw_data_url": "https://geo.enercoop.org/data/cartofriches/",
+              "type": "void_layer"
+            },
+            {
+              "title": "OpenSolarMap",
+              "ident": "opensolarmap",
+              "description": "Données sur l'orientation des toits issus d'un projet de crowdsourcing et disponible sur OpenStreetMap",
+              "metadata_url": "https://www.data.gouv.fr/fr/reuses/opensolarmap/",
+              "raw_data_url": "https://geo.enercoop.org/data/batiment/opensolarmap/",
+              "type": "void_layer"
             }
           ]
         },
@@ -1801,6 +1849,17 @@
               "ident": "localisation_eolienne",
               "description": "Ces données concernent la localisation des mâts d’éoliennes et sont produites par agrégation des données diffusées par les DREAL. Les parcs éoliens concernés sont construits ou en service, voire en instruction ou dont l’état n’est pas connu. Ce jeu de données ne répertorie pas les projets abandonnés ou dont la demande d’autorisation n’a pas abouti",
               "metadata_url": "https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public",
+              "type": "wms_wmts_universal_layer",
+              "params": {
+                "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=LOCALISATION.MATS.EOLIEN&styles=LOCALISATION.MATS.EOLIEN&tileMatrixSet=PM_6_16&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wmts/enr.xml",
+                "provider": "wms"
+              }
+            },
+            {
+              "title": "Périmètres des installations photovoltaïques au sol",
+              "ident": "installations_pv_sol",
+              "description": "",
+              "metadata_url": "",
               "type": "wms_wmts_universal_layer",
               "params": {
                 "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=LOCALISATION.MATS.EOLIEN&styles=LOCALISATION.MATS.EOLIEN&tileMatrixSet=PM_6_16&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wmts/enr.xml",
@@ -2003,6 +2062,17 @@
                 "uri": "crs=EPSG:3857&fdpiMode=7&format=image/png&http-header:referer=&layers=hedge.hedge&styles=normal&tileMatrixSet=PM&url=https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
                 "provider": "wms"
               }
+            },
+            {
+              "title": "Centres équestres",
+              "ident": "centres_equestres",
+              "description": "",
+              "metadata_url": "",
+              "type": "wms_wmts_universal_layer",
+              "params": {
+                "uri": "crs=EPSG:2154&dpiMode=7&format=image/png&layers=POI.SPORT.RIDING&styles&tilePixelRatio=0&url=https://data.geopf.fr/wms-v/ows",
+                "provider": "wms"
+              }
             }
           ]
         },
@@ -2083,51 +2153,6 @@
               "type": "wms_wmts_universal_layer",
               "params": {
                 "uri": "crs=EPSG:2154&dpiMode=7&format=image/png&layers=TRANSPORTS.AIRNOISE.DOCS&styles&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wms-v/transports.xml",
-                "provider": "wms"
-              }
-            }
-          ]
-        },
-        {
-          "title": "Lieu nommés",
-          "ident": "",
-          "description": "",
-          "type": "folder",
-          "children": [
-            {
-              "title": "Dénominations géographiques",
-              "ident": "Denominations_geographiques",
-              "description": "Dénominations topologiques sur le territoire",
-              "metadata_url": "",
-              "type": "wms_wmts_universal_layer",
-              "params": {
-                "uri": "crs=EPSG:3857&fdpiMode=7&format=image/png&http-header:referer=&layers=GEOGRAPHICALNAMES.NAMES&styles=normal&tileMatrixSet=PM&url=https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
-                "provider": "wms"
-              }
-            }
-          ]
-        },
-        {
-          "title": "Zones réglemenentées",
-          "ident": "",
-          "description": "",
-          "type": "folder",
-          "children": []
-        },
-        {
-          "title": "Services et activités",
-          "ident": "",
-          "description": "",
-          "type": "folder",
-          "children": [
-            {
-              "title": "Lignes électriques aériennes haute tension",
-              "ident": "lignes_electriques",
-              "description": "Toutes les lignes électriques à haute (voltage ≥ 63 kV) ou à très haute tension (voltage ≥ 150 kV) sont incluses, sauf les souterraines.",
-              "metadata_url": "https://geoservices.ign.fr/sites/default/files/2021-07/DC_BDTOPO_3-0.pdf#%5B%7B%22num%22%3A5941%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C29%2C434%2C0%5D",
-              "type": "wms_wmts_universal_layer",
-              "params": {
-                "uri": "crs=EPSG:3857&fdpiMode=7&format=image/png&http-header:referer=&layers=UTILITYANDGOVERNMENTALSERVICES.ALL&styles=normal&tileMatrixSet=PM&url=https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
                 "provider": "wms"
               }
             }
@@ -2435,9 +2460,9 @@
       ]
     },
     {
-      "title": "Données Enercoop et sociétaires (geo.enercoop.org)",
+      "title": "Données Enercoop (geo.enercoop.org)",
       "ident": "",
-      "description": "Couches internes en géopackages contenant des données sur les Enercoop et des données sensibles sur les sociétaires",
+      "description": "Couches internes",
       "type": "folder",
       "children": [
         {
@@ -2449,125 +2474,56 @@
           "type": "void_layer"
         },
         {
-          "title": "Projets production",
-          "ident": "projets_production",
-          "description": "Ensemble des projets de production en cours ou achévés",
-          "metadata_url": "",
-          "raw_data_url": "https://geo.enercoop.org/data/enercoop/",
-          "type": "void_layer"
-        },
-        {
           "title": "Statistiques sociétaires par département",
           "ident": "stats_societaires_dep",
           "description": "Statistiques concernant les sociétaires au sein d'Enercoop",
           "metadata_url": "https://si.enercoop.org/eprod:donnees:societariat",
           "raw_data_url": "https://geo.enercoop.org/data/enercoop/",
           "type": "void_layer"
-        },
-        {
-          "title": "Sociétaires",
-          "ident": "",
-          "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires",
-          "type": "folder",
-          "children": [
-            {
-              "title": "Sociétaires LANG",
-              "ident": "societaires_lang",
-              "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Languedoc Roussilon",
-              "metadata_url": "https://si.enercoop.org/eprod:donnees:societariat",
-              "raw_data_url": "https://geo.enercoop.org/LANG/data/coopener/",
-              "type": "void_layer"
-            },
-            {
-              "title": "Sociétaires RHOA",
-              "ident": "societaires_rhoa",
-              "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Auvergne-Rhône-Alpes",
-              "metadata_url": "https://si.enercoop.org/eprod:donnees:societariat",
-              "raw_data_url": "https://geo.enercoop.org/RHOA/data/coopener/",
-              "type": "void_layer"
-            },
-            {
-              "title": "Sociétaires BRZH",
-              "ident": "societaires_brzh",
-              "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Bretagne",
-              "metadata_url": "https://si.enercoop.org/eprod:donnees:societariat",
-              "raw_data_url": "https://geo.enercoop.org/BRZH/data/coopener/",
-              "type": "void_layer"
-            },
-            {
-              "title": "Sociétaires NPCP",
-              "ident": "societaires_npcp",
-              "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Hauts-de-France",
-              "metadata_url": "https://si.enercoop.org/eprod:donnees:societariat",
-              "raw_data_url": "https://geo.enercoop.org/NPCP/data/coopener/",
-              "type": "void_layer"
-            },
-            {
-              "title": "Sociétaires MIPY",
-              "ident": "societaires_mipy",
-              "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Midi-Pyrénées",
-              "metadata_url": "https://si.enercoop.org/eprod:donnees:societariat",
-              "raw_data_url": "https://geo.enercoop.org/MIPY/data/coopener/",
-              "type": "void_layer"
-            },
-            {
-              "title": "Sociétaires AQUI",
-              "ident": "societaires_aqui",
-              "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Nouvelle-Aquitaine",
-              "metadata_url": "https://si.enercoop.org/eprod:donnees:societariat",
-              "raw_data_url": "https://geo.enercoop.org/AQUI/data/coopener/",
-              "type": "void_layer"
-            },
-            {
-              "title": "Sociétaires NATL",
-              "ident": "societaires_natl",
-              "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Nationale",
-              "metadata_url": "https://si.enercoop.org/eprod:donnees:societariat",
-              "raw_data_url": "https://geo.enercoop.org/NATL/data/coopener/",
-              "type": "void_layer"
-            },
-            {
-              "title": "Sociétaires ARDC",
-              "ident": "societaires_ardc",
-              "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Nord-est",
-              "metadata_url": "https://si.enercoop.org/eprod:donnees:societariat",
-              "raw_data_url": "https://geo.enercoop.org/ARDC/data/coopener/",
-              "type": "void_layer"
-            },
-            {
-              "title": "Sociétaires ENOR",
-              "ident": "societaires_enor",
-              "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Normandie",
-              "metadata_url": "https://si.enercoop.org/eprod:donnees:societariat",
-              "raw_data_url": "https://geo.enercoop.org/ENOR/data/coopener/",
-              "type": "void_layer"
-            },
-            {
-              "title": "Sociétaires PACA",
-              "ident": "societaires_paca",
-              "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Provence-Alpes-Côte-d'Azur",
-              "metadata_url": "https://si.enercoop.org/eprod:donnees:societariat",
-              "raw_data_url": "https://geo.enercoop.org/PACA/data/coopener/",
-              "type": "void_layer"
-            },
-            {
-              "title": "Sociétaires PDLL",
-              "ident": "societaires_pdll",
-              "description": "Couches internes en géopackages contenant des données sensibles sur les sociétaires pour Enercoop Pays de la Loire",
-              "metadata_url": "https://si.enercoop.org/eprod:donnees:societariat",
-              "raw_data_url": "https://geo.enercoop.org/PDLL/data/coopener/",
-              "type": "void_layer"
-            }
-          ]
         }
       ]
     },
     {
-      "title": "Réseau éléctrique (geo.enercoop.org)",
+      "title": "Réseau électrique",
       "ident": null,
-      "description": "Réseau eléctrique RTE,HTA,BT aérien et souterrain",
+      "description": "Réseau électrique de transport, HTA et BT",
       "type": "folder",
       "children": [
+        {
+          "title": "Réseau électrique de transport et HTA",
+          "ident": "reseau_electrique",
+          "description": "",
+          "metadata_url": "",
+          "type": "wms_wmts_universal_layer",
+          "params": {
+            "uri": "crs=EPSG:2154&dpiMode=7&format=image/png&layers=electricite&styles&tilePixelRatio=0&url=https://data.geopf.fr/wms-v/ows",
+            "provider": "wms"
+          }
+        },
+        {
+          "title": "Lignes électriques aériennes haute tension",
+          "ident": "lignes_electriques",
+          "description": "Toutes les lignes électriques à haute (voltage ≥ 63 kV) ou à très haute tension (voltage ≥ 150 kV) sont incluses, sauf les souterraines.",
+          "metadata_url": "https://geoservices.ign.fr/sites/default/files/2021-07/DC_BDTOPO_3-0.pdf#%5B%7B%22num%22%3A5941%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C29%2C434%2C0%5D",
+          "type": "wms_wmts_universal_layer",
+          "params": {
+            "uri": "crs=EPSG:3857&fdpiMode=7&format=image/png&http-header:referer=&layers=UTILITYANDGOVERNMENTALSERVICES.ALL&styles=normal&tileMatrixSet=PM&url=https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "provider": "wms"
+          }
+        },
+        {
+          "title": "Capacités d'accueil des installations de production - S3RENR",
+          "ident": "capacite_accueil_electrique",
+          "description": "Capacité d'acceuil en mégawatts disponibles pour le raccordement d'installations de production d'électricité aux réseaux de transport de distribution en France métropolitaine (hors Corse) réservéees au titre du S3RENR (capacités sans travaux et capacités disponibles sur le réseau public de transport)",
+          "metadata_url": "https://geoservices.ign.fr/sites/default/files/2021-07/DC_BDTOPO_3-0.pdf#%5B%7B%22num%22%3A5941%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C29%2C434%2C0%5D",
+          "type": "wms_wmts_universal_layer",
+          "params": {
+            "uri": "crs=EPSG:2154&dpiMode=7&format=image/png&layers=CAPACITE.ACCUEIL.ELECTRIQUE&styles&tilePixelRatio=0&url=https://data.geopf.fr/wms-v/ows",
+            "provider": "wms"
+          }
+        },
+
+
         {
           "title": "Réseau BT",
           "ident": "reseau_bt",
