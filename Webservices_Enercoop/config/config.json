@@ -2490,7 +2490,7 @@
       "type": "folder",
       "children": [
         {
-          "title": "Réseau électrique de transport et HTA",
+          "title": "Réseau électrique de transport",
           "ident": "reseau_electrique",
           "description": "",
           "metadata_url": "",
