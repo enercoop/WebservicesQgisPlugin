@@ -1,5 +1,5 @@
 {
-  "title": "Webservices_Enercoop - version du 06 mai 2024",
+  "title": "Webservices_Enercoop - version du 09 octobre 2025",
   "ident": "316522f0-d2ef-4422-b935-e333815b4f7e",
   "description": "",
   "type": "folder",
@@ -413,19 +413,7 @@
       "type": "folder",
       "children": [
         {
-          "title": "Registre Parcellaire Graphique (RPG) - Dernière édition",
-          "ident": "rpg_lastest",
-          "description": "BDD géographique servant de référence à l'instruction des aides de la politique agricole commune (PAC)",
-          "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
-          "raw_data_url": "https://geo.enercoop.org/data/agriculture/rpg_2021/",
-          "type": "wms_wmts_universal_layer",
-          "params": {
-            "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=LANDUSE.AGRICULTURE.LATEST&styles=normal&tileMatrixSet=PM&tilePixelRatio=0&url=https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
-            "provider": "wms"
-          }
-        },
-        {
-          "title": "Bandes tampons des cours d'eau BCAE 4",
+          "title": "Bandes tampons des cours d'eau BCAE 4 - dernière édition",
           "ident": "bcae_eau",
           "description": "Cours d’eau concernés par les règles des Bonnes Conditions Agricoles et Environnementales (BCAE) de la PAC  et devant rester bordés d'une bande enherbée",
           "metadata_url": "https://www.geoportail.gouv.fr/donnees/cours-eau-bcae-2021",
@@ -455,6 +443,50 @@
           "type": "wms_wmts_universal_layer",
           "params": {
             "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=Aire-Parcellaire&styles=normal&tileMatrixSet=PM&tilePixelRatio=0&url=https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "provider": "wms"
+          }
+        },
+        {
+          "title": "Registre Parcellaire Graphique (RPG) dernière édition",
+          "ident": "rpg_latest",
+          "description": "BDD géographique servant de référence à l'instruction des aides de la politique agricole commune (PAC)",
+          "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
+          "type": "wms_wmts_universal_layer",
+          "params": {
+            "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=LANDUSE.AGRICULTURE.LATEST&styles=normal&tileMatrixSet=PM&tilePixelRatio=0&url=https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "provider": "wms"
+          }
+        },
+        {
+          "title": "Registre Parcellaire Graphique (RPG) 2024",
+          "ident": "rpg_2024",
+          "description": "BDD géographique servant de référence à l'instruction des aides de la politique agricole commune (PAC)",
+          "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
+          "type": "wms_wmts_universal_layer",
+          "params": {
+            "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=LANDUSE.AGRICULTURE2024&styles=normal&tileMatrixSet=PM&tilePixelRatio=0&url=https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "provider": "wms"
+          }
+        },
+        {
+          "title": "Registre Parcellaire Graphique (RPG) 2023",
+          "ident": "rpg_2023",
+          "description": "BDD géographique servant de référence à l'instruction des aides de la politique agricole commune (PAC)",
+          "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
+          "type": "wms_wmts_universal_layer",
+          "params": {
+            "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=LANDUSE.AGRICULTURE2023&styles=normal&tileMatrixSet=PM&tilePixelRatio=0&url=https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
+            "provider": "wms"
+          }
+        },
+        {
+          "title": "Registre Parcellaire Graphique (RPG) 2022",
+          "ident": "rpg_2022",
+          "description": "BDD géographique servant de référence à l'instruction des aides de la politique agricole commune (PAC)",
+          "metadata_url": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/registre-parcellaire-graphique",
+          "type": "wms_wmts_universal_layer",
+          "params": {
+            "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=LANDUSE.AGRICULTURE2022&styles=normal&tileMatrixSet=PM&tilePixelRatio=0&url=https://data.geopf.fr/wmts?SERVICE%3DWMTS%26VERSION%3D1.0.0%26REQUEST%3DGetCapabilities",
             "provider": "wms"
           }
         },
@@ -1018,7 +1050,7 @@
           }
         },
         {
-          "title": "Zonage informatif des obligations légales de débroussaillement",
+          "title": "Zonage informatif des Obligations Légales de Débroussaillement (OLD)",
           "ident": "debroussailement",
           "description": "Le Zonage Informatif des Obligations légales de débroussaillement (OLD) est une carte en ligne qui permet aux particuliers de pouvoir localiser leur terrain et savoir s’ils sont soumis à la réglementation sur les OLD. Le Zonage Informatif des OLD ne précise pas les règles à appliquer pour débroussailler correctement (profondeur de débroussaillement depuis l’habitation, distance entre les arbres, hauteur d’élagage, etc.). Pour se renseigner sur la réglementation sur les OLD en vigueur sur leur département, les particuliers peuvent contacter la mairie ou la préfecture. Les règles de mise en œuvre des OLD peuvent être différentes d’un département à l’autre, car elles tiennent compte du contexte local",
           "metadata_url": "https://www.geoportail.gouv.fr/depot/fiches/OLD/Info_zonage-OLD-Geoportail.pdf",
@@ -1063,35 +1095,12 @@
           }
         },
         {
-          "title": "Mesures compensatoires prescrites des atteintes à la biodiversité (polygone)",
-          "ident": "compensatoires_biodiversité_polygone",
-          "description": "Une mesure compensatoire des atteintes à la biodiversité intervient sur l’impact résiduel d’un projet d’aménagement, lorsque toutes les mesures envisageables ont été mises en œuvre pour éviter puis réduire les impacts négatifs sur la biodiversité.",
-          "metadata_url": "https://catalogue.datara.gouv.fr/geonetwork/srv/fre/catalog.search#/metadata/48ac3589-499d-4f42-9716-73b4eefef35c",
+          "title": "Mesures compensatoires des atteintes à la biodiversité",
+          "ident": "mesures_compensatoires",
+          "description": "",
           "type": "wms_wmts_universal_layer",
           "params": {
-            "uri": "crs=EPSG:4326&featureCount=10&format=image/png&layers=geomce_3857_l_mesure_compensatoire_s_000&maxHeight=256&maxWidth=256&styles=&url=https://datacarto.cdata.cerema.fr/wms_sdom/ENV_INTEGR",
-            "provider": "wms"
-          }
-        },
-        {
-          "title": "Mesures compensatoires prescrites des atteintes à la biodiversité (point)",
-          "ident": "compensatoires_biodiversité_point",
-          "description": "Une mesure compensatoire des atteintes à la biodiversité intervient sur l’impact résiduel d’un projet d’aménagement, lorsque toutes les mesures envisageables ont été mises en œuvre pour éviter puis réduire les impacts négatifs sur la biodiversité.",
-          "metadata_url": "https://catalogue.datara.gouv.fr/geonetwork/srv/fre/catalog.search#/metadata/48ac3589-499d-4f42-9716-73b4eefef35c",
-          "type": "wms_wmts_universal_layer",
-          "params": {
-            "uri": "crs=EPSG:4326&featureCount=10&format=image/png&layers=geomce_3857_l_mesure_compensatoire_l_000&maxHeight=256&maxWidth=256&styles=&url=https://datacarto.cdata.cerema.fr/wms_sdom/ENV_INTEGR",
-            "provider": "wms"
-          }
-        },
-        {
-          "title": "Mesures compensatoires prescrites des atteintes à la biodiversité (linéaire)",
-          "ident": "compensatoires_biodiversité_linéaire",
-          "description": "Une mesure compensatoire des atteintes à la biodiversité intervient sur l’impact résiduel d’un projet d’aménagement, lorsque toutes les mesures envisageables ont été mises en œuvre pour éviter puis réduire les impacts négatifs sur la biodiversité.",
-          "metadata_url": "https://catalogue.datara.gouv.fr/geonetwork/srv/fre/catalog.search#/metadata/48ac3589-499d-4f42-9716-73b4eefef35c",
-          "type": "wms_wmts_universal_layer",
-          "params": {
-            "uri": "crs=EPSG:4326&featureCount=10&format=image/png&layers=geomce_3857_l_mesure_compensatoire_p_000&maxHeight=256&maxWidth=256&styles=&url=https://datacarto.cdata.cerema.fr/wms_sdom/ENV_INTEGR",
+            "uri": "crs=EPSG:3857&dpiMode=7&featureCount=10&format=image/png&layers=MESURES_COMPENSATOIRES&styles&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wms-v/environnement.xml",
             "provider": "wms"
           }
         },
@@ -1105,6 +1114,67 @@
             "uri": "crs=EPSG:2154&dpiMode=7&format=image/png&layers=HAIES.BOCAGES&styles&tilePixelRatio=0&url=https://data.geopf.fr/wms-v/ows",
             "provider": "wms"
           }
+        },
+        {
+          "title": "Réseau Zones Humides",
+          "ident": "",
+          "description": "Couches diffusées par le Réseau des Zones Humides",
+          "type": "folder",
+          "children": [
+            {
+              "title": "Pré-localisation des zones humides (2023)",
+              "ident": "prelocalisation_zones_humides",
+              "description": "",
+              "metadata_url": "https://sig.reseau-zones-humides.org/",
+              "type": "wms_wmts_universal_layer",
+              "params": {
+                "uri": "crs=EPSG:3857&dpiMode=7&featureCount=10&format=image/png&layers=Prob_ZH_metrop_vf&styles&tilePixelRatio=0&url=http://wms.reseau-zones-humides.org/cgi-bin/wmsfma",
+                "provider": "wms"
+              }
+            },
+                        {
+              "title": "Pré-localisation des milieux humides (2023)",
+              "ident": "prelocalisation_milieux_humides",
+              "description": "",
+              "metadata_url": "https://sig.reseau-zones-humides.org/",
+              "type": "wms_wmts_universal_layer",
+              "params": {
+                "uri": "crs=EPSG:3857&dpiMode=7&featureCount=10&format=image/png&layers=MH_prob_vf&styles&tilePixelRatio=0&url=http://wms.reseau-zones-humides.org/cgi-bin/wmsfma",
+                "provider": "wms"
+              }
+            },            {
+              "title": "Pré-localisation des zones humides (2023) - seuil",
+              "ident": "prelocalisation_zones_humides_seuil",
+              "description": "",
+              "metadata_url": "https://sig.reseau-zones-humides.org/",
+              "type": "wms_wmts_universal_layer",
+              "params": {
+                "uri": "crs=EPSG:3857&dpiMode=7&featureCount=10&format=image/png&layers=Proba_seuillee_ZH_metrop&styles&tilePixelRatio=0&url=http://wms.reseau-zones-humides.org/cgi-bin/wmsfma",
+                "provider": "wms"
+              }
+            },            {
+              "title": "Pré-localisation des milieux humides (2023) - seuil",
+              "ident": "prelocalisation_milieux_humides_seuil",
+              "description": "",
+              "metadata_url": "https://sig.reseau-zones-humides.org/",
+              "type": "wms_wmts_universal_layer",
+              "params": {
+                "uri": "crs=EPSG:3857&dpiMode=7&featureCount=10&format=image/png&layers=Proba_seuillee_MH_metrop&styles&tilePixelRatio=0&url=http://wms.reseau-zones-humides.org/cgi-bin/wmsfma",
+                "provider": "wms"
+              }
+            },
+            {
+              "title": "Milieux potentiellement humides",
+              "ident": "milieux_potentiellement_humides",
+              "description": "Par le Réseau des Zones Humides",
+              "metadata_url": "https://sig.reseau-zones-humides.org/",
+              "type": "wms_wmts_universal_layer",
+              "params": {
+                "uri": "crs=EPSG:3857&dpiMode=7&featureCount=10&format=image/png&layers=France : Milieux potentiellement humides&styles&tilePixelRatio=0&url=http://wms.reseau-zones-humides.org/cgi-bin/wmsfma",
+                "provider": "wms"
+              }
+            }
+          ]
         }
       ]
     },
@@ -1151,7 +1221,7 @@
           }
         },
         {
-          "title": "Plan de Prévention des Risques d'inondation (PPRi)",
+          "title": "[Hors service] Plan de Prévention des Risques d'inondation (PPRi)",
           "ident": "ppri",
           "description": "Le plan de prévention des risques naturels d'inondation (PPRi ou PPRNi)  Le PPRNi est un outil de prévention majeur contre les risques naturels d'inondation,  permettant d'influer sur l'occupation et l'utilisation des sols",
           "metadata_url": "https://www.georisques.gouv.fr/plans-de-prevention-des-risques-naturels",
@@ -1238,6 +1308,34 @@
           "type": "wms_wmts_universal_layer",
           "params": {
             "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=ALEARG_REALISE&styles&tilePixelRatio=0&url=http://georisques.gouv.fr/services",
+            "provider": "wms"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Exploitation de matériaux (BRGM)",
+      "ident": null,
+      "description": "Couches diffusées par le Bureau des Recherches Géologiques et Minières (BRGM) sur l'exploitation des matériaux",
+      "type": "folder",
+      "children": [
+        {
+          "title": "Contours des exploitations de matériaux en activité",
+          "ident": "contours_exploitation_materiaux_en_activite",
+          "description": "",
+          "type": "wms_wmts_universal_layer",
+          "params": {
+            "uri": "crs=EPSG:3857&dpiMode=7&featureCount=10&format=image/png&layers=EXPLOIT_ACTIVE_L&styles&tilePixelRatio=0&url=http://geoservices.brgm.fr/odmgm",
+            "provider": "wms"
+          }
+        },
+        {
+          "title": "Contours des exploitations de matériaux fermées",
+          "ident": "contours_exploitation_materiaux_fermees",
+          "description": "",
+          "type": "wms_wmts_universal_layer",
+          "params": {
+            "uri": "crs=EPSG:3857&dpiMode=7&featureCount=10&format=image/png&layers=EXPLOIT_FERMEE_L&styles&tilePixelRatio=0&url=http://geoservices.brgm.fr/odmgm",
             "provider": "wms"
           }
         }
@@ -1854,17 +1952,6 @@
                 "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=LOCALISATION.MATS.EOLIEN&styles=LOCALISATION.MATS.EOLIEN&tileMatrixSet=PM_6_16&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wmts/enr.xml",
                 "provider": "wms"
               }
-            },
-            {
-              "title": "Périmètres des installations photovoltaïques au sol",
-              "ident": "installations_pv_sol",
-              "description": "",
-              "metadata_url": "",
-              "type": "wms_wmts_universal_layer",
-              "params": {
-                "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=LOCALISATION.MATS.EOLIEN&styles=LOCALISATION.MATS.EOLIEN&tileMatrixSet=PM_6_16&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wmts/enr.xml",
-                "provider": "wms"
-              }
             }
           ]
         },
@@ -2173,6 +2260,17 @@
           "type": "folder",
           "children": [
             {
+              "title": "Aigle Royal - Domaines Vitaux en Occitanie",
+              "ident": "aigle_royal_vitaux",
+              "description": "Parmi les espèces menacées, les rapaces à effectif faibles à modérés (500-1000 couples), ne font pas tous l’objet d’un PNA, une des politiques mises en place par le Ministère en charge de l’Environnement pour essayer de stopper l’érosion de la biodiversité. L’Aigle royal qui est dans ce cas, fait néanmoins l’objet de suivis depuis de nombreuses années par les réseaux naturalistes en Occitanie et plus généralement en France",
+              "metadata_url": "https://catalogue.picto-occitanie.fr/geonetwork/srv/fre/catalog.search#/metadata/968961d7-3cb0-4f4b-9456-35274a0769c1",
+              "type": "wms_wmts_universal_layer",
+              "params": {
+                "uri": "crs=EPSG:2154&dpiMode=7&featureCount=10&format=image/png&layers=r_aigleroyaldv_s_r76ext&styles&url=https://datacarto.picto-occitanie.fr/wms",
+                "provider": "wms"
+              }
+            },
+            {
               "title": "PNA Aigle de Bonelli - Domaines vitaux",
               "ident": "aigle_bonelli_vitaux",
               "description": "L'aigle de Bonelli est une espèce protégée au niveau national et comme telle, en vertu de l'arrêté du 29 octobre 2009 fixant la liste des oiseaux protégés sur l’ensemble du territoire et les modalités de leur protection (article 3)",
@@ -2195,7 +2293,7 @@
               }
             },
             {
-              "title": "PNA Butoir Etoilé",
+              "title": "PNA Butor Etoilé",
               "ident": "butoir_etoile",
               "description": "Le Butor étoilé est une espèce d'oiseaux échassiers de la famille des ardéidés. Considéré d'après les recensements effectués comme une espèce très menacée, sa population est en déclin rapide en Europe et aurait chuté de 35 à 45 % en France en 30 ans.",
               "metadata_url": "https://www.ecologie.gouv.fr/sites/default/files/PNA_Butor-etoile_2008-2012.pdf",
