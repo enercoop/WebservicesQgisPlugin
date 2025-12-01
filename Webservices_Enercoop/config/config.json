@@ -1073,11 +1073,11 @@
               "type": "void_layer"
             },
             {
-              "title": "Foncier RHOA",
-              "ident": "foncier_rhoa",
+              "title": "Foncier AURA",
+              "ident": "foncier_aura",
               "description": "Couches internes en géopackages contenant le foncier des collectivités et des personnes morales pour Enercoop Auvergne-Rhône-Alpes",
               "metadata_url": "https://si.enercoop.org/eprod:donnees:foncier",
-              "raw_data_url": "https://geo.enercoop.org/RHOA/data/foncier/",
+              "raw_data_url": "https://geo.enercoop.org/AURA/data/foncier/",
               "type": "void_layer"
             },
             {
@@ -1089,11 +1089,11 @@
               "type": "void_layer"
             },
             {
-              "title": "Foncier NPCP",
-              "ident": "foncier_npcp",
+              "title": "Foncier HDFR",
+              "ident": "foncier_hdfr",
               "description": "Couches internes en géopackages contenant le foncier des collectivités et  des personnes morales pour Enercoop Hauts-de-France",
               "metadata_url": "https://si.enercoop.org/eprod:donnees:foncier",
-              "raw_data_url": "https://geo.enercoop.org/NPCP/",
+              "raw_data_url": "https://geo.enercoop.org/HDFR/",
               "type": "void_layer"
             },
             {
@@ -1121,19 +1121,19 @@
               "type": "void_layer"
             },
             {
-              "title": "Foncier ARDC",
-              "ident": "foncier_ardc",
+              "title": "Foncier NEST",
+              "ident": "foncier_nest",
               "description": "Couches internes en géopackages contenant le foncier des collectivités et  des personnes morales pour Enercoop Nord-est",
               "metadata_url": "https://si.enercoop.org/eprod:donnees:foncier",
-              "raw_data_url": "https://geo.enercoop.org/ARDC/data/foncier/",
+              "raw_data_url": "https://geo.enercoop.org/NEST/data/foncier/",
               "type": "void_layer"
             },
             {
-              "title": "Foncier ENOR",
-              "ident": "foncier_enor",
+              "title": "Foncier NORM",
+              "ident": "foncier_norm",
               "description": "Couches internes en géopackages contenant le foncier des collectivités et  des personnes morales pour Enercoop Normandie",
               "metadata_url": "https://si.enercoop.org/eprod:donnees:foncier",
-              "raw_data_url": "https://geo.enercoop.org/ENOR/data/foncier/",
+              "raw_data_url": "https://geo.enercoop.org/NORM/data/foncier/",
               "type": "void_layer"
             },
             {
