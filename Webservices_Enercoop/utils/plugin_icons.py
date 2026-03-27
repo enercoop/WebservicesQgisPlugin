@@ -18,7 +18,7 @@ class PluginIcons:
         """ """
 
         # Initialize the QGIS application
-        QgsApplication.initQgis()
+        # QgsApplication.initQgis()
         style = QgsApplication.style()
 
         # Load standard folder icon
