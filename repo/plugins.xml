@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <plugins>
-    <pyqgis_plugin name="Webservices Enercoop" version="0.2.0">
+    <pyqgis_plugin name="Webservices Enercoop" version="0.2.1">
         <description>Webservices utiles</description>
-        <homepage>https://si.enercoop.org/eprod:plugin_webservices</homepage>
+        <homepage>https://si.enercoop.org/eprod:qgis:extensions:webservices_enercoop</homepage>
         <qgis_minimum_version>3.0</qgis_minimum_version>
         <file_name>Webservices_Enercoop.zip</file_name>
         <author_name>Lucas Jumeau-Mousset, Milo Monnier</author_name>
-        <download_url>https://public.geo.enercoop.org/plugins/Webservices_Enercoop/Webservices_Enercoop-0.2.0.zip</download_url>
+        <download_url>https://public.geo.enercoop.org/plugins/Webservices_Enercoop/Webservices_Enercoop-0.2.1.zip</download_url>
     </pyqgis_plugin>
 </plugins>
