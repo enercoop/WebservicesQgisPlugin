@@ -1,16 +1,16 @@
 [general]
 name=Webservices Enercoop
-description=Plugin pour QGIS 3 à visée interne proposant un catalogue de couches webservices (WMS, WMTS, etc) utiles pour le développement de projets d'énergies renouvelables.
-version=0.2.0
+description=Extension QGIS 3 facilitant, via un panneau, l'accès aux services web cartographiques utiles aux salariés d'Enercoop.
+version=0.2.1
 qgisMinimumVersion=3.00
 qgisMaximumVersion=3.99
-author=Enercoop, Lucas Jumeau-Mousset, Milo Monnier
-email=lucas.jumeau-mousset@enercoop.org
+author=Lucas Jumeau-Mousset, Milo Monnier
+email=geomatique@enercoop.org
 icon=images/Webservices_Enercoop.png
 experimental=False
 deprecated=False
 about=Plugin for QGIS 3 providing simple access to webservices.
 tracker=
-repository=
-homepage=
-tags=Webservices_Enercoop, Enercoop
+repository=https://github.com/enercoop/WebservicesQgisPlugin
+homepage=https://github.com/enercoop/WebservicesQgisPlugin/wiki
+tags=Webservices, Enercoop

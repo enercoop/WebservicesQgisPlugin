@@ -1,7 +1,7 @@
 #!/bin/bash
 cd "$(dirname "$0")" || exit # Open script directory
 
-version=0.1.0
+version=0.2.1
 
 # TODO: Check if the metadata is correctly filled
 # metadata_version=$(grep version= < Webservices_Enercoop/metadata.txt | awk -F '=' '{print $2}')
