@@ -15,7 +15,7 @@ class PluginGlobals:
 
     # Plugin infos
     PLUGIN_TAG = u"Webservices Enercoop"
-    PLUGIN_VERSION = u"0.0.1"
+    PLUGIN_VERSION = u"0.2.1"
     PLUGIN_SOURCE_REPOSITORY = u""
 
     # Tree nodes types
