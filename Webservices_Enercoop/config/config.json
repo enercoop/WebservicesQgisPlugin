@@ -1,5 +1,5 @@
 {
-  "title": "Webservices_Enercoop - version du 09 octobre 2025",
+  "title": "Webservices_Enercoop - version du 31 mars 2026",
   "ident": "316522f0-d2ef-4422-b935-e333815b4f7e",
   "description": "",
   "type": "folder",
@@ -1864,22 +1864,33 @@
       ]
     },
     {
-      "title": "Portail cartographique des EnR (Cerema)",
-      "ident": "",
+      "title": "Portail cartographique des EnR IGN / Cerema",
+      "ident": "portail_carto_enr",
       "description": "",
       "type": "folder",
       "children": [
         {
-          "title": "Photovolotaïque",
-          "ident": "",
+          "title": "Photovolotaïque au sol",
+          "ident": "pv_sol",
           "description": "",
           "type": "folder",
           "children": [
             {
+              "title": "Potentiel solaire au sol ",
+              "ident": "potentiel_solaire_sol",
+              "description": "Cette couche est constituée à partir d’une grille d’analyse croisant les enjeux et contraintes techniques (pentes), patrimoniales, environnementales, d’occupation du sol et de risques.",
+              "metadata_url": "https://cartes.gouv.fr/rechercher-une-donnee/dataset/ENR_POTENTIEL-SOLAIRE-SOL",
+              "type": "wms_wmts_universal_layer",
+              "params": {
+                "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=POTENTIEL.SOLAIRE.SOL&styles=POTENTIEL.SOLAIRE.SOL&tileMatrixSet=PM_6_16&url=https://data.geopf.fr/annexes/ressources/wmts/enr.xml",
+                "provider": "wms"
+              }
+            },
+            {
               "title": "Friches susceptibles d’accueillir des installations photovoltaïques",
               "ident": "friches_photovoltaiques",
-              "description": "Cette couche provient du recensement nationale de friches Cerema Cartofriches dont une couche de données «friches intéressantes pour du PV au sol» issue du travail de recensement de friches menée par le Cerema et Tecsol (étude nationale commandée par MTE/Ademe). Elle identifie des friches favorables a priori à l’implantation de centrale solaire au sol. Elle constitue une information privilégiée pour favoriser l’implantation de photovoltaïque au sol sur site déjà anthropisé au regard des enjeux de préservation des espaces naturels",
-              "metadata_url": "https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public",
+              "description": "Friches issues de l'inventaire national Cartofriches dont certaines déjà remontées propices aux centrales solaires au sol.",
+              "metadata_url": "https://cartes.gouv.fr/rechercher-une-donnee/dataset/ENR_POTENTIEL-SOLAIRE-FRICHE",
               "type": "wms_wmts_universal_layer",
               "params": {
                 "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=POTENTIEL.SOLAIRE.FRICHE&styles=POTENTIEL.SOLAIRE.FRICHE&tileMatrixSet=PM_6_18&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wmts/enr.xml",
@@ -1887,35 +1898,13 @@
               }
             },
             {
-              "title": "Potentiel solaire sur toiture (méthode simplifiée)",
-              "ident": "potentiel_solaire",
-              "description": "Estimation simplifiée du potentiel solaire en toiture en Wh/an sur la base de la couche bâti de la Bd Topo® (2022 - producteur IGN). Pour chaque emprise de bâtiment, la valeur fournie est une estimation de l’énergie solaire reçue sur des panneaux photovoltaïque qui seraient installés sur toiture, selon une méthode très simplifiée décrite dans la fiche de métadonnées de cette couche et qui, notamment, ne prend pas en compte les masques proches. Cette information est fournie à titre indicatif et ne saurait se substituer à des estimations réalisées avec des méthodes plus précises",
-              "metadata_url": "https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public",
+              "title": "Potentiel solaire sur le réseau routier national",
+              "ident": "potentiel_solaire_rrn",
+              "description": "Sites recensés sur le foncier du réseau routier national ayant un potentiel de couverture par des panneaux photovoltaïques",
+              "metadata_url": "https://cartes.gouv.fr/rechercher-une-donnee/dataset/ENR_POTENTIEL-SOLAIRE-RRN",
               "type": "wms_wmts_universal_layer",
               "params": {
-                "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=POTENTIEL.SOLAIRE.BATIMENT&styles=POTENTIEL.SOLAIRE.BATIMENT&tileMatrixSet=PM_6_18&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wmts/enr.xml",
-                "provider": "wms"
-              }
-            },
-            {
-              "title": "Unités foncières contenant des surfaces de stationnement non couvertes de plus de 500 m² (données déclaratives)",
-              "ident": "surface_non_couvertes_500",
-              "description": "Cette couche nationale représente des unités foncières contenant des surfaces de stationnement non couvertes, déclarées fiscalement en France métropolitaine et d’une superficie minimale de 500 m². Les données de cette couche sont constituées à partir des données sources de « Fichiers Fonciers » (2022 – producteur Cerema pour le compte du MTE) et Bd Topo® (2022 - producteur IGN). Ce recensement spécifique peut être approfondi pour identifier des sites favorables à l’implantation d’ombrière de parking",
-              "metadata_url": "https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public",
-              "type": "wms_wmts_universal_layer",
-              "params": {
-                "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=POTENTIEL.SOLAIRE.PARKING500&styles=POTENTIEL.SOLAIRE.PARKING500&tileMatrixSet=PM_6_16&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wmts/enr.xml",
-                "provider": "wms"
-              }
-            },
-            {
-              "title": "Parkings de plus de 500m²",
-              "ident": "parkings_500",
-              "description": "Cette couche nationale représente des unités foncières contenant des surfaces de stationnement non couvertes, déclarées fiscalement en France métropolitaine et d’une superficie minimale de 500 m². Les données de cette couche sont constituées à partir des données sources de « Fichiers Fonciers » (2022 – producteur Cerema pour le compte du MTE) et Bd Topo ® (2022 - producteur IGN)",
-              "metadata_url": "https://macarte.ign.fr/carte/1X3jxe/Carte-EnR-Grand-public",
-              "type": "wms_wmts_universal_layer",
-              "params": {
-                "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=PARKING.SUP.500&styles=PARKING.SUP.500&tileMatrixSet=PM_6_18&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wmts/enr.xml",
+                "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=POTENTIEL.SOLAIRE.RRN&styles=POTENTIEL.SOLAIRE.RRN&tileMatrixSet=PM_6_16&url=https://data.geopf.fr/annexes/ressources/wmts/enr.xml",
                 "provider": "wms"
               }
             },
@@ -1933,8 +1922,60 @@
           ]
         },
         {
-          "title": "Eolien",
-          "ident": "",
+          "title": "Photovolotaïque en toiture & ombrière",
+          "ident": "pv_toiture_ombriere",
+          "description": "",
+          "type": "folder",
+          "children": [
+            {
+              "title": "Potentiel solaire sur toiture (méthode simplifiée)",
+              "ident": "potentiel_solaire_batiment",
+              "description": "Estimation simplifiée du potentiel solaire en toiture en Wh/an sur la base de la couche bâti de la Bd Topo® (2022 - producteur IGN). Pour chaque emprise de bâtiment, la valeur fournie est une estimation de l’énergie solaire reçue sur des panneaux photovoltaïque qui seraient installés sur toiture, selon une méthode très simplifiée décrite dans la fiche de métadonnées de cette couche et qui, notamment, ne prend pas en compte les masques proches. Cette information est fournie à titre indicatif et ne saurait se substituer à des estimations réalisées avec des méthodes plus précises",
+              "metadata_url": "https://cartes.gouv.fr/rechercher-une-donnee/dataset/ENR_POTENTIEL-SOLAIRE-BATIMENT",
+              "type": "wms_wmts_universal_layer",
+              "params": {
+                "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=POTENTIEL.SOLAIRE.BATIMENT&styles=POTENTIEL.SOLAIRE.BATIMENT&tileMatrixSet=PM_6_18&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wmts/enr.xml",
+                "provider": "wms"
+              }
+            },
+            {
+              "title": "Cadastres solaires locaux",
+              "ident": "cadstres_solaires_locaux",
+              "description": "Cette couche regroupe des données issues de quelques cadastres solaires locaux intégrés en une couche nationale des territoires suivants : Communauté d’Agglomération du Pays Basque, Région Ile de France et Saint Brieuc Armor Agglomération.",
+              "metadata_url": "https://cartes.gouv.fr/rechercher-une-donnee/dataset/ENR_CADASTRES-SOLAIRES-LOCAUX",
+              "type": "wms_wmts_universal_layer",
+              "params": {
+                "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=POTENTIEL.SOLAIRE.BATIMENT&styles=POTENTIEL.SOLAIRE.BATIMENT&tileMatrixSet=PM_6_18&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wmts/enr.xml",
+                "provider": "wms"
+              }
+            },
+            {
+              "title": "Parkings de plus de 500m²",
+              "ident": "parkings_500",
+              "description": "Cette couche nationale représente des unités foncières contenant des surfaces de stationnement non couvertes, déclarées fiscalement en France métropolitaine et d’une superficie minimale de 500 m². Les données de cette couche sont constituées à partir des données sources de « Fichiers Fonciers » (2022 – producteur Cerema pour le compte du MTE) et Bd Topo ® (2022 - producteur IGN)",
+              "metadata_url": "",
+              "type": "wms_wmts_universal_layer",
+              "params": {
+                "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=PARKING.SUP.500&styles=PARKING.SUP.500&tileMatrixSet=PM_6_18&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wmts/enr.xml",
+                "provider": "wms"
+              }
+            },
+            {
+              "title": "Unités foncières contenant des surfaces de stationnement non couvertes de plus de 500 m²",
+              "ident": "potentiel_solaire_parking_500",
+              "description": "Unités foncières contenant des surfaces de stationnement non couvertes d’une superficie minimale de 500 m²",
+              "metadata_url": "https://cartes.gouv.fr/rechercher-une-donnee/dataset/ENR_UNITE-FONCIERE-PARKING-500",
+              "type": "wms_wmts_universal_layer",
+              "params": {
+                "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=POTENTIEL.SOLAIRE.PARKING500&styles=POTENTIEL.SOLAIRE.PARKING500&tileMatrixSet=PM_6_16&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wmts/enr.xml",
+                "provider": "wms"
+              }
+            } 
+          ]
+        },
+        {
+          "title": "Éolien",
+          "ident": "eolien",
           "description": "",
           "type": "folder",
           "children": [
@@ -1961,10 +2002,10 @@
               }
             },
             {
-              "title": "Contraintes réglementaires aeronautiques civiles",
-              "ident": "contrainte_aéronautiques_civiles",
-              "description": "",
-              "metadata_url": "",
+              "title": "Contraintes réglementaires aéronautiques civiles",
+              "ident": "aero_civil",
+              "description": "Cette couche nationale représente principalement les zones tampon autour des infrastructures aéronautiques civiles, elle est issue de traitements géométriques de données fournies par la Direction Générale de l’Aviation. Civile (DGAC)",
+              "metadata_url": "https://cartes.gouv.fr/rechercher-une-donnee/dataset/ENR_AERO-CIVIL",
               "type": "wms_wmts_universal_layer",
               "params": {
                 "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=ENR.AERO.CIVIL&styles=ENR.AERO.CIVIL&tileMatrixSet=PM_6_18&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wmts/enr.xml",
@@ -1972,10 +2013,10 @@
               }
             },
             {
-              "title": "Contraintes réglementaires aeronautiques militaires",
-              "ident": "contrainte_aéronautiques_mitilaires",
-              "description": "",
-              "metadata_url": "",
+              "title": "Contraintes réglementaires aéronautiques militaires",
+              "ident": "aero_militaire",
+              "description": "Cette couche est créée à partir de zones tampons autour des infrastructures aéronautiques militaires.",
+              "metadata_url": "https://cartes.gouv.fr/rechercher-une-donnee/dataset/ENR_AERO-MILITAIRE",
               "type": "wms_wmts_universal_layer",
               "params": {
                 "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=ENR.AERO.MILITAIRE&styles=ENR.AERO.MILITAIRE&tileMatrixSet=PM_6_18&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wmts/enr.xml",
@@ -1983,10 +2024,10 @@
               }
             },
             {
-              "title": "Contraintes réglementaires liées aux habitations",
-              "ident": "contrainte_habitations",
-              "description": "",
-              "metadata_url": "",
+              "title": "Contraintes réglementaires liées à l'habitat",
+              "ident": "perimetre_habitation",
+              "description": "Cette couche nationale représente les zones tampon de 500m autour des habitations, elle est issue de traitements de la couche « bâti » de la BD TOPO® V3 croisée avec la Base Adresse Nationale (BAN)",
+              "metadata_url": "https://cartes.gouv.fr/rechercher-une-donnee/dataset/ENR_AERO-HABITAT",
               "type": "wms_wmts_universal_layer",
               "params": {
                 "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=ENR.PERIMETRE.HABITATION&styles=PERIMETRE.HABITATION&tileMatrixSet=PM_6_18&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wmts/enr.xml",
@@ -2006,9 +2047,9 @@
             },
             {
               "title": "Contraintes réglementaires liées aux routes",
-              "ident": "contrainte_routes",
-              "description": "",
-              "metadata_url": "",
+              "ident": "perimetre_route",
+              "description": "Cette couche correspond à une zone tampon de 75 mètres autour des routes d'importance 3 selon la BD UNI de l'IGN (départementale) et de 100 mètres autour des routes d'importance 1 et 2 (autoroutes, chaussées séparées).",
+              "metadata_url": "https://cartes.gouv.fr/rechercher-une-donnee/dataset/ENR_PERIMETRE-ROUTE",
               "type": "wms_wmts_universal_layer",
               "params": {
                 "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=ENR.PERIMETRE.ROUTE&styles=PERIMETRE.ROUTE&tileMatrixSet=PM_6_18&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wmts/enr.xml",
@@ -2016,10 +2057,10 @@
               }
             },
             {
-              "title": "Contraintes réglementaires liées aux voies férrées",
-              "ident": "contrainte_train",
-              "description": "",
-              "metadata_url": "",
+              "title": "Contraintes réglementaires liées aux infrastructures ferroviaires",
+              "ident": "perimetre_voie_ferree",
+              "description": "Cette couche correspond à une zone tampon de 5 mètres de part et d'autre des voies ferrées.",
+              "metadata_url": "https://cartes.gouv.fr/rechercher-une-donnee/dataset/ENR_PERIMETRE-VOIE-FERREE",
               "type": "wms_wmts_universal_layer",
               "params": {
                 "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=ENR.PERIMETRE.VOIE.FERREE&styles=PERIMETRE.VOIE.FERREE&tileMatrixSet=PM_6_16&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wmts/enr.xml",
@@ -2037,7 +2078,7 @@
           ]
         },
         {
-          "title": "Hydroélectrique",
+          "title": "Hydroélectricité",
           "ident": "",
           "description": "",
           "type": "folder",
@@ -2056,11 +2097,20 @@
           ]
         },
         {
-          "title": "OFB et ZAENR",
-          "ident": "",
-          "description": "",
-          "type": "folder",
-          "children": [
+        "title": "ZAER & OFB",
+        "ident": "",
+        "description": "",
+        "type": "folder",
+        "children": [
+            {
+              "title": "ZAER arrêtées (cf métadonnées pour téléchargement)",
+              "ident": "zaer_arretees",
+              "description": "",
+              "metadata_url": "https://cartes.gouv.fr/rechercher-une-donnee/dataset/ENR_ZAER",
+              "raw_data_url": "",
+              "type": "void_layer"
+            },
+
             {
               "title": "OFB - zonages exclus des aires d'accélération",
               "ident": "ofb_zones_exclues",
