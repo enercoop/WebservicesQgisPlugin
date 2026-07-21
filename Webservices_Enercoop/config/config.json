@@ -1,5 +1,5 @@
 {
-  "title": "Webservices_Enercoop - version du 31 mars 2026",
+  "title": "Webservices_Enercoop - version du 21 juillet 2026",
   "ident": "316522f0-d2ef-4422-b935-e333815b4f7e",
   "description": "",
   "type": "folder",
@@ -511,7 +511,7 @@
               "raw_data_url": "https://geo.enercoop.org/data/environnement/",
               "type": "wms_wmts_universal_layer",
               "params": {
-                "uri": "crs=EPSG:2154&featureCount=10&format=image/png&layers=Znieff1&maxHeight=256&maxWidth=256&styles=default&url=https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+                "uri": "contextualWMSLegend=0&crs=EPSG:2154&dpiMode=7&featureCount=10&format=image/png&layers=Znieff1&styles&tilePixelRatio=0&url=http://ws.carmencarto.fr/WMS/119/fxx_inpn",
                 "provider": "wms"
               }
             },
@@ -523,7 +523,7 @@
               "raw_data_url": "https://geo.enercoop.org/data/environnement/",
               "type": "wms_wmts_universal_layer",
               "params": {
-                "uri": "crs=EPSG:2154&featureCount=10&format=image/png&layers=Znieff2&maxHeight=256&maxWidth=256&styles=default&url=https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+                "uri": "contextualWMSLegend=0&crs=EPSG:2154&dpiMode=7&featureCount=10&format=image/png&layers=Znieff2&styles&tilePixelRatio=0&url=http://ws.carmencarto.fr/WMS/119/fxx_inpn",
                 "provider": "wms"
               }
             }
@@ -543,7 +543,7 @@
               "raw_data_url": "https://geo.enercoop.org/data/environnement/",
               "type": "wms_wmts_universal_layer",
               "params": {
-                "uri": "crs=EPSG:2154&featureCount=10&format=image/png&layers=Zones_de_protection_speciale&maxHeight=256&maxWidth=256&styles=default&url=https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+                "uri": "contextualWMSLegend=0&crs=EPSG:2154&dpiMode=7&featureCount=10&format=image/png&layers=Zones_de_protection_speciale&styles&tilePixelRatio=0&url=http://ws.carmencarto.fr/WMS/119/fxx_inpn",
                 "provider": "wms"
               }
             },
@@ -555,7 +555,7 @@
               "raw_data_url": "https://geo.enercoop.org/data/environnement/",
               "type": "wms_wmts_universal_layer",
               "params": {
-                "uri": "crs=EPSG:2154&featureCount=10&format=image/png&layers=Sites_d_importance_communautaire&maxHeight=256&maxWidth=256&styles=default&url=https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+                "uri": "contextualWMSLegend=0&crs=EPSG:2154&dpiMode=7&featureCount=10&format=image/png&layers=Sites_d_importance_communautaire_JOUE__ZSC_SIC_&styles&tilePixelRatio=0&url=http://ws.carmencarto.fr/WMS/119/fxx_inpn",
                 "provider": "wms"
               }
             }
@@ -581,7 +581,7 @@
                   "raw_data_url": "https://geo.enercoop.org/data/environnement/",
                   "type": "wms_wmts_universal_layer",
                   "params": {
-                    "uri": "crs=EPSG:2154&featureCount=10&format=image/png&layers=Arretes_de_protection_de_biotope&maxHeight=256&maxWidth=256&styles=default&url=https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+                    "uri": "contextualWMSLegend=0&crs=EPSG:2154&dpiMode=7&featureCount=10&format=image/png&layers=Arretes_de_protection_de_biotope&styles&tilePixelRatio=0&url=http://ws.carmencarto.fr/WMS/119/fxx_inpn",
                     "provider": "wms"
                   }
                 },
@@ -593,7 +593,7 @@
                   "raw_data_url": "https://geo.enercoop.org/data/environnement/",
                   "type": "wms_wmts_universal_layer",
                   "params": {
-                    "uri": "crs=EPSG:2154&featureCount=10&format=image/png&layers=Arretes_de_protection_d_habitats_naturels&maxHeight=256&maxWidth=256&styles=default&url=https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+                    "uri": "contextualWMSLegend=0&crs=EPSG:2154&dpiMode=7&featureCount=10&format=image/png&layers=Arretes_de_protection_d_habitats_naturels&styles&tilePixelRatio=0&url=http://ws.carmencarto.fr/WMS/119/fxx_inpn",
                     "provider": "wms"
                   }
                 }
@@ -613,7 +613,7 @@
                   "raw_data_url": "https://geo.enercoop.org/data/environnement/",
                   "type": "wms_wmts_universal_layer",
                   "params": {
-                    "uri": "crs=EPSG:2154&featureCount=10&format=default&layers=Arretes_de_protection_de_geotope&maxHeight=256&maxWidth=256&styles=&url=https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+                    "uri": "contextualWMSLegend=0&crs=EPSG:2154&dpiMode=7&featureCount=10&format=image/png&layers=Arretes_de_protection_de_geotope&styles&tilePixelRatio=0&url=http://ws.carmencarto.fr/WMS/119/fxx_inpn",
                     "provider": "wms"
                   }
                 },
@@ -625,7 +625,7 @@
                   "raw_data_url": "https://geo.enercoop.org/data/environnement/",
                   "type": "wms_wmts_universal_layer",
                   "params": {
-                    "uri": "crs=EPSG:2154&featureCount=10&format=default&layers=INPG&maxHeight=256&maxWidth=256&styles=&url=https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+                    "uri": "contextualWMSLegend=0&crs=EPSG:2154&dpiMode=7&featureCount=10&format=image/png&layers=INPG&styles&tilePixelRatio=0&url=http://ws.carmencarto.fr/WMS/119/fxx_inpn",
                     "provider": "wms"
                   }
                 }
@@ -645,7 +645,7 @@
                   "raw_data_url": "https://geo.enercoop.org/data/environnement/",
                   "type": "wms_wmts_universal_layer",
                   "params": {
-                    "uri": "crs=EPSG:2154&featureCount=10&format=image/png&layers=Parcs_nationaux&maxHeight=256&maxWidth=256&styles=default&url=https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+                    "uri": "contextualWMSLegend=0&crs=EPSG:2154&dpiMode=7&featureCount=10&format=image/png&layers=Parcs_nationaux&styles&tilePixelRatio=0&url=http://ws.carmencarto.fr/WMS/119/fxx_inpn",
                     "provider": "wms"
                   }
                 },
@@ -677,7 +677,7 @@
                   "raw_data_url": "https://geo.enercoop.org/data/environnement/",
                   "type": "wms_wmts_universal_layer",
                   "params": {
-                    "uri": "crs=EPSG:2154&featureCount=10&format=image/png&layers=Reserves_biologiques&maxHeight=256&maxWidth=256&styles=default&url=https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+                    "uri": "contextualWMSLegend=0&crs=EPSG:2154&dpiMode=7&featureCount=10&format=image/png&layers=Reserves_biologiques&styles&tilePixelRatio=0&url=http://ws.carmencarto.fr/WMS/119/fxx_inpn",
                     "provider": "wms"
                   }
                 },
@@ -689,7 +689,7 @@
                   "raw_data_url": "https://geo.enercoop.org/data/environnement/",
                   "type": "wms_wmts_universal_layer",
                   "params": {
-                    "uri": "crs=EPSG:2154&featureCount=10&format=image/png&layers=Reserves_Naturelles_Nationales&maxHeight=256&maxWidth=256&styles=default&url=https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+                    "uri": "contextualWMSLegend=0&crs=EPSG:2154&dpiMode=7&featureCount=10&format=image/png&layers=Reserves_Naturelles_Nationales&styles&tilePixelRatio=0&url=http://ws.carmencarto.fr/WMS/119/fxx_inpn",
                     "provider": "wms"
                   }
                 },
@@ -701,7 +701,7 @@
                   "raw_data_url": "https://geo.enercoop.org/data/environnement/",
                   "type": "wms_wmts_universal_layer",
                   "params": {
-                    "uri": "crs=EPSG:2154&featureCount=10&format=image/png&layers=Reserves_naturelles_regionales&maxHeight=256&maxWidth=256&styles=default&url=https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+                    "uri": "contextualWMSLegend=0&crs=EPSG:2154&dpiMode=7&featureCount=10&format=image/png&layers=Reserves_naturelles_regionales&styles&tilePixelRatio=0&url=http://ws.carmencarto.fr/WMS/119/fxx_inpn",
                     "provider": "wms"
                   }
                 },
@@ -713,7 +713,7 @@
                   "raw_data_url": "https://geo.enercoop.org/data/environnement/",
                   "type": "wms_wmts_universal_layer",
                   "params": {
-                    "uri": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=PROTECTEDAREAS.MNHN.RN.PERIMETER&styles=normal&tileMatrixSet=PM_0_16&tilePixelRatio=0&url=https://data.geopf.fr/annexes/ressources/wmts/environnement.xml",
+                    "uri": "contextualWMSLegend=0&crs=EPSG:2154&dpiMode=7&featureCount=10&format=image/png&tilePixelRatio=0&url=http://ws.carmencarto.fr/WMS/119/fxx_inpn&layers=Perimetre_de_protection_dune_reserve_naturelle_nationale&layers=Perimetre_de_protection_dune_reserve_naturelle_regionale&styles=&styles=",
                     "provider": "wms"
                   }
                 },
@@ -725,7 +725,7 @@
                   "raw_data_url": "https://geo.enercoop.org/data/environnement/",
                   "type": "wms_wmts_universal_layer",
                   "params": {
-                    "uri": "crs=EPSG:2154&featureCount=10&format=image/png&layers=Reserves_nationales_de_chasse_et_faune_sauvage&maxHeight=256&maxWidth=256&styles=default&url=https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+                    "uri": "contextualWMSLegend=0&crs=EPSG:2154&dpiMode=7&featureCount=10&format=image/png&layers=Reserves_nationales_de_chasse_et_faune_sauvage&styles&tilePixelRatio=0&url=http://ws.carmencarto.fr/WMS/119/fxx_inpn",
                     "provider": "wms"
                   }
                 }
@@ -747,7 +747,7 @@
               "raw_data_url": "https://geo.enercoop.org/data/environnement/",
               "type": "wms_wmts_universal_layer",
               "params": {
-                "uri": "crs=EPSG:2154&featureCount=10&format=image/png&layers=Parcs_naturels_regionaux&maxHeight=256&maxWidth=256&styles=default&url=https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+                "uri": "contextualWMSLegend=0&crs=EPSG:2154&dpiMode=7&featureCount=10&format=image/png&layers=Parcs_naturels_regionaux&styles&tilePixelRatio=0&url=http://ws.carmencarto.fr/WMS/119/fxx_inpn",
                 "provider": "wms"
               }
             }
@@ -767,7 +767,7 @@
               "raw_data_url": "https://geo.enercoop.org/data/environnement/",
               "type": "wms_wmts_universal_layer",
               "params": {
-                "uri": "crs=EPSG:2154&featureCount=10&format=image/png&layers=Terrains_acquis_des_Conservatoires_des_espaces_naturels&maxHeight=256&maxWidth=256&styles=default&url=https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+                "uri": "contextualWMSLegend=0&crs=EPSG:2154&dpiMode=7&featureCount=10&format=image/png&layers=Terrains_acquis_des_Conservatoires_des_espaces_naturels&styles&tilePixelRatio=0&url=http://ws.carmencarto.fr/WMS/119/fxx_inpn",
                 "provider": "wms"
               }
             },
@@ -779,7 +779,7 @@
               "raw_data_url": "https://geo.enercoop.org/data/environnement/",
               "type": "wms_wmts_universal_layer",
               "params": {
-                "uri": "crs=EPSG:2154&featureCount=10&format=image/png&layers=CEN_MU&maxHeight=256&maxWidth=256&styles=default&url=https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+                "uri": "contextualWMSLegend=0&crs=EPSG:2154&dpiMode=7&featureCount=10&format=image/png&layers=CEN_MU&styles&tilePixelRatio=0&url=http://ws.carmencarto.fr/WMS/119/fxx_inpn",
                 "provider": "wms"
               }
             },
@@ -791,7 +791,7 @@
               "raw_data_url": "https://geo.enercoop.org/data/environnement/",
               "type": "wms_wmts_universal_layer",
               "params": {
-                "uri": "crs=EPSG:2154&featureCount=10&format=image/png&layers=Terrains_du_Conservatoire_du_Littoral&maxHeight=256&maxWidth=256&styles=default&url=https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+                "uri": "contextualWMSLegend=0&crs=EPSG:2154&dpiMode=7&featureCount=10&format=image/png&layers=Terrains_du_Conservatoire_du_Littoral&styles&tilePixelRatio=0&url=http://ws.carmencarto.fr/WMS/119/fxx_inpn",
                 "provider": "wms"
               }
             },
@@ -815,7 +815,7 @@
               "raw_data_url": "",
               "type": "wms_wmts_universal_layer",
               "params": {
-                "uri": "crs=EPSG:2154&dpiMode=7&format=image/png&layers=Espaces_naturels_sensibles&styles&tilePixelRatio=0&url=https://ws.carmencarto.fr/WMS/119/fxx_inpn",
+                "uri": "contextualWMSLegend=0&crs=EPSG:2154&dpiMode=7&featureCount=10&format=image/png&layers=Espaces_naturels_sensibles&styles&tilePixelRatio=0&url=http://ws.carmencarto.fr/WMS/119/fxx_inpn",
                 "provider": "wms"
               }
             }
@@ -835,7 +835,7 @@
               "raw_data_url": "https://geo.enercoop.org/data/environnement/",
               "type": "wms_wmts_universal_layer",
               "params": {
-                "uri": "crs=EPSG:2154&featureCount=10&format=image/png&layers=Sites_Ramsar&maxHeight=256&maxWidth=256&styles=default&url=https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+                "uri": "contextualWMSLegend=0&crs=EPSG:2154&dpiMode=7&featureCount=10&format=image/png&layers=Sites_Ramsar&styles&tilePixelRatio=0&url=http://ws.carmencarto.fr/WMS/119/fxx_inpn",
                 "provider": "wms"
               }
             },
@@ -847,7 +847,7 @@
               "raw_data_url": "https://geo.enercoop.org/data/environnement/",
               "type": "wms_wmts_universal_layer",
               "params": {
-                "uri": "crs=EPSG:2154&featureCount=10&format=image/png&layers=Reserves_de_la_biosphere&maxHeight=256&maxWidth=256&styles=default&url=https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+                "uri": "contextualWMSLegend=0&crs=EPSG:2154&dpiMode=7&featureCount=10&format=image/png&layers=Reserves_de_la_biosphere&styles&tilePixelRatio=0&url=http://ws.carmencarto.fr/WMS/119/fxx_inpn",
                 "provider": "wms"
               }
             },
@@ -859,7 +859,7 @@
               "raw_data_url": "https://geo.enercoop.org/data/environnement/",
               "type": "wms_wmts_universal_layer",
               "params": {
-                "uri": "crs=EPSG:2154&featureCount=10&format=image/png&layers=Bien_du_patrimoine_mondial_de_l_UNESCO&maxHeight=256&maxWidth=256&styles=default&url=https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+                "uri": "contextualWMSLegend=0&crs=EPSG:2154&dpiMode=7&featureCount=10&format=image/png&layers=Bien_du_patrimoine_mondial_de_l_UNESCO&styles&tilePixelRatio=0&url=http://ws.carmencarto.fr/WMS/119/fxx_inpn",
                 "provider": "wms"
               }
             },
@@ -871,7 +871,7 @@
               "raw_data_url": "https://geo.enercoop.org/data/environnement/",
               "type": "wms_wmts_universal_layer",
               "params": {
-                "uri": "crs=EPSG:2154&featureCount=10&format=default&layers=Geoparcs&maxHeight=256&maxWidth=256&styles=&url=https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+                "uri": "contextualWMSLegend=0&crs=EPSG:2154&dpiMode=7&featureCount=10&format=image/png&layers=Geoparcs&styles&tilePixelRatio=0&url=http://ws.carmencarto.fr/WMS/119/fxx_inpn",
                 "provider": "wms"
               }
             },
@@ -883,7 +883,7 @@
               "raw_data_url": "https://geo.enercoop.org/data/environnement/",
               "type": "wms_wmts_universal_layer",
               "params": {
-                "uri": "crs=EPSG:2154&featureCount=10&format=image/png&layers=ZICO&maxHeight=256&maxWidth=256&styles=default&url=https://ws.carmencarto.fr/WMS/119/fxx_inpn?",
+                "uri": "crs=contextualWMSLegend=0&crs=EPSG:2154&dpiMode=7&featureCount=10&format=image/png&layers=ZICO&styles&tilePixelRatio=0&url=http://ws.carmencarto.fr/WMS/119/fxx_inpn",
                 "provider": "wms"
               }
             }
